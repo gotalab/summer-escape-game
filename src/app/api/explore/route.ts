@@ -18,8 +18,6 @@ const bodySchema = z.object({
   return: clock,
   maxApparentTemperature: z.number().min(-30).max(50).optional(),
   seed: z.string().min(8).max(128).default("legacy-seed"),
-  answers: z.array(z.object({ questionId: z.string().min(1).max(40), choiceId: z.string().min(1).max(30) })).max(3).default([]),
-  experience: z.enum(["duel", "tickets"]).default("duel"),
 }).refine((body) => body.originId !== undefined || body.origin !== undefined, { message: "originId または origin が必要です" });
 
 export async function POST(request: Request) {
@@ -55,10 +53,8 @@ export async function POST(request: Request) {
       depart: input.depart,
       return: input.return,
       maxApparentTemperature: input.maxApparentTemperature,
-      answers: input.answers,
-      seed: input.seed,
-      experience: input.experience,
-    });
+    seed: input.seed,
+  });
     return NextResponse.json(result, { headers: { "Cache-Control": "public, max-age=120, s-maxage=1800, stale-while-revalidate=3600" } });
   } catch (cause) {
     const code = cause instanceof Error ? cause.message.toUpperCase() : "EXPLORE_FAILED";

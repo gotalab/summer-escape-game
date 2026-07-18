@@ -1,13 +1,11 @@
 import { DESTINATION_CATALOG_METADATA, destinationCatalog } from "@/data/destination-catalog";
 import type { CoolingClaimLevel, CoolingScope, Destination, DestinationCategory, Origin } from "@/data/types";
 import { isPublishedDestination } from "@/data/reviewed-destinations";
-import { applyDuelAnswers, diversityRerank, nextDuelQuestion, validateDuelAnswers, type DuelAnswer, type DuelCandidate, type DuelQuestion } from "./duels";
 import { scoreCandidate } from "./scoring";
 import { selectPublishedCandidatePool } from "./candidate-pool";
 import { WEATHER_SOURCE, type WeatherSummary } from "./weather";
 import { getWeatherSnapshot, weatherFromSnapshot, weatherSnapshotMeta, weatherValueMode, type WeatherSnapshotMeta, type WeatherValueMode } from "./weather-snapshot";
 
-const JAPAN_WIDE_DISTANCE_KM = 2_500;
 const TICKET_GAME_DISTANCE_KM = 220;
 
 export interface ExploreQuery {
@@ -15,14 +13,21 @@ export interface ExploreQuery {
   depart: string;
   return: string;
   maxApparentTemperature?: number;
-  answers: DuelAnswer[];
   seed?: string;
-  experience?: "duel" | "tickets";
 }
 
-interface Explorable extends DuelCandidate {
+interface Explorable {
+  id: string;
   destination: Destination;
   weather: WeatherSummary;
+  categories: DestinationCategory[];
+  walking: Destination["walking"];
+  distanceKm: number;
+  apparentTemperature: number;
+  precipitationProbability: number;
+  windSpeed: number;
+  prefecture: string;
+  score: number;
 }
 
 export interface ExploreMapCandidate {
@@ -42,8 +47,6 @@ export interface ExploreResponse {
   ok: true;
   generatedAt: string;
   catalogVersion: string;
-  step: number;
-  done: boolean;
   origin: { id: string; name: string; lat: number; lon: number; temperatureC: number };
   query: ExploreQuery;
   catalogSize: number;
@@ -51,9 +54,7 @@ export interface ExploreResponse {
   eligibleCount: number;
   weatherSnapshot: WeatherSnapshotMeta;
   remainingCount: number;
-  question: DuelQuestion | null;
   mapCandidates: ExploreMapCandidate[];
-  recommendations: ExploreRecommendation[];
   ticketCandidates: ExploreRecommendation[];
   sources: SourceStatus[];
 }
@@ -96,11 +97,7 @@ type RouteLeg = { durationMinutes: number; departure: string; arrival: string; t
 
 export async function exploreDestinations(origin: Origin, query: ExploreQuery): Promise<ExploreResponse> {
   const generatedAt = new Date().toISOString();
-  // A short straight-line distance is not the same thing as a short journey:
-  // flights can make distant destinations viable. Keep Japan-wide places in
-  // the discovery pool and let the route check determine feasibility later.
-  const maximumDistance = query.experience === "tickets" ? TICKET_GAME_DISTANCE_KM : JAPAN_WIDE_DISTANCE_KM;
-  const nearby = selectPublishedCandidatePool(destinationCatalog, origin, maximumDistance, query.seed ?? "default");
+  const nearby = selectPublishedCandidatePool(destinationCatalog, origin, TICKET_GAME_DISTANCE_KM, query.seed ?? "default");
   const weatherSnapshot = await getWeatherSnapshot(query.date);
   const weather = weatherFromSnapshot(weatherSnapshot, [origin, ...nearby.map(({ destination }) => destination)]);
   const originWeather = weather.get(origin.id);
@@ -138,22 +135,13 @@ export async function exploreDestinations(origin: Origin, query: ExploreQuery): 
   const temperatureEligible = weatherSnapshot.mode === "forecast"
     ? filterByMaxApparentTemperature(all, query.maxApparentTemperature)
     : all;
-  // Each play starts with one fixed, nationwide deck. The answers now remove
-  // the opposite half for real, so the choice counts, map and final reveal all
-  // describe the same population instead of three unrelated rankings.
-  const answers = query.answers.slice(0, 3);
+  // Each play starts with one fixed local deck. A seeded spark keeps repeat
+  // plays varied while the diversity pass avoids six near-identical places.
   const gamePool = diversityRerank(
     applyDiscoverySpark(temperatureEligible, `${query.seed ?? "default"}:game-pool`),
     Math.min(32, temperatureEligible.length),
   ) as Explorable[];
-  if (!validateDuelAnswers(gamePool, answers)) throw new Error("stale_or_invalid_answer");
-  const remaining = applyDuelAnswers(gamePool, answers) as Explorable[];
-  const question = nextDuelQuestion(remaining, answers, query.seed, { includeForecastAxes: weatherSnapshot.mode === "forecast" });
-  const done = question === null;
-  const active = done
-    ? diversityRerank(remaining, Math.min(3, remaining.length)) as Explorable[]
-    : remaining;
-  const activeIds = new Set(active.map((candidate) => candidate.id));
+  const activeIds = new Set(gamePool.map((candidate) => candidate.id));
   const mapCandidates = all.map((candidate): ExploreMapCandidate => ({
     id: candidate.id,
     lat: candidate.destination.latitude,
@@ -168,31 +156,55 @@ export async function exploreDestinations(origin: Origin, query: ExploreQuery): 
     { name: weatherSnapshot.mode === "forecast" ? WEATHER_SOURCE.name : "地形・標高による涼しさ目安", status: weatherSnapshot.mode === "forecast" && !weatherSnapshot.stale ? "ok" : "partial", fetchedAt: weatherSnapshot.fetchedAt, url: WEATHER_SOURCE.url },
     { name: DESTINATION_CATALOG_METADATA.attribution, status: "ok", fetchedAt: DESTINATION_CATALOG_METADATA.generatedAt, url: DESTINATION_CATALOG_METADATA.sourceUrl },
   ];
-  const recommendations = done
-    ? finalize(remaining, origin, originWeather, weatherSnapshot, query.seed ?? "default")
-    : [];
-  const ticketCandidates = query.experience === "tickets"
-    ? finalize(gamePool, origin, originWeather, weatherSnapshot, `${query.seed ?? "default"}:tickets`, 20)
-    : [];
+  const ticketCandidates = finalize(gamePool, origin, originWeather, weatherSnapshot, `${query.seed ?? "default"}:tickets`, 20);
   return {
     ok: true,
     generatedAt,
     catalogVersion: DESTINATION_CATALOG_METADATA.version,
-    step: Math.min(3, query.answers.length),
-    done,
     origin: { id: origin.id, name: origin.name, lat: origin.latitude, lon: origin.longitude, temperatureC: originWeather.temperature },
     query,
     catalogSize: DESTINATION_CATALOG_METADATA.placeCount,
     candidatePoolCount: nearby.length,
     eligibleCount: temperatureEligible.length,
     weatherSnapshot: weatherSnapshotMeta(weatherSnapshot),
-    remainingCount: active.length,
-    question,
+    remainingCount: gamePool.length,
     mapCandidates,
-    recommendations,
     ticketCandidates,
     sources,
   };
+}
+
+function categorySimilarity(left: readonly DestinationCategory[], right: readonly DestinationCategory[]): number {
+  const a = new Set(left);
+  const b = new Set(right);
+  const intersection = [...a].filter((value) => b.has(value)).length;
+  const union = new Set([...a, ...b]).size;
+  return union ? intersection / union : 0;
+}
+
+/** Maximal-marginal-relevance selection: quality first, then different experiences. */
+function diversityRerank<T extends Pick<Explorable, "id" | "score" | "prefecture" | "categories" | "distanceKm">>(candidates: readonly T[], limit = 3): T[] {
+  const remaining = [...candidates].sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
+  const selected: T[] = [];
+  const scores = remaining.map((candidate) => candidate.score);
+  const min = scores.length ? Math.min(...scores) : 0;
+  const range = Math.max(1, (scores.length ? Math.max(...scores) : 0) - min);
+  while (remaining.length && selected.length < limit) {
+    const ranked = remaining.map((candidate) => {
+      const quality = (candidate.score - min) / range;
+      const similarity = selected.length ? Math.max(...selected.map((picked) => {
+        const samePrefecture = picked.prefecture === candidate.prefecture ? 0.25 : 0;
+        const category = categorySimilarity(picked.categories, candidate.categories) * 0.55;
+        const distance = Math.max(0, 1 - Math.abs(picked.distanceKm - candidate.distanceKm) / 300) * 0.2;
+        return samePrefecture + category + distance;
+      })) : 0;
+      return { candidate, mmr: quality * 0.68 - similarity * 0.32 };
+    }).sort((a, b) => b.mmr - a.mmr || b.candidate.score - a.candidate.score || a.candidate.id.localeCompare(b.candidate.id));
+    const winner = ranked[0].candidate;
+    selected.push(winner);
+    remaining.splice(remaining.findIndex((candidate) => candidate.id === winner.id), 1);
+  }
+  return selected;
 }
 
 export function filterByMaxApparentTemperature<T extends { apparentTemperature: number }>(
@@ -213,7 +225,7 @@ function finalize(candidates: Explorable[], origin: Origin, originWeather: Weath
   // place is editorially reviewed, it can appear in the discovery field but
   // never as one of the three actionable travel recommendations.
   const routeReady = candidates.filter((candidate) => isPublishedDestination(candidate.destination));
-  // Every result still obeys the selected temperature ceiling and answers.
+  // Every result still obeys the selected temperature ceiling.
   // A small seeded spark rotates near-equivalent places so the same famous
   // destination does not win every otherwise-identical play.
   const ordered = diversityRerank(applyDiscoverySpark(routeReady, seed), limit) as Explorable[];

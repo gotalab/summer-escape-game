@@ -5,7 +5,6 @@ import { startTransition, useCallback, useEffect, useMemo, useRef, useState } fr
 import { ArrowUpRight, ChevronDown, Clock3, ExternalLink, LocateFixed, MapPin, Navigation, Plane, Route, X } from "lucide-react";
 import { dateForJapan, formatJapanDate, timeInJapan } from "@/lib/time";
 import { origins } from "@/data/origins";
-import type { DuelQuestion as UiDuelQuestion } from "./duel-panel";
 import type { TemperaturePoint } from "./interactive-japan-map";
 import { TicketGamePanel } from "./ticket-game-panel";
 import { createTicketGame, discardCurrentTicket, drawTicket, escapeWithCurrentTicket, type TicketGameState } from "@/lib/ticket-game";
@@ -19,7 +18,7 @@ const JapanTideMap = dynamic(
 );
 
 type DayChoice = "today" | "tomorrow" | "weekend";
-type ExploreStatus = "idle" | "loading" | "question" | "done" | "error";
+type ExploreStatus = "idle" | "loading" | "playing" | "done" | "error";
 type LocationStatus = "idle" | "locating" | "found" | "unavailable";
 type RouteStatus = "unknown" | "checking" | "available" | "unavailable";
 type RouteReason = "no_outbound" | "no_inbound" | "insufficient_stay" | "provider_error" | "access_unverified";
@@ -58,14 +57,11 @@ export type Destination = {
 };
 
 type ExploreResult = {
-	step: number;
 	remainingCount: number;
 	catalogSize: number;
 	candidatePoolCount: number;
 	eligibleCount: number;
-	question: UiDuelQuestion | null;
 	mapItems: Destination[];
-	recommendations: Destination[];
 	ticketCandidates: Destination[];
 	weatherSnapshot: WeatherSnapshotMeta | null;
 };
@@ -85,23 +81,6 @@ const CATEGORY_LABELS: Record<string, string> = {
 	indoor: "屋内",
 	night: "夕涼み",
 };
-const CHOICE_SYMBOLS: Record<string, string> = {
-	water: "◌",
-	green: "♧",
-	near: "◎",
-	far: "↗",
-	easy: "〜",
-	active: "♧",
-	calm: "○",
-	windy: "≋",
-	mild: "☀",
-	deep: "❄",
-	dry: "◯",
-	"rain-ok": "⌁",
-	inside: "⌂",
-	outside: "△",
-};
-
 const record = (value: unknown): Record<string, unknown> =>
 	value && typeof value === "object" && !Array.isArray(value) ? value as Record<string, unknown> : {};
 const text = (value: unknown): string | null =>
@@ -227,11 +206,9 @@ function parseExplore(value: unknown): ExploreResult {
 		const error = record(root.error);
 		throw new Error(text(error.message) ?? "最新の情報を確認できません");
 	}
-	const rawRecommendations = Array.isArray(root.recommendations) ? root.recommendations : [];
-	const recommendations = rawRecommendations.map(parseRecommendation).filter((item): item is Destination => item !== null);
 	const rawTicketCandidates = Array.isArray(root.ticketCandidates) ? root.ticketCandidates : [];
 	const ticketCandidates = rawTicketCandidates.map(parseRecommendation).filter((item): item is Destination => item !== null);
-	const finalById = new Map([...recommendations, ...ticketCandidates].map((item) => [item.id, item]));
+	const finalById = new Map(ticketCandidates.map((item) => [item.id, item]));
 	const rawMap = Array.isArray(root.mapCandidates) ? root.mapCandidates : [];
 	const mapItems = rawMap.flatMap((value, index): Destination[] => {
 		const item = record(value);
@@ -270,29 +247,12 @@ function parseExplore(value: unknown): ExploreResult {
 			score: 0,
 		}];
 	});
-	const rawQuestion = record(root.question);
-	const questionId = text(rawQuestion.id);
-	const prompt = text(rawQuestion.prompt);
-	const rawChoices = Array.isArray(rawQuestion.choices) ? rawQuestion.choices : [];
-	const choices = rawChoices.slice(0, 2).flatMap((value) => {
-		const choice = record(value);
-		const id = text(choice.id);
-		const label = text(choice.label);
-		if (!id || !label) return [];
-		return [{ id, label, symbol: CHOICE_SYMBOLS[id] ?? "✦", note: text(first(choice, ["sublabel", "note"])) ?? undefined, remainingCount: number(choice.remainingCount) ?? undefined }];
-	});
-	const question: UiDuelQuestion | null = questionId && prompt && choices.length === 2
-		? { id: questionId, prompt, choices: choices as UiDuelQuestion["choices"] }
-		: null;
 	return {
-		step: number(root.step) ?? 0,
-		remainingCount: number(root.remainingCount) ?? recommendations.length,
+		remainingCount: number(root.remainingCount) ?? ticketCandidates.length,
 		catalogSize: number(root.catalogSize) ?? 0,
 		candidatePoolCount: number(root.candidatePoolCount) ?? 0,
 		eligibleCount: number(root.eligibleCount) ?? 0,
-		question,
-		mapItems: mapItems.length ? mapItems : recommendations,
-		recommendations,
+		mapItems: mapItems.length ? mapItems : ticketCandidates,
 		ticketCandidates,
 		weatherSnapshot: parseWeatherSnapshot(root.weatherSnapshot),
 	};
@@ -469,7 +429,7 @@ export function SummerEscape() {
 			const response = await fetch("/api/explore", {
 					method: "POST",
 					headers: { "content-type": "application/json", accept: "application/json" },
-					body: JSON.stringify({ ...origin, date, depart: effectiveDepart, return: effectiveReturn, maxApparentTemperature: effectiveTemperatureLimit, answers: [], seed: explorationSeed.current, experience: "tickets" }),
+					body: JSON.stringify({ ...origin, date, depart: effectiveDepart, return: effectiveReturn, maxApparentTemperature: effectiveTemperatureLimit, seed: explorationSeed.current }),
 			});
 			const parsed = parseExplore(await response.json().catch(() => null));
 			if (!response.ok) throw new Error("最新の情報を確認できません");
@@ -490,7 +450,7 @@ export function SummerEscape() {
 			setCatalogSize(parsed.catalogSize);
 			setCandidatePoolCount(parsed.candidatePoolCount);
 			if (parsed.weatherSnapshot) setWeatherSnapshot(parsed.weatherSnapshot);
-			setStatus("question");
+		setStatus("playing");
 		} catch (reason) {
 			setMapItems([]);
 			setRecommendations([]);
@@ -580,7 +540,7 @@ export function SummerEscape() {
 			<div className={"result-status " + status} aria-live="polite">
 				{status === "loading" && <><span className="status-orb"/>日本を探しています</>}
 				{status === "error" && <span data-testid="search-error">{error}</span>}
-				{status === "question" && <span title={`${catalogSize.toLocaleString("ja-JP")}地点から現在地周辺の${candidatePoolCount}候補を確認`}>{ticketGame?.message ?? "逃げ先の切符を準備しました"}</span>}
+				{status === "playing" && <span title={`${catalogSize.toLocaleString("ja-JP")}地点から現在地周辺の${candidatePoolCount}候補を確認`}>{ticketGame?.message ?? "逃げ先の切符を準備しました"}</span>}
 				{status === "done" && <span>逃げ先を確保しました</span>}
 				{weatherSnapshot && status === "done" && <small data-testid="source-timestamp" title={`${weatherSnapshot.date} 対象 · ${displayTimestamp(weatherSnapshot.fetchedAt)} JST取得 · ${displayTimestamp(weatherSnapshot.expiresAt)} JSTまで有効`}>{weatherSnapshot.mode === "forecast" ? `${weatherSnapshot.date} 11〜17時の最高 · ${displayTimestamp(weatherSnapshot.fetchedAt)} JST取得${weatherSnapshot.stale ? "（前回値）" : ""}` : "予報未取得 · 緯度と標高だけの参考値"}</small>}
 			</div>

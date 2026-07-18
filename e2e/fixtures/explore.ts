@@ -1,41 +1,10 @@
-import { generatedAt, recommendationsFixture, ticketCandidatesFixture } from "./recommendations";
+import { generatedAt, ticketCandidatesFixture } from "./ticket-candidates";
 
-const questions = [
-	{
-		id: "coolness",
-		prompt: "どちらの涼しさ？",
-		choices: [
-			{ id: "water", label: "水辺" },
-			{ id: "forest", label: "森" },
-		],
-	},
-	{
-		id: "pace",
-		prompt: "どちらの過ごし方？",
-		choices: [
-			{ id: "easy", label: "のんびり" },
-			{ id: "active", label: "冒険" },
-		],
-	},
-	{
-		id: "discovery",
-		prompt: "どちらの出会い？",
-		choices: [
-			{ id: "classic", label: "定番" },
-			{ id: "surprise", label: "知らない場所" },
-		],
-	},
-] as const;
-
-export const exploreCounts = [32, 16, 8, 3] as const;
-
-export function exploreFixture(step: number) {
-	const safeStep = Math.max(0, Math.min(step, 3));
+export function exploreFixture() {
 	return {
 		ok: true,
 		generatedAt,
-		step: safeStep,
-		remainingCount: exploreCounts[safeStep],
+		remainingCount: 32,
 		catalogSize: 2316,
 		candidatePoolCount: 180,
 		eligibleCount: 72,
@@ -47,10 +16,7 @@ export function exploreFixture(step: number) {
 			mode: "forecast",
 			sampleCount: 180,
 		},
-		question: safeStep < questions.length ? questions[safeStep] : undefined,
-		recommendations: safeStep === 3 ? recommendationsFixture.recommendations : undefined,
 		ticketCandidates: ticketCandidatesFixture,
-		sources: safeStep === 3 ? recommendationsFixture.sources : undefined,
 	};
 }
 

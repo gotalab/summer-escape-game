@@ -1,21 +1,20 @@
 # Summer Escape Game
 
-実在する日本全国の場所を使い、3回の二択で自分の「夏の抜け道」3島を発見する短編探索ゲームです。
+現在地の近くにある実在の避暑先を、6枚の切符から引き当てる短編探索ゲームです。
 
 ## Core loop
 
-1. 全国の地点から、そのプレイ用の32島を構成する
-2. 二択を選ぶたびに反対側の島が沈む
-3. 3回の選択で候補を絞り、最終3島をRevealする
-4. 最後に場所名、涼しさの根拠、公式情報をRevealする
-
-32は表示上の上限ではなく、1プレイのゲームデッキです。質問は意味を保つため常に完全な半分にはならず、32島の余裕を持たせて最後に3島をRevealします。地図の背景世界には全地点を残します。
+1. 現在地または選択した出発地から220km圏の候補を構成する
+2. 6枚の切符から1枚を引く
+3. 逃げ先を確定するか、切符を捨てて引き直す
+4. 猛暑前線を引くと候補が1つ消える
+5. 最後に場所名、涼しさの根拠、公式情報と経路を確認する
 
 ## Data first
 
-- `src/data/raw/generated-destinations.json`: OpenStreetMap由来の全国2,216地点
-- `src/data/raw/curated-destinations.ts`: 編集済み観光地点113件
-- `src/data/raw/reviewed-*.json`: 人間による公開・除外・統合レビュー
+- `src/data/generated-destinations.json`: OpenStreetMap由来の全国地点
+- `src/data/destinations.ts`: 編集済み観光地点
+- `src/data/reviews/` / `src/data/curated-reviews/`: 人間による公開・除外・統合レビュー
 - `src/data/japan-weather-cells.json`: 気温モザイク用セル
 - `src/data/japan-prefectures.json`: 日本地図形状
 
@@ -23,7 +22,7 @@
 
 ## Deployment target
 
-最終ターゲットはCloudflare Workersです。外部APIに依存しないゲーム本体を先に完成させ、その後に天気やAIナレーションを追加します。
+Cloudflare Workersへデプロイできます。天気APIが利用できない場合も、気温を捏造せず地形目安と確認済みの冷却根拠でゲームを継続します。
 
 ## Local development
 
@@ -42,8 +41,8 @@ pnpm test:e2e
 ## Cloudflare Workers
 
 ```bash
-pnpm preview
-pnpm deploy
+pnpm run preview
+pnpm run deploy
 ```
 
-`wrangler.jsonc`とOpenNext設定もこのリポジトリに含まれています。
+`wrangler.jsonc`とOpenNext設定もこのリポジトリに含まれています。現在の公開先は https://summer-escape-game.gotalab555.workers.dev です。
