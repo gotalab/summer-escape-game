@@ -9,7 +9,6 @@
 		"lint": "eslint .",
 		"typecheck": "tsc --noEmit",
 		"test": "vitest run",
-		"test:e2e": "playwright test",
 		"generate:cells": "node scripts/generate-japan-weather-cells.mjs",
 		"generate:destinations": "node scripts/generate-japan-destinations.mjs",
 		"normalize:reviews": "node scripts/normalize-destination-reviews.mjs",
@@ -33,7 +32,6 @@
 		"zod": "^4.4.3"
 	},
 	"devDependencies": {
-		"@playwright/test": "^1.61.1",
 		"@tailwindcss/postcss": "^4",
 		"@types/d3-geo": "^3.1.0",
 		"@types/geojson": "^7946.0.16",

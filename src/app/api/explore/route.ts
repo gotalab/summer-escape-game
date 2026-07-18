@@ -1,11 +1,9 @@
 import { getOrigin } from "@/data/origins";
 import type { Origin } from "@/data/types";
 import { exploreDestinations } from "@/lib/explore";
-import { clockToMinutes, todayInJapan } from "@/lib/time";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 
-const clock = z.string().regex(/^(?:(?:[01]\d|2[0-3]):[0-5]\d|24:00)$/);
 const bodySchema = z.object({
   originId: z.string().min(1).optional(),
   origin: z.object({
@@ -13,10 +11,6 @@ const bodySchema = z.object({
     lat: z.number().min(-90).max(90),
     lon: z.number().min(-180).max(180),
   }).optional(),
-  date: z.iso.date(),
-  depart: clock,
-  return: clock,
-  maxApparentTemperature: z.number().min(-30).max(50).optional(),
   seed: z.string().min(8).max(128).default("legacy-seed"),
 }).refine((body) => body.originId !== undefined || body.origin !== undefined, { message: "originId または origin が必要です" });
 
@@ -41,20 +35,8 @@ export async function POST(request: Request) {
     latitude: input.origin!.lat,
     longitude: input.origin!.lon,
   };
-  const today = todayInJapan();
-  const last = new Date(`${today}T00:00:00+09:00`);
-  last.setDate(last.getDate() + 15);
-  const latest = todayInJapan(last);
-  if (input.date < today || input.date > latest) return error("DATE_OUTSIDE_FORECAST_WINDOW", "予報を確認できる日付を選んでください。", 400, generatedAt, { from: today, to: latest });
-  if (clockToMinutes(input.return) - clockToMinutes(input.depart) < 240) return error("TIME_WINDOW_TOO_SHORT", "4時間以上の空き時間を指定してください。", 400, generatedAt);
   try {
-    const result = await exploreDestinations(origin, {
-      date: input.date,
-      depart: input.depart,
-      return: input.return,
-      maxApparentTemperature: input.maxApparentTemperature,
-    seed: input.seed,
-  });
+    const result = exploreDestinations(origin, { seed: input.seed });
     return NextResponse.json(result, { headers: { "Cache-Control": "public, max-age=120, s-maxage=1800, stale-while-revalidate=3600" } });
   } catch (cause) {
     const code = cause instanceof Error ? cause.message.toUpperCase() : "EXPLORE_FAILED";

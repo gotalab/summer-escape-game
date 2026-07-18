@@ -15,14 +15,14 @@
 - `src/data/generated-destinations.json`: OpenStreetMap由来の全国地点
 - `src/data/destinations.ts`: 編集済み観光地点
 - `src/data/reviews/` / `src/data/curated-reviews/`: 人間による公開・除外・統合レビュー
-- `src/data/japan-weather-cells.json`: 気温モザイク用セル
+- `src/data/japan-weather-cells.json`: 六角形の逃走フィールド用セル
 - `src/data/japan-prefectures.json`: 日本地図形状
 
 データ生成・調査スクリプトと確定スナップショットを含み、このリポジトリだけで検証、ビルド、起動できます。
 
 ## Deployment target
 
-Cloudflare Workersへデプロイできます。天気APIが利用できない場合も、気温を捏造せず地形目安と確認済みの冷却根拠でゲームを継続します。
+Cloudflare Workersへデプロイできます。ゲーム本体は外部APIに依存せず、確認済みの地点データだけで動きます。
 
 ## Local development
 
@@ -35,7 +35,6 @@ pnpm dev
 
 ```bash
 pnpm check
-pnpm test:e2e
 ```
 
 ## Cloudflare Workers

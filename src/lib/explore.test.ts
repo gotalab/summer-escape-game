@@ -1,20 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { Destination } from "@/data/types";
-import { applyDiscoverySpark, filterByMaxApparentTemperature, scoreWithoutForecast } from "./explore";
-
-describe("exploration temperature condition", () => {
-  const candidates = [
-    { id: "cool", apparentTemperature: 24.8 },
-    { id: "edge", apparentTemperature: 28 },
-    { id: "hot", apparentTemperature: 31.2 },
-  ];
-
-  it("uses the map temperature control as an inclusive recommendation ceiling", () => {
-    expect(filterByMaxApparentTemperature(candidates, 28).map(({ id }) => id)).toEqual(["cool", "edge"]);
-    expect(filterByMaxApparentTemperature(candidates, 24).map(({ id }) => id)).toEqual([]);
-    expect(filterByMaxApparentTemperature(candidates).map(({ id }) => id)).toEqual(["cool", "edge", "hot"]);
-  });
-});
+import { applyDiscoverySpark, scoreWithoutForecast } from "./explore";
 
 describe("fallback deck ranking", () => {
   const base: Destination = {

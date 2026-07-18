@@ -52,7 +52,7 @@ export function TicketGamePanel({ game, destinations, onDraw, onDiscard, onEscap
 
 		{game.phase === "ready" && <p className="ticket-instruction">好きな裏向き切符を1枚選ぶ</p>}
 		{game.phase === "decision" && destination && <div className="ticket-decision" data-testid="ticket-decision">
-			<div className="revealed-summary"><small>引いた逃げ先</small><strong>{destination.name}</strong><span>{destination.hint}</span><div><b>{destination.temperature === null ? "冷却根拠を確認済み" : `${Math.round(destination.temperature)}℃`}</b><b>約{Math.round(destination.distanceKm)}km</b></div></div>
+			<div className="revealed-summary"><small>引いた逃げ先</small><strong>{destination.name}</strong><span>{destination.hint}</span><div><b>冷却根拠を確認済み</b><b>約{Math.round(destination.distanceKm)}km</b></div></div>
 			<div className="ticket-actions">
 				<button type="button" className="escape-now" onClick={onEscape} data-testid="escape-with-ticket"><ArrowRight aria-hidden="true"/>この切符で逃げる</button>
 				<button type="button" className="discard-ticket" onClick={onDiscard} disabled={game.drawsUsed >= MAX_DRAWS} data-testid="discard-ticket"><RotateCcw aria-hidden="true"/>{game.drawsUsed >= MAX_DRAWS ? "最後の切符です" : "切符を捨てて、もう1枚引く"}</button>

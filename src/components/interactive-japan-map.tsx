@@ -1,6 +1,7 @@
 "use client";
 
 import japanSource from "@/data/japan-prefectures.json";
+import terrainSource from "@/data/japan-weather-cells.json";
 import { LocateFixed, Minus, Plus, RotateCcw } from "lucide-react";
 import { geoMercator, geoPath } from "d3-geo";
 import { useCallback, useEffect, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent, type WheelEvent } from "react";
@@ -8,18 +9,9 @@ import type { Feature, FeatureCollection, MultiPolygon, Polygon, Position } from
 import type { Destination } from "./summer-escape";
 
 type Coordinates = { latitude: number; longitude: number };
-export type TemperaturePoint = { id: string; lat: number; lon: number; temperatureC: number | null };
 type LocationStatus = "idle" | "locating" | "found" | "unavailable";
 type Props = {
 	destinations: Destination[];
-	temperaturePoints: TemperaturePoint[];
-	weatherCellCount: number;
-	forecastSampleCount: number;
-	temperatureSourceMode: "forecast" | "terrain-estimate" | null;
-	temperatureStale: boolean;
-	temperatureStatus: "loading" | "ready" | "unavailable";
-	temperatureLimit: number;
-	onTemperatureLimitChange: (value: number) => void;
 	selectedId: string | null;
 	originId: string;
 	origin?: Coordinates;
@@ -32,6 +24,7 @@ type Camera = { x: number; y: number; width: number; height: number };
 type Point = { x: number; y: number };
 type MapGroup = "main" | "okinawa" | "pacific";
 type MosaicSample = Point & { latitude: number; longitude: number; group: MapGroup; radius: number };
+type TerrainPayload = { cells: Array<{ lat: number; lon: number }> };
 
 const FULL: Camera = { x: 0, y: 0, width: 1000, height: 600 };
 const PRESET_ORIGINS: Record<string, Coordinates> = {
@@ -101,15 +94,6 @@ function hexPath({ x, y, radius }: MosaicSample) {
 		return `${index ? "L" : "M"}${(x + Math.cos(angle) * radius).toFixed(1)},${(y + Math.sin(angle) * radius).toFixed(1)}`;
 	}).join(" ") + "Z";
 }
-function cellColor(temperature: number | null, limit: number) {
-	if (temperature === null) return "#ffc073";
-	const delta = temperature - limit;
-	if (delta <= -5) return "#20e2da";
-	if (delta <= -2) return "#62dfbf";
-	if (delta <= 0) return "#b8dc83";
-	if (delta <= 3) return "#ffd05d";
-	return "#f17346";
-}
 function clampCamera(next: Camera): Camera {
 	const width = Math.max(285, Math.min(1000, next.width));
 	const height = width * .6;
@@ -132,7 +116,7 @@ function layoutMarkers(destinations: Destination[]) {
 	return placed;
 }
 
-export function InteractiveJapanMap({ destinations, temperaturePoints, weatherCellCount, forecastSampleCount, temperatureSourceMode, temperatureStale, temperatureStatus, temperatureLimit, onTemperatureLimitChange, selectedId, originId, origin: originCoordinates, loading, locationStatus, onSelect, onUseCurrentLocation }: Props) {
+export function InteractiveJapanMap({ destinations, selectedId, originId, origin: originCoordinates, loading, locationStatus, onSelect, onUseCurrentLocation }: Props) {
 	const [camera, setCamera] = useState<Camera>(FULL);
 	const focusedForGame = useRef(false);
 	const [dragging, setDragging] = useState(false);
@@ -143,19 +127,18 @@ export function InteractiveJapanMap({ destinations, temperaturePoints, weatherCe
 	const origin = project(originCoordinatesValue.latitude, originCoordinatesValue.longitude);
 	const markers = useMemo(() => layoutMarkers(destinations), [destinations]);
 	const selected = useMemo(() => destinations.find((item) => item.id === selectedId), [destinations, selectedId]);
-	const cells = useMemo(() => temperaturePoints.flatMap((temperaturePoint) => {
-		const group = groupForCoordinates(temperaturePoint.lat, temperaturePoint.lon);
+	const cells = useMemo(() => (terrainSource as TerrainPayload).cells.flatMap((cell) => {
+		const group = groupForCoordinates(cell.lat, cell.lon);
 		if (!VISIBLE_GROUPS.includes(group)) return [];
-		const point = project(temperaturePoint.lat, temperaturePoint.lon);
+		const point = project(cell.lat, cell.lon);
 		return [{
 			...point,
-			latitude: temperaturePoint.lat,
-			longitude: temperaturePoint.lon,
+			latitude: cell.lat,
+			longitude: cell.lon,
 			group,
 			radius: group === "okinawa" ? 4 : 5,
-			temperature: temperaturePoint.temperatureC,
 		}];
-	}), [temperaturePoints]);
+	}), []);
 	useEffect(() => {
 		if (!destinations.length || focusedForGame.current) return;
 		focusedForGame.current = true;
@@ -188,11 +171,9 @@ export function InteractiveJapanMap({ destinations, temperaturePoints, weatherCe
 	const centerOn = (point: Point, width = 410) => setCamera(clampCamera({ x: point.x - width / 2, y: point.y - width * .3, width, height: width * .6 }));
 	const zoomValue = Number((1000 / camera.width).toFixed(2)).toString();
 
-	const isTerrainEstimate = temperatureSourceMode === "terrain-estimate";
-	const temperatureLabel = isTerrainEstimate ? "逃走フィールド" : "日中最高体感温度";
 	return <div className={`interactive-map ${dragging ? "is-dragging" : ""}`} data-testid="tide-map" data-zoom={zoomValue}>
 		<svg ref={svgRef} className="tide-map" viewBox={`${camera.x} ${camera.y} ${camera.width} ${camera.height}`} role="img" aria-labelledby="map-title map-desc" onWheel={onWheel} onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={releasePointer} onPointerCancel={releasePointer}>
-			<title id="map-title">全国の{temperatureLabel}を重ねた日本地図</title><desc id="map-desc">国土地理院の日本地図をもとに、{isTerrainEstimate ? "予報取得待ちのため温度モザイクは表示せず、公式確認済みの候補だけ" : "選択日の11時から17時までの最高体感温度"}を表示しています。木陰や水辺など地点固有の微気候は別の属性として扱います。南西諸島は別枠、遠隔の太平洋諸島は省略しています。</desc>
+			<title id="map-title">逃走フィールドを重ねた日本地図</title><desc id="map-desc">国土地理院の日本地図をもとに、現在地と実在する逃げ先を表示します。六角形はゲームのフィールドで、気温を表すものではありません。</desc>
 			<defs>
 				<radialGradient id="seaHeat" cx="50%" cy="43%"><stop stopColor="#ffbd70"/><stop offset=".65" stopColor="#f69049"/><stop offset="1" stopColor="#e96d43"/></radialGradient>
 				<filter id="mapLandShadow"><feDropShadow dx="0" dy="6" stdDeviation="6" floodColor="#8d422c" floodOpacity=".25"/></filter>
@@ -200,20 +181,20 @@ export function InteractiveJapanMap({ destinations, temperaturePoints, weatherCe
 			</defs>
 			<rect x="-100" y="-100" width="1200" height="800" fill="url(#seaHeat)"/><rect x="-100" y="-100" width="1200" height="800" fill="url(#mapRipples)"/>
 			<g className="official-land" filter="url(#mapLandShadow)">{VISIBLE_GROUPS.map((group) => <path key={group} d={LAND_PATHS[group]}/>)}</g>
-			<g className={`temperature-mosaic ${isTerrainEstimate ? "is-neutral" : temperaturePoints.length ? "is-ready" : "is-pending"}`} aria-hidden="true" data-rendered-cell-count={cells.length}>
-				{cells.map((cell, index) => { const cool = cell.temperature !== null && cell.temperature <= temperatureLimit; return <path key={`${cell.group}-${index}`} d={hexPath(cell)} fill={cellColor(cell.temperature, temperatureLimit)} opacity={cell.temperature === null ? .24 : cool ? .88 : .52} className={cool ? "is-cool" : "is-hot"}/>; })}
+			<g className="temperature-mosaic is-neutral" aria-hidden="true" data-rendered-cell-count={cells.length}>
+				{cells.map((cell, index) => <path key={`${cell.group}-${index}`} d={hexPath(cell)}/>)}
 			</g>
 			<g className="official-boundaries">{VISIBLE_GROUPS.map((group) => <path key={group} d={LAND_PATHS[group]}/>)}</g>
 			<g className="map-inset-labels" aria-hidden="true"><text x="61" y="388">南西諸島（別枠）</text></g>
 			<g className="origin-pulse" transform={`translate(${origin.x} ${origin.y})`}><circle className="pulse p1" r="22"/><circle className="pulse p2" r="22"/><circle r="12" fill="#e9ffff" stroke="#31d8e5" strokeWidth="5"/><circle r="4" fill="#0796b2"/></g>
 			<g className={loading ? "candidate-layer is-loading" : "candidate-layer"} data-testid="island-list">
-				{markers.map(({ destination, point }, index) => <g key={destination.id} className={`map-candidate ${destination.id === selectedId ? "is-selected" : ""}`} transform={`translate(${point.x} ${point.y})`} data-map-marker="true" role="button" tabIndex={0} data-testid="island-card" aria-label={`${destination.name}${destination.temperature !== null ? `、${temperatureLabel}${Math.round(destination.temperature)}度` : ""}`} onClick={(event) => { event.stopPropagation(); onSelect(destination.id); centerOn(point, 430); }} onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); onSelect(destination.id); centerOn(point, 430); } }}><circle className="candidate-halo" r="17"/><circle className="candidate-dot" r="10"/><text y="4">{index + 1}</text><text className="island-accessible-name">{destination.name}</text></g>)}
+				{markers.map(({ destination, point }, index) => <g key={destination.id} className={`map-candidate ${destination.id === selectedId ? "is-selected" : ""}`} transform={`translate(${point.x} ${point.y})`} data-map-marker="true" role="button" tabIndex={0} data-testid="island-card" aria-label={destination.name} onClick={(event) => { event.stopPropagation(); onSelect(destination.id); centerOn(point, 430); }} onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); onSelect(destination.id); centerOn(point, 430); } }}><circle className="candidate-halo" r="17"/><circle className="candidate-dot" r="10"/><text y="4">{index + 1}</text><text className="island-accessible-name">{destination.name}</text></g>)}
 			</g>
 		</svg>
-		<div className="temperature-legend" aria-live="polite"><details className="map-temperature-note"><summary>{temperatureStatus === "loading" ? "逃げ先を準備中" : isTerrainEstimate || temperatureStatus === "unavailable" ? "冷却根拠とアクセスで選定" : `${weatherCellCount.toLocaleString("ja-JP")}セル ← ${forecastSampleCount.toLocaleString("ja-JP")}予報${temperatureStale ? "（前回）" : ""}`} <span aria-hidden="true">ⓘ</span></summary><p>{isTerrainEstimate || temperatureStatus === "unavailable" ? "切符は、公式確認済みの木陰・水辺・洞窟・屋内などの冷却根拠と、現在地からの距離・アクセスから選びます。架空の温度は使いません。" : "色は11〜17時の最高体感温度。湿度・風・日射を含む予報値で、天気予報の最高気温とは異なります。木陰・水辺・舗装など現地差は別の特徴として扱います。"}</p></details>{!isTerrainEstimate && temperatureStatus === "ready" && <><label title="探索すると、この温度以下の場所に絞ります"><strong>{temperatureLimit}℃以下を探す</strong><input aria-label={`探索する${temperatureLabel}の上限`} type="range" min="18" max="34" step="1" value={temperatureLimit} onInput={(event) => onTemperatureLimitChange(Number(event.currentTarget.value))} onChange={(event) => onTemperatureLimitChange(Number(event.currentTarget.value))}/></label><i className="legend-gradient"/><small>涼</small><small>暑</small></>}</div>
+		<div className="temperature-legend"><details className="map-temperature-note"><summary>逃走フィールド 1,819マス <span aria-hidden="true">ⓘ</span></summary><p>六角形は猛暑に追われるゲーム演出です。切符は、公式確認済みの木陰・水辺・洞窟・屋内などの冷却根拠と現在地からの距離で選びます。</p></details></div>
 		<nav className="map-controls" aria-label="地図の操作"><button type="button" onClick={() => zoom(.72)} aria-label="拡大" data-testid="map-zoom-in"><Plus/></button><button type="button" onClick={() => zoom(1.38)} aria-label="縮小" data-testid="map-zoom-out"><Minus/></button><button type="button" onClick={() => centerOn(origin)} aria-label="出発地へ移動" data-testid="map-locate"><LocateFixed/></button><button type="button" onClick={onUseCurrentLocation} aria-label={locationStatus === "locating" ? "現在地を確認中" : "現在地を使う"} data-testid="use-current-location"><span className="location-dot"/></button><button type="button" onClick={() => setCamera(FULL)} aria-label="日本全体を表示" data-testid="map-reset"><RotateCcw/></button></nav>
 		<div className="map-attribution">地球地図日本（国土地理院）を加工して作成 · 推薦地点 <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">© OpenStreetMap contributors</a></div>
-		<div className="map-hint" aria-hidden="true">つまんで、温度を見る</div>
+		<div className="map-hint" aria-hidden="true">つまんで、地図を見る</div>
 		{selected && <button type="button" className="selected-return" onClick={() => centerOn(project(selected.latitude, selected.longitude), 430)}>選択地へ</button>}
 	</div>;
 }
