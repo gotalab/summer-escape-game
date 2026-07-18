@@ -1,0 +1,422 @@
+[
+  {
+    "sourceIndex": 1,
+    "sourceId": "furano",
+    "sourceName": "富良野",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "ニングルテラス",
+    "prefecture": "北海道",
+    "officialUrl": "https://www.princehotels.co.jp/shinfurano/facility/ningle_terrace/",
+    "accessUrl": "https://www.furanotourism.com/jp/spot/spot_D.php?id=2&kid1=3&kid2=12&kid3=50",
+    "accessSummary": "富良野市中御料・新富良野プリンスホテル内。富良野観光協会はJR富良野駅から車約10分と案内。",
+    "cooling": {"attributes": ["forest"], "summary": "施設公式が森の中のログハウス群と明記する。森林環境のみを局所条件とし、気温低下は保証しない。"},
+    "operationsAndSafety": "夏期は11:00〜19:45、店舗ごとに不定休。悪天候、路面・駐車場状況で入場制限または休業の場合があるため直前確認。",
+    "evidence": [
+      {"url": "https://www.princehotels.co.jp/shinfurano/facility/ningle_terrace/", "claim": "施設公式が森の中の15棟、夏期営業時間、悪天候時の休業・入場制限を案内。"},
+      {"url": "https://www.furanotourism.com/jp/spot/spot_D.php?id=2&kid1=3&kid2=12&kid3=50", "claim": "富良野観光協会が所在地と富良野駅から車約10分のアクセスを案内。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院標高APIで施設地点候補の標高299.2mを照合。"}
+    ],
+    "coordinates": {"latitude": 43.3267, "longitude": 142.3566, "status": "candidate_from_official_address_map", "note": "中御料・新富良野プリンスホテル内の施設地点候補。"},
+    "elevationM": 299.2
+  },
+  {
+    "sourceIndex": 2,
+    "sourceId": "biei",
+    "sourceName": "美瑛",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "白金青い池",
+    "prefecture": "北海道",
+    "officialUrl": "https://www.biei-hokkaido.jp/ja/facility/shirogane-blue-pond",
+    "accessUrl": "https://www.biei-hokkaido.jp/ja/facility/shirogane-blue-pond",
+    "accessSummary": "美瑛町白金。美瑛町観光協会は美瑛駅から車または路線バスで約20分と案内。",
+    "cooling": {"attributes": ["water", "forest"], "summary": "観光協会が水面とカラマツ林を紹介する。水辺・森林という物理的局所条件のみで、池畔の体感温度低下は主張しない。"},
+    "operationsAndSafety": "通年利用・トイレ通年。駐車場は5〜9月7:00〜19:00。自然災害などで安全に運行できない場合は交通が止まり得るため、路線・現地状況を直前確認。",
+    "evidence": [
+      {"url": "https://www.biei-hokkaido.jp/ja/facility/shirogane-blue-pond", "claim": "美瑛町観光協会が名称、所在地、バス・車アクセス、駐車場時間、水面とカラマツ林を掲載。"},
+      {"url": "https://www.biei-hokkaido.jp/ja/2026bus", "claim": "2026夏季バスは7〜9月毎日運行予定で、自然災害時の安全条件を示す。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院標高APIで地点候補の標高498mを照合。"}
+    ],
+    "coordinates": {"latitude": 43.4931, "longitude": 142.6169, "status": "candidate_from_official_map", "note": "白金青い池の公式地図ピン候補。"},
+    "elevationM": 498
+  },
+  {
+    "sourceIndex": 3,
+    "sourceId": "asahikawa",
+    "sourceName": "旭川",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "旭川市科学館サイパル",
+    "prefecture": "北海道",
+    "officialUrl": "https://www.city.asahikawa.hokkaido.jp/science/06/p002414.html",
+    "accessUrl": "https://www.city.asahikawa.hokkaido.jp/science/06/p002410.html",
+    "accessSummary": "旭川市宮前1条3丁目3番32号。市公式はJR旭川駅前から旭川電気軌道82・84番で科学館前下車約5分、徒歩約25分と案内。",
+    "cooling": {"attributes": ["indoor"], "summary": "常設展示室・プラネタリウムを有する屋内科学館。屋内滞在のみを局所条件とし、空調性能や温度低下は断定しない。"},
+    "operationsAndSafety": "9:30〜17:00（入館16:30まで）。2026年度夏休み7月22日〜8月27日は無休で、その他の休館日は公式カレンダーを確認。",
+    "evidence": [
+      {"url": "https://www.city.asahikawa.hokkaido.jp/science/06/p002410.html", "claim": "旭川市が所在地、旭川駅からのバス・徒歩アクセス、駐車場を掲載。"},
+      {"url": "https://www.city.asahikawa.hokkaido.jp/science/06/p002414.html", "claim": "旭川市が開館時刻、休館日、夏休み無休期間、展示とプラネタリウムを掲載。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院標高APIで地点候補の標高118.3mを照合。"}
+    ],
+    "coordinates": {"latitude": 43.7667, "longitude": 142.3826, "status": "candidate_from_official_address_map", "note": "市公式住所の施設地点候補。"},
+    "elevationM": 118.3
+  },
+  {
+    "sourceIndex": 4,
+    "sourceId": "otaru",
+    "sourceName": "小樽",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "小樽運河",
+    "prefecture": "北海道",
+    "officialUrl": "https://www.city.otaru.lg.jp/docs/2020100900367/",
+    "accessUrl": "https://otaru.gr.jp/shop/otarucanal",
+    "accessSummary": "小樽市港町5。小樽観光協会はJR小樽駅から徒歩約10分と案内。",
+    "cooling": {"attributes": ["water"], "summary": "市公式は運河と散策路を整備した現在の形を、観光協会は水面を有する全長1,140mの運河を記載。水辺という局所条件のみで、海風・温度低下・日陰は主張しない。"},
+    "operationsAndSafety": "散策は通年可能。ただし屋外で日射を遮る根拠はなく、熱中症と水際転落に注意。ガス灯・ライトアップ時刻は観光協会の最新掲載を確認。",
+    "evidence": [
+      {"url": "https://www.city.otaru.lg.jp/docs/2020100900367/", "claim": "小樽市が運河の整備、散策路・街園を説明。"},
+      {"url": "https://otaru.gr.jp/shop/otarucanal", "claim": "小樽観光協会が正式名称、所在地、全長、駅からの徒歩時間、通年散策を掲載。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "水面直近のため標高値を採用せず、国土地理院標高APIを参照元とした。"}
+    ],
+    "coordinates": {"latitude": 43.20149, "longitude": 141.00279, "status": "candidate_from_official_address_map", "note": "港町5・運河散策路中心の候補。水面直近のため標高値は採用しない。"},
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 5,
+    "sourceId": "hakodate",
+    "sourceName": "函館",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "五稜郭タワー",
+    "prefecture": "北海道",
+    "officialUrl": "https://www.goryokaku-tower.co.jp/",
+    "accessUrl": "https://www.goryokaku-tower.co.jp/access/",
+    "accessSummary": "函館市五稜郭町43-9。施設公式はJR函館駅から市電で五稜郭公園前下車・徒歩約10分、または函館バスで五稜郭公園入口下車・徒歩約5分と案内。",
+    "cooling": {"attributes": ["indoor"], "summary": "展望台・五稜郭歴史回廊・売店等の屋内観光施設。屋内滞在のみを局所条件とし、空調性能や涼しさの保証はしない。"},
+    "operationsAndSafety": "通常は9:00〜18:00（展望券17:50まで）、無休。季節・イベントで時間変更があるため公式の料金・営業時間を直前確認。専用駐車場なし。",
+    "evidence": [
+      {"url": "https://www.goryokaku-tower.co.jp/access/", "claim": "施設公式が所在地と函館駅からの市電・バスアクセスを掲載。"},
+      {"url": "https://www.hakobura.jp/spots/470", "claim": "函館市公式観光が屋内アトリウム・展示、通常利用時間、無休、専用駐車場なしを掲載。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院標高APIで地点候補の標高13.6mを照合。"}
+    ],
+    "coordinates": {"latitude": 41.7968, "longitude": 140.7564, "status": "candidate_from_official_address_map", "note": "公式住所43-9のタワー地点候補。"},
+    "elevationM": 13.6
+  },
+  {
+    "sourceIndex": 6,
+    "sourceId": "noboribetsu",
+    "sourceName": "登別温泉",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "登別地獄谷（登別温泉）",
+    "prefecture": "北海道",
+    "officialUrl": "https://www.visit-hokkaido.jp/spot/detail_10157.html",
+    "accessUrl": "https://www.visit-hokkaido.jp/spot/detail_10157.html",
+    "accessSummary": "登別市登別温泉町。北海道公式観光は登別東ICから車約10分、有料駐車場165台と案内。",
+    "cooling": {"attributes": [], "summary": "夏の局所的な涼しさを公式根拠では確認できないため属性は空とする。火山景観としての来訪価値、通常時の公開、車での入口は公式に確認できる。"},
+    "operationsAndSafety": "北海道公式観光は年中無休とするが、火山ガス・高温温泉の場所。2026年の鬼花火開催日は18:30〜21:00にチケット購入者以外を一時入場不可。遊歩道・火山情報・イベント規制を直前確認。",
+    "evidence": [
+      {"url": "https://www.visit-hokkaido.jp/spot/detail_10157.html", "claim": "北海道公式観光が火山ガス・熱気・高温温泉、所在地、ICからの車アクセス、年中無休、駐車場を掲載。"},
+      {"url": "https://noboribetsu-spa.jp/news/%E3%80%8C%E5%9C%B0%E7%8D%84%E3%81%AE%E8%B0%B7%E3%81%AE%E9%AC%BC%E8%8A%B1%E7%81%AB%E3%80%8D%E9%96%8B%E5%82%AC%E3%81%AB%E4%BF%82%E3%82%8B%E5%9C%B0%E7%8D%84%E8%B0%B7%E3%81%AE%E4%B8%80%E6%99%82%E9%96%89/", "claim": "登別国際観光コンベンション協会が2026年鬼花火開催日の一時閉鎖・車両規制を掲載。"},
+      {"url": "https://hokkaido.env.go.jp/content/900145835.pdf", "claim": "環境省管理計画が地獄谷・大湯沼周辺の有毒ガス、転落、熱傷等の危険を示す。"}
+    ],
+    "coordinates": {"latitude": 42.4917, "longitude": 141.1428, "status": "candidate_from_official_map", "note": "地獄谷公式地図の入口付近候補。"},
+    "elevationM": 167.4
+  },
+  {
+    "sourceIndex": 7,
+    "sourceId": "lake-toya",
+    "sourceName": "洞爺湖",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "洞爺湖温泉・とうや湖ぐるっと彫刻公園（湖畔）",
+    "prefecture": "北海道",
+    "officialUrl": "https://www.laketoya.com/leisure/",
+    "accessUrl": "https://www.laketoya.com/access/",
+    "accessSummary": "洞爺湖温泉地区の湖畔。洞爺湖温泉観光協会はJR洞爺駅から道南バスまたはタクシーを案内し、洞爺駅から温泉までのバスは約20分。",
+    "cooling": {"attributes": ["water"], "summary": "観光協会が周囲約43kmのカルデラ湖と湖畔の彫刻公園を記載。水辺という局所条件のみで、湖風・温度低下・日陰を主張しない。"},
+    "operationsAndSafety": "湖畔公園は屋外。洞爺湖町は湖畔エリアのキャンプ・火気・テント・タープ・駐車場車中泊を禁止しているため従う。火口散策路の季節営業・天候閉鎖は湖畔一般と混同しない。",
+    "evidence": [
+      {"url": "https://www.laketoya.com/leisure/", "claim": "洞爺湖温泉観光協会が湖畔彫刻公園と季節営業・天候閉鎖のある散策施設を掲載。"},
+      {"url": "https://www.laketoya.com/access/", "claim": "洞爺湖温泉観光協会がJR洞爺駅からのバス・タクシーアクセスを掲載。"},
+      {"url": "https://www.town.toyako.hokkaido.jp/tourism/outdoor_camp/odc005/", "claim": "洞爺湖町が湖畔エリアのキャンプ・火気・タープ・車中泊禁止を掲載。"}
+    ],
+    "coordinates": {"latitude": 42.5625, "longitude": 140.817, "status": "candidate_from_official_lakeside_facility_map", "note": "洞爺湖温泉・湖畔の候補。既存のJR洞爺駅座標ではない。"},
+    "elevationM": 101.8
+  },
+  {
+    "sourceIndex": 8,
+    "sourceId": "obihiro",
+    "sourceName": "帯広",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "帯広百年記念館",
+    "prefecture": "北海道",
+    "officialUrl": "https://www.city.obihiro.hokkaido.jp/shisei/shisetsu/bunka/1001722.html",
+    "accessUrl": "https://museum-obihiro.jp/occm/?page_id=316",
+    "accessSummary": "帯広市緑ヶ丘2番地。施設公式は拓殖バス「緑ヶ丘6丁目」下車徒歩約8分と案内。",
+    "cooling": {"attributes": ["indoor"], "summary": "博物館・創造活動センターの屋内施設。日射を避ける屋内という局所条件のみを採用し、冷房温度や気象予報由来の涼しさは主張しない。"},
+    "operationsAndSafety": "常設展示室は9:00〜17:00、施設は9:00〜22:00。月曜・祝日の翌日・年末年始は休館のため、来訪前に公式を確認。",
+    "evidence": [
+      {"url": "https://www.city.obihiro.hokkaido.jp/shisei/shisetsu/bunka/1001722.html", "claim": "帯広市公式が正式名称、所在地、博物館・創造活動センター、開館・休館を掲載。"},
+      {"url": "https://museum-obihiro.jp/occm/?page_id=316", "claim": "施設公式が拓殖バス「緑ヶ丘6丁目」下車徒歩8分を案内。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院DEMで候補地点の標高50mを照合。"}
+    ],
+    "coordinates": {"latitude": 42.9070431, "longitude": 143.1863426, "status": "corrected_candidate", "note": "帯広市公式ページの地図座標。"},
+    "elevationM": 50
+  },
+  {
+    "sourceIndex": 9,
+    "sourceId": "kushiro",
+    "sourceName": "釧路",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "釧路市湿原展望台",
+    "prefecture": "北海道",
+    "officialUrl": "https://www.city.kushiro.lg.jp/shisei/shisetsu/1007655/1007656/1007869.html",
+    "accessUrl": "https://ja.kushiro-lakeakan.com/overview/454/",
+    "accessSummary": "釧路駅からタクシー約15分（17km）。釧路・阿寒湖観光公式は帰路に阿寒バス鶴居線を利用できる旨を案内し、無料駐車場108台。",
+    "cooling": {"attributes": ["indoor"], "summary": "展示室・休憩できる展望室を持つ屋内施設。屋内という局所条件のみを採用し、湿原・水辺・予報気温を体感冷却の根拠にはしない。"},
+    "operationsAndSafety": "夏期（4月1日〜9月30日）は8:30〜18:00。遊歩道は2.5kmで屋外、屋上も屋外のため、足元・天候と当日の施設情報を確認。",
+    "evidence": [
+      {"url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/019/053/situgen_gaiyo.pdf", "claim": "釧路市の施設概要書が展示・休憩展望室、夏季開館時間、108台駐車場、2.5km遊歩道を掲載。"},
+      {"url": "https://ja.kushiro-lakeakan.com/overview/454/", "claim": "釧路・阿寒湖観光公式が釧路駅からタクシー約15分・17kmと帰路バス利用を案内。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院DEMで候補地点の標高39.7mを照合。"}
+    ],
+    "coordinates": {"latitude": 43.074535, "longitude": 144.325531, "status": "corrected_candidate", "note": "釧路市北斗6番地の地点候補。公式施設所在地は北斗6-11。"},
+    "elevationM": 39.7
+  },
+  {
+    "sourceIndex": 10,
+    "sourceId": "abashiri",
+    "sourceName": "網走",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "博物館 網走監獄",
+    "prefecture": "北海道",
+    "officialUrl": "https://www.kangoku.jp/",
+    "accessUrl": "https://visit-abashiri.jp/access/",
+    "accessSummary": "網走市内。網走市観光公式は市内路線バスと原生花園方面へのバス時刻表を案内し、当日は施設公式の交通案内を確認する。",
+    "cooling": {"attributes": ["indoor"], "summary": "展示建物内の屋内滞在のみを局所条件とする。屋外保存建築・市域の海風・気温低下は主張しない。"},
+    "operationsAndSafety": "屋外展示も含むため、営業時間・休館日・荒天時の扱いを施設公式で直前確認。暑熱・足元・混雑を考慮する。",
+    "evidence": [
+      {"url": "https://www.kangoku.jp/", "claim": "施設公式が博物館 網走監獄の公開展示施設を案内。"},
+      {"url": "https://visit-abashiri.jp/access/", "claim": "網走市観光公式が市内・周辺バスを含む交通情報を案内。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院標高APIを標高候補の照合元とする。"}
+    ],
+    "coordinates": {"latitude": 44.0187, "longitude": 144.2661, "status": "candidate_from_facility_map", "note": "博物館 網走監獄の地点候補。既存の網走駅座標から修正。"},
+    "elevationM": 37
+  },
+  {
+    "sourceIndex": 11,
+    "sourceId": "wakkanai",
+    "sourceName": "稚内",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "宗谷岬",
+    "prefecture": "北海道",
+    "officialUrl": "https://www.north-hokkaido.com/spot/detail_1018.html",
+    "accessUrl": "https://www.north-hokkaido.com/spot/detail_1018.html",
+    "accessSummary": "北海道稚内市宗谷岬。公式観光サイトはJR稚内駅から車約40分、バス約50分、無料駐車場72台と案内。",
+    "cooling": {"attributes": ["wind"], "summary": "岬の海に開いた地形であり、海岸の風という局所的条件のみを扱う。風の発生や体感温度低下を予報値として保証しない。"},
+    "operationsAndSafety": "屋外岬のため強風・濃霧・荒天時は安全確保を優先。近接するBase-Soyaは10月〜5月下旬が冬期閉鎖、夏季も営業時間を確認する。",
+    "evidence": [
+      {"url": "https://www.north-hokkaido.com/spot/detail_1018.html", "claim": "公式観光サイトが宗谷岬の所在地、駅からの車・バスアクセス、無料駐車場を掲載。"},
+      {"url": "https://www.north-hokkaido.com/spot/detail_1024.html", "claim": "公式観光サイトがBase-Soyaの営業時間、冬期閉鎖、バス停から徒歩約3分を掲載。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院標高APIを標高候補の照合元とする。"}
+    ],
+    "coordinates": {"latitude": 45.5312, "longitude": 141.9352, "status": "corrected_from_official_spot", "note": "宗谷岬の公式スポット地点候補。既存の稚内駅座標から修正。"},
+    "elevationM": 9
+  },
+  {
+    "sourceIndex": 12,
+    "sourceId": "niseko",
+    "sourceName": "ニセコ",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "ニセコアンヌプリ国際スキー場（サマーゴンドラ）",
+    "prefecture": "北海道",
+    "officialUrl": "https://annupuri.info/gondola/",
+    "accessUrl": "https://annupuri.info/access/",
+    "accessSummary": "北海道虻田郡ニセコ町字ニセコ485。施設公式のアクセス案内と当日のゴンドラ運行状況を確認して車・交通手段を選ぶ。",
+    "cooling": {"attributes": ["highland"], "summary": "施設公式がゴンドラで標高1,000m地点へ至ると明記する。標高という局所条件のみを採用し、山頂展望地の木陰・風・実際の気温低下は主張しない。"},
+    "operationsAndSafety": "サマーゴンドラは9:00〜16:30（上り最終16:00）。天候・日没で変更、荒天時は運休の場合があり、山頂展望台は車椅子では到達不可。運行状況を当日確認。",
+    "evidence": [
+      {"url": "https://annupuri.info/gondola/", "claim": "運営公式が標高1,000m、2026夏季カレンダー、営業時間、荒天運休、山頂展望台の車椅子不可を掲載。"},
+      {"url": "https://annupuri.info/access/", "claim": "運営公式が施設住所（ニセコ町字ニセコ485）を掲載。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院DEMで住所ジオコード候補の標高231mを照合。ゴンドラ山頂標高とは別。"}
+    ],
+    "coordinates": {"latitude": 42.829296, "longitude": 140.638992, "status": "corrected_candidate", "note": "ニセコ町字ニセコ485周辺の候補。ゴンドラ山頂位置ではない。"},
+    "elevationM": 231
+  },
+  {
+    "sourceIndex": 13,
+    "sourceId": "aomori",
+    "sourceName": "青森",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "ねぶたの家 ワ・ラッセ",
+    "prefecture": "青森県",
+    "officialUrl": "https://www.nebuta.jp/warasse/",
+    "accessUrl": "https://www.nebuta.jp/warasse/access.html",
+    "accessSummary": "青森市安方1丁目1-1、JR青森駅東口から徒歩約1分。施設公式のアクセス案内を使用。",
+    "cooling": {"attributes": ["indoor"], "summary": "ねぶた展示を行う屋内施設への滞在のみを局所条件とし、青森市域の気候や海風を根拠にしない。"},
+    "operationsAndSafety": "営業時間・休館日・展示替えは施設公式を直前確認。夏祭り期間は駅周辺の混雑・交通規制を別途確認する。",
+    "evidence": [
+      {"url": "https://www.nebuta.jp/warasse/", "claim": "施設公式がねぶたの家 ワ・ラッセを展示施設として案内。"},
+      {"url": "https://www.nebuta.jp/warasse/access.html", "claim": "施設公式が青森駅から徒歩約1分のアクセスを掲載。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院標高APIを標高候補の照合元とする。"}
+    ],
+    "coordinates": {"latitude": 40.8290, "longitude": 140.7352, "status": "corrected_from_official_address_map", "note": "施設公式住所の地点候補。"},
+    "elevationM": 4
+  },
+  {
+    "sourceIndex": 14,
+    "sourceId": "hirosaki",
+    "sourceName": "弘前",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "弘前公園",
+    "prefecture": "青森県",
+    "officialUrl": "https://www.hirosaki-kanko.or.jp/details.html?id=API00100002197",
+    "accessUrl": "https://www.hirosaki-kanko.or.jp/details.html?id=API00100002197",
+    "accessSummary": "弘前市下白銀町1。弘前市観光情報はJR弘前駅から徒歩約25分、または100円循環バス約15分・市役所前下車と案内。",
+    "cooling": {"attributes": ["shade"], "summary": "樹木のある公園散策路の木陰だけを局所条件とする。桜の開花期の価値や地域の気候を夏の涼しさへ読み替えない。"},
+    "operationsAndSafety": "有料区域は4月1日〜11月23日9:00〜17:00（入園券販売16:30まで）。園内・堀の水際、日射、季節イベントによる混雑に注意。",
+    "evidence": [
+      {"url": "https://www.hirosaki-kanko.or.jp/details.html?id=API00100002197", "claim": "弘前市観光情報が所在地、駅からの徒歩・バスアクセス、入場期間・時間を掲載。"},
+      {"url": "https://www.hirosaki-kanko.or.jp/individual/sakura_traffic/sta_park.pdf", "claim": "観光協会が駅・公園間のバス導線と運行時間帯を案内。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院標高APIを標高候補の照合元とする。"}
+    ],
+    "coordinates": {"latitude": 40.6075, "longitude": 140.4640, "status": "corrected_from_official_address_map", "note": "下白銀町1・弘前公園入口の地点候補。"},
+    "elevationM": 46
+  },
+  {
+    "sourceIndex": 15,
+    "sourceId": "hachinohe",
+    "sourceName": "八戸",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "種差天然芝生地（種差海岸）",
+    "prefecture": "青森県",
+    "officialUrl": "https://visithachinohe.com/",
+    "accessUrl": "https://visithachinohe.com/access/",
+    "accessSummary": "八戸市鮫町。VISITはちのへはJR八戸線の種差海岸駅から徒歩約5分、鮫駅から種差海岸周遊バス「うみねこ号」を案内。",
+    "cooling": {"attributes": ["wind", "water"], "summary": "海岸に面した天然芝生地の水辺・風に開いた地形という局所条件のみを採用し、海風の発生や温度低下は保証しない。"},
+    "operationsAndSafety": "海食崖・海岸では強風、濃霧、波浪、足元に注意。列車・周遊バスの運行と現地規制を直前確認。",
+    "evidence": [
+      {"url": "https://visithachinohe.com/access/", "claim": "VISITはちのへが八戸駅から沿岸部へのJR八戸線、種差海岸駅から徒歩約5分、周遊バスを掲載。"},
+      {"url": "https://aomori-tourism.com/spot/detail_40.html", "claim": "青森県公式観光が種差海岸を太平洋に面する景勝地として案内。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院標高APIを標高候補の照合元とする。"}
+    ],
+    "coordinates": {"latitude": 40.4717, "longitude": 141.6460, "status": "corrected_from_station_and_coast", "note": "種差海岸駅・天然芝生地間の公式導線上の地点候補。"},
+    "elevationM": 11
+  },
+  {
+    "sourceIndex": 16,
+    "sourceId": "lake-towada",
+    "sourceName": "十和田湖",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "十和田湖畔休屋",
+    "prefecture": "青森県",
+    "officialUrl": "https://towadako.or.jp/",
+    "accessUrl": "https://towadako.or.jp/",
+    "accessSummary": "十和田湖畔休屋地区。十和田湖国立公園協会の十和田湖・奥入瀬方面への交通案内を入口とし、便・道路の現況を確認する。",
+    "cooling": {"attributes": ["water", "forest"], "summary": "湖畔と周辺森林という物理的局所条件のみを採用し、湖畔の気温低下や奥入瀬渓流の条件を休屋へ転用しない。"},
+    "operationsAndSafety": "山地・湖畔のため悪天候、霧、道路通行止め、遊覧・バスの運休を直前確認。遊歩道では水際・落枝・野生動物に注意。",
+    "evidence": [
+      {"url": "https://towadako.or.jp/", "claim": "十和田湖国立公園協会が十和田湖・奥入瀬方面の公式案内とアクセス入口を提供。"},
+      {"url": "https://aomori-tourism.com/spot/detail_48.html", "claim": "青森県公式観光が十和田湖を山地の湖と湖畔の観光地として案内。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院標高APIを標高候補の照合元とする。"}
+    ],
+    "coordinates": {"latitude": 40.4254, "longitude": 140.8785, "status": "corrected_to_lakeside_gateway", "note": "休屋湖畔の観光入口地点候補。既存の八戸駅座標から修正。"},
+    "elevationM": 400
+  },
+  {
+    "sourceIndex": 17,
+    "sourceId": "morioka",
+    "sourceName": "盛岡",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "もりおか歴史文化館（盛岡市中心部）",
+    "prefecture": "岩手県",
+    "officialUrl": "https://www.morireki.jp/about/outline/",
+    "accessUrl": "https://www.morireki.jp/infor/map/",
+    "accessSummary": "盛岡駅東口から盛岡中心市街地循環バス「でんでんむし」左回り約10分、「県庁・市役所前」下車徒歩約4分。徒歩は約20分。",
+    "cooling": {"attributes": ["indoor"], "summary": "展示・観光案内を備える屋内施設への滞在だけを局所条件とする。中津川など市街地水辺を気温低下根拠にはしない。"},
+    "operationsAndSafety": "4〜10月は9:00〜19:00（展示室受付18:30まで）。毎月第3火曜（祝休日は翌日）と12月31日〜1月1日は休館。近隣有料駐車場を利用する。",
+    "evidence": [
+      {"url": "https://www.morireki.jp/about/outline/", "claim": "施設公式が正式名称、所在地、展示室、4〜10月の開館時間と休館日を掲載。"},
+      {"url": "https://www.morireki.jp/infor/map/", "claim": "施設公式が盛岡駅からのバス・徒歩アクセスと駐車条件を掲載。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院DEMで候補地点の標高125.9mを照合。"}
+    ],
+    "coordinates": {"latitude": 39.7010316, "longitude": 141.1525948, "status": "corrected", "note": "館公式の地図リンク座標。"},
+    "elevationM": 125.9
+  },
+  {
+    "sourceIndex": 18,
+    "sourceId": "miyako",
+    "sourceName": "宮古",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "浄土ヶ浜",
+    "prefecture": "岩手県",
+    "officialUrl": "https://kankou385.jp/spots/jyodogahama/",
+    "accessUrl": "https://kankou385.jp/spots/jyodogahama/",
+    "accessSummary": "宮古市日立浜町。宮古観光文化交流協会は宮古駅から車約10分、第1〜第3駐車場から徒歩約15分と案内。",
+    "cooling": {"attributes": ["water", "wind"], "summary": "三陸海岸の海辺に面する地形という局所条件のみを採用し、海風の発生、海水温、体感温度低下は主張しない。"},
+    "operationsAndSafety": "海岸のため波浪・強風・濃霧・遊歩道の足元に注意。遊覧船・海水浴・駐車場など個別施設の営業は公式情報を直前確認。",
+    "evidence": [
+      {"url": "https://kankou385.jp/spots/jyodogahama/", "claim": "宮古観光文化交流協会が浄土ヶ浜の正式名称、三陸復興国立公園の景勝地であること、駅からの車・駐車場徒歩アクセスを掲載。"},
+      {"url": "https://www.env.go.jp/park/sanriku/", "claim": "環境省が三陸復興国立公園の沿岸自然環境と安全情報の確認先を提供。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院標高APIを標高候補の照合元とする。"}
+    ],
+    "coordinates": {"latitude": 39.6467, "longitude": 141.9806, "status": "corrected_from_official_spot", "note": "浄土ヶ浜の公式スポット地点候補。既存の宮古駅座標から修正。"},
+    "elevationM": 8
+  },
+  {
+    "sourceIndex": 19,
+    "sourceId": "tazawako",
+    "sourceName": "田沢湖",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "田沢湖湖畔（白浜）",
+    "prefecture": "秋田県",
+    "officialUrl": "https://tazawako-kakunodate.com/access/",
+    "accessUrl": "https://tazawako-kakunodate.com/access/",
+    "accessSummary": "仙北市田沢湖。田沢湖・角館観光協会はJR田沢湖駅前から乳頭線等で田沢湖畔下車、所要約15分と案内し、田沢湖一周線も案内。",
+    "cooling": {"attributes": ["water", "highland"], "summary": "湖畔と標高約249mの湖面という局所条件のみを採用する。湖の深さや地域の気象予報を体感温度低下の根拠にしない。"},
+    "operationsAndSafety": "湖畔・山地のため天候、風、道路、バスの運行状況を確認。遊泳・水上活動・周遊便は個別の営業条件と水際安全条件に従う。",
+    "evidence": [
+      {"url": "https://tazawako-kakunodate.com/access/", "claim": "田沢湖・角館観光協会が田沢湖畔へのバス約15分、田沢湖一周線、冬季の路線変更を掲載。"},
+      {"url": "https://tazawako-kakunodate.com/access/", "claim": "同協会が田沢湖を地域中央の湖として案内。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院標高APIを標高候補の照合元とする。"}
+    ],
+    "coordinates": {"latitude": 39.7394, "longitude": 140.6997, "status": "corrected_to_lakeside_gateway", "note": "田沢湖畔白浜のバス到着地候補。既存の田沢湖駅座標から修正。"},
+    "elevationM": 249
+  },
+  {
+    "sourceIndex": 20,
+    "sourceId": "kakunodate",
+    "sourceName": "角館",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "仙北市立角館樺細工伝承館（角館武家屋敷通り）",
+    "prefecture": "秋田県",
+    "officialUrl": "https://www.city.semboku.akita.jp/sightseeing/densyo/shisetsu.html",
+    "accessUrl": "https://www.city.semboku.akita.jp/sightseeing/densyo/",
+    "accessSummary": "仙北市角館町表町下丁10-1。仙北市公式はJR角館駅から徒歩約15分、車は徒歩約2分の市営桜並木駐車場を案内。",
+    "cooling": {"attributes": ["indoor"], "summary": "展示室・製作実演・喫茶室を持つ屋内公共文化施設。武家屋敷通り全体の木陰や屋外気温低下は公式根拠不足のため属性に加えない。"},
+    "operationsAndSafety": "4〜11月は9:00〜17:00（入館16:30まで）、12月28日〜1月4日は休館。周辺の古城山公園にはクマ出没による通行止め告知があるため、同公園へ迂回・立入りしない。",
+    "evidence": [
+      {"url": "https://www.city.semboku.akita.jp/sightseeing/densyo/shisetsu.html", "claim": "仙北市が名称、屋内展示・製作実演・喫茶室、駅からの徒歩、駐車場、夏季開館時間、休館日を掲載。"},
+      {"url": "https://tazawako-kakunodate.com/news/18221/", "claim": "田沢湖・角館観光協会が古城山公園のクマ出没による通行止めを掲載。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "国土地理院DEMで候補地点の標高59.2mを照合。"}
+    ],
+    "coordinates": {"latitude": 39.5995317, "longitude": 140.5611586, "status": "corrected_candidate", "note": "仙北市公式住所（表町下丁10）に対応する伝承館候補。"},
+    "elevationM": 59.2
+  }
+]

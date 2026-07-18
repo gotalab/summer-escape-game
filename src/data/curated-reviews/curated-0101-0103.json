@@ -1,0 +1,65 @@
+[
+  {
+    "sourceIndex": 101,
+    "sourceId": "kikuchi-gorge",
+    "sourceName": "菊池渓谷",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "菊池渓谷",
+    "prefecture": "熊本県",
+    "officialUrl": "https://kikuchikanko.ne.jp/kikuchi_spot_01/kikuchikeikoku",
+    "accessUrl": "https://kikuchikanko.ne.jp/kikuchi_spot_01/kikuchikeikoku",
+    "accessSummary": "熊本県菊池市原5026。公式観光ページの菊池渓谷入口マーカーを経路入口にする。",
+    "cooling": {
+      "attributes": ["gorge", "water", "forest", "shade"],
+      "scope": "local-microclimate",
+      "claimLevel": "numeric-verified",
+      "summary": "天然広葉樹の日陰と渓流の局所環境。公式の13℃は渓流水の平均水温であり、周辺気温・体感温度ではない。",
+      "thermalEvidence": [{ "subject": "water", "valueC": 13, "qualifier": "average stream-water temperature", "sourceUrl": "https://kikuchikanko.ne.jp/kikuchi_spot_01/kikuchikeikoku" }]
+    },
+    "operationsAndSafety": "通常は4月1日〜11月30日、8:30〜17:00。大雨警報時は閉鎖する場合がある。料金は公式表示に差異があるため当日確認。",
+    "coordinates": { "latitude": 33.00487407710534, "longitude": 130.9171248689738 }
+  },
+  {
+    "sourceIndex": 102,
+    "sourceId": "oya-history-museum",
+    "sourceName": "大谷資料館",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "大谷資料館",
+    "prefecture": "栃木県",
+    "officialUrl": "https://www.oya909.co.jp/",
+    "accessUrl": "https://www.oya909.co.jp/access/",
+    "accessSummary": "栃木県宇都宮市大谷町909。公式施設地図の大谷資料館入口・駐車場を経路入口にする。",
+    "cooling": {
+      "attributes": ["underground", "indoor"],
+      "scope": "enclosed-space",
+      "claimLevel": "numeric-verified",
+      "summary": "地下採掘場跡の内部空間。宇都宮市が案内する約8℃は地下空間の平均気温であり、地上気温ではない。",
+      "thermalEvidence": [{ "subject": "enclosed-air", "valueC": 8, "qualifier": "annual average underground temperature", "sourceUrl": "https://www.city.utsunomiya.lg.jp/citypromotion/kanko/1032109/1032111.html" }]
+    },
+    "operationsAndSafety": "4〜11月は9:00〜17:00。夏季も上着を持参。通常は車椅子・ベビーカー・手押し車で入館できないため公式案内を確認。",
+    "coordinates": { "latitude": 36.5998589, "longitude": 139.8242648 }
+  },
+  {
+    "sourceIndex": 103,
+    "sourceId": "ikuno-ginzan",
+    "sourceName": "史跡 生野銀山",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "史跡 生野銀山",
+    "prefecture": "兵庫県",
+    "officialUrl": "https://www.ikuno-ginzan.co.jp/",
+    "accessUrl": "https://www.ikuno-ginzan.co.jp/access/access.html",
+    "accessSummary": "兵庫県朝来市生野町小野33-5。公式アクセス地図の入場受付・駐車場を経路入口にする。",
+    "cooling": {
+      "attributes": ["underground", "indoor"],
+      "scope": "enclosed-space",
+      "claimLevel": "numeric-verified",
+      "summary": "約1kmの観光坑道。公式の年間約13℃は坑道内の気温であり、屋外気温ではない。",
+      "thermalEvidence": [{ "subject": "enclosed-air", "valueC": 13, "qualifier": "year-round tourist-mine temperature", "sourceUrl": "https://www.ikuno-ginzan.co.jp/news/news.php?doc=162" }]
+    },
+    "operationsAndSafety": "4〜10月は9:10〜17:20。薄手の長袖を持参。降雪・大雪時の臨時休業告知を当日確認。観光坑道は平坦で車椅子・ベビーカー利用可。",
+    "coordinates": { "latitude": 35.1712087, "longitude": 134.823579 }
+  }
+]

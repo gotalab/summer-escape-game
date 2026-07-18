@@ -1,0 +1,493 @@
+[
+  {
+    "sourceIndex": 81,
+    "sourceId": "kurashiki",
+    "sourceName": "倉敷",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "倉敷アイビースクエア",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.ivysquare.co.jp/",
+    "accessUrl": "https://www.ivysquare.co.jp/access/",
+    "accessSummary": "JR倉敷駅南口から徒歩約15分。屋外平面駐車場120台があり、24時間入出庫できる。",
+    "cooling": {
+      "attributes": ["indoor"],
+      "summary": "公式がホテル・文化施設・体験施設の複合施設として案内する。屋内退避だけを属性とし、樹木・蔦の存在から日陰、室温、市街地との温度差は推定しない。"
+    },
+    "operationsAndSafety": "各施設の営業時間・体験予約条件を来訪前に確認する。美観地区を屋外徒歩で移動する区間は別途暑熱対策が必要。",
+    "evidence": [
+      {"url": "https://www.ivysquare.co.jp/", "claim": "施設公式が文化・体験施設を含む複合施設と、保存した立木・蔦を案内する。"},
+      {"url": "https://www.ivysquare.co.jp/access/", "claim": "JR倉敷駅から徒歩約15分、平面駐車場120台・24時間入出庫を案内する。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=133.77315&lat=34.59370&outtype=JSON", "claim": "国土地理院DEM APIで候補点の標高1.9mを取得。"}
+    ],
+    "coordinates": {"latitude": 34.5937, "longitude": 133.77315, "status": "corrected_approximate", "note": "施設公式の所在地・アクセス地図に合わせた入口候補。"},
+    "elevationM": 1.9
+  },
+  {
+    "sourceIndex": 82,
+    "sourceId": "onomichi",
+    "sourceName": "尾道",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "尾道市立美術館",
+    "prefecture": "広島県",
+    "officialUrl": "https://www.onomichi-museum.jp/guide/info.html",
+    "accessUrl": "https://www.onomichi-museum.jp/guide/top.html",
+    "accessSummary": "JR尾道駅から東行きバスで長江口へ行き、千光寺山ロープウェイで千光寺公園へ。車は千光寺山ドライブウェイ経由で有料駐車場を利用する。",
+    "cooling": {
+      "attributes": ["indoor"],
+      "summary": "千光寺公園内の館内展示施設であることだけを屋内退避の根拠とする。空調の有無・温度差や、屋外公園の涼しさは主張しない。"
+    },
+    "operationsAndSafety": "9:00〜17:00（入館16:30まで）。祝日以外の月曜、展示替え期間、12月29日〜1月3日は休館し、展覧会によって変更があるため公式予定を確認する。",
+    "evidence": [
+      {"url": "https://www.onomichi-museum.jp/guide/info.html", "claim": "尾道市立美術館が千光寺公園内の美術館であることを掲載。"},
+      {"url": "https://www.onomichi-museum.jp/guide/top.html", "claim": "バス・ロープウェイ・車での入口、開館時間、休館条件を掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=133.19843&lat=34.41050&outtype=JSON", "claim": "国土地理院DEM APIで候補点の標高110.7mを取得。"}
+    ],
+    "coordinates": {"latitude": 34.4105, "longitude": 133.19843, "status": "corrected_approximate", "note": "公式アクセス地図に対応する美術館入口候補。"},
+    "elevationM": 110.7
+  },
+  {
+    "sourceIndex": 83,
+    "sourceId": "miyajima",
+    "sourceName": "宮島",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "宮島水族館（みやじマリン）",
+    "prefecture": "広島県",
+    "officialUrl": "https://miyajima-aqua.jp/guide/",
+    "accessUrl": "https://miyajima-aqua.jp/access/",
+    "accessSummary": "JR宮島口駅から徒歩約5分で宮島口桟橋へ、フェリー約10分で宮島桟橋へ渡る。桟橋から徒歩約25分、メイプルライナー約10分またはタクシー約10分。",
+    "cooling": {
+      "attributes": ["indoor", "water"],
+      "summary": "屋内水族館と水槽展示を確認できる。屋内退避と水の展示だけを記録し、海風・空調・気温低下は根拠にしない。"
+    },
+    "operationsAndSafety": "通常9:00〜17:00（最終入館16:00）。2026年12月1日〜2027年3月31日は施設整備のため休館予定。夏季もフェリーの運航・荒天情報を確認する。",
+    "evidence": [
+      {"url": "https://miyajima-aqua.jp/guide/", "claim": "公式が宮島水族館の館内展示・利用案内を掲載。"},
+      {"url": "https://miyajima-aqua.jp/access/", "claim": "宮島口からフェリーを経る公共交通・徒歩・バス・タクシー入口を掲載。"},
+      {"url": "https://miyajima-aqua.jp/traditional/", "claim": "2026年12月1日から2027年3月31日までの施設整備休館予定を掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=132.31930&lat=34.29250&outtype=JSON", "claim": "国土地理院DEM APIで候補点の標高22.7mを取得。"}
+    ],
+    "coordinates": {"latitude": 34.2925, "longitude": 132.3193, "status": "corrected_approximate", "note": "施設公式アクセス地図に対応する入口候補。"},
+    "elevationM": 22.7
+  },
+  {
+    "sourceIndex": 84,
+    "sourceId": "shimonoseki",
+    "sourceName": "下関",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "市立しものせき水族館「海響館」",
+    "prefecture": "山口県",
+    "officialUrl": "https://www.kaikyokan.com/",
+    "accessUrl": "https://www.kaikyokan.com/access.php",
+    "accessSummary": "JR下関駅から「海響館前」までバス約5分。近隣には海響館まで約55mのみらいパークなどの有料駐車場がある。",
+    "cooling": {
+      "attributes": ["indoor", "water"],
+      "summary": "屋内水族館と水生生物展示を確認できる。屋内退避・水の展示に限定し、海辺の風や温度低下は主張しない。"
+    },
+    "operationsAndSafety": "通常9:30〜17:30（最終入館17:00）、年中無休。ただし気象・災害・飼育生物の状態で営業時間変更、設備保守で入館不可の場合がある。繁忙期の周辺道路混雑にも注意する。",
+    "evidence": [
+      {"url": "https://www.kaikyokan.com/", "claim": "市立しものせき水族館「海響館」の公式施設ページ。"},
+      {"url": "https://www.kaikyokan.com/access.php", "claim": "JR下関駅からのバス、駐車場、通常営業・変更条件を掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=130.94163&lat=33.95773&outtype=JSON", "claim": "国土地理院DEM APIで候補点の標高4.6mを取得。"}
+    ],
+    "coordinates": {"latitude": 33.95773, "longitude": 130.94163, "status": "corrected_approximate", "note": "あるかぽーと6-1の施設入口候補。"},
+    "elevationM": 4.6
+  },
+  {
+    "sourceIndex": 85,
+    "sourceId": "iya",
+    "sourceName": "祖谷",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "大歩危峡観光遊覧船",
+    "prefecture": "徳島県",
+    "officialUrl": "https://mannaka.co.jp/sightseeingboat/",
+    "accessUrl": "https://miyoshi-tourism.jp/spot/24284/",
+    "accessSummary": "JR大歩危駅から徒歩約25分、または四国交通バス「大歩危峡」下車すぐ。車は井川池田ICから国道32号経由約30分で、駐車場がある。",
+    "cooling": {
+      "attributes": ["water"],
+      "summary": "吉野川の清流を大歩危峡で巡る遊覧船であることを確認できる。水辺・峡谷の局所環境だけを根拠とし、水面が気温を下げる、または体感温度が低いとは主張しない。"
+    },
+    "operationsAndSafety": "9:00〜17:00（最終16:30）、年中無休。増水・強風・暴風雨では欠航し、少水量時は短縮運航となる。救命胴衣を含む事業者の安全案内と当日の運航状況に従う。",
+    "evidence": [
+      {"url": "https://mannaka.co.jp/sightseeingboat/", "claim": "遊覧船公式が吉野川・大歩危峡の船旅、運航時間、欠航・短縮条件を掲載。"},
+      {"url": "https://miyoshi-tourism.jp/spot/24284/", "claim": "三好市公式観光サイトがJR・バス・車アクセス、駐車場、年中無休と強風・増水時欠航を掲載。"},
+      {"url": "https://mannaka.co.jp/wp/wp-content/uploads/2024/07/safety_policy.pdf", "claim": "運航中止に関する安全方針を掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=133.75620&lat=33.87640&outtype=JSON", "claim": "国土地理院DEM APIで候補点の標高312.1mを取得。"}
+    ],
+    "coordinates": {"latitude": 33.8764, "longitude": 133.7562, "status": "corrected_approximate", "note": "遊覧船乗船場（山城町西宇1520）への入口候補。"},
+    "elevationM": 312.1
+  },
+  {
+    "sourceIndex": 86,
+    "sourceId": "takamatsu",
+    "sourceName": "高松",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "高松市美術館",
+    "prefecture": "香川県",
+    "officialUrl": "https://www.city.takamatsu.kagawa.jp/museum/takamatsu/info/gaiyou.html",
+    "accessUrl": "https://www.city.takamatsu.kagawa.jp/museum/takamatsu/info/access.html",
+    "accessSummary": "JR高松駅から徒歩約15分、または循環バス「紺屋町」下車徒歩約3分。地下駐車場を利用できる。",
+    "cooling": {
+      "attributes": ["indoor"],
+      "summary": "市立の館内展示施設であることだけを屋内退避の根拠とする。空調の温度設定・屋外との温度差は主張しない。"
+    },
+    "operationsAndSafety": "9:30〜17:00（入室16:30まで）。特別展期間の金・土曜は19:00まで。月曜等と年末年始は休館し、悪天候時に臨時休館の可能性があるため当日の公式案内を確認する。",
+    "evidence": [
+      {"url": "https://www.city.takamatsu.kagawa.jp/museum/takamatsu/info/gaiyou.html", "claim": "高松市美術館の館内施設・開館時間・休館日を掲載。"},
+      {"url": "https://www.city.takamatsu.kagawa.jp/museum/takamatsu/info/access.html", "claim": "JR高松駅、循環バス、地下駐車場からのアクセスを掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=134.04891&lat=34.34539&outtype=JSON", "claim": "国土地理院DEM APIで候補点の標高2.3mを取得。"}
+    ],
+    "coordinates": {"latitude": 34.34539, "longitude": 134.04891, "status": "corrected_approximate", "note": "市美術館の公式アクセス地図に対応する入口候補。"},
+    "elevationM": 2.3
+  },
+  {
+    "sourceIndex": 87,
+    "sourceId": "matsuyama",
+    "sourceName": "松山",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "愛媛県美術館",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://www.ehime-art.jp/guide/",
+    "accessUrl": "https://www.ehime-art.jp/guide/",
+    "accessSummary": "JR松山駅前から市内電車で約7分、「南堀端（愛媛県美術館前）」下車徒歩約3分。専用駐車場はない。",
+    "cooling": {
+      "attributes": ["indoor"],
+      "summary": "館内展示施設であることだけを屋内退避の根拠とする。館内外の温度差や、松山城堀之内全体の涼しさは主張しない。"
+    },
+    "operationsAndSafety": "9:40〜18:00（入室17:30まで）。月曜等・年末年始は休館し、企画展は時間が異なる。夏季も展示日・公共交通・周辺イベント時の駐車制限を事前確認する。",
+    "evidence": [
+      {"url": "https://www.ehime-art.jp/guide/", "claim": "愛媛県美術館公式が館内展示、路面電車からのアクセス、開館・休館条件を掲載。"},
+      {"url": "https://www.pref.ehime.jp/site/chuyo/4752.html", "claim": "愛媛県公式が市内中心部の展示施設、開館時間、駐車場条件を掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=132.76525&lat=33.84371&outtype=JSON", "claim": "国土地理院DEM APIで候補点の標高56.7mを取得。"}
+    ],
+    "coordinates": {"latitude": 33.84371, "longitude": 132.76525, "status": "corrected_approximate", "note": "県美術館の公式アクセス地図に対応する入口候補。"},
+    "elevationM": 56.7
+  },
+  {
+    "sourceIndex": 88,
+    "sourceId": "uchiko",
+    "sourceName": "内子",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "小田深山渓谷",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://www.town.uchiko.ehime.jp/soshiki/14/odamiyama-keikoku.html",
+    "accessUrl": "https://www.rinya.maff.go.jp/shikoku/policy/business/route_map/odamiyama/index.html",
+    "accessSummary": "内子町小田地区から車で向かう山間の渓谷。林野庁のルート案内では大洲・内子側から車で約80分の経路を示す。公共交通の入口は確認できず車前提。",
+    "cooling": {
+      "attributes": ["highland", "forest", "water"],
+      "summary": "町公式・観光協会が標高750〜1,560mの国有林、約10kmの渓谷、森林と渓流を案内する。高地・森林・水辺の局所条件のみで、気温予報や温度差は主張しない。"
+    },
+    "operationsAndSafety": "夏季キャンプ場の営業案内はあるが、道路は狭く繁忙期は通行しにくく、携帯電話不通区間がある。出発日に道路・天候・営業状況を確認し、豪雨時は近づかない。",
+    "evidence": [
+      {"url": "https://www.town.uchiko.ehime.jp/soshiki/14/odamiyama-keikoku.html", "claim": "内子町公式が小田深山渓谷を町内観光地として掲載。"},
+      {"url": "https://www.we-love-uchiko.jp/spot/odamiyama/", "claim": "内子町観光協会が標高750〜1,560m、国有林、渓谷・森林・渓流、夏季キャンプ場を掲載。"},
+      {"url": "https://www.rinya.maff.go.jp/shikoku/policy/business/route_map/odamiyama/index.html", "claim": "林野庁が車によるアクセス経路を掲載。"},
+      {"url": "https://www.we-love-uchiko.jp/2025/11/01/1/", "claim": "狭い道路、繁忙期の通行困難、携帯電話不通区間への注意を掲載。"}
+    ],
+    "coordinates": {"latitude": 33.497, "longitude": 132.816, "status": "corrected_approximate", "note": "町・観光協会の渓谷案内に基づく下流側入口候補。広域渓谷の一点代表である。"},
+    "elevationM": 750
+  },
+  {
+    "sourceIndex": 89,
+    "sourceId": "shimanto",
+    "sourceName": "四万十",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "白綾の滝",
+    "prefecture": "高知県",
+    "officialUrl": "https://www.city.shimanto.lg.jp/site/scp/1335.html",
+    "accessUrl": "https://www.city.shimanto.lg.jp/site/scp/1335.html",
+    "accessSummary": "四万十市西土佐江川の集落から江川川を上流へ車で約5km。公共交通の公式入口案内は確認できず、車での来訪を前提とする。",
+    "cooling": {
+      "attributes": ["water", "forest", "breeze"],
+      "summary": "市公式が木々に囲まれた滝と、滝の風で夏でも寒く感じることを案内する。これは滝の水・森林・飛沫風という局所効果の根拠であり、地域の気象予報ではない。"
+    },
+    "operationsAndSafety": "固定の営業時間・季節閉鎖は公式掲載で確認できない。遠隔地かつ車道利用のため、豪雨・道路・現地状況を出発日に確認し、遊泳・沢歩きは別途許可を確認する。",
+    "evidence": [
+      {"url": "https://www.city.shimanto.lg.jp/site/scp/1335.html", "claim": "四万十市公式が白綾の滝、江川集落から約5kmの車アクセス、木々・滝風による夏の局所的な涼感を掲載。"}
+    ],
+    "coordinates": {"latitude": 33.26, "longitude": 132.839, "status": "corrected_approximate", "note": "四万十市公式の案内地図に照合する滝入口候補。"},
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 90,
+    "sourceId": "mojiko",
+    "sourceName": "門司港",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "九州鉄道記念館",
+    "prefecture": "福岡県",
+    "officialUrl": "https://www.k-rhm.jp/",
+    "accessUrl": "https://www.k-rhm.jp/access/",
+    "accessSummary": "JR門司港駅から徒歩約3分。門司港レトロ地区の施設として公共交通で到達でき、公式アクセス案内で駐車場・周辺交通を確認する。",
+    "cooling": {
+      "attributes": ["indoor"],
+      "summary": "展示館内を利用できることだけを屋内退避の根拠とする。屋外の車両展示・港の風、空調の有無や温度差は主張しない。"
+    },
+    "operationsAndSafety": "営業時間・休館日・イベント日は変動し得るため公式の営業カレンダーを確認する。港の屋外移動は日射・暑熱対策を別途行う。",
+    "evidence": [
+      {"url": "https://www.k-rhm.jp/", "claim": "九州鉄道記念館公式が館内展示施設を案内する。"},
+      {"url": "https://www.k-rhm.jp/access/", "claim": "JR門司港駅からの公式アクセスと来館案内を掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=130.96070&lat=33.94790&outtype=JSON", "claim": "国土地理院DEM APIは水際候補点で数値を返さないため、標高は未記録。"}
+    ],
+    "coordinates": {"latitude": 33.9479, "longitude": 130.9607, "status": "corrected_approximate", "note": "門司港駅近傍の記念館入口候補。"},
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 91,
+    "sourceId": "karatsu",
+    "sourceName": "唐津",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "虹の松原",
+    "prefecture": "佐賀県",
+    "officialUrl": "https://www.city.karatsu.lg.jp/page/42113.html",
+    "accessUrl": "https://www.asobo-saga.jp/spots/detail/a32d011b-20b3-46b7-95ea-604444826f92",
+    "accessSummary": "JR筑肥線の虹ノ松原駅が松原の中にある。車は唐津ICから約20分で、公式観光案内は無料駐車場85台を掲載する。",
+    "cooling": {
+      "attributes": ["forest"],
+      "summary": "唐津市と県公式観光が約4.5kmに連なるクロマツ林を案内する。森林だけを属性とし、樹冠の日陰、海岸や松原全体の気温低下は推定しない。"
+    },
+    "operationsAndSafety": "見学は無料だが、松原は広域の屋外林である。遊歩道・道路・駐車場の現況を確認し、夏は日射・熱中症、海岸側では遊泳・波浪を別管理する。",
+    "evidence": [
+      {"url": "https://www.city.karatsu.lg.jp/page/42113.html", "claim": "唐津市公式が虹の松原をクロマツ林として掲載。"},
+      {"url": "https://www.asobo-saga.jp/spots/detail/a32d011b-20b3-46b7-95ea-604444826f92", "claim": "佐賀県公式観光が規模、駅・車アクセス、無料駐車場を掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=129.98870&lat=33.46390&outtype=JSON", "claim": "国土地理院DEM APIは松原入口候補で数値を返さないため、標高は未記録。"}
+    ],
+    "coordinates": {"latitude": 33.4639, "longitude": 129.9887, "status": "corrected_approximate", "note": "広域松原の虹ノ松原駅側入口候補。"},
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 92,
+    "sourceId": "nagasaki",
+    "sourceName": "長崎",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "長崎原爆資料館",
+    "prefecture": "長崎県",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/4161.html",
+    "accessUrl": "https://nabmuseum.jp/access/",
+    "accessSummary": "JR長崎駅から赤迫行の路面電車で「原爆資料館」電停へ行き、徒歩約5分。バスも「原爆資料館」停留所から徒歩約5分。",
+    "cooling": {
+      "attributes": ["indoor"],
+      "summary": "資料館の地下展示室・休憩空間を含む屋内施設であることを根拠とする。市の施設資料で空調設備を確認できるが、屋外の平和公園に温度効果があるとは主張しない。"
+    },
+    "operationsAndSafety": "5〜8月は8:30〜18:30（入館18:00まで）、8月7〜9日は20:00まで延長。12月29〜31日は休館。8月9日前後は混雑・交通の変化を想定し、当日の案内を確認する。",
+    "evidence": [
+      {"url": "https://www.city.nagasaki.lg.jp/page/4161.html", "claim": "長崎市公式が長崎原爆資料館の正式名称・展示概要を掲載。"},
+      {"url": "https://nabmuseum.jp/access/", "claim": "指定管理者公式が路面電車・バスからの入口を掲載。"},
+      {"url": "https://www.city.nagasaki.lg.jp/page/6807.html", "claim": "長崎市公式が夏季の開館時間・休館日を掲載。"},
+      {"url": "https://www.city.nagasaki.lg.jp/gikai/1050000/1054000/2024/p041649_d/fil/40gougian.pdf", "claim": "市資料が資料館の中央熱源空調設備を記載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=129.86440&lat=32.77960&outtype=JSON", "claim": "国土地理院DEM APIで候補点の標高約20mを取得。"}
+    ],
+    "coordinates": {"latitude": 32.7796, "longitude": 129.8644, "status": "corrected_approximate", "note": "平野町7-8の資料館入口候補。"},
+    "elevationM": 20
+  },
+  {
+    "sourceIndex": 93,
+    "sourceId": "unzen",
+    "sourceName": "雲仙",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "雲仙ロープウェイ（仁田峠駅〜妙見岳駅）",
+    "prefecture": "長崎県",
+    "officialUrl": "https://unzen-ropeway.com/",
+    "accessUrl": "https://unzenonsen.unzen.org/watch/ropeway/",
+    "accessSummary": "雲仙温泉街から車で約15分の仁田峠駐車場を起点に、ロープウェイで標高1,333mの妙見岳駅へ向かう。公共交通は雲仙バス停からタクシー利用が現実的。",
+    "cooling": {
+      "attributes": ["highland"],
+      "summary": "運営者が標高1,333mの妙見岳と夏の平均気温21〜22℃を「天然のクーラー」と案内する。これは高地という地点固有の条件であり、日別予報や体感温度ではない。"
+    },
+    "operationsAndSafety": "4月1日〜10月31日は上り8:51〜17:03、下り最終17:23の案内。強風・濃霧等で運休があり、仁田峠循環道路も悪天候で封鎖する場合がある。登山道・道路・ロープウェイの当日状況を確認する。",
+    "evidence": [
+      {"url": "https://unzenonsen.unzen.org/watch/ropeway/", "claim": "雲仙観光局が仁田峠駐車場、妙見岳標高1,333m、夏の局所的高地条件、営業期間・時間を掲載。"},
+      {"url": "https://unzen-ropeway.com/", "claim": "ロープウェイ運営者が当日の運行情報を提供。"},
+      {"url": "https://www.unzen.org/spot/nita_pass", "claim": "雲仙観光局が雲仙バス停から車約15分、通年利用と悪天候時の循環道路封鎖可能性を掲載。"},
+      {"url": "https://www.env.go.jp/nature/nationalparks/try/all/act781.html", "claim": "環境省が仁田峠を標高約1,100mの地点として紹介。"}
+    ],
+    "coordinates": {"latitude": 32.7521, "longitude": 130.267, "status": "corrected_approximate", "note": "仁田峠駅・駐車場の入口候補。公式資料の地点標高は約1,100m。"},
+    "elevationM": 1100
+  },
+  {
+    "sourceIndex": 94,
+    "sourceId": "aso",
+    "sourceName": "阿蘇",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "阿蘇火山博物館",
+    "prefecture": "熊本県",
+    "officialUrl": "https://asomuse.jp/",
+    "accessUrl": "https://www.asomuse.jp/access/",
+    "accessSummary": "阿蘇火山博物館は熊本県阿蘇市赤水1930-1（草千里前）。阿蘇駅から草千里・阿蘇火山博物館前へ向かう路線バスを利用でき、公式が車・バス・JRへの案内を掲載する。",
+    "cooling": {
+      "attributes": ["indoor"],
+      "summary": "館内展示を行う博物館であることだけを屋内退避の属性とする。草千里の草原、高地、火山地域であることからの温度・風・日陰は推定しない。"
+    },
+    "operationsAndSafety": "通常9:00〜17:00（最終入館16:30）、毎年1月14日・7月14日はメンテナンス休館。2026年6月21日に阿蘇山の噴火警戒レベルが2へ引き上げられ、中岳火口から約1kmは規制対象で、噴石・火砕流・火山ガス・降灰に注意する。博物館・草千里前の訪問可否、道路、火山情報を当日確認する。",
+    "evidence": [
+      {"url": "https://asomuse.jp/", "claim": "阿蘇火山博物館公式が館内展示、所在地、通常の営業時間を掲載。"},
+      {"url": "https://www.asomuse.jp/access/", "claim": "阿蘇火山博物館公式が草千里前の所在地・交通案内を掲載。"},
+      {"url": "https://asomuse.jp/guide/", "claim": "博物館公式が通常の開館時間と毎年1月14日・7月14日のメンテナンス休館を掲載。"},
+      {"url": "https://www.env.go.jp/park/page_00636.html", "claim": "環境省が2026年6月21日の警戒レベル2と中岳火口周辺規制・火山危険を掲載。"},
+      {"url": "https://www.aso-volcano.jp/", "claim": "阿蘇火山防災会議協議会が現況の火山情報を提供。"}
+    ],
+    "coordinates": {"latitude": 32.8848, "longitude": 131.0764, "status": "corrected_approximate", "note": "阿蘇火山博物館（草千里前）の施設入口候補。"},
+    "elevationM": 1156.3
+  },
+  {
+    "sourceIndex": 95,
+    "sourceId": "kurokawa",
+    "sourceName": "黒川温泉",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "黒川温泉",
+    "prefecture": "熊本県",
+    "officialUrl": "https://www.kurokawaonsen.or.jp/faq/",
+    "accessUrl": "https://www.kurokawaonsen.or.jp/access/",
+    "accessSummary": "熊本・由布院・博多方面からの予約制バス等と南小国町内での乗継が案内される。車は国道212号・57号またはやまなみハイウェイを経由し、現地の旅館送迎・タクシーは事前確認が必要。",
+    "cooling": {
+      "attributes": ["highland", "forest", "water"],
+      "summary": "温泉協会公式が標高約700mで平地より3〜5℃低いこと、森林・川沿いの温泉地を案内する。これは標高・森林・水辺の地点固有の根拠であり、日別予報の体感温度ではない。"
+    },
+    "operationsAndSafety": "2026年の湯涼み企画は7月18日〜8月22日。旅館ごとに日帰り入浴・送迎・営業条件が異なり、山道は狭く曲がりくねるため、利用可否・道路・交通を当日確認する。",
+    "evidence": [
+      {"url": "https://www.kurokawaonsen.or.jp/faq/", "claim": "温泉協会公式が標高約700m、平地より3〜5℃低い夏の局所条件を掲載。"},
+      {"url": "https://www.kurokawaonsen.or.jp/access/", "claim": "車・公共交通・送迎利用時のアクセスと乗継確認を掲載。"},
+      {"url": "https://www.kurokawaonsen.or.jp/event/tegata40/", "claim": "2026年湯涼み企画の期間を掲載。"}
+    ],
+    "coordinates": {"latitude": 33.0803, "longitude": 131.1419, "status": "corrected_approximate", "note": "黒川温泉協会案内所・温泉街中心への入口候補。"},
+    "elevationM": 700
+  },
+  {
+    "sourceIndex": 96,
+    "sourceId": "yufuin",
+    "sourceName": "由布院",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "由布川峡谷",
+    "prefecture": "大分県",
+    "officialUrl": "https://www.city.yufu.oita.jp/kankou/kankou-2/kankou_cate1_3/yufugawa",
+    "accessUrl": "https://www.visit-oita.jp/spots/detail/4369",
+    "accessSummary": "由布市挾間町朴木14-2の新猿渡入口を利用する。由布院駅から車約30分、湯布院ICから車約30分で、駐車場がある。椿入口からの立入りは禁止。",
+    "cooling": {
+      "attributes": ["water"],
+      "summary": "由布市公式が高さ15〜60mの岩肌を40数条の滝が流れる峡谷と、川辺へ下りる新猿渡入口を案内する。水辺だけを属性とし、峡谷壁・樹間からの日陰や気温低下は推定しない。"
+    },
+    "operationsAndSafety": "椿入口からの立入りは禁止。峡谷は増水・落石・滑りやすい階段の危険を想定し、豪雨・台風後は近づかず、新猿渡入口の開放と道路状況を当日確認する。",
+    "evidence": [
+      {"url": "https://www.city.yufu.oita.jp/kankou/kankou-2/kankou_cate1_3/yufugawa", "claim": "由布市公式が峡谷の滝・岩壁、新猿渡入口から川辺へ下りられることを掲載。"},
+      {"url": "https://www.visit-oita.jp/spots/detail/4369", "claim": "大分県公式観光が所在地、駐車場、由布院駅・湯布院ICからの車アクセス、峡谷の水と夏の新緑を掲載。"},
+      {"url": "https://www1.city.beppu.oita.jp/sangyou/kankou/yufugawa.html", "claim": "別府市公式が椿入口からの立入り禁止を掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=131.32750&lat=33.21170&outtype=JSON", "claim": "国土地理院DEM APIで新猿渡入口候補の標高503.5mを取得。"}
+    ],
+    "coordinates": {"latitude": 33.2117, "longitude": 131.3275, "status": "corrected_approximate", "note": "新猿渡入口の候補。旧椿入口ではない。"},
+    "elevationM": 503.5
+  },
+  {
+    "sourceIndex": 97,
+    "sourceId": "beppu",
+    "sourceName": "別府",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "別府市竹細工伝統産業会館",
+    "prefecture": "大分県",
+    "officialUrl": "https://takezaikudensankaikan.jp/pages/31/",
+    "accessUrl": "https://takezaikudensankaikan.jp/pages/31/",
+    "accessSummary": "JR別府駅西口から亀の井バスで「光の園前」下車徒歩約10分、または車で約10分。敷地内に駐車場がある。",
+    "cooling": {
+      "attributes": ["indoor"],
+      "summary": "展示・体験を行う建物内施設であることだけを屋内退避の根拠とする。別府温泉の熱、屋外の暑さ、空調温度は主張しない。"
+    },
+    "operationsAndSafety": "8:30〜17:00（ショップ・カフェは16:30まで）。月曜（祝日の場合翌日）と12月29日〜1月3日は休館。団体入館・体験は事前予約を求めるため、来館前に予定を確認する。",
+    "evidence": [
+      {"url": "https://takezaikudensankaikan.jp/pages/31/", "claim": "会館公式が所在地、展示・体験施設、バス・車アクセス、駐車場、開館・休館・予約条件を掲載。"},
+      {"url": "https://www.visit-oita.jp/spots/detail/4515", "claim": "大分県公式観光が別府竹細工展示施設としての内容と公共交通・駐車場情報を掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=131.48940&lat=33.30810&outtype=JSON", "claim": "国土地理院DEM APIで候補点の標高51.4mを取得。"}
+    ],
+    "coordinates": {"latitude": 33.3081, "longitude": 131.4894, "status": "corrected_approximate", "note": "東荘園8丁目2番13号の会館入口候補。"},
+    "elevationM": 51.4
+  },
+  {
+    "sourceIndex": 98,
+    "sourceId": "takachiho",
+    "sourceName": "高千穂",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "高千穂峡",
+    "prefecture": "宮崎県",
+    "officialUrl": "https://takachiho-kanko.info/sightseeing/18/",
+    "accessUrl": "https://takachiho-kanko.info/sightseeing/18/",
+    "accessSummary": "高千穂峡遊歩道・駐車場を入口とする。高千穂町観光協会が周辺シャトルバスと遊歩道一部通行止めの最新案内を掲載するため、来訪前に確認する。",
+    "cooling": {
+      "attributes": ["water"],
+      "summary": "国指定の峡谷と真名井の滝を公式に確認できる。滝・渓流の水辺だけを属性とし、断崖・植生からの日陰、峡谷全体の気温や体感温度は推定しない。"
+    },
+    "operationsAndSafety": "貸しボートは河川増水、定期・緊急安全点検、震度3以上の地震で休止し、流れの速い箇所がある。遊歩道も地震・台風・豪雨後に点検されるため、通行止め・ボート営業・シャトルバスを当日確認する。",
+    "evidence": [
+      {"url": "https://takachiho-kanko.info/sightseeing/18/", "claim": "高千穂町観光協会が高千穂峡の断崖・真名井の滝、遊歩道の最新案内を掲載。"},
+      {"url": "https://takachiho-kanko.info/boat/detail.php?month=07&year=2026", "claim": "貸しボートの増水・点検・地震時休止、流速に関する安全条件を掲載。"},
+      {"url": "https://takachiho-kanko.info/news/203/", "claim": "地震・台風・豪雨後の峡谷安全点検を掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=131.30640&lat=32.71170&outtype=JSON", "claim": "国土地理院DEM APIで候補点の標高339.6mを取得。"}
+    ],
+    "coordinates": {"latitude": 32.7117, "longitude": 131.3064, "status": "corrected_approximate", "note": "高千穂峡遊歩道・真名井の滝への入口候補。"},
+    "elevationM": 339.6
+  },
+  {
+    "sourceIndex": 99,
+    "sourceId": "kirishima",
+    "sourceName": "霧島",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "えびのエコミュージアムセンター",
+    "prefecture": "宮崎県",
+    "officialUrl": "https://www.env.go.jp/park/kirishima/access/index.html",
+    "accessUrl": "https://www.city.ebino.lg.jp/kanko/shizen_midokoro/ebinokogenarea/3125.html",
+    "accessSummary": "宮崎県えびの市末永1495-5、えびの高原内のビジターセンター。環境省が所在地、9:00〜17:00、年中無休、無料、駐車場を掲載し、えびの市公式が同センター駐車場と道路情報の確認先を案内する。",
+    "cooling": {
+      "attributes": ["indoor", "highland"],
+      "summary": "環境省が館内の自然・文化展示を行うビジターセンター、標高約1,200mのえびの高原にあることを案内する。屋内と高地だけを属性とし、森林、火山ガス、風からの涼しさは推定しない。"
+    },
+    "operationsAndSafety": "通常9:00〜17:00、年中無休の案内。硫黄山周辺県道は火山ガス濃度により通行条件が変動し、火山活動・天候で通行止めとなる可能性がある。登山道には別途規制があり、訪問前に道路・火山・施設の当日情報を確認する。",
+    "evidence": [
+      {"url": "https://www.env.go.jp/park/kirishima/access/index.html", "claim": "環境省がセンターの所在地、館内展示、9:00〜17:00、年中無休、無料、駐車場を掲載。"},
+      {"url": "https://www.env.go.jp/nature/nationalparks/list/kirishima-kinkowan/spot/", "claim": "環境省が同センターを標高約1,200mのえびの高原にあるビジターセンターとして掲載。"},
+      {"url": "https://www.city.ebino.lg.jp/kanko/shizen_midokoro/ebinokogenarea/3125.html", "claim": "えびの市公式がセンター駐車場と道路情報確認を案内。"},
+      {"url": "https://kirishimakankou.com/2026/04/30/news-29177/", "claim": "霧島市観光協会が硫黄山周辺の火山ガスに伴う県道の暫定開放・通行条件を掲載。"},
+      {"url": "https://www.city.ebino.lg.jp/material/files/group/16/2026kirishima_jp-s.pdf", "claim": "えびの市がえびのエコミュージアムセンターを含む周辺の交通・登山案内を掲載。"}
+    ],
+    "coordinates": {"latitude": 31.941, "longitude": 130.842, "status": "corrected_approximate", "note": "えびのエコミュージアムセンター（末永1495-5）の入口候補。"},
+    "elevationM": 1187.6
+  },
+  {
+    "sourceIndex": 100,
+    "sourceId": "yakushima",
+    "sourceName": "屋久島・宮之浦",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "ヤクスギランド",
+    "prefecture": "鹿児島県",
+    "officialUrl": "https://www.town.yakushima.kagoshima.jp/kanko/kankospot/6/2619.html",
+    "accessUrl": "https://www.town.yakushima.kagoshima.jp/kanko/kankospot/6/2619.html",
+    "accessSummary": "安房から車で約31分（約15.7km）、宮之浦から車で約57分。紀元杉線のヤクスギランドバス停は1日2便で、駐車場40台・トイレがある。",
+    "cooling": {
+      "attributes": ["highland", "forest"],
+      "summary": "屋久島町と林野庁が標高1,000〜1,300mの自然休養林・原生林、巨木と整備された散策路を案内する。高地・森林だけを属性とし、樹冠からの日陰や屋久島全体の気温は推定しない。"
+    },
+    "operationsAndSafety": "短いコースは比較的歩きやすいが、山地の雨・道路規制・登山道状況を当日確認する。過去に県道安房線の通行止めで休園した例があり、入園時間・協力金・バス便も公式で確認する。",
+    "evidence": [
+      {"url": "https://www.town.yakushima.kagoshima.jp/kanko/kankospot/6/2619.html", "claim": "屋久島町公式が標高1,000〜1,300m、自然休養林、車・バスアクセス、駐車場・トイレを掲載。"},
+      {"url": "https://www.rinya.maff.go.jp/j/kokuyu_rinya/kokumin_mori/katuyo/reku/rekumori/yakushima_arakawa.html", "claim": "林野庁が標高950〜1,300mのヤクスギランド、原生林・散策路等の施設を掲載。"},
+      {"url": "https://yakukan.jp/topics/17818.html", "claim": "屋久島観光協会が県道通行止め解除とヤクスギランド開園の情報を掲載しており、道路・開園状況の確認が必要であることを示す。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=130.52000&lat=30.29000&outtype=JSON", "claim": "国土地理院DEM APIで候補点の標高1,463mを取得。ただし施設公式の利用範囲標高は1,000〜1,300mであり、標高値は入口代表ではなく近傍山地候補として扱う。"}
+    ],
+    "coordinates": {"latitude": 30.29, "longitude": 130.52, "status": "corrected_approximate", "note": "ヤクスギランドの近傍山地候補。標高は公式の利用範囲を優先する。"},
+    "elevationM": 1000
+  }
+]

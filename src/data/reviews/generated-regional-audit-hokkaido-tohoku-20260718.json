@@ -1,0 +1,138 @@
+[
+  {
+    "sourceIndex": 2090, "sourceId": "osm-node-4716564059", "decision": "publish", "formalName": "当麻鐘乳洞", "prefecture": "北海道",
+    "officialUrl": "https://www.town.tohma.hokkaido.jp/all-about/03/03/1740",
+    "access": { "url": "https://www.town.tohma.hokkaido.jp/all-about/03/03/1740", "summary": "当麻町開明4区の施設入口・駐車場から入洞する。" },
+    "cooling": { "attributes": ["cave", "indoor"], "summary": "当麻町が一般見学施設として公開する鍾乳洞。" },
+    "operationsAndSafety": "4月第4土曜〜10月第4日曜の季節営業。営業時間を確認し、車椅子入洞不可・洞内の段差に注意。",
+    "coordinates": { "latitude": 43.827055, "longitude": 142.610036, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 2084, "sourceId": "osm-node-4299589565", "decision": "publish", "formalName": "山彦の滝", "prefecture": "北海道",
+    "officialUrl": "https://www.engaru-kankou.jp/view/taki.html",
+    "access": { "url": "https://www.engaru-kankou.jp/view/taki.html", "summary": "丸瀬布上武利の公開駐車場から山道を約200m歩いて滝へ向かう。" },
+    "cooling": { "attributes": ["water", "forest", "shade"], "summary": "観光協会が森林内の落差28mの滝として案内。" },
+    "operationsAndSafety": "冬季閉鎖。雨後の増水、山道のぬかるみ、滑りやすい足元に注意。",
+    "coordinates": { "latitude": 43.88281, "longitude": 143.303718, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1970, "sourceId": "osm-node-7248789304", "decision": "publish", "formalName": "羽衣の滝", "prefecture": "北海道",
+    "officialUrl": "https://www.welcome-higashikawa.jp/%E3%80%90%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%80%91%E7%BE%BD%E8%A1%A3%E3%81%AE%E6%BB%9D%E9%81%8A%E6%AD%A9%E9%81%93%E3%80%80%E5%86%AC%E5%AD%A3%E9%80%9A%E8%A1%8C%E6%AD%A2%E3%82%81%E8%A7%A3%E9%99%A4/",
+    "access": { "url": "https://www.welcome-higashikawa.jp/%E3%80%90%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%80%91%E7%BE%BD%E8%A1%A3%E3%81%AE%E6%BB%9D%E9%81%8A%E6%AD%A9%E9%81%93%E3%80%80%E5%86%AC%E5%AD%A3%E9%80%9A%E8%A1%8C%E6%AD%A2%E3%82%81%E8%A7%A3%E9%99%A4/", "summary": "天人峡の公共駐車場から遊歩道を徒歩約20分。" },
+    "cooling": { "attributes": ["water", "forest", "shade"], "summary": "滝・渓谷・森林の公開観光地点。" },
+    "operationsAndSafety": "2026年は6月6日開通、10月30日までの予定。ぬかるみや早期閉鎖を当日確認し、生成標高は採用しない。",
+    "coordinates": { "latitude": 43.626328, "longitude": 142.786897, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 242, "sourceId": "osm-node-3231563491", "decision": "publish", "formalName": "滝観洞", "prefecture": "岩手県",
+    "officialUrl": "https://iwatetabi.jp/spots/5458/",
+    "access": { "url": "https://iwatetabi.jp/spots/5458/", "summary": "住田町上有住の施設受付・駐車場を入口にする。" },
+    "cooling": { "attributes": ["cave", "water", "indoor"], "summary": "岩手県公式観光情報が洞内滝を見学できる観光洞として案内。" },
+    "operationsAndSafety": "通年営業。ヘルメットを使用し、濡れるためカッパ・長靴等の案内に従う。",
+    "coordinates": { "latitude": 39.242927, "longitude": 141.68378, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 256, "sourceId": "osm-node-5899478494", "decision": "publish", "formalName": "幽玄洞", "prefecture": "岩手県",
+    "officialUrl": "https://iwatetabi.jp/spots/4118/",
+    "access": { "url": "https://iwatetabi.jp/spots/4118/", "summary": "一関市東山町の施設入口を利用する。JR猊鼻渓駅から徒歩約20分。" },
+    "cooling": { "attributes": ["cave", "water", "indoor"], "summary": "地下湖を含む一般公開鍾乳洞。" },
+    "operationsAndSafety": "通年・年中無休の案内を当日確認し、洞内の段差と濡れた路面に注意。",
+    "coordinates": { "latitude": 39.004825, "longitude": 141.257748, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 294, "sourceId": "osm-node-5899478491", "decision": "publish", "formalName": "安家洞", "prefecture": "岩手県",
+    "officialUrl": "https://iwatetabi.jp/spots/4820/",
+    "access": { "url": "https://iwatetabi.jp/spots/4820/", "summary": "岩泉町安家の観光洞受付・駐車場を入口にする。" },
+    "cooling": { "attributes": ["cave", "indoor"], "summary": "国指定天然記念物の一般見学可能な鍾乳洞。" },
+    "operationsAndSafety": "4月中旬〜11月下旬の季節営業。冬期閉洞と洞内の足元を確認。",
+    "coordinates": { "latitude": 39.983595, "longitude": 141.736212, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 248, "sourceId": "osm-node-727603646", "decision": "publish", "formalName": "厳美渓", "prefecture": "岩手県",
+    "officialUrl": "https://iwatetabi.jp/spots/4017/",
+    "access": { "url": "https://iwatetabi.jp/spots/4017/", "summary": "一関市厳美町の市営駐車場・公開遊歩道から観覧する。" },
+    "cooling": { "attributes": ["water", "shade"], "summary": "県公式観光情報が通年利用できる渓谷と遊歩道を案内。" },
+    "operationsAndSafety": "河畔の立入範囲を守り、増水時は水際へ近づかない。",
+    "coordinates": { "latitude": 38.944126, "longitude": 141.047564, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 393, "sourceId": "osm-node-12020385605", "decision": "publish", "formalName": "三滝堂ふれあい公園", "prefecture": "宮城県",
+    "officialUrl": "https://www.city.tome.miyagi.jp/koho/tourism/library/tazunearuki/towa03.html",
+    "access": { "url": "https://www.city.tome.miyagi.jp/koho/tourism/library/tazunearuki/towa03.html", "summary": "登米市東和町の公園駐車場・管理棟を入口にする。" },
+    "cooling": { "attributes": ["water", "forest", "shade"], "summary": "登米市が夏の水遊び場として案内し、トイレ・あずまや等を備える公園。" },
+    "operationsAndSafety": "夏休みは満車に注意。増水時の水遊びを避け、現地管理の指示に従う。",
+    "coordinates": { "latitude": 38.719394, "longitude": 141.314264, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 439, "sourceId": "osm-node-4515258593", "decision": "publish", "formalName": "二口渓谷", "prefecture": "宮城県",
+    "officialUrl": "https://www.city.sendai.jp/ryokuchihozen/mesho100sen/ichiran/079.html",
+    "access": { "url": "https://www.city.sendai.jp/ryokuchihozen/mesho100sen/ichiran/079.html", "summary": "二口自然歩道の公開入口・駐車場から渓谷へ入る。" },
+    "cooling": { "attributes": ["water", "forest", "shade"], "summary": "仙台市が渓谷・森林の自然歩道として案内。" },
+    "operationsAndSafety": "二口林道の交通情報を当日確認し、ヤマビル、増水、滑りやすい遊歩道に注意。",
+    "coordinates": { "latitude": 38.272489, "longitude": 140.540976, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 772, "sourceId": "osm-node-4865434725", "decision": "publish", "formalName": "幻想の森", "prefecture": "山形県",
+    "officialUrl": "https://yamagatakanko.com/attractions/detail_2253.html",
+    "access": { "url": "https://yamagatakanko.com/attractions/detail_2253.html", "summary": "戸沢村古口土湯の案内された林道・駐車地点から巨木の森へ入る。" },
+    "cooling": { "attributes": ["forest", "shade"], "summary": "山形県公式観光情報が巨木の森と散策道を案内。" },
+    "operationsAndSafety": "2026年5月11日の林道再開を確認済み。工事車両、狭路、当日の通行情報に注意。",
+    "coordinates": { "latitude": 38.758713, "longitude": 140.046552, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 775, "sourceId": "osm-node-4865434525", "decision": "publish", "formalName": "丸池様", "prefecture": "山形県",
+    "officialUrl": "https://yamagatakanko.com/attractions/detail_2041.html",
+    "access": { "url": "https://yamagatakanko.com/attractions/detail_2041.html", "summary": "遊佐町直世荒川の公開駐車場から湧水池の観覧地点へ向かう。JR吹浦駅から車約5分。" },
+    "cooling": { "attributes": ["water", "forest", "shade"], "summary": "湧水だけで満たされた池と社叢の観賞地点。" },
+    "operationsAndSafety": "信仰対象のため池へ入らず、遊泳・接触をしない。保全ルールを守る。",
+    "coordinates": { "latitude": 39.072893, "longitude": 139.891326, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 803, "sourceId": "osm-node-5116629533", "decision": "publish", "formalName": "赤芝峡", "prefecture": "山形県",
+    "officialUrl": "https://yamagatakanko.com/attractions/detail_337.html",
+    "access": { "url": "https://yamagatakanko.com/attractions/detail_337.html", "summary": "国道113号沿いの公開駐車場から渓谷の散策地点へ入る。JR小国駅から車約10分。" },
+    "cooling": { "attributes": ["water", "forest", "shade"], "summary": "ブナ等が自生する渓谷として県公式観光情報が案内。" },
+    "operationsAndSafety": "気温低下は地点予報で判定し、増水・落石・道路規制を当日確認。",
+    "coordinates": { "latitude": 38.076114, "longitude": 139.719537, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1049, "sourceId": "osm-node-5676101922", "decision": "publish", "formalName": "元滝伏流水", "prefecture": "秋田県",
+    "officialUrl": "https://akita-fun.jp/spots/79",
+    "access": { "url": "https://akita-fun.jp/spots/79", "summary": "にかほ市象潟町本郷麻針堰の公開駐車場から散策路を歩いて観覧する。" },
+    "cooling": { "attributes": ["water", "forest", "shade"], "summary": "伏流水・苔・水しぶきの観賞地点として秋田県観光連盟が案内。" },
+    "operationsAndSafety": "ガイド同行を推奨。濡れた路面と増水に注意し、生成標高は採用しない。",
+    "coordinates": { "latitude": 39.162741, "longitude": 139.95235, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1046, "sourceId": "osm-node-529343277", "decision": "publish", "formalName": "法体の滝", "prefecture": "秋田県",
+    "officialUrl": "https://akita-fun.jp/spots/82",
+    "access": { "url": "https://akita-fun.jp/spots/82", "summary": "由利本荘市鳥海町百宅の公開駐車場・園地から滝を観覧する。" },
+    "cooling": { "attributes": ["water", "forest"], "summary": "鳥海山の雪解け水による落差57mの滝。" },
+    "operationsAndSafety": "増水時は水際へ近づかず、道路・園地の規制を当日確認。",
+    "coordinates": { "latitude": 39.108044, "longitude": 140.158303, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1800, "sourceId": "osm-node-2753823208", "decision": "publish", "formalName": "あぶくま洞", "prefecture": "福島県",
+    "officialUrl": "https://abukumado.com/abukuma-access",
+    "access": { "url": "https://abukumado.com/abukuma-access", "summary": "田村市滝根町菅谷東釜山1の施設入口・駐車場を利用する。" },
+    "cooling": { "attributes": ["cave", "indoor"], "summary": "施設公式が洞内約15℃と案内する観光洞。" },
+    "operationsAndSafety": "年中無休の案内と夏季受付時間を当日確認し、洞内の段差・濡れた路面に注意。",
+    "coordinates": { "latitude": 37.344169, "longitude": 140.672922, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1802, "sourceId": "osm-node-2753823211", "decision": "publish", "formalName": "入水鍾乳洞", "prefecture": "福島県",
+    "officialUrl": "https://www.irimizu.com/home",
+    "access": { "url": "https://www.irimizu.com/home", "summary": "田村市滝根町菅谷大六89-3の受付・駐車場を入口にする。" },
+    "cooling": { "attributes": ["cave", "water"], "summary": "一般見学コースに加え、公式が約10℃の水中を進む体験コースを案内。" },
+    "operationsAndSafety": "コースごとの受付時刻・装備・濡れ・増水条件を確認し、無理のない通常見学を選べるよう表示。",
+    "coordinates": { "latitude": 37.355363, "longitude": 140.664915, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1793, "sourceId": "osm-node-7743501889", "decision": "publish", "formalName": "滝川渓谷", "prefecture": "福島県",
+    "officialUrl": "https://www.town.yamatsuri.fukushima.jp/page/page000090.html",
+    "access": { "url": "https://www.town.yamatsuri.fukushima.jp/page/page000090.html", "summary": "矢祭町大ぬかり滝平の渓谷入口駐車場から公開遊歩道へ入る。" },
+    "cooling": { "attributes": ["water", "forest", "shade"], "summary": "矢祭町が多数の滝と森林沿いの散策路として案内。" },
+    "operationsAndSafety": "往復約4時間の岩場・急斜面。熊鈴・防虫・十分な装備を用意し、増水・荒天時は入らない。",
+    "coordinates": { "latitude": 36.818566, "longitude": 140.469376, "elevationM": null }, "reviewedAt": "2026-07-18"
+  }
+]

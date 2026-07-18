@@ -1,0 +1,807 @@
+[
+  {
+    "sourceIndex": 41,
+    "sourceId": "chikura",
+    "sourceName": "南房総",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "南千倉海岸（南千倉海水浴場）",
+    "prefecture": "千葉県",
+    "officialUrl": "https://www.mboso-etoko.jp/mboso_map/detail.php?poi=248",
+    "accessUrl": "https://maruchiba.jp/spot/detail_10662.html",
+    "accessSummary": "JR内房線千倉駅からJRバス白浜行きで「南千倉」下車、徒歩約5分。富浦ICから館山経由約30分。",
+    "cooling": {
+      "attributes": ["water"],
+      "summary": "約400mの海岸・海水浴場という水辺環境だけを根拠とする。海風、海水温、沿岸の気温低下、予報の体感温度は主張しない。"
+    },
+    "operationsAndSafety": "2026年度の開設は7月17日〜8月16日で、期間中の遊泳状況は市運営サイトが毎日更新する。監視員・ライフセーバーは期間外にはいないため遊泳を控え、当日の遊泳可否を確認する。",
+    "evidence": [
+      {"url": "https://www.mboso-etoko.jp/mboso_map/detail.php?poi=248", "claim": "南房総市運営観光サイトが正式名称、海水浴期間中の駐車場・コインシャワー・トイレを掲載。"},
+      {"url": "https://maruchiba.jp/spot/detail_10662.html", "claim": "千葉県公式観光サイトが約400mの海岸、千倉駅からのバス・徒歩アクセス、期間外の遊泳注意を掲載。"},
+      {"url": "https://www.city.minamiboso.chiba.jp/0000022588.html", "claim": "南房総市が2026年度の開設期間と遊泳状況を毎日更新することを掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=139.9602358&lat=34.9648783&outtype=JSON", "claim": "国土地理院DEMの標高候補は3.1m。"}
+    ],
+    "coordinates": {"latitude": 34.9648783, "longitude": 139.9602358, "status": "corrected", "note": "南千倉海水浴場の代表点。南房総の広域点から具体的な管理海水浴場へ訂正。"},
+    "elevationM": 3.1
+  },
+  {
+    "sourceIndex": 42,
+    "sourceId": "echigo-yuzawa",
+    "sourceName": "越後湯沢",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "湯沢高原 パノラマパーク",
+    "prefecture": "新潟県",
+    "officialUrl": "https://www.yuzawakogen.com/",
+    "accessUrl": "https://www.e-yuzawa.gr.jp/sys/exp_p/yuzawa_kogen_panorama_park/",
+    "accessSummary": "JR越後湯沢駅西口からロープウェイ山麓駅まで徒歩約8分、湯沢ICから車約5分。高原エリアは車で入場できず、ロープウェイを利用する。",
+    "cooling": {
+      "attributes": ["highland"],
+      "summary": "ロープウェイ山頂駅・高原エリアが標高約870m（観光案内では山頂一帯約1,000m）にあることを局所的な高原条件の根拠とする。気象予報・体感温度ではない。"
+    },
+    "operationsAndSafety": "2026年の夏期営業は5月30日〜11月15日予定、ロープウェイは8:40〜16:40（上り最終16:20）。気象・利用状況で乗車制限・時間変更・休止があり、導線外の斜面・崖・谷には立ち入らない。",
+    "evidence": [
+      {"url": "https://www.e-yuzawa.gr.jp/sys/exp_p/yuzawa_kogen_panorama_park/", "claim": "湯沢町観光公式が正式名称、山頂約1,000m、駅西口から徒歩約8分、山頂への車両入場不可を掲載。"},
+      {"url": "https://www.yuzawakogen.com/green/tickets/", "claim": "施設公式が2026年夏期営業・ロープウェイ運行時間と、気象等による変更・休止を掲載。"},
+      {"url": "https://www.yuzawakogen.com/faq/", "claim": "施設公式が山麓370m・山頂870m、導線外の斜面・崖・谷の危険を掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=138.8019238&lat=36.9402935&outtype=JSON", "claim": "国土地理院DEMの山麓ロープウェイ駅代表点標高は384.2m。"}
+    ],
+    "coordinates": {"latitude": 36.9402935, "longitude": 138.8019238, "status": "corrected", "note": "施設公式サイトの山麓ロープウェイ駅地図座標。高原根拠はロープウェイ到達後の山頂870mであり、DEM値は入口点のもの。"},
+    "elevationM": 384.2
+  },
+  {
+    "sourceIndex": 43,
+    "sourceId": "myoko",
+    "sourceName": "妙高高原",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "笹ヶ峰一周歩道（森林セラピーロード）",
+    "prefecture": "新潟県",
+    "officialUrl": "https://myokotourism.jp/tourist-spots/%E7%AC%B9%E3%83%B6%E5%B3%B0%E4%B8%80%E5%91%A8%E6%AD%A9%E9%81%93%EF%BC%88%E6%A3%AE%E6%9E%97%E3%82%BB%E3%83%A9%E3%83%94%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89%EF%BC%89/",
+    "accessUrl": "https://www.pref.niigata.lg.jp/sec/jouetsu_kenkou/1356846708007.html",
+    "accessSummary": "妙高高原駅から季節運行バス約50分、または妙高高原ICから車約40分。笹ヶ峰グリーンハウス起点に無料30台駐車場がある。",
+    "cooling": {
+      "attributes": [
+        "highland",
+        "forest",
+        "water"
+      ],
+      "summary": "妙高観光公式が標高1,300m、ドイツトウヒ林、宇棚の清水・清水ヶ池を明記する。地域名ではなく、この散策路に統合する。"
+    },
+    "operationsAndSafety": "春夏のトレッキング地点。直行バスは季節運行のため時刻・運行日を確認し、約5km・90分の歩道は天候・現況・装備を確認して無理をしない。",
+    "evidence": [
+      {
+        "url": "https://myokotourism.jp/tourist-spots/%E7%AC%B9%E3%83%B6%E5%B3%B0%E4%B8%80%E5%91%A8%E6%AD%A9%E9%81%93%EF%BC%88%E6%A3%AE%E6%9E%97%E3%82%BB%E3%83%A9%E3%83%94%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89%EF%BC%89/",
+        "claim": "妙高観光公式が正式名称、標高1,300m、森林・清水・池を掲載。"
+      },
+      {
+        "url": "https://www.pref.niigata.lg.jp/sec/jouetsu_kenkou/1356846708007.html",
+        "claim": "新潟県が駅・ICからのアクセス、季節バス、駐車場、コース距離を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=138.0994167&lat=36.8598889&outtype=JSON",
+        "claim": "国土地理院DEMの標高候補は1,331.6m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.8598889,
+      "longitude": 138.0994167,
+      "status": "corrected",
+      "note": "妙高観光公式掲載の笹ヶ峰地点座標。"
+    },
+    "elevationM": 1331.6
+  },
+  {
+    "sourceIndex": 44,
+    "sourceId": "sado",
+    "sourceName": "佐渡・両津",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "佐渡島・両津港",
+    "prefecture": "新潟県",
+    "officialUrl": "https://www.visitsado.com/ryotsu/",
+    "accessUrl": "https://www.visitsado.com/tosado/aiduwakamatsu/",
+    "accessSummary": "新潟港からカーフェリー約2時間30分またはジェットフォイル約1時間7分で両津港へ。島内は目的地ごとに交通の現況を確認する。",
+    "cooling": {
+      "attributes": [
+        "water"
+      ],
+      "summary": "海辺・指定海水浴場を水辺属性としてのみ扱う。港や海辺の気温低下は主張しない。"
+    },
+    "operationsAndSafety": "佐渡市指定海水浴場の2026年度遊泳期間は7月11日〜8月29日。監視員常駐時間外は十分注意し、船・道路・遊泳可否を出発直前に確認する。",
+    "evidence": [
+      {
+        "url": "https://www.visitsado.com/tosado/aiduwakamatsu/",
+        "claim": "さど観光ナビが新潟〜両津航路の所要時間を掲載。"
+      },
+      {
+        "url": "https://www.visitsado.com/feature/kaisuiyoku/",
+        "claim": "さど観光ナビが指定海水浴場の遊泳期間、監視、時間外注意を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=138.4394&lat=38.0782&outtype=JSON",
+        "claim": "国土地理院DEMの標高候補は3.7m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 38.0782,
+      "longitude": 138.4394,
+      "status": "retained",
+      "note": "既存の両津港入口座標。"
+    },
+    "elevationM": 3.7
+  },
+  {
+    "sourceIndex": 45,
+    "sourceId": "kiyosato",
+    "sourceName": "清里",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "清里高原",
+    "prefecture": "山梨県",
+    "officialUrl": "https://www.hokuto-kanko.jp/about/",
+    "accessUrl": "https://seisenryo.jp/access/",
+    "accessSummary": "JR小海線・清里駅が入口。代表施設の清泉寮は駅から車・タクシー約5分で、宿泊者送迎は要予約。",
+    "cooling": {
+      "attributes": [
+        "highland",
+        "forest"
+      ],
+      "summary": "北杜市観光協会は高標高の清里高原を避暑地とし、清泉寮は森と牧草地に囲まれると案内する。現在点の標高候補は1,274.9m。"
+    },
+    "operationsAndSafety": "施設ごとに夏季の営業時間・定休日が異なる。2026年度は小海線の一部日中時間帯運休が公表されているため、列車・送迎の最新時刻を確認する。",
+    "evidence": [
+      {
+        "url": "https://www.hokuto-kanko.jp/about/",
+        "claim": "北杜市観光協会が高標高の清里高原を避暑地として掲載。"
+      },
+      {
+        "url": "https://www.hokuto-kanko.jp/spot/seisenryo/",
+        "claim": "北杜市観光協会が清泉寮の森林・牧草地と駅からのアクセスを掲載。"
+      },
+      {
+        "url": "https://seisenryo.jp/access/",
+        "claim": "清泉寮公式が小海線の一部運休と送迎条件を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=138.4367&lat=35.9193&outtype=JSON",
+        "claim": "国土地理院DEMの標高候補は1,274.9m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 35.9193,
+      "longitude": 138.4367,
+      "status": "retained",
+      "note": "清里駅の既存入口座標。"
+    },
+    "elevationM": 1274.9
+  },
+  {
+    "sourceIndex": 46,
+    "sourceId": "kawaguchiko",
+    "sourceName": "河口湖",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "河口湖",
+    "prefecture": "山梨県",
+    "officialUrl": "https://fujisan.ne.jp/",
+    "accessUrl": "https://fujisan.ne.jp/sightseeing/3851/",
+    "accessSummary": "富士急行線河口湖駅が入口。駅前から富士急バス・周遊バスで湖畔へ移動でき、河口湖ICから駅前まで約5分。",
+    "cooling": {
+      "attributes": [
+        "water",
+        "highland",
+        "breeze"
+      ],
+      "summary": "湖面を伴う高原の湖。町観光連盟の夏ガイドは湖畔の爽やかな風を、公式ガイド地図は標高830.5mを記載するが、体感温度・温度低下は保証しない。"
+    },
+    "operationsAndSafety": "夏の湖上祭等では駐車・交通規制があり得る。町のお知らせと水上アクティビティ・船の営業、雷雨・強風時の指示を確認する。",
+    "evidence": [
+      {
+        "url": "https://fujisan.ne.jp/sightseeing/3851/",
+        "claim": "富士河口湖町観光連盟が駅・バス・ICからのアクセスと駐車場を掲載。"
+      },
+      {
+        "url": "https://fujisan.ne.jp/relays/download/42/2694/90//?file=%2Ffiles%2Flibs%2F6110%2F202303131623374139.pdf",
+        "claim": "町観光連盟の春夏ガイドが夏の湖畔の風を掲載。"
+      },
+      {
+        "url": "https://fujisan.ne.jp/relays/download/42/2694/32/4996/?file=%2Ffiles%2Flibs%2F3811%2F202105191358415290.pdf",
+        "claim": "町観光連盟ガイドが河口湖標高830.5mを掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=138.7687&lat=35.4982&outtype=JSON",
+        "claim": "国土地理院DEMの標高候補は856.9m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 35.4982,
+      "longitude": 138.7687,
+      "status": "retained",
+      "note": "既存の河口湖エリア入口座標。"
+    },
+    "elevationM": 856.9
+  },
+  {
+    "sourceIndex": 47,
+    "sourceId": "yamanakako",
+    "sourceName": "山中湖",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "山中湖",
+    "prefecture": "山梨県",
+    "officialUrl": "https://lake-yamanakako.com/spot/10422",
+    "accessUrl": "https://lake-yamanakako.com/access",
+    "accessSummary": "新宿・横浜から高速バス約2時間、または富士山駅・御殿場駅から路線バスで山中湖へ。車は山中湖ICを利用できる。",
+    "cooling": {
+      "attributes": [
+        "highland",
+        "water",
+        "forest"
+      ],
+      "summary": "山中湖観光協会が海抜980.5m、湖を中心とした森林を掲載する。高原・湖・森林の局所条件のみを根拠とし、予報値は使わない。"
+    },
+    "operationsAndSafety": "湖畔は基本的に私有地。立入可否、水上アクティビティ、天候を確認して指定地以外へ入らない。熊目撃・イベント等の最新お知らせも確認する。",
+    "evidence": [
+      {
+        "url": "https://lake-yamanakako.com/spot/10422",
+        "claim": "山中湖観光協会が海抜980.5mと湖を中心とした森林を掲載。"
+      },
+      {
+        "url": "https://lake-yamanakako.com/access",
+        "claim": "観光協会が高速バス・路線バス・山中湖ICのアクセスを掲載。"
+      },
+      {
+        "url": "https://lake-yamanakako.com/footer/faq",
+        "claim": "観光協会が湖畔の私有地性と服装注意を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=138.8664&lat=35.4292&outtype=JSON",
+        "claim": "国土地理院DEMの標高候補は1,020.2m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 35.4292,
+      "longitude": 138.8664,
+      "status": "retained",
+      "note": "既存の山中湖エリア入口座標。"
+    },
+    "elevationM": 1020.2
+  },
+  {
+    "sourceIndex": 48,
+    "sourceId": "kobuchizawa",
+    "sourceName": "小淵沢",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "道の駅こぶちさわ",
+    "prefecture": "山梨県",
+    "officialUrl": "https://www.city.hokuto.yamanashi.jp/s-office/facility/so-kobuchisawa.html",
+    "accessUrl": "https://www.hokuto-kanko.jp/spot/kobuchisawa_station_information_center/",
+    "accessSummary": "小淵沢駅が公共交通の入口。道の駅は駅から車約6分、小淵沢ICから約3分。地域名のみの候補は標高約1,000mの観光拠点へ統合する。",
+    "cooling": {
+      "attributes": [
+        "highland"
+      ],
+      "summary": "北杜市公式が道の駅こぶちさわを標高1,000mの八ヶ岳高原の観光拠点と明記する。屋外全体の温度低下、森林・日陰は主張しない。"
+    },
+    "operationsAndSafety": "道の駅と併設施設の営業時間・休館は個別に確認する。登山へ向かう場合は別施設の登山届・道路閉鎖等を混同しない。",
+    "evidence": [
+      {
+        "url": "https://www.city.hokuto.yamanashi.jp/s-office/facility/so-kobuchisawa.html",
+        "claim": "北杜市公式が標高1,000m、小淵沢ICから車3分の観光拠点と掲載。"
+      },
+      {
+        "url": "https://www.hokuto-kanko.jp/spot/kobuchisawa_station_information_center/",
+        "claim": "北杜市観光協会が小淵沢駅内案内所と利用時間を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=138.3159143&lat=35.8794698&outtype=JSON",
+        "claim": "国土地理院DEMの標高候補は995.7m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 35.8794698,
+      "longitude": 138.3159143,
+      "status": "corrected_candidate",
+      "note": "道の駅住所に対応する地図座標候補。"
+    },
+    "elevationM": 995.7
+  },
+  {
+    "sourceIndex": 49,
+    "sourceId": "matsumoto",
+    "sourceName": "松本",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "国宝 松本城",
+    "prefecture": "長野県",
+    "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/135/4118.html",
+    "accessUrl": "https://www.matsumoto-castle.jp/access",
+    "accessSummary": "JR松本駅から徒歩約20分、または松本駅お城口から周遊バスで「松本城・市役所前」下車約10分。入口は黒門のみ。",
+    "cooling": {
+      "attributes": [],
+      "summary": "夏の局所的な涼しさを示す公式根拠は確認していない。気温・体感の順位付けは予報データで行う。"
+    },
+    "operationsAndSafety": "年末（12月29日〜31日）を除き開場、通常8:30〜17:00（最終入場16:30）。お盆期は8:00〜18:00へ延長。混雑時は天守入場制限があり、天守内は急で狭い階段のため注意する。",
+    "evidence": [
+      {
+        "url": "https://www.city.matsumoto.nagano.jp/soshiki/135/4118.html",
+        "claim": "松本市が開場日・時間、黒門のみを入口とすること、混雑時の入場制限と階段安全注意を掲載。"
+      },
+      {
+        "url": "https://www.matsumoto-castle.jp/access",
+        "claim": "公式が松本駅から徒歩約20分、周遊バスで松本城・市役所前まで約10分、施設座標を掲載。"
+      },
+      {
+        "url": "https://www.matsumoto-castle.jp/about/tower",
+        "claim": "公式が松本城を標高590mの盆地内平地に位置すると掲載。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.238827,
+      "longitude": 137.96949,
+      "status": "corrected_official",
+      "note": "松本城公式アクセスページ掲載の施設座標。"
+    },
+    "elevationM": 590
+  },
+  {
+    "sourceIndex": 50,
+    "sourceId": "kamisuwa",
+    "sourceName": "諏訪湖",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "諏訪湖（諏訪市湖畔公園）",
+    "prefecture": "長野県",
+    "officialUrl": "https://www.city.suwa.lg.jp/site/enjoy/36684.html",
+    "accessUrl": "https://www.city.suwa.lg.jp/soshiki/21/1213.html",
+    "accessSummary": "上諏訪駅西口から諏訪湖へ徒歩約8分。湖畔公園は駅から徒歩約10分、諏訪ICから車約15分、無料駐車場170台。",
+    "cooling": {
+      "attributes": [
+        "water",
+        "highland"
+      ],
+      "summary": "市公式が海抜759mの諏訪湖と湖畔の散策・サイクリング・湖上利用を掲載。水辺・高地の地形属性のみで、体感温度は保証しない。"
+    },
+    "operationsAndSafety": "湖畔公園では火気使用・宿泊は禁止。夏季花火等の大規模イベント日は交通・駐車場混雑を、水上利用は各事業者の運航・安全条件を確認する。",
+    "evidence": [
+      {
+        "url": "https://www.city.suwa.lg.jp/site/enjoy/36684.html",
+        "claim": "諏訪湖の標高、アクセス、駐車場と湖上・湖畔利用を掲載。"
+      },
+      {
+        "url": "https://www.city.suwa.lg.jp/soshiki/21/1213.html",
+        "claim": "湖畔公園の駅徒歩・駐車場・火気/宿泊禁止を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=138.1105833&lat=36.0492843&outtype=JSON",
+        "claim": "国土地理院DEMの標高候補を確認するURL。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.0492843,
+      "longitude": 138.1105833,
+      "status": "corrected",
+      "note": "諏訪市湖畔公園の市公式埋込地図座標。"
+    },
+    "elevationM": 759
+  },
+  {
+    "sourceIndex": 51,
+    "sourceId": "hakuba",
+    "sourceName": "白馬",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "白馬八方尾根 うさぎ平テラス",
+    "prefecture": "長野県",
+    "officialUrl": "https://www.happo-one.jp/usagidaira/",
+    "accessUrl": "https://www.happo-one.jp/trekking/alpenline/",
+    "accessSummary": "八方ゴンドラリフト「アダム」で八方駅から約8分、うさぎ平駅で下車する。夏期の八方駅駐車場A〜C計110台も公式案内がある。",
+    "cooling": {
+      "attributes": ["highland", "breeze"],
+      "summary": "施設公式がうさぎ平を標高1,400mとし、「大自然の爽やかな風」を感じるオープンテラスとして案内する。地点固有の高所・風の根拠であり、予報の体感温度ではない。"
+    },
+    "operationsAndSafety": "うさぎ平へはゴンドラのみで車では到達できない。2026年営業は5月30日・31日および6月6日〜11月3日で、天候により変更される。営業時刻・運行状況、山上の天候を来訪前に確認する。",
+    "evidence": [
+      {
+        "url": "https://www.happo-one.jp/usagidaira/",
+        "claim": "八方尾根公式がうさぎ平を標高1,400m、爽やかな風、ゴンドラ約8分、車では到達不可の施設として掲載。"
+      },
+      {
+        "url": "https://www.happo-one.jp/trekking/alpenline/",
+        "claim": "八方尾根公式が八方駅から兎平駅へのゴンドラ、2026年営業期間、天候変更、夏期の八方駅駐車場を掲載。"
+      },
+      {
+        "url": "https://www.pref.nagano.lg.jp/toshikei/kurashi/sumai/kekan/chobo/documents/0812.pdf",
+        "claim": "長野県資料が白馬八方尾根スキー場ゴンドラ山頂駅の位置を北緯36.697248、東経137.815783として掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=137.815783&lat=36.697248&outtype=JSON",
+        "claim": "国土地理院DEMの山頂駅位置の標高候補は1,395.4m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.697248,
+      "longitude": 137.815783,
+      "status": "revised_verified",
+      "note": "長野県資料掲載のゴンドラ山頂駅位置。うさぎ平テラス入口側地点として採用。"
+    },
+    "elevationM": 1395.4
+  },
+  {
+    "sourceIndex": 52,
+    "sourceId": "komoro",
+    "sourceName": "小諸",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "小諸城址 懐古園",
+    "prefecture": "長野県",
+    "officialUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/rekishi_bunka/8618.html",
+    "accessUrl": "https://www.city.komoro.lg.jp/kaikoen/",
+    "accessSummary": "小諸駅から徒歩3分。公式は懐古園を懐古園入口と弁慶橋の間に位置すると案内する。",
+    "cooling": {
+      "attributes": [],
+      "summary": "夏の局所的な涼しさを示す公式根拠は確認していない。気温・体感の順位付けは予報データで行う。"
+    },
+    "operationsAndSafety": "懐古園（公園）は9:00〜17:00で11月30日まで無休。夏季は通常の開園対象。遊園地は雨天・荒天時に休園するため、利用する場合は当日の案内を確認する。",
+    "evidence": [
+      {
+        "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/rekishi_bunka/8618.html",
+        "claim": "小諸市が小諸城址懐古園を案内し、本丸付近の座標と標高663mを掲載。"
+      },
+      {
+        "url": "https://www.city.komoro.lg.jp/kaikoen/",
+        "claim": "公式が小諸駅から徒歩3分、懐古園入口と弁慶橋の間という具体的な来訪入口を掲載。"
+      },
+      {
+        "url": "https://www.city.komoro.lg.jp/kaikoen/10227.html",
+        "claim": "公式利用案内が公園の開園時間、11月30日まで無休、夏の通常利用条件を掲載。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.3263849,
+      "longitude": 138.4173007,
+      "status": "corrected_official",
+      "note": "小諸市公式の本丸付近座標。"
+    },
+    "elevationM": 663
+  },
+  {
+    "sourceIndex": 53,
+    "sourceId": "togakushi",
+    "sourceName": "戸隠",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "戸隠神社中社・奥社参道杉並木（戸隠）",
+    "prefecture": "長野県",
+    "officialUrl": "https://www.togakushi-jinja.jp/",
+    "accessUrl": "https://togakushi-21.jp/access/",
+    "accessSummary": "長野駅から戸隠へ路線バス約1時間。奥社は70系統で参道入口へ、中社は中社バス停が入口。奥社参道は一般車進入不可で約2kmを徒歩参拝する。",
+    "cooling": {
+      "attributes": [
+        "forest",
+        "shade",
+        "highland"
+      ],
+      "summary": "奥社参道の随神門先に400年以上の杉約300本超が並ぶ。木陰と、標高1,000〜1,400mの山岳観光地という局所条件のみを根拠とする。"
+    },
+    "operationsAndSafety": "奥社参道は往復徒歩で歩きやすい靴・飲料が必要。大雨・災害等でアクセス・散策不可となる場合があり、山域へ入る場合は天候・装備・熊等の情報を確認する。",
+    "evidence": [
+      {
+        "url": "https://togakushi-21.jp/kodo/",
+        "claim": "戸隠観光協会が奥社参道の杉並木を掲載。"
+      },
+      {
+        "url": "https://togakushi-21.jp/news/54474/",
+        "claim": "戸隠が標高1,000〜1,400mの山岳観光地であることを掲載。"
+      },
+      {
+        "url": "https://www.togakushi-jinja.jp/access/",
+        "claim": "奥社参道約2kmの一般車進入不可と徒歩参拝を掲載。"
+      },
+      {
+        "url": "https://www.rinya.maff.go.jp/chubu/welcome/invitation/attach/pdf/sanpo-map-109.pdf",
+        "claim": "災害・降雪等でアクセス・散策不可となる場合があると林野庁が掲載。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.7404537,
+      "longitude": 138.0830002,
+      "status": "corrected",
+      "note": "戸隠神社中社の公式アクセスページ埋込地図座標。"
+    },
+    "elevationM": 1200
+  },
+  {
+    "sourceIndex": 54,
+    "sourceId": "hida-furukawa",
+    "sourceName": "飛騨古川",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "瀬戸川と白壁土蔵街（飛騨古川）",
+    "prefecture": "岐阜県",
+    "officialUrl": "https://www.hida-kankou.jp/spot/278",
+    "accessUrl": "https://www.hida-kankou.jp/spot/278",
+    "accessSummary": "飛騨市公式観光サイトはJR飛騨古川駅から徒歩5分と案内する。駅起点で瀬戸川・白壁土蔵街へ入れる。",
+    "cooling": {
+      "attributes": [
+        "water",
+        "shade"
+      ],
+      "summary": "公式が一体の水辺景観として案内する瀬戸川と、歴史的建物の軒下による日陰を局所条件に限る。気温低下・予報値は主張しない。"
+    },
+    "operationsAndSafety": "季節閉鎖は確認できない。水路沿いの屋外散策なので、降雨時の足元・増水と夏の熱中症に注意し、現地案内に従う。",
+    "evidence": [
+      {
+        "url": "https://www.hida-kankou.jp/spot/278",
+        "claim": "飛騨市公式観光サイトが正式名称、水辺景観、駅徒歩5分を掲載。"
+      },
+      {
+        "url": "https://www.city.hida.gifu.jp/soshiki/15/130.html",
+        "claim": "飛騨市公式が無料駐車場と白壁土蔵街への徒歩導線を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=137.1896&lat=36.2368&outtype=JSON",
+        "claim": "国土地理院DEMの標高候補は494.6m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.2368,
+      "longitude": 137.1896,
+      "status": "retained",
+      "note": "既存点は駅周辺で、目的地へ徒歩5分。"
+    },
+    "elevationM": 494.6
+  },
+  {
+    "sourceIndex": 55,
+    "sourceId": "takayama",
+    "sourceName": "飛騨高山",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "飛騨高山 古い町並",
+    "prefecture": "岐阜県",
+    "officialUrl": "https://www.hidatakayama.or.jp/spot/detail_1101.html",
+    "accessUrl": "https://www.hidatakayama.or.jp/blog/detail_15.html",
+    "accessSummary": "JR高山駅から高山陣屋・中橋・古い町並へ徒歩で到達でき、古い町並は駅から徒歩約15分。",
+    "cooling": {
+      "attributes": [
+        "highland",
+        "water"
+      ],
+      "summary": "高山市公式資料は市役所所在地を海抜573m、観光公式は古い町並の軒下を流れる用水を掲載する。盆地市街地の日中の温度低下は主張しない。"
+    },
+    "operationsAndSafety": "通常の季節閉鎖は確認できないが屋外市街地であり暑熱対策が必要。店舗営業時間、道路規制・熊目撃等の緊急情報を直前確認する。",
+    "evidence": [
+      {
+        "url": "https://www.hidatakayama.or.jp/spot/detail_1101.html",
+        "claim": "観光公式が古い町並の正式名称、保存地区、軒下を流れる用水を掲載。"
+      },
+      {
+        "url": "https://www.hidatakayama.or.jp/blog/detail_15.html",
+        "claim": "観光公式が高山駅からの徒歩散策導線を掲載。"
+      },
+      {
+        "url": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/006/036/h22kihonkeikaku.pdf",
+        "claim": "高山市公式計画が市役所所在地を海抜573mと掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=137.2519&lat=36.1408&outtype=JSON",
+        "claim": "国土地理院DEMの標高候補は573.9m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.1408,
+      "longitude": 137.2519,
+      "status": "retained",
+      "note": "既存点は高山駅周辺で、古い町並入口へ徒歩移動。"
+    },
+    "elevationM": 573.9
+  },
+  {
+    "sourceIndex": 56,
+    "sourceId": "gujo",
+    "sourceName": "郡上八幡",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "郡上八幡（吉田川・城下町）",
+    "prefecture": "岐阜県",
+    "officialUrl": "https://www.pref.gifu.lg.jp/page/3179.html",
+    "accessUrl": "https://www.gujohachiman.com/access/",
+    "accessSummary": "郡上八幡観光協会が高速バス・長良川鉄道・車での入口を案内する。城下町中心部は吉田川沿い。",
+    "cooling": {
+      "attributes": [
+        "water",
+        "forest"
+      ],
+      "summary": "県公式は吉田川が市街地を流れることを、国交省は吉田川・小駄良川、湧水、周囲の山を確認する。水辺と周囲山地の環境根拠に限定する。"
+    },
+    "operationsAndSafety": "通常の季節閉鎖は確認できない。公式記載の川面への飛込みは安全保証ではなく模倣せず、増水・水難・河川管理情報を確認する。",
+    "evidence": [
+      {
+        "url": "https://www.pref.gifu.lg.jp/page/3179.html",
+        "claim": "岐阜県公式が吉田川の市街地通過、夏季の川遊び・釣りを掲載。"
+      },
+      {
+        "url": "https://www.mlit.go.jp/tochimizushigen/mizsei/mizusato/shichoson/chubu/gujo.htm",
+        "claim": "国交省が吉田川・小駄良川、湧水、周囲の山を掲載。"
+      },
+      {
+        "url": "https://www.gujohachiman.com/access/",
+        "claim": "郡上八幡観光協会が公共交通・車のアクセスを掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=136.9472&lat=35.7411&outtype=JSON",
+        "claim": "国土地理院DEMの標高候補は206.0m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 35.7411,
+      "longitude": 136.9472,
+      "status": "retained",
+      "note": "既存の郡上八幡駅周辺点。"
+    },
+    "elevationM": 206
+  },
+  {
+    "sourceIndex": 57,
+    "sourceId": "gero",
+    "sourceName": "下呂温泉",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "噴泉池",
+    "prefecture": "岐阜県",
+    "officialUrl": "https://www.gero-spa.com/spot/detail_2.html",
+    "accessUrl": "https://www.gero-spa.com/spot/detail_2.html",
+    "accessSummary": "下呂温泉観光協会はJR下呂駅から徒歩約3分、市営駐車場から徒歩8分と案内する。",
+    "cooling": {
+      "attributes": ["water"],
+      "summary": "観光協会公式が飛騨川のせせらぎを背景とする河川敷の地点として案内する。水辺属性のみを記録し、温泉の湯温や体感温度を涼しさの根拠にはしない。"
+    },
+    "operationsAndSafety": "通年・無料。2021年12月1日以降は入浴利用が禁止されているため、現地掲示と河川敷の利用ルールに従う。増水、警報、イベントによる利用制限時は近づかず、当日の市・観光協会の案内を確認する。",
+    "evidence": [
+      {
+        "url": "https://www.gero-spa.com/spot/detail_2.html",
+        "claim": "観光協会公式が噴泉池を飛騨川沿いの観光地点として、通年・無料、駅徒歩、入浴利用禁止を掲載。"
+      },
+      {
+        "url": "https://www.kankou-gifu.jp/spot/detail_5315.html",
+        "claim": "岐阜県観光公式サイトが噴泉池を下呂大橋下の川原に湧く温泉として掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=137.2408768&lat=35.8075858&outtype=JSON",
+        "claim": "国土地理院DEMの噴泉池候補点標高は361.7m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 35.8075858,
+      "longitude": 137.2408768,
+      "status": "revised_candidate",
+      "note": "噴泉池の地図上の施設位置候補。公式の駅・市営駐車場からの導線を優先する。"
+    },
+    "elevationM": 361.7
+  },
+  {
+    "sourceIndex": 58,
+    "sourceId": "shirakawago",
+    "sourceName": "白川郷",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "世界遺産 白川郷合掌造り集落（荻町）",
+    "prefecture": "岐阜県",
+    "officialUrl": "https://shirakawa-go.gr.jp/",
+    "accessUrl": "https://shirakawa-go.gr.jp/access/",
+    "accessSummary": "白川郷観光協会公式は名古屋・金沢などの駅から白川郷への公共交通をバス利用と案内する。既存点は白川郷バスターミナル。",
+    "cooling": {
+      "attributes": [
+        "highland",
+        "forest",
+        "water"
+      ],
+      "summary": "既存点の標高候補は480.1m。村役場公式は庄川・谷の河川合流と荻町城跡の標高540mを確認する。山地・水辺環境のみを根拠とし、集落内の温度低下は主張しない。"
+    },
+    "operationsAndSafety": "通年の一般閉鎖は確認できないが、バス・駐車場・集落内交通、気象警報・大雨時の安全情報を出発前に確認する。生活・私有地に配慮する。",
+    "evidence": [
+      {
+        "url": "https://shirakawa-go.gr.jp/access/",
+        "claim": "白川郷観光協会公式が名古屋・金沢等からのバスアクセスを掲載。"
+      },
+      {
+        "url": "https://kankou.shirakawa-go.org/1320.htm",
+        "claim": "白川村役場公式が庄川・谷の河川合流、荻町城跡標高540mを掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=136.906&lat=36.2606&outtype=JSON",
+        "claim": "国土地理院DEMの標高候補は480.1m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.2606,
+      "longitude": 136.906,
+      "status": "retained",
+      "note": "既存の白川郷バスターミナル座標。"
+    },
+    "elevationM": 480.1
+  },
+  {
+    "sourceIndex": 59,
+    "sourceId": "ito",
+    "sourceName": "伊東",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "伊東オレンジビーチ",
+    "prefecture": "静岡県",
+    "officialUrl": "https://itospa.com/spot/detail_54012.html",
+    "accessUrl": "https://itospa.com/spot/detail_54012.html",
+    "accessSummary": "伊東観光協会公式はJR伊東駅から徒歩5分、なぎさ観光駐車場103台・24時間を案内する。",
+    "cooling": {
+      "attributes": [
+        "water"
+      ],
+      "summary": "海水浴場・海上アクティビティとして案内される海辺。海水への接触という水辺条件だけを局所条件とし、沿岸の気温低下・予報は主張しない。"
+    },
+    "operationsAndSafety": "海水浴場の開設期・監視時間・遊泳規制を毎年確認する。火気・キャンプ・遊泳区域内のジェットスキーは禁止。荒天・海況時は遊泳しない。",
+    "evidence": [
+      {
+        "url": "https://itospa.com/spot/detail_54012.html",
+        "claim": "伊東観光協会公式が正式名称、駅徒歩、駐車場、海水浴場の禁止事項を掲載。"
+      },
+      {
+        "url": "https://www.city.ito.shizuoka.jp/material/files/group/32/R7_shiseino-gaiyou.pdf",
+        "claim": "伊東市資料が開設期の監視所・ライフセーバー配置を説明。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=139.0937117&lat=34.9784456&outtype=JSON",
+        "claim": "国土地理院DEMの公式ページ埋込地図点の標高候補は4.3m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 34.9784456,
+      "longitude": 139.0937117,
+      "status": "corrected_candidate",
+      "note": "伊東観光協会ページの埋込地図表示点。"
+    },
+    "elevationM": 4.3
+  },
+  {
+    "sourceIndex": 60,
+    "sourceId": "shimoda",
+    "sourceName": "下田",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "白浜大浜海水浴場（下田市）",
+    "prefecture": "静岡県",
+    "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/100300itiban_resort/110789.html",
+    "accessUrl": "https://www.city.shimoda.shizuoka.jp/category/100300itiban_resort/110789.html",
+    "accessSummary": "下田市公式は伊豆急下田駅から板戸一色行きバス約15分・レスポ白浜下車すぐ、夏期有料駐車場ありと案内する。",
+    "cooling": {
+      "attributes": [
+        "water"
+      ],
+      "summary": "市公式が海水浴場として案内する海辺。海水への接触という水辺条件だけを局所条件とし、海岸の気温低下・予報値は主張しない。"
+    },
+    "operationsAndSafety": "2026年度は市内海水浴場が7月18日に一斉海開き。遊泳は開設期間・監視・遊泳区画、当日の海況・現地指示に従い、荒天・高波時には入水しない。",
+    "evidence": [
+      {
+        "url": "https://www.city.shimoda.shizuoka.jp/category/100300itiban_resort/110789.html",
+        "claim": "下田市公式が海水浴場、駅からのバス、夏期有料駐車場を掲載。"
+      },
+      {
+        "url": "https://www.izu-shirahama.jp/",
+        "claim": "伊豆白浜観光協会が2026年度の一斉海開きを掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=138.97321&lat=34.688945&outtype=JSON",
+        "claim": "国土地理院DEMの市公式ページ地図中心点の標高候補は2.0m。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 34.688945,
+      "longitude": 138.97321,
+      "status": "corrected_approximate",
+      "note": "下田市公式ページの埋込地図中心点。海水浴場範囲の代表点であり入口ではない。"
+    },
+    "elevationM": 2
+  }
+]

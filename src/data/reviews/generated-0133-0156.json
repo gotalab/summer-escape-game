@@ -1,0 +1,723 @@
+[
+  {
+    "decision": "block",
+    "prefecture": "岡山県",
+    "officialUrl": "https://online.bunka.go.jp/heritages/detail/163581",
+    "access": {
+      "url": null,
+      "summary": "文化庁掲載は真庭市内の所在地・管理団体を示すが、一般来訪者向けの入口、駐車場、見学方法を示さない。"
+    },
+    "evidence": [
+      "https://online.bunka.go.jp/heritages/detail/163581",
+      "https://www.pref.okayama.jp/uploaded/attachment/260902.pdf"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 133,
+    "id": "osm-node-6297491714",
+    "formalName": "トラフダケ自生地",
+    "coolness": {
+      "tags": [],
+      "summary": "竹の天然記念物であり、夏の涼しさを示す水辺・樹冠下・高地等の公式根拠はない。元の forest/water は採用しない。"
+    },
+    "seasonalAvailabilitySafety": "保護対象のため、管理者が公開導線を示すまで無断立入・採取を避ける。",
+    "correctedCandidate": {
+      "latitude": 35.054796,
+      "longitude": 133.880836,
+      "elevationM": 179.4,
+      "summary": "既存OSM点のGSI標高候補。対象は複数地区のため代表点としては未確定。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.city.niimi.okayama.jp/kanko/spot/spot_detail/index/84.html",
+    "access": {
+      "url": "https://www.city.niimi.okayama.jp/kanko/spot/spot_detail/index/84.html",
+      "summary": "新見市神郷油野3510-1。中国道新見ICから車約30分、駐車場あり。"
+    },
+    "evidence": [
+      "https://www.city.niimi.okayama.jp/kanko/spot/spot_detail/index/84.html",
+      "https://www.pref.okayama.jp/page/481399.html"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 134,
+    "id": "osm-node-4837572623",
+    "formalName": "三室峡（みむろきょう）",
+    "coolness": {
+      "tags": [
+        "water",
+        "highland"
+      ],
+      "summary": "三室川沿いの峡谷と標高約561mが根拠。実測気温や樹冠下の涼しさは公式に明記されない。"
+    },
+    "seasonalAvailabilitySafety": "祭りは春・秋中心。大雨時は峡谷周辺の道路・足元の規制を確認する。",
+    "correctedCandidate": {
+      "latitude": 35.041615,
+      "longitude": 133.328394,
+      "elevationM": 560.6,
+      "summary": "既存OSM峡谷点のGSI標高候補。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "鳥取県",
+    "officialUrl": "https://www.pref.tottori.lg.jp/item/121173.htm",
+    "access": {
+      "url": "https://www.nichinan-trip.jp/natural/sekkakei/",
+      "summary": "日南町下石見。JR伯備線生山駅付近にある南北約2kmの渓谷。"
+    },
+    "evidence": [
+      "https://www.pref.tottori.lg.jp/item/121173.htm",
+      "https://www.pref.tottori.lg.jp/319692.htm",
+      "https://www.nichinan-trip.jp/natural/sekkakei/"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 135,
+    "id": "osm-node-5552626515",
+    "formalName": "石霞渓（せっかけい）",
+    "coolness": {
+      "tags": [
+        "water"
+      ],
+      "summary": "鳥取県公式が渓谷を明記するため水辺の局所環境を根拠とする。夏の気温値・日陰の常時確保は根拠がない。"
+    },
+    "seasonalAvailabilitySafety": "渓谷・河川沿いのため、降雨増水、落石、道路規制を出発前に確認する。",
+    "correctedCandidate": {
+      "latitude": 35.163017,
+      "longitude": 133.324267,
+      "elevationM": 308.7,
+      "summary": "既存OSM峡谷点のGSI標高候補。県は岡山県から鳥取県へ訂正。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "鳥取県",
+    "officialUrl": "https://www.town.hino.tottori.jp/1278.htm",
+    "access": {
+      "url": "https://www.town.hino.tottori.jp/1278.htm",
+      "summary": "根雨駅から約10km。日野町公式が展望駐車場内の展望台を案内し、実質的に車前提。"
+    },
+    "evidence": [
+      "https://www.town.hino.tottori.jp/1278.htm",
+      "https://www.pref.tottori.lg.jp/item/1336666.htm"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 136,
+    "id": "osm-node-5246588124",
+    "formalName": "明地峠 展望駐車場（明地峠）",
+    "coolness": {
+      "tags": [
+        "highland"
+      ],
+      "summary": "日野町公式の標高650mが根拠。開けた展望地なので日陰・森林・風による涼しさは主張しない。"
+    },
+    "seasonalAvailabilitySafety": "雲海の見頃は晩秋〜初冬。悪天候、冬季、山道の運転条件を確認する。",
+    "correctedCandidate": {
+      "latitude": 35.192683,
+      "longitude": 133.420658,
+      "elevationM": 617.1,
+      "summary": "GSIは既存OSM駐車場点で617.1m、町の展望台案内は650m。差異を保持する。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.kagamino.holiday/spot/entry-215.html",
+    "access": {
+      "url": "https://www.kagamino.holiday/spot/entry-215.html",
+      "summary": "鏡野町奥津・奥津川西。院庄ICからR179で約25分、一般車20台。中鉄北部バスも町が案内する。"
+    },
+    "evidence": [
+      "https://www.kagamino.holiday/spot/entry-215.html",
+      "https://www.kagamino.holiday/special/season/entry-999.html",
+      "https://www.town.kagamino.lg.jp/soshiki/22/1795.html"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 137,
+    "id": "osm-node-13070986423",
+    "formalName": "奥津温泉",
+    "coolness": {
+      "tags": [
+        "indoor",
+        "water"
+      ],
+      "summary": "川沿いの温泉街と日帰り入浴施設を根拠に屋内休憩と水辺を示す。温泉は高温であり、気温低下の根拠にはしない。"
+    },
+    "seasonalAvailabilitySafety": "足踏み洗濯は実演日だけで冬季はない。大雨時の河川・道路規制と各施設の休館を確認する。",
+    "correctedCandidate": {
+      "latitude": 35.223922,
+      "longitude": 133.922449,
+      "elevationM": 382.2,
+      "summary": "既存OSM温泉地区代表点のGSI標高候補。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.town.kagamino.lg.jp/soshiki/22/1795.html",
+    "access": {
+      "url": "https://www.oka.town/spot/okutsukei/",
+      "summary": "鏡野町奥津川西。車は南から北への一方通行と大釣橋近くの駐車場導線を現地案内で確認する。"
+    },
+    "evidence": [
+      "https://www.town.kagamino.lg.jp/soshiki/22/1795.html",
+      "https://www.oka.town/spot/okutsukei/",
+      "https://dosei.pref.okayama.jp/"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 138,
+    "id": "osm-node-13070986424",
+    "formalName": "奥津渓",
+    "coolness": {
+      "tags": [
+        "water"
+      ],
+      "summary": "奥津川が造った峡谷、滝・淵、川沿い遊歩道が根拠。日陰や気象予報の気温を根拠に混ぜない。"
+    },
+    "seasonalAvailabilitySafety": "豪雨・増水・落石時の遊歩道・道路規制確認が必須。遊歩道には被災・仮復旧の履歴がある。",
+    "correctedCandidate": {
+      "latitude": 35.214591,
+      "longitude": 133.911387,
+      "elevationM": 347.8,
+      "summary": "既存OSM峡谷点のGSI標高候補。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.okayama-kanko.jp/spot/detail_12277.html",
+    "access": {
+      "url": "https://www.okayama-kanko.jp/spot/detail_12277.html",
+      "summary": "真庭市蒜山湯船617-33。蒜山ICから車約10分、まにわくん湯船口から徒歩約10分。"
+    },
+    "evidence": [
+      "https://www.okayama-kanko.jp/spot/detail_12277.html",
+      "https://www5f.biglobe.ne.jp/~dandan-mura/"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 139,
+    "id": "osm-node-4996797224",
+    "formalName": "だんだん村",
+    "coolness": {
+      "tags": [
+        "indoor",
+        "highland"
+      ],
+      "summary": "ログハウス宿泊の屋内休憩と標高約537mを根拠とする。森林による涼しさは保証しない。"
+    },
+    "seasonalAvailabilitySafety": "1日2組の予約制。空室、営業、料金を事前確認する。",
+    "correctedCandidate": {
+      "latitude": 35.3098722,
+      "longitude": 133.6385626,
+      "elevationM": 536.6,
+      "summary": "公式埋込地図座標への軽微補正とGSI標高候補。既存739mは修正。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.maniwa.or.jp/web/index.cgi?c=spot-2&pk=3102&pv=1",
+    "access": {
+      "url": "https://www.town-kofu.jp/kanko/12/2017/1/v162/p132/",
+      "summary": "真庭市蒜山下徳山1109。旧蒜山大山スカイライン途中の車向け展望休憩所。"
+    },
+    "evidence": [
+      "https://www.maniwa.or.jp/web/index.cgi?c=spot-2&pk=3102&pv=1",
+      "https://www.town-kofu.jp/kanko/12/2017/1/v162/p132/",
+      "https://www.pref.okayama.jp/site/13/1024055.html"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 140,
+    "id": "osm-node-5209415898",
+    "formalName": "鬼女台（きめんだい）展望休憩所",
+    "coolness": {
+      "tags": [
+        "highland"
+      ],
+      "summary": "真庭観光局公式の標高約900mが根拠。開けた展望地なので日陰・森林・風を過大に主張しない。"
+    },
+    "seasonalAvailabilitySafety": "売店・トイレは季節・天候で変動し、冬季は道路通行止め・休館となる。",
+    "correctedCandidate": {
+      "latitude": 35.325305,
+      "longitude": 133.588294,
+      "elevationM": 873.2,
+      "summary": "既存OSM展望台点のGSI標高候補。公式の約900mと整合。"
+    }
+  },
+  {
+    "decision": "block",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.okayama-park.or.jp/handayama/",
+    "access": {
+      "url": "https://www.okayama-park.or.jp/handayama/",
+      "summary": "植物園口・水源地から徒歩約3分、植物園前から徒歩約1分、JR法界院駅から徒歩約15分。"
+    },
+    "evidence": [
+      "https://www.okayama-park.or.jp/handayama/"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 141,
+    "id": "osm-node-1423610359",
+    "formalName": "岡山市半田山植物園",
+    "coolness": {
+      "tags": [],
+      "summary": "公式が日当たりのよい丘陵地と明記する屋外植物園。植栽だけでは夏の涼しさを保証する根拠にならない。"
+    },
+    "seasonalAvailabilitySafety": "9:00〜16:30（入園16:00まで）。火曜（祝翌日）と12月29日〜1月3日は休園。",
+    "correctedCandidate": {
+      "latitude": 34.693227,
+      "longitude": 133.930478,
+      "elevationM": 40,
+      "summary": "住所と現行座標は整合。既存416mは不整合でDEM候補40m。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.city.okayama.jp/shisei/0000007520.html",
+    "access": {
+      "url": "https://www.city.okayama.jp/sdgs-esd/0000038544.html",
+      "summary": "岡山市中区雄町305-8、駐車場13台。公共交通の公式所要は未確認。"
+    },
+    "evidence": [
+      "https://www.city.okayama.jp/shisei/0000007520.html",
+      "https://www.city.okayama.jp/kurashi/0000015967.html",
+      "https://water-pub.env.go.jp/water-pub/mizu-site/meisui/data/index.asp?info=67"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 142,
+    "id": "osm-node-4524335189",
+    "formalName": "おまちアクアガーデン",
+    "coolness": {
+      "tags": [
+        "water"
+      ],
+      "summary": "全国名水百選の雄町の冷泉を保存し、地下水の水遊具・水汲み場を備える。水辺の体験根拠のみで、気温低下は主張しない。"
+    },
+    "seasonalAvailabilitySafety": "9:00〜18:00。第1・第3金曜、年末年始休園、臨時休園あり。生水は必ず煮沸し、水遊具の稼働状況も確認する。",
+    "correctedCandidate": {
+      "latitude": 34.686183,
+      "longitude": 133.972505,
+      "elevationM": 5,
+      "summary": "公式住所と整合する現行座標。既存416mは不整合でDEM候補5m。"
+    }
+  },
+  {
+    "decision": "merge",
+    "mergeTarget": "鬼ノ城（第2展望台は周遊内の一点）",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.pref.okayama.jp/uploaded/attachment/358191.pdf",
+    "access": {
+      "url": "https://www.pref.okayama.jp/uploaded/attachment/358191.pdf",
+      "summary": "総社ICから車約20分、総社駅からタクシー約30分。第2展望台への単独アクセスではなく鬼ノ城周遊の案内。"
+    },
+    "evidence": [
+      "https://www.pref.okayama.jp/uploaded/attachment/358191.pdf",
+      "https://www.okayama-kanko.jp/okatabi/1401/page"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 143,
+    "id": "osm-node-4680152768",
+    "formalName": "鬼ノ城・第2展望台",
+    "coolness": {
+      "tags": [
+        "highland"
+      ],
+      "summary": "鬼城山山頂の標高400mは公式根拠だが、第2展望台だけの気温・日陰・風は確認できない。"
+    },
+    "seasonalAvailabilitySafety": "周遊は約2時間。遊歩道外立入禁止、野外活動向きの服・靴が必要で、東門〜屏風折れは足場が悪い。",
+    "correctedCandidate": {
+      "latitude": 34.730548,
+      "longitude": 133.770003,
+      "elevationM": 307,
+      "summary": "既存10mは不整合。点のDEM候補307m、公式400mは鬼城山山頂。"
+    }
+  },
+  {
+    "decision": "block",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.okayama-kanko.jp/spot/detail_10785.html",
+    "access": {
+      "url": "https://www.okayama-kanko.jp/spot/detail_10785.html",
+      "summary": "岡山総社ICから車約15分後徒歩約30分、清音駅からタクシー約10分後徒歩約30分。駐車場なし。"
+    },
+    "evidence": [
+      "https://www.okayama-kanko.jp/spot/detail_10785.html"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 144,
+    "id": "osm-node-4681425203",
+    "formalName": "幸山城跡",
+    "coolness": {
+      "tags": [],
+      "summary": "標高164mの山頂部で、夏の高冷地・日陰・水辺等の局所冷却根拠はない。"
+    },
+    "seasonalAvailabilitySafety": "猛暑時は徒歩30分の登りによる熱負荷に注意し、公式の変更情報を確認する。",
+    "correctedCandidate": {
+      "latitude": 34.652503,
+      "longitude": 133.757787,
+      "elevationM": 164,
+      "summary": "既存10mは不整合。公式の山頂部標高164mを候補とする。"
+    }
+  },
+  {
+    "decision": "block",
+    "prefecture": "岡山県",
+    "officialUrl": null,
+    "access": {
+      "url": null,
+      "summary": "公式・公的な観光施設名、管理者、アクセス案内を特定できない。"
+    },
+    "evidence": [
+      "https://www.town.kumenan.lg.jp/administration/profile/profile/profile.html"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 145,
+    "id": "osm-node-11436220273",
+    "formalName": "展望（久米南町南庄）",
+    "coolness": {
+      "tags": [],
+      "summary": "汎用のOSM観測点だけで、高地・森林・風の推測を根拠にしない。"
+    },
+    "seasonalAvailabilitySafety": "登山道・駐車場・閉鎖・安全情報が未確認のため掲載しない。",
+    "correctedCandidate": {
+      "latitude": 34.966588,
+      "longitude": 133.939311,
+      "elevationM": 342,
+      "summary": "道路沿いのDEM候補。掲載はblock。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.city.okayama.jp/kyoudou/0000053696.html",
+    "access": {
+      "url": "https://www.city.okayama.jp/kyoudou/0000053696.html",
+      "summary": "岡山市北区建部町建部上の公共親水公園。文化センターバス停から約0.2kmはOSM由来で公式確認は未了。"
+    },
+    "evidence": [
+      "https://www.city.okayama.jp/kyoudou/0000053696.html",
+      "https://www.city.okayama.jp/life/cmsfiles/contents/0000053/53420/takebe10.pdf"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 146,
+    "id": "osm-node-1907837298",
+    "formalName": "建部町親水公園",
+    "coolness": {
+      "tags": [
+        "water"
+      ],
+      "summary": "河川沿いの親水空間として実在する公共公園。水辺の局所環境だけを根拠とし、気温低下は主張しない。"
+    },
+    "seasonalAvailabilitySafety": "花火大会などの催事会場にもなる。河川増水・荒天時の利用可否と催事規制を確認する。",
+    "correctedCandidate": {
+      "latitude": 34.857421,
+      "longitude": 133.9085,
+      "elevationM": 54,
+      "summary": "現行座標を維持し、既存248mはDEM候補54mへ訂正。"
+    }
+  },
+  {
+    "decision": "block",
+    "prefecture": "岡山県",
+    "officialUrl": "https://kibinomori.com/",
+    "access": {
+      "url": "https://kibinomori.com/",
+      "summary": "公式サイトは吉備中央町下加茂1506-109を掲載するが、2026年1月6日付で閉園を告知している。"
+    },
+    "evidence": [
+      "https://kibinomori.com/"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 147,
+    "id": "osm-node-6193947261",
+    "formalName": "きびの森植物園 -天空の王国-",
+    "coolness": {
+      "tags": [],
+      "summary": "閉園施設のため、森林等の推測で掲載しない。"
+    },
+    "seasonalAvailabilitySafety": "季節営業ではなく閉園状態として扱う。",
+    "correctedCandidate": {
+      "latitude": 34.875675,
+      "longitude": 133.839056,
+      "elevationM": 346,
+      "summary": "DEM候補。閉園のため採用しない。"
+    }
+  },
+  {
+    "decision": "merge",
+    "mergeTarget": "新庄山城（新庄山展望台は山城内の一点）",
+    "prefecture": "岡山県",
+    "officialUrl": "https://ukita.e-setouchi.info/shinjyo.html",
+    "access": {
+      "url": "https://ukita.e-setouchi.info/shinjyo.html",
+      "summary": "岡山市東区竹原620。JR上道駅からバスで平島下車、徒歩約20分。"
+    },
+    "evidence": [
+      "https://ukita.e-setouchi.info/shinjyo.html",
+      "https://www.city.okayama.jp/cmsfiles/contents/0000016/16287/000254165.pdf"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 148,
+    "id": "osm-node-12230830581",
+    "formalName": "新庄山城（新庄山展望台）",
+    "coolness": {
+      "tags": [],
+      "summary": "展望台は山城内の一点で、局所冷却を公式に確認できない。統合先を新規掲載する場合も夏向き再審査が必要。"
+    },
+    "seasonalAvailabilitySafety": "山中歩行を伴うため、猛暑・荒天時には無理をしない。独立した管理展望施設の案内はない。",
+    "correctedCandidate": {
+      "latitude": 34.691907,
+      "longitude": 134.053484,
+      "elevationM": 95,
+      "summary": "既存8mは不整合でDEM候補95m。"
+    }
+  },
+  {
+    "decision": "merge",
+    "mergeTarget": "四つ手網（九蟠漁協 四つ手小屋）",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.okayama-kanko.jp/spot/detail_10170.html",
+    "access": {
+      "url": "https://www.okayama-kanko.jp/spot/detail_10170.html",
+      "summary": "岡山市東区九蟠1145。君津ICから車約10分、西大寺駅からタクシー約15分、駐車場あり。電話予約。"
+    },
+    "evidence": [
+      "https://www.okayama-kanko.jp/spot/detail_10170.html"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 149,
+    "id": "osm-node-4319178089",
+    "formalName": "四つ手網",
+    "coolness": {
+      "tags": [
+        "water"
+      ],
+      "summary": "海上小屋での漁体験。水辺は確認できるが、海風・涼温の数値や局所冷却は主張しない。"
+    },
+    "seasonalAvailabilitySafety": "春〜秋が適期で予約制。海上小屋のため天候・海況と事業者の指示を事前確認する。",
+    "correctedCandidate": {
+      "latitude": 34.610821,
+      "longitude": 134.014593,
+      "elevationM": 3.1,
+      "summary": "既存OSM個別小屋点のGSI標高候補。統合先は公式住所を再ジオコードする。"
+    }
+  },
+  {
+    "decision": "merge",
+    "mergeTarget": "操山（操山公園）",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.city.okayama.jp/shisei/0000007462.html",
+    "access": {
+      "url": "https://www.okayama-park.or.jp/misao/",
+      "summary": "独立施設ではなく操山内の小地点。操山公園里山センターを起点に園内徒歩で、岩場への専用公式アクセスは未確認。"
+    },
+    "evidence": [
+      "https://www.city.okayama.jp/shisei/0000007462.html",
+      "https://www.city.setouchi.lg.jp/uploaded/attachment/113866.pdf"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 150,
+    "id": "osm-node-13414935047",
+    "formalName": "三畳岩（操山内の岩場・眺望点）",
+    "coolness": {
+      "tags": [
+        "forest",
+        "shade"
+      ],
+      "summary": "岡山市が操山北側の里山・竹林と森林浴を案内する。三畳岩自体は露岩・眺望点で日陰や低温を保証しない。"
+    },
+    "seasonalAvailabilitySafety": "季節閉鎖の記載はない。ハイキング靴と暑熱対策が必要で、独立した安全案内のない単独掲載は避ける。",
+    "correctedCandidate": {
+      "latitude": 34.659136,
+      "longitude": 133.961034,
+      "elevationM": 117.8,
+      "summary": "既存OSM点のGSI標高候補。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.okayama-kanko.jp/spot/detail_10193.html",
+    "access": {
+      "url": "https://www.okayama-kanko.jp/spot/detail_10193.html",
+      "summary": "岡山市南区阿津。岡山ICから車約45分、米崎バス停から徒歩約25分、普通車20台。"
+    },
+    "evidence": [
+      "https://www.okayama-kanko.jp/spot/detail_10193.html",
+      "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000017/17071/000283596.pdf"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 151,
+    "id": "osm-node-4676648379",
+    "formalName": "貝殻山市民憩いの森",
+    "coolness": {
+      "tags": [
+        "forest",
+        "shade"
+      ],
+      "summary": "遊歩道のある森として公式掲載される。木陰の散策だけを根拠とし、展望地の直射は別途注意する。"
+    },
+    "seasonalAvailabilitySafety": "2025年林野火災により一部遊歩道は立入不可のため、来訪前に通行可能区間を確認する。",
+    "correctedCandidate": {
+      "latitude": 34.576646,
+      "longitude": 134.000334,
+      "elevationM": 283.1,
+      "summary": "既存OSM点のGSI標高候補。展望台名は公園内の小地点として補正。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.city.okayama.jp/kankou/0000006519.html",
+    "access": {
+      "url": "https://www.city.okayama.jp/kankou/0000006519.html",
+      "summary": "岡山市瀬戸地域の143ha森林公園。公共交通の個別所要は公式未記載のため、出発前に市地図・管理担当へ確認する。"
+    },
+    "evidence": [
+      "https://www.city.okayama.jp/kankou/0000006519.html",
+      "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000017/17071/000283596.pdf"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 152,
+    "id": "osm-node-12179635498",
+    "formalName": "森林公園（瀬戸地域／瀬戸町森林公園）",
+    "coolness": {
+      "tags": [
+        "forest",
+        "shade"
+      ],
+      "summary": "市が夏の新緑、森林浴、ハイキングを案内する広域森林。標高約227mを高原避暑とは扱わない。"
+    },
+    "seasonalAvailabilitySafety": "季節閉鎖・利用時間は公式ページに明記なし。コース、天候、熱中症対策を当日確認する。",
+    "correctedCandidate": {
+      "latitude": 34.740071,
+      "longitude": 134.078166,
+      "elevationM": 226.8,
+      "summary": "既存OSM点のGSI標高候補。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.town.wake.lg.jp/soshiki/sangyoshinko/gyomu/4/5/1/62.html",
+    "access": {
+      "url": "https://www.town.wake.lg.jp/soshiki/sangyoshinko/gyomu/4/5/1/62.html",
+      "summary": "和気町木倉2605。和気ICから車約20分。公共交通アクセスは公式未記載。"
+    },
+    "evidence": [
+      "https://www.town.wake.lg.jp/soshiki/sangyoshinko/gyomu/4/5/1/62.html",
+      "https://www.town.wake.lg.jp/soshiki/sangyoshinko/gyomu/4/5/1/199.html"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 153,
+    "id": "osm-node-4461140247",
+    "formalName": "和気美しい森",
+    "coolness": {
+      "tags": [
+        "forest",
+        "shade",
+        "indoor"
+      ],
+      "summary": "木立のキャンプサイトと森林浴遊歩道、予約利用時のエアコン付き宿泊ロッジが根拠。標高約391mを高原避暑とは断定しない。"
+    },
+    "seasonalAvailabilitySafety": "9:00〜20:00、年末年始ほか定休。冬季は事務所不在の場合があり、木製遊具は修繕で利用中止。予約を確認する。",
+    "correctedCandidate": {
+      "latitude": 34.844127,
+      "longitude": 134.136249,
+      "elevationM": 390.8,
+      "summary": "既存OSM点のGSI標高候補。"
+    }
+  },
+  {
+    "decision": "block",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.env.go.jp/nature/nationalparks/pick-up/long-trail/chugoku/",
+    "access": {
+      "url": "https://www.env.go.jp/nature/nationalparks/pick-up/long-trail/chugoku/",
+      "summary": "環境省の14.6km、約5時間10分、難易度★★☆の自然歩道上の見どころ。独立した駐車場・交通・管理案内は未確認。"
+    },
+    "evidence": [
+      "https://www.env.go.jp/nature/nationalparks/pick-up/long-trail/chugoku/",
+      "https://www.env.go.jp/nature/nats/shizenhodo/pdf/chugoku_hodo_2.pdf"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 154,
+    "id": "osm-node-3730135801",
+    "formalName": "蛇の穴（中国自然歩道上のカルスト地形）",
+    "coolness": {
+      "tags": [],
+      "summary": "雨水浸食でできたカルスト地形としての紹介だけで、洞内への安全な立入り、温度、日陰の根拠はない。名称からcaveを推定しない。"
+    },
+    "seasonalAvailabilitySafety": "長距離の山地歩行と個別の開放・安全条件未確認のため、夏の一般候補として掲載しない。",
+    "correctedCandidate": {
+      "latitude": 34.694931,
+      "longitude": 133.386798,
+      "elevationM": 294.9,
+      "summary": "既存OSM点のGSI標高候補。掲載はblock。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.ibarakankou.jp/sightseeing-information/nature/DJ005.html",
+    "access": {
+      "url": "https://www.ibarakankou.jp/sightseeing-information/nature/DJ005.html",
+      "summary": "井原市芳井町吉井。笠岡ICから車約40分、井原駅からタクシー約20分、駐車場160台（一部有料）。"
+    },
+    "evidence": [
+      "https://www.ibarakankou.jp/sightseeing-information/nature/DJ005.html",
+      "https://www.okayama-japan.jp/en/spot/10787"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 155,
+    "id": "osm-node-4877183822",
+    "formalName": "天神峡",
+    "coolness": {
+      "tags": [
+        "water",
+        "forest",
+        "shade"
+      ],
+      "summary": "小田川渓谷約1kmで、楓・樅・樫の巨樹・老木が清流に影を落とすことが根拠。気温低下の数値は主張しない。"
+    },
+    "seasonalAvailabilitySafety": "夏の川遊び案内があっても、増水・悪天候時は入水・遊歩道利用を中止し現地注意に従う。",
+    "correctedCandidate": {
+      "latitude": 34.644477,
+      "longitude": 133.423963,
+      "elevationM": 73,
+      "summary": "既存OSM点のGSI標高候補。"
+    }
+  },
+  {
+    "decision": "publish",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.ikurado.jp/",
+    "access": {
+      "url": "https://www.ikurado.jp/",
+      "summary": "新見市井倉409付近。新見ICから車約20分、賀陽ICから車約40分、JR井倉駅から徒歩15分。無料駐車場あり。"
+    },
+    "evidence": [
+      "https://www.ikurado.jp/",
+      "https://www.city.niimi.okayama.jp/kanko/media_images/files/ikura-maki.pdf",
+      "https://www.city.niimi.okayama.jp/kanko/media_images/files/B5-CH.pdf"
+    ],
+    "reviewedAt": "2026-07-18",
+    "index": 156,
+    "id": "osm-node-4738089421",
+    "formalName": "井倉洞",
+    "coolness": {
+      "tags": [
+        "cave"
+      ],
+      "summary": "公式観光パンフレットが夏は涼しく冬は暖かい洞内と案内する鍾乳洞。屋外予報ではなく洞内環境を根拠とする。"
+    },
+    "seasonalAvailabilitySafety": "年中無休8:30〜17:00、最終受付16:30。ペット同伴不可で、高低差約90mの洞内歩行には滑りにくい靴と時間余裕が必要。",
+    "correctedCandidate": {
+      "latitude": 34.927494,
+      "longitude": 133.524632,
+      "elevationM": 156.9,
+      "summary": "既存OSM点のGSI標高候補。"
+    }
+  }
+]

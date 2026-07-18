@@ -1,0 +1,207 @@
+[
+  {
+    "sourceIndex": 104,
+    "sourceId": "hossawa-falls",
+    "sourceName": "払沢の滝",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "払沢の滝",
+    "prefecture": "東京都",
+    "officialUrl": "https://hinohara-kankou.jp/hossawa_faq/",
+    "accessUrl": "https://www.vill.hinohara.tokyo.jp/0000000023.html",
+    "accessSummary": "檜原村本宿の払沢の滝村営駐車場、または払沢の滝入口バス停から遊歩道を約15分。駐車場を公開入口にする。",
+    "cooling": {
+      "attributes": ["gorge", "water", "forest", "shade"],
+      "scope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "summary": "森林の日陰と沢・滝の局所環境。屋外気温は当日の地点予報で判断する。"
+    },
+    "operationsAndSafety": "遊歩道は滑りに注意。8月22日・23日の祭り開催時は村営駐車場を利用できないため、当日の村案内を確認。",
+    "coordinates": { "latitude": 35.73004, "longitude": 139.141424 }
+  },
+  {
+    "sourceIndex": 105,
+    "sourceId": "fujido-cave",
+    "sourceName": "不二洞",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "不二洞",
+    "prefecture": "群馬県",
+    "officialUrl": "https://www.uenomura.jp/tourism/play/fujidou.html",
+    "accessUrl": "https://tenkukairou.com/fujidou/",
+    "accessSummary": "群馬県上野村川和665。川和自然公園の不二洞チケット売場・入口を経路地点にする。",
+    "cooling": {
+      "attributes": ["cave", "underground", "indoor"],
+      "scope": "enclosed-space",
+      "claimLevel": "numeric-verified",
+      "summary": "公式が洞内は年間を通じて約10℃と案内する観光鍾乳洞。屋外気温とは分けて表示する。",
+      "thermalEvidence": [{ "subject": "enclosed-air", "valueC": 10, "qualifier": "approximately year-round cave temperature", "sourceUrl": "https://www.uenomura.jp/tourism/play/fujidou.html" }]
+    },
+    "operationsAndSafety": "見学は約40分。通常9:00〜16:30だが、天候・整備状況と最終入洞時刻を当日確認。洞内の濡れた足元と温度差に注意。",
+    "coordinates": { "latitude": 36.071901, "longitude": 138.776291 }
+  },
+  {
+    "sourceIndex": 106,
+    "sourceId": "fugaku-wind-cave",
+    "sourceName": "富岳風穴",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "富岳風穴",
+    "prefecture": "山梨県",
+    "officialUrl": "https://www.mtfuji-cave.com/contents/wind_cave/",
+    "accessUrl": "https://www.mtfuji-cave.com/contents/access/",
+    "accessSummary": "富士河口湖町西湖青木ヶ原2068-1。公式施設マーカーの券売所・入洞口を経路地点にする。",
+    "cooling": {
+      "attributes": ["cave", "underground", "indoor"],
+      "scope": "enclosed-space",
+      "claimLevel": "numeric-verified",
+      "summary": "公式が洞内の平均気温を約3℃と案内する溶岩洞。屋外の気温・体感温度には転用しない。",
+      "thermalEvidence": [{ "subject": "enclosed-air", "valueC": 3, "qualifier": "average lava-cave temperature", "sourceUrl": "https://www.mtfuji-cave.com/contents/wind_cave/" }]
+    },
+    "operationsAndSafety": "4月1日〜10月15日は通常9:00〜17:00。天候・洞内状況で変更あり。低い天井、濡れた床、外気との温度差に注意。",
+    "coordinates": { "latitude": 35.477349, "longitude": 138.657031 }
+  },
+  {
+    "sourceIndex": 107,
+    "sourceId": "karuizawa-shiraito-falls",
+    "sourceName": "白糸の滝（軽井沢）",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "白糸の滝（軽井沢）",
+    "prefecture": "長野県",
+    "officialUrl": "https://www.town.karuizawa.lg.jp/page/1193.html",
+    "accessUrl": "https://www.town.karuizawa.lg.jp/page/1193.html",
+    "accessSummary": "白糸の滝駐車場・バス停から遊歩道を徒歩約5分。駐車場側の公開入口を経路地点にする。",
+    "cooling": {
+      "attributes": ["water", "forest", "shade", "highland"],
+      "scope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "summary": "湧水が流れる滝と森林の日陰がつくる局所環境。屋外気温は当日の地点予報で判断する。"
+    },
+    "operationsAndSafety": "通年見学可能。繁忙期の道路混雑、遊歩道の濡れ、当日の交通情報を確認。",
+    "coordinates": { "latitude": 36.410391, "longitude": 138.592484 }
+  },
+  {
+    "sourceIndex": 108,
+    "sourceId": "kiyotsukyo-tunnel",
+    "sourceName": "清津峡渓谷トンネル",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "清津峡渓谷トンネル",
+    "prefecture": "新潟県",
+    "officialUrl": "https://www.tokamachishikankou.jp/spot/kiyotsukyo/",
+    "accessUrl": "https://www.tokamachishikankou.jp/spot/kiyotsukyo/",
+    "accessSummary": "清津峡入口バス停・駐車場から徒歩でトンネル受付へ。公式観光ページの受付入口を経路地点にする。",
+    "cooling": {
+      "attributes": ["gorge", "underground", "indoor", "water"],
+      "scope": "enclosed-space",
+      "claimLevel": "mechanism-verified",
+      "summary": "渓谷沿いの歩行者用トンネルと見晴所。屋外・トンネル内の温度数値は当日予報とは分ける。"
+    },
+    "operationsAndSafety": "通常8:30〜17:00、最終受付16:30。2026年7月18〜20日、8月1〜4日、8月8〜16日などは事前予約対象のため公式案内を確認。",
+    "coordinates": { "latitude": 36.968346, "longitude": 138.750342 }
+  },
+  {
+    "sourceIndex": 109,
+    "sourceId": "ryusendo-cave",
+    "sourceName": "龍泉洞",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "龍泉洞",
+    "prefecture": "岩手県",
+    "officialUrl": "https://www.iwate-ryusendo.jp/",
+    "accessUrl": "https://www.iwate-ryusendo.jp/access/",
+    "accessSummary": "岩泉町岩泉字神成1番地1。公式施設マーカーの龍泉洞受付・入口を経路地点にする。盛岡駅からJRバス龍泉洞前。",
+    "cooling": {
+      "attributes": ["cave", "underground", "indoor", "water"],
+      "scope": "enclosed-space",
+      "claimLevel": "numeric-verified",
+      "summary": "公式が洞内は年間を通じて約10℃と案内する観光鍾乳洞。屋外予報とは分けて表示する。",
+      "thermalEvidence": [{ "subject": "enclosed-air", "valueC": 10, "qualifier": "approximately year-round cave temperature", "sourceUrl": "https://www.iwate-ryusendo.jp/operation/" }]
+    },
+    "operationsAndSafety": "通常8:30〜17:00。急階段、水滴、滑りやすい箇所あり。洞内トイレなし、ベビーカー・ペット不可。",
+    "coordinates": { "latitude": 39.86047617943369, "longitude": 141.7948139153791 }
+  },
+  {
+    "sourceIndex": 110,
+    "sourceId": "toi-gold-mine",
+    "sourceName": "西伊豆 土肥金山",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "西伊豆 土肥金山",
+    "prefecture": "静岡県",
+    "officialUrl": "https://www.toikinzan.com/",
+    "accessUrl": "https://www.toikinzan.com/access/",
+    "accessSummary": "伊豆市土肥2726。公式施設地図の受付・観光坑道入口を経路地点にする。修善寺駅から土肥金山バス停。",
+    "cooling": {
+      "attributes": ["underground", "indoor"],
+      "scope": "enclosed-space",
+      "claimLevel": "numeric-verified",
+      "summary": "公式が観光坑道内の平均気温を約19℃と案内。屋外気温には転用しない。",
+      "thermalEvidence": [{ "subject": "enclosed-air", "valueC": 19, "qualifier": "average tourist-mine temperature", "sourceUrl": "https://www.toikinzan.com/blog/2019/07/238/" }]
+    },
+    "operationsAndSafety": "通常9:00〜17:00、入場受付16:30まで。坑内巡りと砂金採りを併用する場合は受付時刻を確認。",
+    "coordinates": { "latitude": 34.908191672846684, "longitude": 138.7902277757536 }
+  },
+  {
+    "sourceIndex": 111,
+    "sourceId": "besshi-tourist-mine",
+    "sourceName": "マイントピア別子 観光坑道",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "マイントピア別子 観光坑道",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://besshi.com/yougaku-kozankanko/",
+    "accessUrl": "https://besshi.com/access/",
+    "accessSummary": "新居浜市立川町707-3。マイントピア別子本館の受付・観光坑道トロッコ乗場を経路地点にする。",
+    "cooling": {
+      "attributes": ["underground", "indoor"],
+      "scope": "enclosed-space",
+      "claimLevel": "mechanism-verified",
+      "summary": "公式が観光坑道を夏場もひんやりする空間として案内。数値温度は主張しない。"
+    },
+    "operationsAndSafety": "本館でチケット購入後、トロッコ往復と約333mの坑道見学。定員・発車時刻と当日の運行を確認。",
+    "coordinates": { "latitude": 33.9014696, "longitude": 133.3095103 }
+  },
+  {
+    "sourceIndex": 112,
+    "sourceId": "kakitagawa-spring-park",
+    "sourceName": "柿田川公園 湧水広場",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "柿田川公園 湧水広場",
+    "prefecture": "静岡県",
+    "officialUrl": "https://www.town.shimizu.shizuoka.jp/toshi/toshi00054.html",
+    "accessUrl": "https://www.town.shimizu.shizuoka.jp/toshi/toshi00054.html",
+    "accessSummary": "清水町伏見の町営駐車場・公園入口を利用。路線バスは柿田川湧水公園前。",
+    "cooling": {
+      "attributes": ["spring", "water", "forest", "shade"],
+      "scope": "water-contact",
+      "claimLevel": "numeric-verified",
+      "summary": "指定された湧水広場で水に触れられる公園。約15℃は湧水温であり、周辺気温ではない。",
+      "thermalEvidence": [{ "subject": "water", "valueC": 15, "qualifier": "approximately year-round spring-water temperature", "sourceUrl": "https://www.town.shimizu.shizuoka.jp/category10055114.html" }]
+    },
+    "operationsAndSafety": "水に入れるのは園内の指定された湧水広場のみ。展望台の湧き間や天然記念物区域へ立ち入らない。",
+    "coordinates": { "latitude": 35.106946, "longitude": 138.900565 }
+  },
+  {
+    "sourceIndex": 113,
+    "sourceId": "maekawa-spring",
+    "sourceName": "前川水源",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "前川水源",
+    "prefecture": "熊本県",
+    "officialUrl": "https://kikuchikanko.ne.jp/kikuchi_spot_01/maekawasuigen",
+    "accessUrl": "https://kikuchikanko.ne.jp/kikuchi_spot_01/maekawasuigen",
+    "accessSummary": "菊池市七城町亀尾2114。公式観光マーカーの駐車場・水源入口を経路地点にする。",
+    "cooling": {
+      "attributes": ["spring", "water", "forest", "shade"],
+      "scope": "water-contact",
+      "claimLevel": "mechanism-verified",
+      "summary": "公式が水とのふれあい・採水場所として案内する水源。数値温度は主張しない。"
+    },
+    "operationsAndSafety": "利用時間7:00〜21:00。現地の採水・水遊びルールを守り、豪雨時は利用状況を確認。",
+    "coordinates": { "latitude": 32.95644262479372, "longitude": 130.75976347634645 }
+  }
+]

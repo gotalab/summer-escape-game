@@ -1,0 +1,405 @@
+[
+  {
+    "sourceIndex": 205,
+    "sourceId": "osm-node-5885062950",
+    "decision": "block",
+    "formalName": "屋我地漁港",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.city.nago.okinawa.jp/kurashi/2020022500027/",
+    "access": { "url": "https://www.city.nago.okinawa.jp/kurashi/2020022500027/", "summary": "名護市管理漁港。訪問者向け観光アクセスではなく、漁業利用が優先される。" },
+    "coolness": { "tags": [], "evidence": "水辺・漁港であることは、暑熱回避や一般利用の根拠にならない。", "limitation": "夏の局所冷却・観光利用の公式根拠なし。" },
+    "seasonalClosureSafety": "漁業活動優先。施設使用は届出が必要で、漁業者以外の係留は原則不可。観光営業情報なし。",
+    "evidence": [
+      { "url": "https://www.city.nago.okinawa.jp/kurashi/2020022500027/", "claim": "名護市が屋我地漁港を管理漁港として掲載し、漁船を主な利用者と説明。" },
+      { "url": "https://www.jfa.maff.go.jp/j/keikaku/230718.html", "claim": "水産庁が漁港では漁業活動による利用が優先されると説明。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.672607, "longitude": 128.023055, "elevationM": 2.6, "confidence": "coordinate-retained; elevation-GSI-DEM" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 206,
+    "sourceId": "osm-node-4553989398",
+    "decision": "publish",
+    "formalName": "茅打ちバンタ",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.ytabi.jp/sp/spot/detail.jsp?id__=472",
+    "access": { "url": "https://www.ytabi.jp/sp/spot/detail.jsp?id__=472", "summary": "国道58号を北上。無料駐車場26台が案内されている。" },
+    "coolness": { "tags": ["breeze"], "evidence": "名称は束ねた茅を断崖から落とすと強風で吹き上げられたことに由来する。", "limitation": "風の局所条件のみで、夏の気温低下の測定値ではない。" },
+    "seasonalClosureSafety": "崖上で足を踏み外す危険がある。強風・荒天時は現地の規制表示を優先。季節営業・定休は確認できない。",
+    "evidence": [
+      { "url": "https://www.ytabi.jp/sp/spot/detail.jsp?id__=472", "claim": "沖縄県の観光情報が国頭村の断崖景勝地、駐車場、強風由来の名称と転落危険を掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.854222, "longitude": 128.249835, "elevationM": 81.4, "confidence": "coordinate-retained; elevation-GSI-DEM" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 207,
+    "sourceId": "osm-node-5885017127",
+    "decision": "block",
+    "formalName": "宜名真漁港",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.pref.okinawa.lg.jp/shigoto/suisangyo/1010996/1022728/1011016/1011019.html",
+    "access": { "url": "https://www.pref.okinawa.lg.jp/shigoto/suisangyo/1010996/1022728/1011016/1011019.html", "summary": "沖縄県管理の第四種漁港。観光・遊泳地点としてのアクセス案内は確認できない。" },
+    "coolness": { "tags": [], "evidence": "漁港・海辺という情報だけでは、夏の涼感地点としての根拠にならない。", "limitation": "一般利用・安全・局所冷却の公式根拠なし。" },
+    "seasonalClosureSafety": "漁業港であり、観光営業・遊泳安全・季節条件の公式案内なし。",
+    "evidence": [
+      { "url": "https://www.pref.okinawa.lg.jp/shigoto/suisangyo/1010996/1022728/1011016/1011019.html", "claim": "沖縄県が宜名真を第四種漁港として掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.849623, "longitude": 128.252869, "elevationM": 0, "confidence": "coordinate-retained; harbor-elevation-candidate" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 208,
+    "sourceId": "osm-node-1993614029",
+    "decision": "publish",
+    "formalName": "名護中央公園 南展望台（ガンジュー広場）",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.pref.okinawa.lg.jp/machizukuri/park/1012804.html",
+    "access": { "url": "https://www.pref.okinawa.lg.jp/machizukuri/park/1012804.html", "summary": "名護市名護の県営名護中央公園内。公園の施設・位置情報を入口に南展望台へ案内する。" },
+    "coolness": { "tags": ["forest", "highland"], "evidence": "県は自然観察園を『森林浴に最適』とし、座標点は標高約141m。", "limitation": "木陰・地形の局所条件であり、気温の予報値や測定値ではない。" },
+    "seasonalClosureSafety": "個別の季節営業・閉鎖は未確認。屋外山地公園のため荒天・高温・日没後の散策を避け、当日の管理者案内を優先。",
+    "evidence": [
+      { "url": "https://www.pref.okinawa.lg.jp/machizukuri/park/1012804.html", "claim": "県営名護中央公園の展望台、散策路、駐車場、自然観察園を掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.586925, "longitude": 127.997025, "elevationM": 141.2, "confidence": "coordinate-retained; elevation-GSI-DEM" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 209,
+    "sourceId": "osm-node-4354564935",
+    "decision": "publish",
+    "formalName": "ミッションビーチ",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://yambaru-tour.net/spot/1265/",
+    "access": { "url": "https://yambaru-tour.net/spot/1265/", "summary": "恩納村安富祖2005-1。2025掲載では遊泳4月20日〜10月31日、9:00〜17:30、営業時間〜18:00。" },
+    "coolness": { "tags": ["water"], "evidence": "公式観光情報が遊泳可能な天然白砂ビーチとして掲載。", "limitation": "海水へのアクセスのみを根拠とし、屋外の気温低下や『涼しいビーチ』は主張しない。" },
+    "seasonalClosureSafety": "天候・海況により遊泳禁止・ビーチクローズあり。2026年の運用表は未確認のため、当日営業・海況を電話確認。監視員不在・単独遊泳を避ける。",
+    "evidence": [
+      { "url": "https://yambaru-tour.net/spot/1265/", "claim": "沖縄北部公式観光サイトが住所、遊泳期間・時間、天候・海況での閉鎖を掲載。" },
+      { "url": "https://www.police.pref.okinawa.jp/docs/20150421000123/file_contents/suinanjikobousiyobikake.pdf", "claim": "沖縄県警が監視員不在・単独遊泳を避け、浮力を確保するよう注意喚起。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.518702, "longitude": 127.907488, "elevationM": 4, "confidence": "coordinate-retained; elevation-GSI-DEM" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 210,
+    "sourceId": "osm-node-10888639505",
+    "decision": "publish",
+    "formalName": "東展望台",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.env.go.jp/nature/nationalparks/list/kerama-shoto/course/04/",
+    "access": { "url": "https://www.env.go.jp/nature/nationalparks/list/kerama-shoto/course/04/", "summary": "渡嘉敷港から北展望台へ車約8分、そこから東展望台へ車約2分。国立沖縄青少年交流の家敷地内。" },
+    "coolness": { "tags": ["highland"], "evidence": "環境省は渡嘉敷島に標高約200mの山々があると説明し、座標点は標高約220m。", "limitation": "標高という局所条件のみで、実測の気温差ではない。" },
+    "seasonalClosureSafety": "施設敷地・門・荒天時の通行状況を事前確認。国交省案内に従い、施設内では受付へ到着を報告。季節営業の掲載なし。",
+    "evidence": [
+      { "url": "https://www.env.go.jp/nature/nationalparks/list/kerama-shoto/course/04/", "claim": "環境省が渡嘉敷島の東展望台と島内の車移動コースを掲載。" },
+      { "url": "https://www.mlit.go.jp/tagengo-db/common/001556075.pdf", "claim": "国土交通省の案内が施設到着時の受付報告を記載。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.212515, "longitude": 127.366578, "elevationM": 220, "confidence": "coordinate-retained; elevation-GSI-DEM" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 211,
+    "sourceId": "osm-node-5885062534",
+    "decision": "publish",
+    "formalName": "アラン展望台",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.env.go.jp/nature/nationalparks/list/kerama-shoto/course/04/",
+    "access": { "url": "https://www.env.go.jp/nature/nationalparks/list/kerama-shoto/course/04/", "summary": "渡嘉敷島内の林道・車移動が前提。阿波連岬園地展望台から車約3分、約0.9km。" },
+    "coolness": { "tags": ["highland"], "evidence": "座標点は標高約152mで、県資料は公共展望所としての利用を示す。", "limitation": "地形条件のみ。海・風や気温低下は公式根拠がない。" },
+    "seasonalClosureSafety": "個別閉鎖告知は未確認。林道、荒天、日没時の安全を当日確認し、レンタカー等による島内移動を前提とする。",
+    "evidence": [
+      { "url": "https://www.env.go.jp/nature/nationalparks/list/kerama-shoto/course/04/", "claim": "環境省が渡嘉敷島展望台巡りコースにアラン展望台を掲載。" },
+      { "url": "https://www.mlit.go.jp/tagengo-db/R1-03047.html", "claim": "国土交通省の地域観光資源案内が港から1km未満の丘の展望台として掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.19068, "longitude": 127.367661, "elevationM": 152, "confidence": "coordinate-retained; elevation-GSI-DEM" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 212,
+    "sourceId": "osm-node-1079571326",
+    "decision": "publish",
+    "formalName": "女瀬の崎（うなじのさち）展望台",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.okinawastory.jp/spot/600010496",
+    "access": { "url": "https://www.env.go.jp/nature/nationalparks/list/kerama-shoto/course/05/", "summary": "座間味港から高月山・稲崎を経る車の展望台巡りコース。駐車場から岬まで徒歩約3分。" },
+    "coolness": { "tags": ["breeze"], "evidence": "沖縄県観光情報が『海風に吹かれながら』歩く展望台として説明。", "limitation": "風の局所体感根拠のみで、気温予報・温度低下ではない。" },
+    "seasonalClosureSafety": "崖上の歩道。強風・荒天・濡れた歩道を避け、規制表示を優先。季節営業・個別閉鎖は未確認。",
+    "evidence": [
+      { "url": "https://www.okinawastory.jp/spot/600010496", "claim": "沖縄県観光情報が西端の展望台、歩道、東屋、海風、崖上の注意を掲載。" },
+      { "url": "https://www.env.go.jp/nature/nationalparks/list/kerama-shoto/course/05/", "claim": "環境省が座間味島の展望台巡りコースに女瀬の崎を掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.231889, "longitude": 127.282976, "elevationM": 35, "confidence": "coordinate-retained; elevation-GSI-DEM" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 213,
+    "sourceId": "osm-node-1079571334",
+    "decision": "block",
+    "formalName": "稲崎展望台",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.vill.zamami.okinawa.jp/m/guidemap.php?id=151",
+    "access": { "url": "https://www.okinawastory.jp/spot/600010646", "summary": "座間味港から車約10分、駐車場あり。" },
+    "coolness": { "tags": ["highland"], "evidence": "観光庁の解説は海抜119mの展望台とする。", "limitation": "日陰・樹林内・風など夏の局所冷却根拠がなく、露出した断崖展望を涼しい滞在地として採用しない。" },
+    "seasonalClosureSafety": "12月末から4月頃はホエール観察期。夏季の営業時刻・遮熱設備・安全運用は確認できないため、暑熱・強風・荒天時には不適。",
+    "evidence": [
+      { "url": "https://www.vill.zamami.okinawa.jp/m/guidemap.php?id=151", "claim": "座間味村が島北側の稲崎展望台・クジラ展望台として掲載。" },
+      { "url": "https://www.mlit.go.jp/tagengo-db/en/H30-01475.html", "claim": "観光庁が海抜119m、12月末から4月頃のザトウクジラ期を記載。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.239638, "longitude": 127.29575, "elevationM": 119, "confidence": "coordinate-retained; elevation-public" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 214,
+    "sourceId": "osm-node-5535275621",
+    "decision": "block",
+    "formalName": "沖縄県最東端の碑",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://vill.kitadaito.okinawa.jp/kankou/guidemap.html",
+    "access": { "url": "https://www.okinawastory.jp/spot/600010484", "summary": "北大東空港から車約6分。真黒岬へは行けないため、沖縄海近くに設置された記念碑。" },
+    "coolness": { "tags": [], "evidence": "公的情報は日の出・海辺のモニュメントとして説明するのみ。", "limitation": "局所冷却・日陰・安全な水辺利用の根拠がない。" },
+    "seasonalClosureSafety": "早朝の日の出鑑賞地点。夏季の営業時刻、遮熱、避難条件の公式掲載なし。",
+    "evidence": [
+      { "url": "https://vill.kitadaito.okinawa.jp/kankou/guidemap.html", "claim": "北大東村公式が正式表記『沖縄県最東端の碑』で掲載。" },
+      { "url": "https://www.okinawastory.jp/spot/600010484", "claim": "沖縄県観光情報が空港から車約6分の代替設置地点と掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 25.943965, "longitude": 131.327582, "elevationM": null, "confidence": "coordinate-retained; elevation-unverified" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 215,
+    "sourceId": "osm-node-5535452626",
+    "decision": "block",
+    "formalName": "旧東洋製糖燐鉱石貯蔵庫（北大東島燐鉱山遺跡）",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://vill.kitadaito.okinawa.jp/kankou/kanko_guide/kouzan.html",
+    "access": { "url": "https://vill.kitadaito.okinawa.jp/kankou/kanko_guide/kouzan.html", "summary": "北大東空港から車約15分。村は終日・定休日なしと案内。" },
+    "coolness": { "tags": [], "evidence": "屋外の産業遺跡であり、日陰・洞窟・水辺利用・樹林・高所などの局所冷却根拠はない。", "limitation": "史跡としての価値を夏の涼しさに転用しない。" },
+    "seasonalClosureSafety": "遺構・坂道の屋外見学。夏の遮熱や立入安全の詳細掲載はない。",
+    "evidence": [
+      { "url": "https://vill.kitadaito.okinawa.jp/kankou/kanko_guide/kouzan.html", "claim": "北大東村が西港から坂を上った遺構、空港から車約15分、終日・定休日なしを掲載。" },
+      { "url": "https://online.bunka.go.jp/heritages/detail/141568", "claim": "文化庁文化遺産オンラインが旧東洋製糖燐鉱石貯蔵庫を登録有形文化財として掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 25.954108, "longitude": 131.284759, "elevationM": null, "confidence": "coordinate-retained; elevation-unverified" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 216,
+    "sourceId": "osm-node-2568407091",
+    "decision": "block",
+    "formalName": "日の丸山展望台",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.vill.minamidaito.okinawa.jp/site/iju/664.html",
+    "access": { "url": "https://www.minamidaito-okinawa.com/access", "summary": "南大東島へは那覇から航空便約1時間または船約13時間。島内はレンタカー・レンタルバイク等で移動。" },
+    "coolness": { "tags": [], "evidence": "村は幕林・池群を眺望できる展望台として説明。", "limitation": "眺望対象の緑・水面を、訪問地点の日陰・水利用・高所冷却へ転用しない。" },
+    "seasonalClosureSafety": "季節営業・閉鎖時刻は確認できない。島内は坂道が多く、徒歩・自転車には体力を要する。",
+    "evidence": [
+      { "url": "https://www.vill.minamidaito.okinawa.jp/site/iju/664.html", "claim": "南大東村が日の丸山展望台と眺望できる幕林・池群を掲載。" },
+      { "url": "https://www.minamidaito-okinawa.com/map", "claim": "南大東村観光協会が島内の長い坂道と徒歩・自転車周遊の負荷を案内。" }
+    ],
+    "coordinateCandidate": { "latitude": 25.821255, "longitude": 131.242986, "elevationM": null, "confidence": "coordinate-retained; elevation-unverified" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 217,
+    "sourceId": "osm-node-2568407094",
+    "decision": "publish",
+    "formalName": "星野洞",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.vill.minamidaito.okinawa.jp/site/iju/699.html",
+    "access": { "url": "https://www.minamidaito-okinawa.com/access", "summary": "南大東島へは那覇から航空便約1時間または船約13時間。通常見学は予約不要で直接来場可能。" },
+    "coolness": { "tags": ["cave"], "evidence": "南大東村が鍾乳洞の洞内施設、石柱・つらら石・石筍を明記。", "limitation": "洞内の日射遮断を根拠とし、気温差の数値は主張しない。" },
+    "seasonalClosureSafety": "受付9:00〜11:30（12:00閉館）・13:00〜16:30（17:00閉館）。通常見学と、ガイド同行・要事前予約の地底湖探検／ケービングを混同しない。",
+    "evidence": [
+      { "url": "https://www.vill.minamidaito.okinawa.jp/site/iju/699.html", "claim": "南大東村が鍾乳洞、予約不要、受付時間、料金改定を掲載。" },
+      { "url": "https://www.minamidaito-okinawa.com/exploring", "claim": "南大東村観光協会が整備済み見学コースと、ガイド同行・要予約の探検を区別。" }
+    ],
+    "coordinateCandidate": { "latitude": 25.857757, "longitude": 131.224719, "elevationM": null, "confidence": "coordinate-retained; elevation-unverified" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 218,
+    "sourceId": "osm-node-12250543303",
+    "decision": "block",
+    "formalName": "西の浜",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://agunikankou.wixsite.com/aguni/activities",
+    "access": { "url": "https://agunikankou.wixsite.com/aguni/activities", "summary": "粟国村観光協会の車利用ガイドツアーの立寄り先。粟国島へは那覇泊港から船便を利用。" },
+    "coolness": { "tags": [], "evidence": "観光地点としての掲載はあるが、水遊び、日陰、監視、夏季利用、局所冷却の説明は確認できない。", "limitation": "浜の名称だけから水辺の涼しさ・遊泳安全性を推定しない。" },
+    "seasonalClosureSafety": "西の浜固有の営業期間・遊泳安全・監視体制は未確認。船便は天候・時期で変更し得るため運航確認が必要。",
+    "evidence": [
+      { "url": "https://agunikankou.wixsite.com/aguni/activities", "claim": "粟国村観光協会が西の浜を島内観光コースの立寄り先に掲載。" },
+      { "url": "https://www.vill.aguni.okinawa.jp/soshiki/senpaku/32.html", "claim": "粟国村が船舶運賃・窓口情報を掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.577426, "longitude": 127.239897, "elevationM": null, "confidence": "coordinate-retained; elevation-unverified" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 219,
+    "sourceId": "osm-node-5885064119",
+    "decision": "block",
+    "formalName": "ヤヒジャ海岸",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.okinawastory.jp/spot/600006716",
+    "access": { "url": "https://www.okinawastory.jp/spot/600006716", "summary": "那覇泊港から船約2時間または那覇空港から飛行機約25分。駐車場6台。" },
+    "coolness": { "tags": [], "evidence": "沖縄県観光情報は数十mの海岸崖と地層を主題としている。", "limitation": "水辺の安全な利用、日陰、風、森林、洞窟、高所の根拠がない。" },
+    "seasonalClosureSafety": "海岸崖の景勝地。季節営業・遊泳・監視情報は未確認で、荒天・崖際の個人判断を避ける。",
+    "evidence": [
+      { "url": "https://www.okinawastory.jp/spot/600006716", "claim": "沖縄県観光情報が凝灰岩の地層、数十mの崖、島へのアクセス、駐車場を掲載。" },
+      { "url": "https://agunikankou.wixsite.com/aguni/activities", "claim": "粟国村観光協会がヤヒジャ海岸を島内ツアーの立寄り先に掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.577538, "longitude": 127.218733, "elevationM": null, "confidence": "coordinate-retained; elevation-unverified" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 220,
+    "sourceId": "osm-node-4354916392",
+    "decision": "publish",
+    "formalName": "タキバル展望台（中岳展望台）",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.okinawastory.jp/spot/600010648",
+    "access": { "url": "https://www.okinawastory.jp/spot/600010648", "summary": "阿嘉集落から車約10分、徒歩約10分。駐車場なし。" },
+    "coolness": { "tags": ["forest", "highland"], "evidence": "沖縄県観光情報が緑の生い茂る遊歩道と高台を、座間味村が中岳の海抜131.7mを記載。", "limitation": "樹木の多いアプローチと標高に限定し、気象予報・体感温度の数値は主張しない。" },
+    "seasonalClosureSafety": "4〜10月9:00〜17:00、11〜3月9:00〜16:00。年中無休だが臨時休業あり。上り坂の遊歩道のため水分補給が必要。",
+    "evidence": [
+      { "url": "https://www.okinawastory.jp/spot/600010648", "claim": "沖縄県観光情報が名称、緑の遊歩道、高台、営業時間、臨時休業、徒歩アクセスと水分補給の注意を掲載。" },
+      { "url": "https://www.vill.zamami.okinawa.jp/sonsei/intro/islands/", "claim": "座間味村が阿嘉島の中岳を海抜131.7mと掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.199019, "longitude": 127.280743, "elevationM": 131.7, "confidence": "coordinate-retained; elevation-public-mountain" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 221,
+    "sourceId": "osm-node-4354916492",
+    "decision": "block",
+    "formalName": "クシバル展望台（後原展望台）",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.okinawastory.jp/spot/600010649",
+    "access": { "url": "https://www.okinawastory.jp/spot/600010649", "summary": "阿嘉港から車約20分と徒歩約5分。駐車場なし。" },
+    "coolness": { "tags": [], "evidence": "公式は阿嘉島西端の夕景展望地として説明するのみ。", "limitation": "日陰・森林・高所・風の冷却根拠がなく、景観を夏の涼しさへ転用しない。" },
+    "seasonalClosureSafety": "4〜10月9:00〜17:00、11〜3月9:00〜16:00。年中無休だが臨時休業あり。車利用と徒歩が必要で、当日の運営状況を確認。",
+    "evidence": [
+      { "url": "https://www.okinawastory.jp/spot/600010649", "claim": "沖縄県観光情報が正式名称、営業時間、アクセスを掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.198058, "longitude": 127.267033, "elevationM": 47, "confidence": "coordinate-retained; elevation-nonofficial-terrain-candidate" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 222,
+    "sourceId": "osm-node-5260992821",
+    "decision": "block",
+    "formalName": "ハテの浜（中の浜）",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.town.kumejima.okinawa.jp/docs/Beach/",
+    "access": { "url": "https://www.town.kumejima.okinawa.jp/docs/Beach/", "summary": "泊フィッシャリーナから渡船約20分。" },
+    "coolness": { "tags": [], "evidence": "公式はサンゴ礁の砂州として説明し、日焼け対策と水分補給を求めている。", "limitation": "水辺だが無日陰の白砂で、風の裏付けもなく、夏の涼しい滞在地にしない。" },
+    "seasonalClosureSafety": "渡船利用。日焼け対策と水分補給が必要。泊フィッシャリーナに駐車場・トイレ・シャワー。",
+    "evidence": [
+      { "url": "https://www.town.kumejima.okinawa.jp/docs/Beach/", "claim": "久米島町がハテの浜の渡船、砂州、日焼け対策、水分補給、発着施設を掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.340187, "longitude": 126.864214, "elevationM": 4, "confidence": "coordinate-retained; elevation-nonofficial-terrain-candidate" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 223,
+    "sourceId": "osm-node-5885064120",
+    "decision": "block",
+    "formalName": "鳥の口（とりのくち）",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.kanko-kumejima.com/spot/see/674/",
+    "access": { "url": "https://www.kanko-kumejima.com/spot/see/674/", "summary": "久米島町字島尻・島尻崎海岸の奇岩。公式掲載に交通手段・営業時間はない。" },
+    "coolness": { "tags": [], "evidence": "公式は海岸の安山岩の大岩として説明。", "limitation": "局所冷却・日陰・安全な水辺利用の根拠がなく、元のバス経路も検証済みアクセスとして扱わない。" },
+    "seasonalClosureSafety": "1〜3月はクジラが見える日がある。海岸・経路の当日状況を現地確認。",
+    "evidence": [
+      { "url": "https://www.kanko-kumejima.com/spot/see/674/", "claim": "久米島町観光協会が鳥の口の名称、海岸の奇岩、クジラの見える季節、住所を掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.293251, "longitude": 126.804312, "elevationM": 44, "confidence": "coordinate-retained; elevation-nonofficial-terrain-candidate" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 224,
+    "sourceId": "osm-node-13433057442",
+    "decision": "block",
+    "formalName": "大本田展望台",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.okinawastory.jp/spot/600006720",
+    "access": { "url": "https://www.okinawastory.jp/spot/600006720", "summary": "那覇泊港から船約2時間15分、渡名喜港から一般道を車約15分。" },
+    "coolness": { "tags": [], "evidence": "標高165mの大本田岳上のパノラマ展望台として掲載。", "limitation": "165mだけでは夏の有意な局所冷却根拠にならず、日陰・風の根拠もない。" },
+    "seasonalClosureSafety": "島の船便は台風・悪天候・津波警報で欠航し得る。出発前に運航を確認。",
+    "evidence": [
+      { "url": "https://www.okinawastory.jp/spot/600006720", "claim": "沖縄県観光情報が大本田岳の標高165m、アクセス、展望地を掲載。" },
+      { "url": "https://www.tonaki-kanko.com/", "claim": "渡名喜村観光協会が台風・悪天候・津波警報時のフェリー欠航条件を案内。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.355828, "longitude": 127.148483, "elevationM": 165, "confidence": "coordinate-retained; elevation-public" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 225,
+    "sourceId": "osm-node-5885062546",
+    "decision": "block",
+    "formalName": "渡名喜港（渡名喜漁港）",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.vill.tonaki.okinawa.jp/sp/detail.jsp?funcid=1&id=57535&menuid=12305",
+    "access": { "url": "https://www.kumeline.com/", "summary": "那覇泊港発の久米島行フェリーで渡名喜島へ。港は漁業拠点かつ島外を結ぶ生活港。" },
+    "coolness": { "tags": [], "evidence": "港の交通・漁業拠点としての情報のみ。", "limitation": "海辺・港を夏の涼しさやレクリエーションの根拠にしない。" },
+    "seasonalClosureSafety": "台風・悪天候・津波警報でフェリー欠航の可能性。港側のビーチ利用・遊泳の根拠なし。",
+    "evidence": [
+      { "url": "https://www.vill.tonaki.okinawa.jp/sp/detail.jsp?funcid=1&id=57535&menuid=12305", "claim": "渡名喜村が渡名喜港を島の港として掲載。" },
+      { "url": "https://www.tonaki-kanko.com/", "claim": "渡名喜村観光協会が船便の欠航条件を案内。" }
+    ],
+    "coordinateCandidate": { "latitude": 26.373295, "longitude": 127.138288, "elevationM": 0, "confidence": "coordinate-retained; harbor-elevation-candidate" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 226,
+    "sourceId": "osm-node-2236381513",
+    "decision": "block",
+    "formalName": "米原のヤエヤマヤシ群落",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.city.ishigaki.okinawa.jp/soshiki/bunkazaisisihennsyuka/bunakazaikinanbutu1/1_1/9376.html",
+    "access": { "url": "https://www.city.ishigaki.okinawa.jp/soshiki/bunkazaisisihennsyuka/bunakazaikinanbutu1/1_1/9376.html", "summary": "石垣市の安全確認が終わるまで散策路入口ゲートは閉鎖中。元データのバス地点は検証済みアクセスとして扱わない。" },
+    "coolness": { "tags": ["forest"], "evidence": "ヤエヤマヤシの群落という樹林・日陰の環境は確認できる。", "limitation": "現在は閉鎖中で、再開後も局所的な木陰の根拠に限定し、気温予報へ転用しない。" },
+    "seasonalClosureSafety": "2026年7月10日から、台風に伴う倒木リスクの安全確認が終わるまで入口ゲート閉鎖・立入不可。",
+    "evidence": [
+      { "url": "https://www.city.ishigaki.okinawa.jp/soshiki/bunkazaisisihennsyuka/bunakazaikinanbutu1/1_1/9376.html", "claim": "石垣市が天然記念物の散策路を台風・倒木リスクにより閉鎖中と告知。" },
+      { "url": "https://www.city.ishigaki.okinawa.jp/kurashi_gyosei/kanko_bunka_sport/rekishi_bunka/8613.html", "claim": "石垣市が米原のヤエヤマヤシ群落を文化財として掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 24.450894, "longitude": 124.194947, "elevationM": 72, "confidence": "coordinate-retained; elevation-nonofficial-terrain-candidate" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 227,
+    "sourceId": "osm-node-3977672542",
+    "decision": "block",
+    "formalName": "エメラルドの海を見る展望台",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://banna.jp/",
+    "access": { "url": "https://www.okinawastory.jp/spot/600011796", "summary": "石垣空港から一般道を車約25分。バンナ公園南側の展望台。" },
+    "coolness": { "tags": [], "evidence": "公園管理者は海・島々を望む展望台として説明する。", "limitation": "眺望から日陰・森林利用・標高・風の夏季冷却を推定しない。" },
+    "seasonalClosureSafety": "観光情報ページは2020年更新のため、出発前に公園・運営者の最新案内を確認。",
+    "evidence": [
+      { "url": "https://banna.jp/", "claim": "バンナ公園が南側の展望台からの海・島々の眺望を掲載。" },
+      { "url": "https://www.okinawastory.jp/spot/600011796", "claim": "沖縄県観光情報が住所と空港からの車アクセスを掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 24.37282, "longitude": 124.162342, "elevationM": 200, "confidence": "coordinate-retained; elevation-nonofficial-terrain-candidate" },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 228,
+    "sourceId": "osm-node-3910209365",
+    "decision": "block",
+    "formalName": "黒島（西表石垣国立公園区域）",
+    "prefecture": "沖縄県",
+    "officialUrl": "https://www.env.go.jp/nature/nationalparks/list/iriomote-ishigaki/",
+    "access": { "url": "https://www.town.taketomi.lg.jp/about/kuroshima/", "summary": "個別の『西表石垣国立公園黒島園地』施設・OSM点への公式アクセスは確認できない。島全体のアクセスは竹富町の黒島案内を参照。" },
+    "coolness": { "tags": [], "evidence": "環境省は国立公園全体の亜熱帯林・サンゴ礁を説明する。", "limitation": "広域公園の特徴を、個別施設が確認できないOSM点へ転用しない。" },
+    "seasonalClosureSafety": "個別施設の営業・閉鎖情報は確認できない。黒島・船便の最新情報を公式に確認。",
+    "evidence": [
+      { "url": "https://www.env.go.jp/nature/nationalparks/list/iriomote-ishigaki/", "claim": "環境省が西表石垣国立公園の亜熱帯林・サンゴ礁を広域特性として掲載。" },
+      { "url": "https://www.env.go.jp/park/iriomote/intro/files/plan_00.pdf", "claim": "環境省の計画資料が字黒島を国立公園区域として扱うが、個別園地施設は確認できない。" },
+      { "url": "https://www.town.taketomi.lg.jp/about/kuroshima/", "claim": "竹富町が黒島の島単位の案内を掲載。" }
+    ],
+    "coordinateCandidate": { "latitude": 24.232665, "longitude": 123.997069, "elevationM": 11, "confidence": "coordinate-retained; elevation-nonofficial-terrain-candidate" },
+    "reviewedAt": "2026-07-18"
+  }
+]

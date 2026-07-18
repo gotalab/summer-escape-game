@@ -1,0 +1,292 @@
+[
+  {
+    "sourceIndex": 25,
+    "sourceId": "osm-node-7217239023",
+    "sourceName": "中山田池公園",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "中山田池公園",
+    "prefecture": "愛知県",
+    "officialUrl": "https://www.city.toyohashi.lg.jp/3997.htm",
+    "accessUrl": "https://www.toyotetsu.jp/b-search/?Mode=result&scode=125&skind=1",
+    "accessSummary": "豊鉄バス「北山」停留所から徒歩圏。市公式の所在地は豊橋市北山町95-1、面積は1.60ha。",
+    "cooling": {
+      "attributes": ["shade"],
+      "summary": "市公式掲載の園内写真で樹木が連なる歩道の日陰を確認できる。木陰だけを局所条件とし、池・高地・気温低下は根拠にしない。"
+    },
+    "operationsAndSafety": "市公式に季節営業・通常時の閉鎖時刻の記載なし。出発前に市のお知らせを確認し、公園利用マナー・禁止事項に従う。",
+    "evidence": [
+      {"url": "https://www.city.toyohashi.lg.jp/3997.htm", "claim": "豊橋市公式が名称、所在地、面積、園内写真を掲載。"},
+      {"url": "https://www.toyotetsu.jp/b-search/?Mode=result&scode=125&skind=1", "claim": "豊鉄バス「北山」の時刻・経路を確認できる。"},
+      {"url": "https://www.city.toyohashi.lg.jp/37665.htm", "claim": "豊橋市の公園利用マナー・禁止事項。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "標高候補の取得元である国土地理院標高APIの仕様。"}
+    ],
+    "coordinates": {"latitude": 34.736478, "longitude": 137.399466, "status": "retained", "note": "元座標は市公式所在地（北山町95-1）と整合。"},
+    "elevationM": 21.7
+  },
+  {
+    "sourceIndex": 26,
+    "sourceId": "osm-node-6343932886",
+    "sourceName": "ワラビ",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "ワラビ（OSM名のみ、公式名称未確認）",
+    "prefecture": "岐阜県",
+    "officialUrl": null,
+    "accessUrl": null,
+    "accessSummary": "公式・公的な観光施設、管理者、一般利用向けアクセス案内を確認できない。元データの愛知県表記は座標と整合せず、岐阜県土岐市側。",
+    "cooling": {
+      "attributes": [],
+      "summary": "公式名称・公開利用・夏の局所的冷涼条件の根拠を確認できない。OSM上の wilderness_hut 表記だけでは公開目的地・管理状況・安全性を裏付けられない。"
+    },
+    "operationsAndSafety": "営業・開放時期・管理者・安全条件は未確認。私有地・非公開地の可能性を除外できないため公開しない。",
+    "evidence": [
+      {"url": "https://www.pref.gifu.lg.jp/page/249.html", "claim": "岐阜県公式が土岐市内の県道19号（土岐足助線）を確認できる。"},
+      {"url": "https://www.city.toki.lg.jp/shisei/gaiyo/1004190.html", "claim": "土岐市が岐阜県東南部で愛知県瀬戸市・豊田市に接することを確認。"},
+      {"url": "https://maps.gsi.go.jp/development/elevation_s.html", "claim": "標高候補の取得元である国土地理院標高APIの仕様。"}
+    ],
+    "coordinates": {"latitude": 35.286835, "longitude": 137.204615, "status": "retained_unverified", "note": "元OSM座標。公開利用を裏付けるものではない。"},
+    "elevationM": 393.5
+  },
+  {
+    "sourceIndex": 27,
+    "sourceId": "osm-node-9329359414",
+    "sourceName": "城ヶ根山展望台",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "城ヶ根山展望台（御作城跡）",
+    "prefecture": "愛知県",
+    "officialUrl": "https://www.tourismtoyota.jp/spots/detail/727/",
+    "accessUrl": "https://www.tourismtoyota.jp/spots/detail/727/",
+    "accessSummary": "豊田市駅からおいでんバス（旭・豊田線）で下川口へ、ふじバスに乗り換え「御作公民館下」下車徒歩約10分。車は西広瀬ICから県道486号経由約10分、無料駐車場あり。",
+    "cooling": {
+      "attributes": ["shade"],
+      "summary": "公式写真で樹木と屋根付き展望施設を確認できるため、登路・施設の木陰だけを局所条件とする。公式の城ヶ根山標高は210mで、高地や開けた展望地点の涼しさは主張しない。"
+    },
+    "operationsAndSafety": "通常の季節営業・閉鎖時刻は公式掲載なし。天徳寺側は倒木などで通行不可のため、シロバナ藤横の指定入口を利用し、現地の通行案内に従う。",
+    "evidence": [
+      {"url": "https://www.tourismtoyota.jp/spots/detail/727/", "claim": "正式名称、公共交通・車アクセス、無料駐車場、倒木時の指定入口を掲載。"},
+      {"url": "https://www.tourismtoyota.jp/spots/detail/2191/", "claim": "御作城跡（城ヶ根山展望台）と城ヶ根山標高210mを掲載。"},
+      {"url": "https://fujioka-kanko.jp/news/i20260321/", "claim": "藤岡観光協会の2026-03-21告知で展望台の現存を確認。"}
+    ],
+    "coordinates": {"latitude": 35.189927, "longitude": 137.244, "status": "corrected", "note": "Tourism Toyotaの公式地図埋込座標。"},
+    "elevationM": 210
+  },
+  {
+    "sourceIndex": 28,
+    "sourceId": "osm-node-1013064340",
+    "sourceName": "天狗棚展望台",
+    "decision": "merge",
+    "mergeTarget": "面ノ木園地（天狗棚）",
+    "reviewedAt": "2026-07-18",
+    "formalName": "面ノ木園地（天狗棚）",
+    "prefecture": "愛知県",
+    "officialUrl": "https://aichinow.pref.aichi.jp/spots/detail/1282/",
+    "accessUrl": "https://www.kankoshitara.jp/experience/detail/11/",
+    "accessSummary": "設楽町津具高笹3-67。新城ICから国道151号・257号経由で約70〜90分、豊川ICから約110〜120分。駐車場・トイレ・遊歩道（登山道）・展望台あり。",
+    "cooling": {
+      "attributes": ["highland", "forest"],
+      "summary": "公式が標高1,240m、広葉樹の原生林・自然林・湿地帯を明記。高地と森林環境だけを局所条件とする。独立した天狗棚展望台の公式掲載は確認できず、同一園地へ統合する。"
+    },
+    "operationsAndSafety": "旧面ノ木ビジターセンターは2019年9月末に閉館（園地の閉鎖とは混同しない）。冬季は進入道路・駐車場の凍結に注意し、登山道を外れず日没を考慮する。公式散策マップには未反映部分がある。",
+    "evidence": [
+      {"url": "https://aichinow.pref.aichi.jp/spots/detail/1282/", "claim": "愛知県公式が名称、標高1,240m、駐車場・登山道・展望台、所在地、車アクセスを掲載。"},
+      {"url": "https://www.kankoshitara.jp/experience/detail/11/", "claim": "設楽町観光が原生林・自然林・湿地帯、旧ビジターセンター閉館、地図更新上の注意を掲載。"},
+      {"url": "https://aichinow.pref.aichi.jp/features/detail/109/", "claim": "愛知県公式が冬季の進入道路・駐車場凍結への注意を掲載。"}
+    ],
+    "coordinates": {"latitude": 35.186646, "longitude": 137.584042, "status": "corrected", "note": "Aichi Now公式Google Mapリンクの座標。"},
+    "elevationM": 1240
+  },
+  {
+    "sourceIndex": 29,
+    "sourceId": "osm-node-1690326216",
+    "sourceName": "面の木園地",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "面ノ木園地（天狗棚）",
+    "prefecture": "愛知県",
+    "officialUrl": "https://www.kankoshitara.jp/experience/detail/11/",
+    "accessUrl": "https://www.kankoshitara.jp/experience/detail/11/",
+    "accessSummary": "新城ICから国道151号・257号経由で約70分、豊川ICから約110分。駐車場・トイレ・遊歩道（登山道）・展望台あり。公共交通の案内は掲載されず、車前提。",
+    "cooling": {
+      "attributes": ["highland", "forest"],
+      "summary": "公式が標高1,240m、広葉樹の原生林・自然林・湿地帯を明記する。高地と森林環境を根拠とし、気温予報値は用いない。"
+    },
+    "operationsAndSafety": "売店は4〜11月限定。旧ビジターセンターは2019年9月末に閉館。地図データに未反映部分があるため出発前に現況・登山道を確認し、冬季は道路・駐車場の凍結に注意する。",
+    "evidence": [
+      {"url": "https://www.kankoshitara.jp/experience/detail/11/", "claim": "設楽町観光が名称、標高1,240m、原生林・湿地、施設、アクセス、ビジターセンター閉館、地図注意を掲載。"},
+      {"url": "https://aichinow.pref.aichi.jp/spots/detail/1282/", "claim": "愛知県公式が駐車場・トイレと車アクセスを掲載。"},
+      {"url": "https://hagumin-net.pref.aichi.jp/facility/playground_search_detail/170", "claim": "愛知県の施設情報が売店の営業を4〜11月と掲載。"}
+    ],
+    "coordinates": {"latitude": 35.186646, "longitude": 137.584042, "status": "corrected", "note": "県公式Aichi Now掲載地図。"},
+    "elevationM": 1240
+  },
+  {
+    "sourceIndex": 30,
+    "sourceId": "osm-node-13994436065",
+    "sourceName": "観音山",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "観音山",
+    "prefecture": "愛知県",
+    "officialUrl": "https://asuke.info/view/shizen/entry-29.html",
+    "accessUrl": "https://asuke.info/access/",
+    "accessSummary": "足助地域へは浄水駅・豊田市駅・東岡崎駅から「香嵐渓」バス停を利用できるが、観音山個別の登山口・徒歩経路の公式案内は確認できない。",
+    "cooling": {
+      "attributes": [],
+      "summary": "公式は紅葉の名所、山頂付近の観音寺として紹介するのみで、夏の持続的な日陰・水辺・高地などの局所的根拠を確認できない。"
+    },
+    "operationsAndSafety": "個別の季節営業・閉鎖・登山安全条件を公式に確認できないため、夏の推薦地点として公開しない。",
+    "evidence": [
+      {"url": "https://asuke.info/view/shizen/entry-29.html", "claim": "足助観光協会が観音山を紅葉の名所、山頂付近の観音寺として掲載。"},
+      {"url": "https://asuke.info/access/", "claim": "足助地域への公共交通・道路アクセス。"}
+    ],
+    "coordinates": {"latitude": 35.139415, "longitude": 137.321548, "status": "corrected", "note": "足助観光協会ページ内の公式地図。"},
+    "elevationM": 168
+  },
+  {
+    "sourceIndex": 31,
+    "sourceId": "osm-node-13999932408",
+    "sourceName": "カタクリ群生地",
+    "decision": "merge",
+    "mergeTarget": "香嵐渓のカタクリ群生",
+    "reviewedAt": "2026-07-18",
+    "formalName": "香嵐渓のカタクリ群生",
+    "prefecture": "愛知県",
+    "officialUrl": "https://www.tourismtoyota.jp/spots/detail/272/",
+    "accessUrl": "https://www.tourismtoyota.jp/spots/detail/272/",
+    "accessSummary": "名鉄豊田市駅から名鉄バス61番・足助行で「香嵐渓」下車、徒歩約5分。車は力石IC約15分または豊田勘八IC約20分で、香嵐渓駐車場は有料。",
+    "cooling": {
+      "attributes": [],
+      "summary": "飯盛山北西向き斜面の花の群生で、公式の観賞時期は3月中旬〜下旬。夏の涼しさの根拠ではないため、夏候補として公開せず春季サブスポットへ統合する。"
+    },
+    "operationsAndSafety": "観賞は例年3月中旬〜下旬で気候により変動し、雨・曇天・低温では花が閉じる。夏季は対象外。",
+    "evidence": [
+      {"url": "https://www.tourismtoyota.jp/spots/detail/272/", "claim": "正式表記、飯盛山北西向き斜面、例年3月中旬〜下旬、アクセス、駐車場を掲載。"},
+      {"url": "https://asuke.info/access/", "claim": "香嵐渓への公共交通を確認できる。"}
+    ],
+    "coordinates": {"latitude": 35.133573, "longitude": 137.31368, "status": "corrected", "note": "ツーリズムとよたページ内の公式地図。"},
+    "elevationM": 141
+  },
+  {
+    "sourceIndex": 32,
+    "sourceId": "osm-node-5754073935",
+    "sourceName": "鷹打場",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "鷹打場（鳳来寺山）",
+    "prefecture": "愛知県",
+    "officialUrl": "https://shinshirokankou.com/feature/detail/81/",
+    "accessUrl": "https://www.city.shinshiro.lg.jp/mokuteki/shisetu/parking/park.html",
+    "accessSummary": "鳳来寺山パークウェイから山中腹へ入り、鷹打場は東海自然歩道の先。公共交通は本長篠駅・バスから鳳来寺表参道を起点にできる。",
+    "cooling": {
+      "attributes": ["highland"],
+      "summary": "鳳来寺山の公式登山マップ上の地点で、山頂標高は684m。地点の地形標高候補は約503mであり、高地だけを根拠とする。岩場からせり出した遮るもののない展望地のため、shade・forest・breezeは主張しない。"
+    },
+    "operationsAndSafety": "公式登山マップの登山適期は4月〜1月。駐車場は8:00〜16:00入場、17:00までに出庫。2026-07-18〜08-31は行者越駐車場を利用可。難易度3つ星で道迷い増加に注意し、案内板確認、登山靴・水などの装備が必要。日没後登山禁止、軽装不可、駐車場間の県道は徒歩通行禁止。",
+    "evidence": [
+      {"url": "https://shinshirokankou.com/feature/detail/81/", "claim": "鷹打場を東海自然歩道先の露岩展望地、パークウェイからの行程として掲載。"},
+      {"url": "https://www.city.shinshiro.lg.jp/kanko/sports/tozanmap.html", "claim": "鳳来寺山の難易度、道迷い・装備注意、登山適期を掲載。"},
+      {"url": "https://www.city.shinshiro.lg.jp/mokuteki/shisetu/parking/park.html", "claim": "駐車場時間、2026年夏季の行者越駐車場、安全条件を掲載。"},
+      {"url": "https://www.city.shinshiro.lg.jp/mokuteki/shisetu/shiryokan/houraijisan/access.html", "claim": "本長篠駅・バスから鳳来寺表参道への公式アクセス。"}
+    ],
+    "coordinates": {"latitude": 34.979463, "longitude": 137.593688, "status": "retained_unverified", "note": "既存OSM地点。公式資料は鷹打場を登山マップに掲載するが緯経度は未掲載。"},
+    "elevationM": 503
+  },
+  {
+    "sourceIndex": 33,
+    "sourceId": "osm-node-5760304376",
+    "sourceName": "南アルプス展望台",
+    "decision": "merge",
+    "mergeTarget": "鷹打場（鳳来寺山）",
+    "reviewedAt": "2026-07-18",
+    "formalName": "鳳来寺山",
+    "prefecture": "愛知県",
+    "officialUrl": "https://www.city.shinshiro.lg.jp/kanko/meisyo/horaijisan.html",
+    "accessUrl": "https://www.city.shinshiro.lg.jp/kanko/sports/tozanmap.html",
+    "accessSummary": "市公式の鳳来寺山コースを事前確認する。公式PDFは豊鉄バス「鳳来寺」下車徒歩15分（博物館）を案内し、車はパークウェイを利用する。",
+    "cooling": {
+      "attributes": ["highland", "forest"],
+      "summary": "市公式が鳳来寺山を標高695m、全山がほぼ原生林と記載する。高地・森林という環境条件だけを根拠とし、独立した「南アルプス展望台」は市公式の名勝・コース図で確認できないため正規地点へ統合する。"
+    },
+    "operationsAndSafety": "公式登山マップの登山適期は4月〜1月。駐車場は8:00〜16:00入場、17:00までに出庫。難易度3つ星、道迷い増加、日没後登山禁止、軽装不可、県道徒歩通行禁止の条件に従う。",
+    "evidence": [
+      {"url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/horaijisan.html", "claim": "新城市公式が鳳来寺山を標高695m、全山ほぼ原生林と掲載。"},
+      {"url": "https://www.city.shinshiro.lg.jp/kanko/sports/tozanmap.html", "claim": "登山コースの難易度、道迷い・案内板確認の注意、公共交通・車アクセスを掲載。"},
+      {"url": "https://www.city.shinshiro.lg.jp/mokuteki/shisetu/parking/park.html", "claim": "駐車場の利用時間と夏季安全条件を掲載。"}
+    ],
+    "coordinates": {"latitude": 34.9828437, "longitude": 137.5829701, "status": "corrected", "note": "公式地図リンクの中心。元の個別OSM点は公式の独立名称を裏付けない。"},
+    "elevationM": 682.7
+  },
+  {
+    "sourceIndex": 34,
+    "sourceId": "osm-node-1083015639",
+    "sourceName": "仏頭岩と雲龍ガシ",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "仏頭岩と雲龍ガシ",
+    "prefecture": "愛知県",
+    "officialUrl": "https://www.okuminavi.jp/spot/detail/539/",
+    "accessUrl": "https://www.okuminavi.jp/spot/detail/539/",
+    "accessSummary": "車は豊川ICから案内ルートで「つくで手作り村」手前を左折し、須山老人いこいの家手前を右折して右手看板へ。公共交通はJR新城駅から新城Sバス作手線で「つくで手作り村」下車後徒歩850m。",
+    "cooling": {
+      "attributes": ["highland", "shade"],
+      "summary": "地点標高候補は約541mで、公式観光ナビが仏頭岩を守るように根を張る大きなアカガシ（雲龍ガシ）を掲載する。高地と樹下の日陰に限定した根拠で、気温実測・予報や岩自体の冷却は主張しない。"
+    },
+    "operationsAndSafety": "季節営業・閉鎖情報の掲載なし。出発前に掲載連絡先（作手歴史民俗資料館 0536-37-2188）へ現況確認を推奨。公式掲載ではトイレなし、バリアフリーなし。",
+    "evidence": [
+      {"url": "https://www.okuminavi.jp/spot/detail/539/", "claim": "奥三河観光協議会の公式観光ナビが所在地、仏頭岩、大きなアカガシ、車・公共交通アクセス、トイレ・バリアフリー情報を掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=137.4146940&lat=34.9657900&outtype=JSON", "claim": "国土地理院DEM APIで地点標高540.7mを確認。"}
+    ],
+    "coordinates": {"latitude": 34.96579, "longitude": 137.414694, "status": "corrected", "note": "公式ページのGoogle Mapsリンク。"},
+    "elevationM": 540.7
+  },
+  {
+    "sourceIndex": 35,
+    "sourceId": "osm-node-4583554192",
+    "sourceName": "展望デッキ",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "長篠設楽原PA（下り）",
+    "prefecture": "愛知県",
+    "officialUrl": "https://sapa.c-nexco.co.jp/sapa?sapainfoid=210",
+    "accessUrl": "https://sapa.c-nexco.co.jp/guide/platpark?sapainfoid=210",
+    "accessSummary": "新東名のPAとして利用できる。一般道側からは小型30台の「ぷらっとパーク」を24時間利用できる。",
+    "cooling": {
+      "attributes": [],
+      "summary": "NEXCO公式は正式施設名を確認できるが、個別名「展望デッキ」や、屋外デッキに許容された局所的冷涼要因の公式根拠を確認できない。"
+    },
+    "operationsAndSafety": "ぷらっとパークは24時間。個別「展望デッキ」の開閉は公式未確認で、施設・交通規制は出発前にNEXCO公式を確認する。",
+    "evidence": [
+      {"url": "https://sapa.c-nexco.co.jp/sapa?sapainfoid=210", "claim": "NEXCO中日本が長篠設楽原PA（下り、名古屋方面）、所在地、施設情報を掲載。"},
+      {"url": "https://sapa.c-nexco.co.jp/guide/platpark?sapainfoid=210", "claim": "一般道側からのぷらっとパークの台数・24時間利用を掲載。"}
+    ],
+    "coordinates": {"latitude": 34.925, "longitude": 137.51281, "status": "retained_unverified", "note": "元OSM座標。個別施設名の公式裏付けはない。"},
+    "elevationM": 96.2
+  },
+  {
+    "sourceIndex": 36,
+    "sourceId": "osm-node-1024173526",
+    "sourceName": "四谷千枚田ビュースポット",
+    "decision": "merge",
+    "mergeTarget": "四谷の千枚田",
+    "reviewedAt": "2026-07-18",
+    "formalName": "四谷の千枚田",
+    "prefecture": "愛知県",
+    "officialUrl": "https://www.city.shinshiro.lg.jp/kanko/meisyo/senmaida.html",
+    "accessUrl": "https://www.city.shinshiro.lg.jp/kanko/meisyo/senmaida.html",
+    "accessSummary": "新東名新城ICから約30分、国道151号・257号経由で海老池貝津交差点を右折。ナビは「新城市四谷230」。公共交通はJR本長篠からバス「滝上」下車徒歩40分の案内もある。",
+    "cooling": {
+      "attributes": ["highland", "water", "forest"],
+      "summary": "市公式が鞍掛山（883m）南西斜面の標高220〜420mに広がる山間の棚田、山中腹の湧水から流れる三筋の沢、傾斜地山林を開墾した棚田と記載する。地形・水・周辺植生の条件だけを根拠とし、開放的な棚田の見晴らし地点の日陰や気温低下は主張しない。"
+    },
+    "operationsAndSafety": "営業時間・季節閉鎖の記載なし。市公式は1904年の長雨・雨台風による山崩れの歴史を記載するため、大雨時は近づかず、市・道路の現地情報を確認する（通常時閉鎖の根拠ではない）。",
+    "evidence": [
+      {"url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/senmaida.html", "claim": "新城市公式が正式名称、鞍掛山南西斜面、棚田の標高220〜420m、湧水と三筋の沢、車アクセス、豪雨時の山崩れ史を掲載。"},
+      {"url": "https://aichinow.pref.aichi.jp/spots/detail/49/%E3%80%80%E6%84%9B%E7%9F%A5%E3%81%AE%E5%85%AC%E5%BC%8F%E8%A6%B3%E5%85%89%E3%82%AC%E3%82%A4%E3%83%89", "claim": "愛知県公式観光ガイドが駐車場・トイレ、バス利用の補足を掲載。"},
+      {"url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=137.5668516&lat=35.0494898&outtype=JSON", "claim": "国土地理院DEM APIで公式地図中心の標高260.3mを確認。"}
+    ],
+    "coordinates": {"latitude": 35.0494898, "longitude": 137.5668516, "status": "corrected", "note": "公式Mapリンクの中心。元OSM点は公式の個別名称を裏付けない。"},
+    "elevationM": 260.3
+  }
+]

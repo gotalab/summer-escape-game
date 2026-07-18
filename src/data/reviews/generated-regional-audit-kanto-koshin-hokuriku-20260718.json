@@ -1,0 +1,150 @@
+[
+  {
+    "sourceIndex": 1638,
+    "sourceId": "osm-node-758719921",
+    "decision": "publish",
+    "formalName": "竜化の滝",
+    "prefecture": "栃木県",
+    "officialUrl": "https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/tsuishin/6/3/2260.html",
+    "access": {
+      "url": "https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/tsuishin/6/3/2260.html",
+      "summary": "国道400号沿いの竜化の滝入口・駐車場から遊歩道を約0.7km。駐車場側の公開入口を経路地点にする。"
+    },
+    "cooling": {
+      "attributes": ["gorge", "water", "forest", "shade"],
+      "scope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "summary": "塩原を代表する滝と森林・渓流の局所環境。屋外気温は当日の地点予報で判断する。"
+    },
+    "operationsAndSafety": "駐車場から滝見台まで往復約1時間。濡れた遊歩道と落石に注意し、市の熊出没情報を当日確認。",
+    "coordinates": { "latitude": 36.966309, "longitude": 139.85099, "elevationM": null },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 536,
+    "sourceId": "osm-node-4290898703",
+    "decision": "publish",
+    "formalName": "小平鍾乳洞",
+    "prefecture": "群馬県",
+    "officialUrl": "https://www.city.midori.gunma.jp/sangyou/1001646/1001796/1009380.html",
+    "access": {
+      "url": "https://www.city.midori.gunma.jp/sangyou/1001646/1001796/1009380.html",
+      "summary": "みどり市大間々町小平甲445。小平の里の鍾乳洞受付・入口を経路地点にする。"
+    },
+    "cooling": {
+      "attributes": ["cave", "underground"],
+      "scope": "enclosed-space",
+      "claimLevel": "mechanism-verified",
+      "summary": "管理された観光鍾乳洞の内部空間。確認できない温度数値は表示せず、屋外予報と分ける。"
+    },
+    "operationsAndSafety": "通常4〜9月は9:00〜17:00。最新の営業・工事情報を確認し、洞内の濡れた足元と低い天井に注意。",
+    "coordinates": { "latitude": 36.464545, "longitude": 139.307191, "elevationM": null },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 875,
+    "sourceId": "osm-node-1867165622",
+    "decision": "publish",
+    "formalName": "鳴沢氷穴",
+    "prefecture": "山梨県",
+    "officialUrl": "https://www.mtfuji-cave.com/contents/ice_cave/",
+    "access": {
+      "url": "https://www.mtfuji-cave.com/contents/access/",
+      "summary": "鳴沢村8533。公式施設マーカーの券売所・入洞口を経路地点にする。河口湖駅から氷穴バス停。"
+    },
+    "cooling": {
+      "attributes": ["cave", "underground"],
+      "scope": "enclosed-space",
+      "claimLevel": "numeric-verified",
+      "summary": "公式が洞内の平均気温を約3℃と案内する竪穴型溶岩洞。屋外の気温・体感温度には転用しない。",
+      "thermalEvidence": [{ "subject": "enclosed-air", "valueC": 3, "qualifier": "average lava-cave temperature", "sourceUrl": "https://www.mtfuji-cave.com/contents/ice_cave/" }]
+    },
+    "operationsAndSafety": "4月1日〜10月15日は通常9:00〜17:00。急階段、低い天井、滑る床あり。乳児を抱いての入洞不可。",
+    "coordinates": { "latitude": 35.474561, "longitude": 138.666571, "elevationM": null },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1464,
+    "sourceId": "osm-node-748060815",
+    "decision": "publish",
+    "formalName": "番所大滝",
+    "prefecture": "長野県",
+    "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/134/3968.html",
+    "access": {
+      "url": "https://www.city.matsumoto.nagano.jp/soshiki/134/3968.html",
+      "summary": "乗鞍高原の番所大滝駐車場から滝見台へ徒歩。駐車場・遊歩道入口を経路地点にする。"
+    },
+    "cooling": {
+      "attributes": ["gorge", "water", "forest", "shade", "highland"],
+      "scope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "summary": "高原の森林、滝、渓谷がつくる局所環境。屋外気温は当日の地点予報で判断する。"
+    },
+    "operationsAndSafety": "見学は往復約30分。急な階段があり、濡れた足元と増水に注意。",
+    "coordinates": { "latitude": 36.127584, "longitude": 137.658356, "elevationM": null },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1751,
+    "sourceId": "osm-node-7594392985",
+    "decision": "publish",
+    "formalName": "瓜割の滝",
+    "prefecture": "福井県",
+    "officialUrl": "https://www.wakasa-mikatagoko.jp/search/entry/tourism-009.html",
+    "access": {
+      "url": "https://www.wakasa-mikatagoko.jp/search/entry/tourism-009.html",
+      "summary": "若狭町天徳寺の若狭瓜割名水公園・駐車場から公開遊歩道へ。公園入口を経路地点にする。"
+    },
+    "cooling": {
+      "attributes": ["spring", "water", "forest", "shade"],
+      "scope": "water-contact",
+      "claimLevel": "mechanism-verified",
+      "summary": "一年を通して冷たい水が流れる公園内の水辺。水温を周辺気温・体感温度には転用しない。"
+    },
+    "operationsAndSafety": "滝は通年見学可能。名水の里は通常9:00〜17:00。採水・飲用は現地ルールに従う。",
+    "coordinates": { "latitude": 35.457436, "longitude": 135.842839, "elevationM": null },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1082,
+    "sourceId": "osm-node-10050220018",
+    "decision": "publish",
+    "formalName": "小滝川ヒスイ峡",
+    "prefecture": "新潟県",
+    "officialUrl": "https://www.city.itoigawa.lg.jp/page/1606.html",
+    "access": {
+      "url": "https://geo-itoigawa.com/tourism/course/mpm04/",
+      "summary": "小滝川ヒスイ峡展望台・学習護岸の市有駐車場から公開遊歩道へ入る。生成データの小滝駅ではなく現地駐車場側を入口にする。"
+    },
+    "cooling": {
+      "attributes": ["gorge", "water", "forest", "shade"],
+      "scope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "summary": "小滝川、峡谷の岩壁、森林がつくる局所環境。屋外気温は当日の地点予報で判断する。"
+    },
+    "operationsAndSafety": "道路の通行状況を当日確認。積雪期は閉鎖される。天然記念物区域での岩石採取は禁止。",
+    "coordinates": { "latitude": 36.925972, "longitude": 137.821594, "elevationM": null },
+    "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1263,
+    "sourceId": "osm-node-2182946588",
+    "decision": "publish",
+    "formalName": "七ツ滝",
+    "prefecture": "石川県",
+    "officialUrl": "https://www.city.nomi.lg.jp/docs/1443.html",
+    "access": {
+      "url": "https://www.city.nomi.lg.jp/docs/1443.html",
+      "summary": "能美市長滝町の七ツ滝駐車場から一の滝まで約400m・徒歩約10分。生成データの先端大学前ではなく現地駐車場側を入口にする。"
+    },
+    "cooling": {
+      "attributes": ["gorge", "water", "forest", "shade"],
+      "scope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "summary": "大小七つの滝、渓流、森林がつくる局所環境。屋外気温は当日の地点予報で判断する。"
+    },
+    "operationsAndSafety": "駐車場から遊歩道を利用。増水、落石、濡れた足元に注意し、現地の規制に従う。",
+    "coordinates": { "latitude": 36.442835, "longitude": 136.586016, "elevationM": null },
+    "reviewedAt": "2026-07-18"
+  }
+]

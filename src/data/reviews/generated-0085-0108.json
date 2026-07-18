@@ -1,0 +1,837 @@
+[
+  {
+    "sourceIndex": 85,
+    "sourceId": "osm-node-2349094219",
+    "sourceName": "阿字ヶ浦海水浴場",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "阿字ヶ浦海水浴場",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.hitachinaka.lg.jp/business/kankoshinko/1002713/1010142.html",
+    "accessUrl": "https://www.city.hitachinaka.lg.jp/business/kankoshinko/1002713/1010142.html",
+    "accessSummary": "阿字ヶ浦駅から徒歩約5分、ひたち海浜公園ICから車約5分。",
+    "cooling": {
+      "attributes": [
+        "water"
+      ],
+      "summary": "海水に接する水辺。砂浜の日陰や局所的な気温低下は保証しない。"
+    },
+    "operationsAndSafety": "2026年は7月18日から8月23日、8:00から16:00のみ開設。 当日の遊泳可否を確認し、監視時間外・荒天・高波時は利用しない。",
+    "evidence": [
+      {
+        "url": "https://www.city.hitachinaka.lg.jp/business/kankoshinko/1002713/1010142.html",
+        "claim": "ひたちなか市が2026年の開設期間、アクセス、遊泳可否案内を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=140.615545&lat=36.387367&outtype=JSON",
+        "claim": "国土地理院DEMの標高値。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.387367,
+      "longitude": 140.615545,
+      "status": "correction_candidate",
+      "note": "既存点を維持し、標高を国土地理院DEMで補正。"
+    },
+    "elevationM": 2.9
+  },
+  {
+    "sourceIndex": 86,
+    "sourceId": "osm-node-10786520839",
+    "sourceName": "いずみ公園",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "泉公園",
+    "prefecture": "栃木県",
+    "officialUrl": "https://www.city.nasukarasuyama.lg.jp/city-administration/city-facilities/parks/page002464.html",
+    "accessUrl": "https://www.city.nasukarasuyama.lg.jp/city-administration/city-facilities/parks/page002464.html",
+    "accessSummary": "JR烏山駅の東約1.5km、那須烏山市旭の街区公園。",
+    "cooling": {
+      "attributes": [],
+      "summary": "築山・遊具・芝生は確認できるが、夏の木陰、水辺、屋内等の根拠がない。"
+    },
+    "operationsAndSafety": "屋外の街区公園で、季節営業・避暑利用の公式案内は確認できない。 元データの県は茨城県ではなく栃木県。",
+    "evidence": [
+      {
+        "url": "https://www.city.nasukarasuyama.lg.jp/city-administration/city-facilities/parks/page002464.html",
+        "claim": "那須烏山市が正式表記、駅からの位置、施設を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=140.1646481&lat=36.6532773&outtype=JSON",
+        "claim": "国土地理院DEMの標高値。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.6532773,
+      "longitude": 140.1646481,
+      "status": "correction_candidate",
+      "note": "既存点を維持し、県を栃木県へ補正。"
+    },
+    "elevationM": 84.5
+  },
+  {
+    "sourceIndex": 87,
+    "sourceId": "osm-node-4375242870",
+    "sourceName": "花立自然公園",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "花立自然公園",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.hitachiomiya.lg.jp/kankou_guide/activity/park/page002946.html",
+    "accessUrl": "https://www.city.hitachiomiya.lg.jp/kankou_guide/activity/park/page002946.html",
+    "accessSummary": "常陸大宮市高部4611-1。市公式のアクセスマップを使用。",
+    "cooling": {
+      "attributes": [
+        "forest"
+      ],
+      "summary": "市が自然に囲まれた公園として案内する森林環境。局所気温の低下は主張しない。"
+    },
+    "operationsAndSafety": "アスレタワーは休止中。屋外遊具は4から10月10:00から16:30、火曜・年末年始休園。 天文台は予約制で荒天時中止。",
+    "evidence": [
+      {
+        "url": "https://www.city.hitachiomiya.lg.jp/kankou_guide/activity/park/page002946.html",
+        "claim": "常陸大宮市が森林環境、住所、施設、休園日を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=140.291092&lat=36.649698&outtype=JSON",
+        "claim": "国土地理院DEMの標高値。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.649698,
+      "longitude": 140.291092,
+      "status": "retained_unverified",
+      "note": "既存点を維持。標高は当該点のDEM値。"
+    },
+    "elevationM": 261.4
+  },
+  {
+    "sourceIndex": 88,
+    "sourceId": "osm-node-7212938687",
+    "sourceName": "野外ステージ",
+    "decision": "merge",
+    "mergeTarget": "桜川市総合運動公園（ラスカ）",
+    "reviewedAt": "2026-07-18",
+    "formalName": "桜川市総合運動公園（東ステージ／屋外ステージ）",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.sakuragawa.lg.jp/map_route.php?code=140",
+    "accessUrl": "https://www.city.sakuragawa.lg.jp/map_route.php?code=140",
+    "accessSummary": "桜川市岩瀬2685-14。単独ステージの公共交通案内は確認できない。",
+    "cooling": {
+      "attributes": [],
+      "summary": "屋外ステージ単体に避暑の根拠はないため親施設へ統合。"
+    },
+    "operationsAndSafety": "総合運動公園は9:00から21:30、月曜と12月29日から1月3日は休業。 イベント時の利用可否を確認する。",
+    "evidence": [
+      {
+        "url": "https://www.city.sakuragawa.lg.jp/data/doc/1765329352_doc_36_0.pdf",
+        "claim": "桜川市の2026年イベント資料が東ステージを屋外ステージとして掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=140.1369867&lat=36.365562&outtype=JSON",
+        "claim": "国土地理院DEMの標高値。"
+      }
+    ],
+    "coordinates": null,
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 89,
+    "sourceId": "osm-node-8108770617",
+    "sourceName": "石切山脈",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "石切山脈",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.ishikiri-sanmyaku.com/",
+    "accessUrl": "https://www.city.kasama.lg.jp/page/page017243.html",
+    "accessSummary": "見学受入は2026年3月31日に中止され、再開予定なし。旧アクセスは採用しない。",
+    "cooling": {
+      "attributes": [],
+      "summary": "旧案内の貯水池はあるが、現在は見学できないため根拠に採用しない。"
+    },
+    "operationsAndSafety": "運営者・笠間市とも一般見学と主催ツアーの中止、再開予定なしを告知。 現役採石場関連の安全上、公開候補から除外。",
+    "evidence": [
+      {
+        "url": "https://www.ishikiri-sanmyaku.com/",
+        "claim": "運営者が2026年3月31日で見学受入中止・再開予定なしと告知。"
+      },
+      {
+        "url": "https://www.city.kasama.lg.jp/page/page017243.html",
+        "claim": "笠間市も同じ中止情報を掲載。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.37487,
+      "longitude": 140.205254,
+      "status": "retained_unverified",
+      "note": "参考位置のみ。閉鎖中のためルーティング対象にしない。"
+    },
+    "elevationM": 59.2
+  },
+  {
+    "sourceIndex": 90,
+    "sourceId": "osm-node-11750252997",
+    "sourceName": "御前山県立自然公園",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "御前山県立自然公園",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.pref.ibaraki.jp/seikatsukankyo/shizen/shizen/koen/07.html",
+    "accessUrl": "https://www.ibarakiguide.jp/spot.php?code=446&mode=detail",
+    "accessSummary": "水戸駅からバス約60分、車は水戸ICから御前山方面へ約25km、河川敷駐車場100台。",
+    "cooling": {
+      "attributes": [
+        "water",
+        "forest"
+      ],
+      "summary": "那珂川とケヤキ・アカマツ・カシ等の樹林を根拠とする。広域の予報気温を局所効果に読み替えない。"
+    },
+    "operationsAndSafety": "7,380haの広域自然公園で、点は代表点にすぎない。 関東ふれあいの道の園内後半は起伏が激しいため装備が必要。",
+    "evidence": [
+      {
+        "url": "https://www.pref.ibaraki.jp/seikatsukankyo/shizen/shizen/koen/07.html",
+        "claim": "茨城県が那珂川、樹林、自然公園の見どころを掲載。"
+      },
+      {
+        "url": "https://www.pref.ibaraki.jp/seikatsukankyo/shizen/shizen/kanto-corse001.html",
+        "claim": "茨城県が園内コースの起伏と装備上の注意を掲載。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.5532781,
+      "longitude": 140.2946031,
+      "status": "retained_unverified",
+      "note": "広域園の代表点。個別の利用地点は公式地図で確認する。"
+    },
+    "elevationM": 123.3
+  },
+  {
+    "sourceIndex": 91,
+    "sourceId": "osm-node-4838416946",
+    "sourceName": "辰ノ口展望台",
+    "decision": "merge",
+    "mergeTarget": "辰ノ口親水公園",
+    "reviewedAt": "2026-07-18",
+    "formalName": "辰ノ口親水公園（展望台）",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.hitachiomiya.lg.jp/kankou_guide/activity/park/page003018.html",
+    "accessUrl": "https://www.ibarakiguide.jp/spot.php?code=82&mode=detail",
+    "accessSummary": "常陸大宮駅からタクシー約10分、那珂ICから車約20分、駐車場約80台。",
+    "cooling": {
+      "attributes": [
+        "water",
+        "forest"
+      ],
+      "summary": "親公園の久慈川と自然環境を根拠とする。展望台単体は日陰・水辺利用を保証しない。"
+    },
+    "operationsAndSafety": "ふるさと館は9:00から17:00、月曜と12月29日から1月4日は休館。 荒天・増水時は河川周辺へ近づかない。",
+    "evidence": [
+      {
+        "url": "https://www.city.hitachiomiya.lg.jp/kankou_guide/activity/park/page003018.html",
+        "claim": "常陸大宮市が久慈川、展望台を含む施設、ふるさと館の時間を掲載。"
+      },
+      {
+        "url": "https://www.city.hitachiomiya.lg.jp/reiki_int/reiki_honbun/r064RG00001629.html",
+        "claim": "市条例が辰ノ口親水公園の施設に展望台を含める。"
+      }
+    ],
+    "coordinates": null,
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 92,
+    "sourceId": "osm-node-11133779476",
+    "sourceName": "Shirayone Daini Park 白米第二公園",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "白米第二公園",
+    "prefecture": "福島県",
+    "officialUrl": "https://www.city.iwaki.lg.jp/www/contents/1001000004084/simple/424iwakisitoukeisyo43.pdf",
+    "accessUrl": "https://www.city.iwaki.lg.jp/www/contents/1001000004084/simple/424iwakisitoukeisyo43.pdf",
+    "accessSummary": "いわき市の勿来地区の都市公園。来訪者向けの公式交通案内は確認できない。",
+    "cooling": {
+      "attributes": [],
+      "summary": "住宅地の都市公園であることのみ確認でき、夏の涼しさを裏付けない。"
+    },
+    "operationsAndSafety": "季節営業・避暑利用の公式案内はない。 元データの県は茨城県ではなく福島県いわき市。",
+    "evidence": [
+      {
+        "url": "https://www.city.iwaki.lg.jp/www/contents/1001000004084/simple/424iwakisitoukeisyo43.pdf",
+        "claim": "いわき市統計が勿来地区の都市公園一覧に掲載。"
+      },
+      {
+        "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/509354.pdf",
+        "claim": "福島県の都市公園等資料が施設を掲載。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.8956093,
+      "longitude": 140.7336831,
+      "status": "correction_candidate",
+      "note": "既存点を維持し、県を福島県へ補正。"
+    },
+    "elevationM": 57.4
+  },
+  {
+    "sourceIndex": 93,
+    "sourceId": "osm-node-6256023506",
+    "sourceName": "六角堂ViewPoint",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "六角堂（茨城大学五浦美術文化研究所）",
+    "prefecture": "茨城県",
+    "officialUrl": "https://rokkakudo.izura.ibaraki.ac.jp/",
+    "accessUrl": "https://www.ibarakiguide.jp/spot.php?code=6&mode=detail",
+    "accessSummary": "大津港駅からタクシー約10分、北茨城IC・いわき勿来ICから車約15分、無料駐車場15台。",
+    "cooling": {
+      "attributes": [
+        "water"
+      ],
+      "summary": "五浦の海に面する水辺景観。気温低下や海風の強さは確認できず、数値的な涼しさは主張しない。"
+    },
+    "operationsAndSafety": "9:30から16:30、入場は30分前まで。 原則月曜休館。臨時休館を公式で確認する。",
+    "evidence": [
+      {
+        "url": "https://rokkakudo.izura.ibaraki.ac.jp/",
+        "claim": "茨城大学が天心遺跡を管理し、所在地を掲載。"
+      },
+      {
+        "url": "https://www.ibarakiguide.jp/spot.php?code=6&mode=detail",
+        "claim": "県公式観光サイトがアクセス、営業時間、休館日、駐車場を掲載。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.8339072,
+      "longitude": 140.8026634,
+      "status": "correction_candidate",
+      "note": "研究所公式地図の地点へ補正。元標高85mはDEMと不整合。"
+    },
+    "elevationM": 14.4
+  },
+  {
+    "sourceIndex": 94,
+    "sourceId": "osm-node-10132699425",
+    "sourceName": "牛久大仏展望台",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "牛久大仏（牛久阿弥陀大仏）",
+    "prefecture": "茨城県",
+    "officialUrl": "https://daibutu.net/",
+    "accessUrl": "https://ushikukankou.com/page/traffic.html",
+    "accessSummary": "牛久駅東口2番乗り場から牛久大仏・牛久浄苑行の関東鉄道バス。車は圏央道阿見東ICが便利。",
+    "cooling": {
+      "attributes": [
+        "indoor"
+      ],
+      "summary": "胎内の5層の拝観・展示空間と地上85m胸部の展望を確認。空調・気温低下は主張しない。"
+    },
+    "operationsAndSafety": "3から9月は9:30から17:00、土日祝は17:30まで。受付は閉園30分前まで。 拝観形態の変更は公式で当日確認する。",
+    "evidence": [
+      {
+        "url": "https://ushikukankou.com/page/spot/ushiku-daibutsu.html",
+        "claim": "牛久市観光協会が所在地、胎内、展望、拝観時間、駐車場を掲載。"
+      },
+      {
+        "url": "https://ushikukankou.com/page/traffic.html",
+        "claim": "牛久市観光協会がバスアクセスを掲載。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 35.98265,
+      "longitude": 140.220244,
+      "status": "correction_candidate",
+      "note": "元点は大仏敷地内。標高のみDEMで補正。"
+    },
+    "elevationM": 24.6
+  },
+  {
+    "sourceIndex": 95,
+    "sourceId": "osm-node-2597911704",
+    "sourceName": "さくら公園",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "ひたち野さくら公園",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.ushiku.lg.jp/data/doc/1492656366_doc_62_8.pdf",
+    "accessUrl": "https://www.city.ushiku.lg.jp/data/doc/1741671486_doc_326_0.pdf",
+    "accessSummary": "牛久市の徒歩コース資料がひたち野うしく駅と公園を結ぶ経路を掲載。",
+    "cooling": {
+      "attributes": [],
+      "summary": "桜の名所・藤棚・ベンチは確認できるが、継続的な夏の涼しさを裏付けない。"
+    },
+    "operationsAndSafety": "屋外の近隣公園。猛暑時の長時間滞在先としては掲載しない。",
+    "evidence": [
+      {
+        "url": "https://www.city.ushiku.lg.jp/data/doc/1741671486_doc_326_0.pdf",
+        "claim": "牛久市の徒歩コース資料が公園を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=140.157901&lat=36.00127&outtype=JSON",
+        "claim": "国土地理院DEMの標高値。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.00127,
+      "longitude": 140.157901,
+      "status": "retained_unverified",
+      "note": "既存点を維持。"
+    },
+    "elevationM": 19
+  },
+  {
+    "sourceIndex": 96,
+    "sourceId": "osm-node-5632593735",
+    "sourceName": "水生植物園",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "あけぼの山公園 水生植物園",
+    "prefecture": "千葉県",
+    "officialUrl": "https://www.city.kashiwa.lg.jp/facilities/park/akebonoyama-nogyo.html",
+    "accessUrl": "https://www.city.kashiwa.lg.jp/facilities/park/akebonoyama-nogyo.html",
+    "accessSummary": "我孫子駅北口からあけぼの山公園入口行き終点下車徒歩約10分、または土谷津入口下車徒歩約8分。駐車場23台。",
+    "cooling": {
+      "attributes": [
+        "water"
+      ],
+      "summary": "水生植物園という水辺施設。局所気温・体感温度の低下は未確認。"
+    },
+    "operationsAndSafety": "案内施設は9:00から17:00、月曜と年末年始は休園。 花の見頃・区域状況を当日確認する。",
+    "evidence": [
+      {
+        "url": "https://www.city.kashiwa.lg.jp/facilities/park/akebonoyama-nogyo.html",
+        "claim": "柏市が水生植物園、交通、開園時間、休園日、駐車場を掲載。"
+      },
+      {
+        "url": "https://www.city.kashiwa.lg.jp/documents/23275/akebonoyama-annaizu.pdf",
+        "claim": "柏市案内図が水生植物園の位置を掲載。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 35.897253,
+      "longitude": 140.003211,
+      "status": "correction_candidate",
+      "note": "元点を維持し、県を千葉県柏市へ補正。"
+    },
+    "elevationM": 6.2
+  },
+  {
+    "sourceIndex": 97,
+    "sourceId": "osm-node-6095258095",
+    "sourceName": "取手緑地運動公園駐車場前",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "取手緑地運動公園",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.toride.ibaraki.jp/mizutomidori/shisetsu/ryokuchiundo-riyoannai.html",
+    "accessUrl": "https://www.city.toride.ibaraki.jp/mizutomidori/shisetsu/ryokuchiundo-riyoannai.html",
+    "accessSummary": "取手市取手1丁目地先の利根川河川敷運動公園。駐車場あり。",
+    "cooling": {
+      "attributes": [],
+      "summary": "河川敷の運動施設で、日陰・森林・屋内・水遊び等の夏の涼しさ根拠がない。"
+    },
+    "operationsAndSafety": "メンテナンスやイベントで閉鎖する場合がある。 河川敷のため増水時は現地の利用可否を確認する。",
+    "evidence": [
+      {
+        "url": "https://www.city.toride.ibaraki.jp/mizutomidori/shisetsu/ryokuchiundo-riyoannai.html",
+        "claim": "取手市が施設内容、閉鎖可能性、利用条件、駐車場を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=140.065751&lat=35.886772&outtype=JSON",
+        "claim": "国土地理院DEMの標高値。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 35.886772,
+      "longitude": 140.065751,
+      "status": "retained_unverified",
+      "note": "駐車場前の点であり代表点には不適切。blockのため置換しない。"
+    },
+    "elevationM": 5
+  },
+  {
+    "sourceIndex": 98,
+    "sourceId": "osm-node-4712825637",
+    "sourceName": "宝船",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "下総利根宝船公園",
+    "prefecture": "千葉県",
+    "officialUrl": "https://www.city.narita.chiba.jp/shisetsu/page000186.html",
+    "accessUrl": "https://www.city.narita.chiba.jp/shisetsu/page000186.html",
+    "accessSummary": "成田市猿山11-9。普通車70台等を含む79台の駐車場。",
+    "cooling": {
+      "attributes": [
+        "water"
+      ],
+      "summary": "じゃぶじゃぶ池と夏季の噴水運転がある水遊び施設。気温低下は主張しない。"
+    },
+    "operationsAndSafety": "噴水は例年6月上旬から9月上旬、10:00から14:45に15分運転・15分停止。変更あり。 稼働状況を事前確認し、噴水池は素足で入らない。",
+    "evidence": [
+      {
+        "url": "https://www.city.narita.chiba.jp/shisetsu/page000186.html",
+        "claim": "成田市が正式名称、利根川隣接、じゃぶじゃぶ池、噴水時期・時間、駐車場を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=140.343854&lat=35.875987&outtype=JSON",
+        "claim": "国土地理院DEMの標高値。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 35.875987,
+      "longitude": 140.343854,
+      "status": "correction_candidate",
+      "note": "成田市公式地図の地点へ補正。元名・県は誤り。"
+    },
+    "elevationM": 5.6
+  },
+  {
+    "sourceIndex": 99,
+    "sourceId": "osm-node-4300294589",
+    "sourceName": "茨城空港公園",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "茨城空港公園",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.pref.ibaraki.jp/doboku/kogai/kikaku/toshikouengaiyou.html",
+    "accessUrl": "https://www.pref.ibaraki.jp/hokenfukushi/yobo/zukuri/siteiitiran-mitohokenjyo.html",
+    "accessSummary": "茨城空港から、駐車場・バス・自転車・徒歩でアクセスできる県指定ヘルスロード。",
+    "cooling": {
+      "attributes": [],
+      "summary": "交流・眺望公園および飛行機観覧コースであり、夏の涼しさを裏付けない。"
+    },
+    "operationsAndSafety": "空港利用者・見学者が集中する時期は混雑し得る。 空港駐車場は5:30から22:00で夜間閉鎖。",
+    "evidence": [
+      {
+        "url": "https://www.pref.ibaraki.jp/doboku/kogai/kikaku/toshikouengaiyou.html",
+        "claim": "茨城県が空港周辺公園としての位置付けを掲載。"
+      },
+      {
+        "url": "https://www.pref.ibaraki.jp/hokenfukushi/yobo/zukuri/siteiitiran-mitohokenjyo.html",
+        "claim": "県指定ヘルスロードが航空機眺望コースとアクセス手段を掲載。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.176541,
+      "longitude": 140.406816,
+      "status": "retained_unverified",
+      "note": "既存点を維持。"
+    },
+    "elevationM": 31.5
+  },
+  {
+    "sourceIndex": 100,
+    "sourceId": "osm-node-8117572741",
+    "sourceName": "Oido Lakeshore Park 大井戸 湖岸公園",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "大井戸湖岸公園",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.omitama.lg.jp/0003/info-0000002301-0.html",
+    "accessUrl": "https://www.city.omitama.lg.jp/0003/info-0000002301-0.html",
+    "accessSummary": "小美玉市下玉里2508-1ほか。駐車場22台、バリアフリートイレあり。",
+    "cooling": {
+      "attributes": [
+        "water",
+        "shade"
+      ],
+      "summary": "霞ヶ浦に面し、四阿とベンチが休憩所として設置されている。気温低下や風速は主張しない。"
+    },
+    "operationsAndSafety": "イベント等で一部・全部を使用する場合は市への許可申請が必要。 水辺では転落等の現地安全表示を優先する。",
+    "evidence": [
+      {
+        "url": "https://www.city.omitama.lg.jp/0003/info-0000002301-0.html",
+        "claim": "小美玉市が霞ヶ浦への近接、四阿・ベンチ、駐車場・トイレを掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=140.352258&lat=36.142797&outtype=JSON",
+        "claim": "国土地理院DEMの標高値。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.142797,
+      "longitude": 140.352258,
+      "status": "retained_unverified",
+      "note": "既存点を維持。"
+    },
+    "elevationM": 1.5
+  },
+  {
+    "sourceIndex": 101,
+    "sourceId": "osm-node-5743457221",
+    "sourceName": "まち蔵 藍",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "丁子屋（まち蔵 藍）",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.ishioka.lg.jp/ishiokameguri/rekishitekispot/page001711.html",
+    "accessUrl": "https://www.city.ishioka.lg.jp/ishiokameguri/rekishitekispot/page001711.html",
+    "accessSummary": "石岡市国府3-5-6。石岡駅から徒歩10分。",
+    "cooling": {
+      "attributes": [
+        "indoor"
+      ],
+      "summary": "商家建築を活用した屋内の観光案内・展示・物販施設。屋内休憩候補であり気温低下は主張しない。"
+    },
+    "operationsAndSafety": "3から10月は10:30から17:30、11から2月は10:30から16:30。 木曜休館、祝日の場合は翌日、12月29日から1月3日も休館。藍染体験は休止中。",
+    "evidence": [
+      {
+        "url": "https://www.city.ishioka.lg.jp/ishiokameguri/rekishitekispot/page001711.html",
+        "claim": "石岡市が建物、屋内の展示・物販、藍染体験休止を掲載。"
+      },
+      {
+        "url": "https://www.city.ishioka.lg.jp/kurashi_tetsuzuki/jogesuido/gesuido/page004217.html",
+        "claim": "石岡市が住所、駅からの徒歩アクセス、営業時間・休館日を掲載。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.188398,
+      "longitude": 140.274019,
+      "status": "correction_candidate",
+      "note": "公式住所と整合するため点を維持、標高をDEMで補正。"
+    },
+    "elevationM": 24
+  },
+  {
+    "sourceIndex": 102,
+    "sourceId": "osm-node-9090062233",
+    "sourceName": "かすみがうらドッグアンドMTBパーク",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "かすみがうらドッグ＆MTBパーク",
+    "prefecture": "茨城県",
+    "officialUrl": null,
+    "accessUrl": "https://www.pref.ibaraki.jp/hokenfukushi/iryo/iryo/isei/doc_heri/documents/260501kohyo.pdf",
+    "accessSummary": "県の現行資料は中佐谷1138番地を掲載するが、一般来訪用の公式アクセス・営業案内は確認できない。",
+    "cooling": {
+      "attributes": [],
+      "summary": "森林・高原の裏付けはなく、屋外MTB・ドッグランは暑熱時の避暑先として不適。"
+    },
+    "operationsAndSafety": "営業日、利用登録・料金、立入条件を確認できる公式来訪ページがない。 屋外運動施設のため暑熱時の避暑目的には不適。",
+    "evidence": [
+      {
+        "url": "https://www.pref.ibaraki.jp/hokenfukushi/iryo/iryo/isei/doc_heri/documents/260501kohyo.pdf",
+        "claim": "茨城県の2026年5月更新資料が施設名と所在地を確認できる。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lat=36.150879&lon=140.226862&outtype=JSON",
+        "claim": "国土地理院DEMの標高値。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.150879,
+      "longitude": 140.226862,
+      "status": "retained_unverified",
+      "note": "公式来訪地図がないため公開用座標の確度は低い。"
+    },
+    "elevationM": 26.4
+  },
+  {
+    "sourceIndex": 103,
+    "sourceId": "osm-node-3565171214",
+    "sourceName": "膳棚帰魚",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "河和田八景「膳棚の帰魚」",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.ktr.mlit.go.jp/hitachi/river/jigyou/jigyou-sakuragawa.htm",
+    "accessUrl": "https://maps.gsi.go.jp/#16/36.369458/140.422850/&base=std&ls=std&disp=1&vs=c1j0l0u0f0",
+    "accessSummary": "桜川沿いの碑・景勝地。若林バス停から約0.2kmだが、現地の通行状況を確認して徒歩で近づく。",
+    "cooling": {
+      "attributes": [
+        "water"
+      ],
+      "summary": "国交省が桜川中流部の河和田八景として掲載する河川沿いの地点。水辺属性のみを根拠にする。"
+    },
+    "operationsAndSafety": "常設施設ではなく、開園時間・トイレ等の案内は確認できない。日中に短時間で利用する。 大雨・増水・洪水注意報や警報時は近づかず、河床・水際へ降りない。",
+    "evidence": [
+      {
+        "url": "https://www.ktr.mlit.go.jp/hitachi/river/jigyou/jigyou-sakuragawa.htm",
+        "claim": "国交省が水戸市文化財指定の膳棚の帰魚と親水・遊歩道整備を掲載。"
+      },
+      {
+        "url": "https://www.city.mito.lg.jp/site/saigaiinfo/3772.html",
+        "claim": "水戸市が河和田・見川を含む桜川の洪水浸水想定区域を掲載。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.369458,
+      "longitude": 140.42285,
+      "status": "retained_unverified",
+      "note": "名称付き点を維持。現地導線は常設施設ほど明確でない。"
+    },
+    "elevationM": 24
+  },
+  {
+    "sourceIndex": 104,
+    "sourceId": "osm-node-3572408196",
+    "sourceName": "見川城址",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "見川城址",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.mito.lg.jp/uploaded/attachment/10826.pdf",
+    "accessUrl": "https://maps.gsi.go.jp/#16/36.367670/140.443756/&base=std&ls=std&disp=1&vs=c1j0l0u0f0",
+    "accessSummary": "市史で見川町外城山の城址として確認できるが、来訪導線・開放状況の公式案内はない。",
+    "cooling": {
+      "attributes": [],
+      "summary": "高原ではなく、管理された森林休憩地・水辺・屋内施設としての根拠もない。"
+    },
+    "operationsAndSafety": "公開範囲、私有地境界、足元安全を確認できない。 正式な来訪案内が確認できるまで掲載しない。",
+    "evidence": [
+      {
+        "url": "https://www.city.mito.lg.jp/uploaded/attachment/10826.pdf",
+        "claim": "水戸市刊行資料が見川城址を収録。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lat=36.367670&lon=140.443756&outtype=JSON",
+        "claim": "国土地理院DEMの標高値。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.36767,
+      "longitude": 140.443756,
+      "status": "retained_unverified",
+      "note": "暫定候補。公開地点としての確度不足によりblock。"
+    },
+    "elevationM": 28.3
+  },
+  {
+    "sourceIndex": 105,
+    "sourceId": "osm-node-5690180122",
+    "sourceName": "大銀杏一号",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "西蓮寺大銀杏（関東最古の大銀杏）",
+    "prefecture": "茨城県",
+    "officialUrl": "https://sairen-ji.com/",
+    "accessUrl": "https://sairen-ji.com/access.html",
+    "accessSummary": "行方市西蓮寺504。鉾田IC・潮来ICから各約30分、石岡駅からタクシー約40分。",
+    "cooling": {
+      "attributes": [
+        "shade"
+      ],
+      "summary": "境内の大銀杏2本の樹冠下を短時間の木陰休憩候補とする。実測の気温低下は主張しない。"
+    },
+    "operationsAndSafety": "開堂は9:00から17:00、受付は9:00から16:00。 宗教施設・行事に配慮する。黄葉見頃は11月下旬から12月上旬。",
+    "evidence": [
+      {
+        "url": "https://www.city.namegata.ibaraki.jp/kankou/kankou-manabu/page001412.html",
+        "claim": "行方市が所在地と樹齢1,000年以上とされる2本の大銀杏を掲載。"
+      },
+      {
+        "url": "https://sairen-ji.com/",
+        "claim": "寺院公式が開堂・受付時間と大銀杏を掲載。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.071561,
+      "longitude": 140.438184,
+      "status": "correction_candidate",
+      "note": "既存点を維持、標高をDEMで補正。"
+    },
+    "elevationM": 32
+  },
+  {
+    "sourceIndex": 106,
+    "sourceId": "osm-node-5690203022",
+    "sourceName": "西蓮寺仁王門",
+    "decision": "merge",
+    "mergeTarget": 105,
+    "reviewedAt": "2026-07-18",
+    "formalName": "西蓮寺仁王門（国指定重要文化財）",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.namegata.ibaraki.jp/kyouiku/syouiku-syougai/kyouikku-bunka-shinkou/kyouiku-bukazai/kyouiku-kuni-bunkazai/page008511.html",
+    "accessUrl": "https://sairen-ji.com/access.html",
+    "accessSummary": "西蓮寺境内にあり、アクセスは105番の大銀杏と共通。",
+    "cooling": {
+      "attributes": [],
+      "summary": "仁王門単体に独立した夏の涼しさ根拠はない。同一境内の105番へ統合。"
+    },
+    "operationsAndSafety": "国指定重要文化財と寺院利用者を妨げない。 開堂・受付時間は105番に従う。",
+    "evidence": [
+      {
+        "url": "https://www.city.namegata.ibaraki.jp/kyouiku/syouiku-syougai/kyouikku-bunka-shinkou/kyouiku-bukazai/kyouiku-kuni-bunkazai/page008511.html",
+        "claim": "行方市が西蓮寺仁王門を国指定重要文化財、所在地を西蓮寺504として掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lat=36.071255&lon=140.437647&outtype=JSON",
+        "claim": "国土地理院DEMの標高値。"
+      }
+    ],
+    "coordinates": null,
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 107,
+    "sourceId": "osm-node-13981872454",
+    "sourceName": "鹿島海軍航空隊跡（大山湖畔公園）",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "大山湖畔公園（鹿島海軍航空隊跡）",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.ibarakiguide.jp/spot.php?code=1645&mode=detail",
+    "accessUrl": "https://www.ibarakiguide.jp/spot.php?code=1645&mode=detail",
+    "accessSummary": "稲敷ICから車約12km。施設中心候補は36.0048, 140.372784。",
+    "cooling": {
+      "attributes": [],
+      "summary": "湖畔でも、広大な屋外を徒歩見学する施設として熱中症対策が案内されているため避暑先には採用しない。"
+    },
+    "operationsAndSafety": "通常土日のみ、9:00から17:00・最終受付15:30という村案内があり、来訪前の確認が必須。 水分・塩分補給、日傘等の暑熱対策を要する屋外見学。",
+    "evidence": [
+      {
+        "url": "https://www.ibarakiguide.jp/spot.php?code=1645&mode=detail",
+        "claim": "県公式観光サイトが施設名、所在地、美浦村、車アクセス、地図を掲載。"
+      },
+      {
+        "url": "https://www.vill.miho.lg.jp/data/doc/1745815072_doc_165_5.pdf",
+        "claim": "美浦村の案内が通常の開園日・時間を掲載。"
+      },
+      {
+        "url": "https://readyfor.jp/projects/kasima1936/announcements/276934",
+        "claim": "指定管理者の案内が広大な屋外見学と熱中症対策を明記。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 36.0048,
+      "longitude": 140.372784,
+      "status": "correction_candidate",
+      "note": "県観光サイトの地図座標へ補正候補。暑熱安全上block。"
+    },
+    "elevationM": 3.2
+  },
+  {
+    "sourceIndex": 108,
+    "sourceId": "osm-node-4374080292",
+    "sourceName": "桜川村生産物直売センター",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "さくらがわ直売センター",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.inashiki.lg.jp/page/page000076.html",
+    "accessUrl": "https://www.city.inashiki.lg.jp/page/page000076.html",
+    "accessSummary": "稲敷市神宮寺759、県道江戸崎神崎線沿い。",
+    "cooling": {
+      "attributes": [],
+      "summary": "農産物直売所であり、空調・休憩利用を裏付ける公式記載がない。屋内店舗であることを避暑根拠にしない。"
+    },
+    "operationsAndSafety": "営業時間は9:30から18:30、定休日は水曜。 避暑・休憩施設としての案内はない。",
+    "evidence": [
+      {
+        "url": "https://www.city.inashiki.lg.jp/page/page000076.html",
+        "claim": "稲敷市が正式名称、住所、営業時間、定休日、販売品を掲載。"
+      },
+      {
+        "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lat=35.955085&lon=140.365098&outtype=JSON",
+        "claim": "国土地理院DEMの標高値。"
+      }
+    ],
+    "coordinates": {
+      "latitude": 35.955085,
+      "longitude": 140.365098,
+      "status": "correction_candidate",
+      "note": "市公式住所と整合する暫定候補。標高をDEMで補正。"
+    },
+    "elevationM": 27.7
+  }
+]

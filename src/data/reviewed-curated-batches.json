@@ -1,0 +1,3088 @@
+{
+  "version": 1,
+  "sourceFiles": [
+    "curated-0001-0020.json",
+    "curated-0021-0040.json",
+    "curated-0041-0060.json",
+    "curated-0061-0080.json",
+    "curated-0081-0100.json",
+    "curated-0101-0103.json",
+    "curated-0104-0113.json"
+  ],
+  "reviewCount": 113,
+  "counts": {
+    "published": 113,
+    "blocked": 0,
+    "merged": 0
+  },
+  "records": [
+    {
+      "id": "curated:furano",
+      "sourceIndex": 1,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "ニングルテラス",
+      "prefecture": "北海道",
+      "officialUrl": "https://www.princehotels.co.jp/shinfurano/facility/ningle_terrace/",
+      "accessEvidenceUrl": "https://www.furanotourism.com/jp/spot/spot_D.php?id=2&kid1=3&kid2=12&kid3=50",
+      "accessSummary": "富良野市中御料・新富良野プリンスホテル内。富良野観光協会はJR富良野駅から車約10分と案内。",
+      "coolingAttributes": [
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "夏期は11:00〜19:45、店舗ごとに不定休。悪天候、路面・駐車場状況で入場制限または休業の場合があるため直前確認。"
+      ],
+      "reason": "施設公式が森の中のログハウス群と明記する。森林環境のみを局所条件とし、気温低下は保証しない。",
+      "mergedInto": null,
+      "latitude": 43.3267,
+      "longitude": 142.3566,
+      "elevationM": 299.2,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:biei",
+      "sourceIndex": 2,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "白金青い池",
+      "prefecture": "北海道",
+      "officialUrl": "https://www.biei-hokkaido.jp/ja/facility/shirogane-blue-pond",
+      "accessEvidenceUrl": "https://www.biei-hokkaido.jp/ja/facility/shirogane-blue-pond",
+      "accessSummary": "美瑛町白金。美瑛町観光協会は美瑛駅から車または路線バスで約20分と案内。",
+      "coolingAttributes": [
+        "water",
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通年利用・トイレ通年。駐車場は5〜9月7:00〜19:00。自然災害などで安全に運行できない場合は交通が止まり得るため、路線・現地状況を直前確認。"
+      ],
+      "reason": "観光協会が水面とカラマツ林を紹介する。水辺・森林という物理的局所条件のみで、池畔の体感温度低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 43.4931,
+      "longitude": 142.6169,
+      "elevationM": 498,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:asahikawa",
+      "sourceIndex": 3,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "旭川市科学館サイパル",
+      "prefecture": "北海道",
+      "officialUrl": "https://www.city.asahikawa.hokkaido.jp/science/06/p002414.html",
+      "accessEvidenceUrl": "https://www.city.asahikawa.hokkaido.jp/science/06/p002410.html",
+      "accessSummary": "旭川市宮前1条3丁目3番32号。市公式はJR旭川駅前から旭川電気軌道82・84番で科学館前下車約5分、徒歩約25分と案内。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "9:30〜17:00（入館16:30まで）。2026年度夏休み7月22日〜8月27日は無休で、その他の休館日は公式カレンダーを確認。"
+      ],
+      "reason": "常設展示室・プラネタリウムを有する屋内科学館。屋内滞在のみを局所条件とし、空調性能や温度低下は断定しない。",
+      "mergedInto": null,
+      "latitude": 43.7667,
+      "longitude": 142.3826,
+      "elevationM": 118.3,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:otaru",
+      "sourceIndex": 4,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "小樽運河",
+      "prefecture": "北海道",
+      "officialUrl": "https://www.city.otaru.lg.jp/docs/2020100900367/",
+      "accessEvidenceUrl": "https://otaru.gr.jp/shop/otarucanal",
+      "accessSummary": "小樽市港町5。小樽観光協会はJR小樽駅から徒歩約10分と案内。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "散策は通年可能。ただし屋外で日射を遮る根拠はなく、熱中症と水際転落に注意。ガス灯・ライトアップ時刻は観光協会の最新掲載を確認。"
+      ],
+      "reason": "市公式は運河と散策路を整備した現在の形を、観光協会は水面を有する全長1,140mの運河を記載。水辺という局所条件のみで、海風・温度低下・日陰は主張しない。",
+      "mergedInto": null,
+      "latitude": 43.20149,
+      "longitude": 141.00279,
+      "elevationM": null,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:hakodate",
+      "sourceIndex": 5,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "五稜郭タワー",
+      "prefecture": "北海道",
+      "officialUrl": "https://www.goryokaku-tower.co.jp/",
+      "accessEvidenceUrl": "https://www.goryokaku-tower.co.jp/access/",
+      "accessSummary": "函館市五稜郭町43-9。施設公式はJR函館駅から市電で五稜郭公園前下車・徒歩約10分、または函館バスで五稜郭公園入口下車・徒歩約5分と案内。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通常は9:00〜18:00（展望券17:50まで）、無休。季節・イベントで時間変更があるため公式の料金・営業時間を直前確認。専用駐車場なし。"
+      ],
+      "reason": "展望台・五稜郭歴史回廊・売店等の屋内観光施設。屋内滞在のみを局所条件とし、空調性能や涼しさの保証はしない。",
+      "mergedInto": null,
+      "latitude": 41.7968,
+      "longitude": 140.7564,
+      "elevationM": 13.6,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:noboribetsu",
+      "sourceIndex": 6,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "登別地獄谷（登別温泉）",
+      "prefecture": "北海道",
+      "officialUrl": "https://www.visit-hokkaido.jp/spot/detail_10157.html",
+      "accessEvidenceUrl": "https://www.visit-hokkaido.jp/spot/detail_10157.html",
+      "accessSummary": "登別市登別温泉町。北海道公式観光は登別東ICから車約10分、有料駐車場165台と案内。",
+      "coolingAttributes": [],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "no-cooling-claim",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "北海道公式観光は年中無休とするが、火山ガス・高温温泉の場所。2026年の鬼花火開催日は18:30〜21:00にチケット購入者以外を一時入場不可。遊歩道・火山情報・イベント規制を直前確認。"
+      ],
+      "reason": "夏の局所的な涼しさを公式根拠では確認できないため属性は空とする。火山景観としての来訪価値、通常時の公開、車での入口は公式に確認できる。",
+      "mergedInto": null,
+      "latitude": 42.4917,
+      "longitude": 141.1428,
+      "elevationM": 167.4,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:lake-toya",
+      "sourceIndex": 7,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "洞爺湖温泉・とうや湖ぐるっと彫刻公園（湖畔）",
+      "prefecture": "北海道",
+      "officialUrl": "https://www.laketoya.com/leisure/",
+      "accessEvidenceUrl": "https://www.laketoya.com/access/",
+      "accessSummary": "洞爺湖温泉地区の湖畔。洞爺湖温泉観光協会はJR洞爺駅から道南バスまたはタクシーを案内し、洞爺駅から温泉までのバスは約20分。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "湖畔公園は屋外。洞爺湖町は湖畔エリアのキャンプ・火気・テント・タープ・駐車場車中泊を禁止しているため従う。火口散策路の季節営業・天候閉鎖は湖畔一般と混同しない。"
+      ],
+      "reason": "観光協会が周囲約43kmのカルデラ湖と湖畔の彫刻公園を記載。水辺という局所条件のみで、湖風・温度低下・日陰を主張しない。",
+      "mergedInto": null,
+      "latitude": 42.5625,
+      "longitude": 140.817,
+      "elevationM": 101.8,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:obihiro",
+      "sourceIndex": 8,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "帯広百年記念館",
+      "prefecture": "北海道",
+      "officialUrl": "https://www.city.obihiro.hokkaido.jp/shisei/shisetsu/bunka/1001722.html",
+      "accessEvidenceUrl": "https://museum-obihiro.jp/occm/?page_id=316",
+      "accessSummary": "帯広市緑ヶ丘2番地。施設公式は拓殖バス「緑ヶ丘6丁目」下車徒歩約8分と案内。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "常設展示室は9:00〜17:00、施設は9:00〜22:00。月曜・祝日の翌日・年末年始は休館のため、来訪前に公式を確認。"
+      ],
+      "reason": "博物館・創造活動センターの屋内施設。日射を避ける屋内という局所条件のみを採用し、冷房温度や気象予報由来の涼しさは主張しない。",
+      "mergedInto": null,
+      "latitude": 42.9070431,
+      "longitude": 143.1863426,
+      "elevationM": 50,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:kushiro",
+      "sourceIndex": 9,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "釧路市湿原展望台",
+      "prefecture": "北海道",
+      "officialUrl": "https://www.city.kushiro.lg.jp/shisei/shisetsu/1007655/1007656/1007869.html",
+      "accessEvidenceUrl": "https://ja.kushiro-lakeakan.com/overview/454/",
+      "accessSummary": "釧路駅からタクシー約15分（17km）。釧路・阿寒湖観光公式は帰路に阿寒バス鶴居線を利用できる旨を案内し、無料駐車場108台。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "夏期（4月1日〜9月30日）は8:30〜18:00。遊歩道は2.5kmで屋外、屋上も屋外のため、足元・天候と当日の施設情報を確認。"
+      ],
+      "reason": "展示室・休憩できる展望室を持つ屋内施設。屋内という局所条件のみを採用し、湿原・水辺・予報気温を体感冷却の根拠にはしない。",
+      "mergedInto": null,
+      "latitude": 43.074535,
+      "longitude": 144.325531,
+      "elevationM": 39.7,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:abashiri",
+      "sourceIndex": 10,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "博物館 網走監獄",
+      "prefecture": "北海道",
+      "officialUrl": "https://www.kangoku.jp/",
+      "accessEvidenceUrl": "https://visit-abashiri.jp/access/",
+      "accessSummary": "網走市内。網走市観光公式は市内路線バスと原生花園方面へのバス時刻表を案内し、当日は施設公式の交通案内を確認する。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "屋外展示も含むため、営業時間・休館日・荒天時の扱いを施設公式で直前確認。暑熱・足元・混雑を考慮する。"
+      ],
+      "reason": "展示建物内の屋内滞在のみを局所条件とする。屋外保存建築・市域の海風・気温低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 44.0187,
+      "longitude": 144.2661,
+      "elevationM": 37,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:wakkanai",
+      "sourceIndex": 11,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "宗谷岬",
+      "prefecture": "北海道",
+      "officialUrl": "https://www.north-hokkaido.com/spot/detail_1018.html",
+      "accessEvidenceUrl": "https://www.north-hokkaido.com/spot/detail_1018.html",
+      "accessSummary": "北海道稚内市宗谷岬。公式観光サイトはJR稚内駅から車約40分、バス約50分、無料駐車場72台と案内。",
+      "coolingAttributes": [
+        "breeze"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "屋外岬のため強風・濃霧・荒天時は安全確保を優先。近接するBase-Soyaは10月〜5月下旬が冬期閉鎖、夏季も営業時間を確認する。"
+      ],
+      "reason": "岬の海に開いた地形であり、海岸の風という局所的条件のみを扱う。風の発生や体感温度低下を予報値として保証しない。",
+      "mergedInto": null,
+      "latitude": 45.5312,
+      "longitude": 141.9352,
+      "elevationM": 9,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:niseko",
+      "sourceIndex": 12,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "ニセコアンヌプリ国際スキー場（サマーゴンドラ）",
+      "prefecture": "北海道",
+      "officialUrl": "https://annupuri.info/gondola/",
+      "accessEvidenceUrl": "https://annupuri.info/access/",
+      "accessSummary": "北海道虻田郡ニセコ町字ニセコ485。施設公式のアクセス案内と当日のゴンドラ運行状況を確認して車・交通手段を選ぶ。",
+      "coolingAttributes": [
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "サマーゴンドラは9:00〜16:30（上り最終16:00）。天候・日没で変更、荒天時は運休の場合があり、山頂展望台は車椅子では到達不可。運行状況を当日確認。"
+      ],
+      "reason": "施設公式がゴンドラで標高1,000m地点へ至ると明記する。標高という局所条件のみを採用し、山頂展望地の木陰・風・実際の気温低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 42.829296,
+      "longitude": 140.638992,
+      "elevationM": 231,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:aomori",
+      "sourceIndex": 13,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "ねぶたの家 ワ・ラッセ",
+      "prefecture": "青森県",
+      "officialUrl": "https://www.nebuta.jp/warasse/",
+      "accessEvidenceUrl": "https://www.nebuta.jp/warasse/access.html",
+      "accessSummary": "青森市安方1丁目1-1、JR青森駅東口から徒歩約1分。施設公式のアクセス案内を使用。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "営業時間・休館日・展示替えは施設公式を直前確認。夏祭り期間は駅周辺の混雑・交通規制を別途確認する。"
+      ],
+      "reason": "ねぶた展示を行う屋内施設への滞在のみを局所条件とし、青森市域の気候や海風を根拠にしない。",
+      "mergedInto": null,
+      "latitude": 40.829,
+      "longitude": 140.7352,
+      "elevationM": 4,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:hirosaki",
+      "sourceIndex": 14,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "弘前公園",
+      "prefecture": "青森県",
+      "officialUrl": "https://www.hirosaki-kanko.or.jp/details.html?id=API00100002197",
+      "accessEvidenceUrl": "https://www.hirosaki-kanko.or.jp/details.html?id=API00100002197",
+      "accessSummary": "弘前市下白銀町1。弘前市観光情報はJR弘前駅から徒歩約25分、または100円循環バス約15分・市役所前下車と案内。",
+      "coolingAttributes": [
+        "shade"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "有料区域は4月1日〜11月23日9:00〜17:00（入園券販売16:30まで）。園内・堀の水際、日射、季節イベントによる混雑に注意。"
+      ],
+      "reason": "樹木のある公園散策路の木陰だけを局所条件とする。桜の開花期の価値や地域の気候を夏の涼しさへ読み替えない。",
+      "mergedInto": null,
+      "latitude": 40.6075,
+      "longitude": 140.464,
+      "elevationM": 46,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:hachinohe",
+      "sourceIndex": 15,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "種差天然芝生地（種差海岸）",
+      "prefecture": "青森県",
+      "officialUrl": "https://visithachinohe.com/",
+      "accessEvidenceUrl": "https://visithachinohe.com/access/",
+      "accessSummary": "八戸市鮫町。VISITはちのへはJR八戸線の種差海岸駅から徒歩約5分、鮫駅から種差海岸周遊バス「うみねこ号」を案内。",
+      "coolingAttributes": [
+        "breeze",
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "海食崖・海岸では強風、濃霧、波浪、足元に注意。列車・周遊バスの運行と現地規制を直前確認。"
+      ],
+      "reason": "海岸に面した天然芝生地の水辺・風に開いた地形という局所条件のみを採用し、海風の発生や温度低下は保証しない。",
+      "mergedInto": null,
+      "latitude": 40.4717,
+      "longitude": 141.646,
+      "elevationM": 11,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:lake-towada",
+      "sourceIndex": 16,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "十和田湖畔休屋",
+      "prefecture": "青森県",
+      "officialUrl": "https://towadako.or.jp/",
+      "accessEvidenceUrl": "https://towadako.or.jp/",
+      "accessSummary": "十和田湖畔休屋地区。十和田湖国立公園協会の十和田湖・奥入瀬方面への交通案内を入口とし、便・道路の現況を確認する。",
+      "coolingAttributes": [
+        "water",
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "山地・湖畔のため悪天候、霧、道路通行止め、遊覧・バスの運休を直前確認。遊歩道では水際・落枝・野生動物に注意。"
+      ],
+      "reason": "湖畔と周辺森林という物理的局所条件のみを採用し、湖畔の気温低下や奥入瀬渓流の条件を休屋へ転用しない。",
+      "mergedInto": null,
+      "latitude": 40.4254,
+      "longitude": 140.8785,
+      "elevationM": 400,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:morioka",
+      "sourceIndex": 17,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "もりおか歴史文化館（盛岡市中心部）",
+      "prefecture": "岩手県",
+      "officialUrl": "https://www.morireki.jp/about/outline/",
+      "accessEvidenceUrl": "https://www.morireki.jp/infor/map/",
+      "accessSummary": "盛岡駅東口から盛岡中心市街地循環バス「でんでんむし」左回り約10分、「県庁・市役所前」下車徒歩約4分。徒歩は約20分。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "4〜10月は9:00〜19:00（展示室受付18:30まで）。毎月第3火曜（祝休日は翌日）と12月31日〜1月1日は休館。近隣有料駐車場を利用する。"
+      ],
+      "reason": "展示・観光案内を備える屋内施設への滞在だけを局所条件とする。中津川など市街地水辺を気温低下根拠にはしない。",
+      "mergedInto": null,
+      "latitude": 39.7010316,
+      "longitude": 141.1525948,
+      "elevationM": 125.9,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:miyako",
+      "sourceIndex": 18,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "浄土ヶ浜",
+      "prefecture": "岩手県",
+      "officialUrl": "https://kankou385.jp/spots/jyodogahama/",
+      "accessEvidenceUrl": "https://kankou385.jp/spots/jyodogahama/",
+      "accessSummary": "宮古市日立浜町。宮古観光文化交流協会は宮古駅から車約10分、第1〜第3駐車場から徒歩約15分と案内。",
+      "coolingAttributes": [
+        "water",
+        "breeze"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "海岸のため波浪・強風・濃霧・遊歩道の足元に注意。遊覧船・海水浴・駐車場など個別施設の営業は公式情報を直前確認。"
+      ],
+      "reason": "三陸海岸の海辺に面する地形という局所条件のみを採用し、海風の発生、海水温、体感温度低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 39.6467,
+      "longitude": 141.9806,
+      "elevationM": 8,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:tazawako",
+      "sourceIndex": 19,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "田沢湖湖畔（白浜）",
+      "prefecture": "秋田県",
+      "officialUrl": "https://tazawako-kakunodate.com/access/",
+      "accessEvidenceUrl": "https://tazawako-kakunodate.com/access/",
+      "accessSummary": "仙北市田沢湖。田沢湖・角館観光協会はJR田沢湖駅前から乳頭線等で田沢湖畔下車、所要約15分と案内し、田沢湖一周線も案内。",
+      "coolingAttributes": [
+        "water",
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "湖畔・山地のため天候、風、道路、バスの運行状況を確認。遊泳・水上活動・周遊便は個別の営業条件と水際安全条件に従う。"
+      ],
+      "reason": "湖畔と標高約249mの湖面という局所条件のみを採用する。湖の深さや地域の気象予報を体感温度低下の根拠にしない。",
+      "mergedInto": null,
+      "latitude": 39.7394,
+      "longitude": 140.6997,
+      "elevationM": 249,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:kakunodate",
+      "sourceIndex": 20,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "仙北市立角館樺細工伝承館（角館武家屋敷通り）",
+      "prefecture": "秋田県",
+      "officialUrl": "https://www.city.semboku.akita.jp/sightseeing/densyo/shisetsu.html",
+      "accessEvidenceUrl": "https://www.city.semboku.akita.jp/sightseeing/densyo/",
+      "accessSummary": "仙北市角館町表町下丁10-1。仙北市公式はJR角館駅から徒歩約15分、車は徒歩約2分の市営桜並木駐車場を案内。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "4〜11月は9:00〜17:00（入館16:30まで）、12月28日〜1月4日は休館。周辺の古城山公園にはクマ出没による通行止め告知があるため、同公園へ迂回・立入りしない。"
+      ],
+      "reason": "展示室・製作実演・喫茶室を持つ屋内公共文化施設。武家屋敷通り全体の木陰や屋外気温低下は公式根拠不足のため属性に加えない。",
+      "mergedInto": null,
+      "latitude": 39.5995317,
+      "longitude": 140.5611586,
+      "elevationM": 59.2,
+      "sourceFile": "curated-0001-0020.json"
+    },
+    {
+      "id": "curated:zao-onsen",
+      "sourceIndex": 21,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "蔵王温泉",
+      "prefecture": "山形県",
+      "officialUrl": "https://zaomountainresort.com/spot/",
+      "accessEvidenceUrl": "https://zaomountainresort.com/parking/",
+      "accessSummary": "JR山形駅1番乗り場から蔵王温泉バスターミナルまで約40分。",
+      "coolingAttributes": [
+        "highland",
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "グリーン期のロープウェイ・リフト等は施設別営業で、例として5〜10月営業・冬期休業の施設がある。当日の運行と山岳地の急変天候を確認する。"
+      ],
+      "reason": "公式が標高約900m、麓より約5℃低い避暑地、自然に囲まれた高原と案内する。これは地点の標高差・環境根拠であり、予報の体感温度ではない。",
+      "mergedInto": null,
+      "latitude": 38.1634,
+      "longitude": 140.3956,
+      "elevationM": 850.2,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:yamadera",
+      "sourceIndex": 22,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "宝珠山 立石寺（山寺）",
+      "prefecture": "山形県",
+      "officialUrl": "https://rissyakuji.jp/",
+      "accessEvidenceUrl": "https://rissyakuji.jp/access/",
+      "accessSummary": "JR仙山線・山寺駅から参拝道入口まで徒歩約10分。",
+      "coolingAttributes": [
+        "shade",
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "4〜9月は8:00〜16:00。石段は往復約1時間30分・1,015段で、暑熱下でも熱負荷は残る。天候・体調を確認し、冬季は早期閉門の可能性がある。"
+      ],
+      "reason": "日本遺産資料は、夏に奥之院へ続く石道の両側で繁茂した樹木が日差しを遮ると記す。石段の木陰のみを根拠とし、高地・気温低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 38.3128,
+      "longitude": 140.4347,
+      "elevationM": 283.6,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:aizuwakamatsu",
+      "sourceIndex": 23,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "鶴ヶ城（若松城跡）",
+      "prefecture": "福島県",
+      "officialUrl": "https://www.tsurugajo.com/tsurugajo/tensyukaku/",
+      "accessEvidenceUrl": "https://www.tsurugajo.com/access/",
+      "accessSummary": "会津若松駅を鉄道の到着点とし、市内観光は公式掲載のまちなか周遊バスを利用できる。高速バスは「鶴ヶ城・合同庁舎前」へ乗換なしの便がある。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "天守閣博物館は8:30〜17:00（最終入場16:30）、無休。2026年7月1日〜9月30日はデジタルアートを休止するため、展示・入場情報を確認する。"
+      ],
+      "reason": "天守閣内部は博物館として公開される。屋内見学による直射日光回避だけを根拠とし、空調や屋外の気温低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 37.4876,
+      "longitude": 139.9295,
+      "elevationM": 228.7,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:inawashiro",
+      "sourceIndex": 24,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "猪苗代湖（長浜周辺代表点）",
+      "prefecture": "福島県",
+      "officialUrl": "https://www.bandaisan.or.jp/sight/lake-inawashiro/",
+      "accessEvidenceUrl": "https://www.bandaisan.or.jp/news/news-20252/",
+      "accessSummary": "2026年7月18日〜11月8日の土日祝は、猪苗代駅発着の周遊バス「ひでよくん号」が猪苗代湖遊覧船等を結ぶ。長浜方面の通常路線バスは同期間の土日祝に全便運休。",
+      "coolingAttributes": [
+        "water",
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "福島県の湖面利用ルール、浜別ルール、航行規制と現地看板を確認する。規制違反は罰則対象になり得る。"
+      ],
+      "reason": "猪苗代湖は湖面標高514mの高冷地にある湖。水辺と高原湖という局所環境に限り、湖水温・体感温度は主張しない。",
+      "mergedInto": null,
+      "latitude": 37.5577,
+      "longitude": 140.1047,
+      "elevationM": 522.4,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:nasushiobara",
+      "sourceIndex": 25,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "塩原温泉郷（塩原温泉ビジターセンター周辺）",
+      "prefecture": "栃木県",
+      "officialUrl": "https://www.siobara.or.jp/vc/",
+      "accessEvidenceUrl": "https://nasushiobara-kanko.jp/events/26575/",
+      "accessSummary": "那須塩原駅または西那須野駅からJRバスで約45分、「七つ岩吊橋」下車徒歩約5分でビジターセンター周辺へ入る。",
+      "coolingAttributes": [
+        "forest",
+        "water",
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "ビジターセンターは9:00〜16:30、火曜（祝日の場合翌日）と12月29日〜1月3日休館。自然公園施設の通行止めと、降雨後の散策路の足元を出発前に確認する。"
+      ],
+      "reason": "箒川渓谷沿いの温泉地と、ビジターセンターの渓流の森・遊歩道を根拠に、水辺・森林・標高条件に限定する。気象予報や単発の観測気温は用いない。",
+      "mergedInto": null,
+      "latitude": 36.966,
+      "longitude": 139.823,
+      "elevationM": 552,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:nikko",
+      "sourceIndex": 26,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "日光東照宮",
+      "prefecture": "栃木県",
+      "officialUrl": "https://www.nikko-kankou.org/public/spot/2",
+      "accessEvidenceUrl": "https://www.nikko-kankou.org/public/spot/2",
+      "accessSummary": "JR日光駅・東武日光駅から世界遺産めぐりバスで約10分、「表参道」下車徒歩約5分（路線変更の可能性あり）。",
+      "coolingAttributes": [
+        "shade",
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "4月1日〜10月31日は9:00〜17:00（受付16:30まで）。祭典・修理による一部拝観制限があり得るため事前に確認する。"
+      ],
+      "reason": "社寺境内近傍の杉林・木陰と、本地堂・宝物館等の屋内見学を対象にする。東照宮の気温低下や空調は主張しない。",
+      "mergedInto": null,
+      "latitude": 36.758,
+      "longitude": 139.5981,
+      "elevationM": 666.5,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:kinugawa",
+      "sourceIndex": 27,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "鬼怒川温泉（鬼怒川ライン下り）",
+      "prefecture": "栃木県",
+      "officialUrl": "https://linekudari.com/status/",
+      "accessEvidenceUrl": "https://linekudari.com/access/",
+      "accessSummary": "鬼怒川温泉駅から乗船場まで徒歩約5分。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "営業は4月中旬〜11月下旬（期間中無休）。大雨・雷雨・強風・河川の増減水で予告なく運休する場合がある。"
+      ],
+      "reason": "鬼怒川を約30分下る舟旅であることを水辺体験の根拠にする。気温低下・森林の日陰は主張しない。",
+      "mergedInto": null,
+      "latitude": 36.8228,
+      "longitude": 139.7162,
+      "elevationM": 385.3,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:minakami",
+      "sourceIndex": 28,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "諏訪峡（みなかみ町水上エリア）",
+      "prefecture": "群馬県",
+      "officialUrl": "https://www.enjoy-minakami.jp/spot/8037/",
+      "accessEvidenceUrl": "https://www.enjoy-minakami.jp/modelcourse/194/",
+      "accessSummary": "水上駅から温泉街経由で諏訪峡遊歩道へ徒歩約10〜25分の公式モデルコース。",
+      "coolingAttributes": [
+        "water",
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "見晴から銚子橋間は落石で通行止めとの掲載がある（2025年10月現在）。水辺活動は通行止めの更新、足元、ガイド同行条件を確認する。"
+      ],
+      "reason": "利根川の清冽な流れが造る渓谷と、夏の清流・深い森を根拠に、水辺・森林環境に限定する。",
+      "mergedInto": null,
+      "latitude": 36.7790483,
+      "longitude": 138.968811,
+      "elevationM": 492.4,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:kusatsu",
+      "sourceIndex": 29,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "草津温泉（湯畑）",
+      "prefecture": "群馬県",
+      "officialUrl": "https://www.kusatsu-onsen.ne.jp/kankou/1004.php",
+      "accessEvidenceUrl": "https://www.kusatsu-onsen.ne.jp/access/train.php",
+      "accessSummary": "長野原草津口駅からJRバスで約25分、草津温泉バスターミナルから湯畑まで徒歩約5分。",
+      "coolingAttributes": [
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "草津白根山は道路再開後も湯釜火口から500mが立入規制で、湯釜見学・山頂駐車場・白根レストハウスは当面利用不可。天候等で変更し得る。"
+      ],
+      "reason": "草津町の東・南部は海抜約1,200mの高原で、気候は高原性とされる。湯畑の温泉・湯気を涼しさの根拠にはしない。",
+      "mergedInto": null,
+      "latitude": 36.6229392,
+      "longitude": 138.5967297,
+      "elevationM": 1153.4,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:karuizawa",
+      "sourceIndex": 30,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "軽井沢町（軽井沢駅）",
+      "prefecture": "長野県",
+      "officialUrl": "https://www.town.karuizawa.lg.jp/site/kanko/index.html",
+      "accessEvidenceUrl": "https://karuizawa-kankokyokai.jp/access/",
+      "accessSummary": "軽井沢駅への鉄道・高速バスと、町内バスを公式観光協会が案内する。",
+      "coolingAttributes": [
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "町は避暑地・静養できるリゾートとして案内するが、一律の夏季閉鎖根拠は確認できない。個別散策地・山岳・駐車場の営業と混雑は当日確認する。"
+      ],
+      "reason": "浅間山南東斜面の標高900〜1,000mに広がる高原の町で、役場海抜は938m。高原標高だけを根拠とする。",
+      "mergedInto": null,
+      "latitude": 36.3431582,
+      "longitude": 138.6368,
+      "elevationM": 940.6,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:kawagoe",
+      "sourceIndex": 31,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "川越市産業観光館 小江戸蔵里",
+      "prefecture": "埼玉県",
+      "officialUrl": "https://www.machikawa.co.jp/",
+      "accessEvidenceUrl": "https://www.machikawa.co.jp/access/",
+      "accessSummary": "本川越駅から徒歩約3分、川越駅から徒歩約15分。一般車用駐車場はなく公共交通を推奨。",
+      "coolingAttributes": [
+        "indoor",
+        "water"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "ミストは荒天・イベント実施で中止する場合がある。市の熱中症注意、狭い観光エリアの混雑・渋滞と公共交通利用の案内に従う。"
+      ],
+      "reason": "酒蔵を再生した屋内交流施設で、2026年7月18日〜8月30日はミスト広場を実施する。限定的な屋内・ミスト空間のみで、都市全体の気温低下や空調性能は主張しない。",
+      "mergedInto": null,
+      "latitude": 35.9162357,
+      "longitude": 139.4837768,
+      "elevationM": 18.4,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:chichibu",
+      "sourceIndex": 32,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "橋立鍾乳洞",
+      "prefecture": "埼玉県",
+      "officialUrl": "https://www.chichibuji.gr.jp/spot/spot-syousai80/",
+      "accessEvidenceUrl": "https://www.chichibuji.gr.jp/spot/spot-syousai80/",
+      "accessSummary": "秩父市上影森708に駐車場がある。施設単位の公共交通根拠は確認できず、車または現地の交通確認を前提とする。",
+      "coolingAttributes": [
+        "cave"
+      ],
+      "coolingScope": "enclosed-space",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "3月1日〜12月上旬の8:00〜16:30。洞内は狭窄・屈曲があり、足元・体力に注意する。冬季は入洞できず、先の林道通行止め情報も確認する。"
+      ],
+      "reason": "武甲山西麓の石灰岩大岩壁下にある長さ130〜140mの洞穴。直射を避ける洞内条件のみを根拠とし、洞内温度を推測しない。",
+      "mergedInto": null,
+      "latitude": 35.9607485,
+      "longitude": 139.0607275,
+      "elevationM": 312.1,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:nagatoro",
+      "sourceIndex": 33,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "長瀞（長瀞ラインくだり）",
+      "prefecture": "埼玉県",
+      "officialUrl": "https://www.nagatoro.gr.jp/shisetsu/nagatoro-line/",
+      "accessEvidenceUrl": "https://www.nagatoro.gr.jp/accessmap/",
+      "accessSummary": "西武秩父から御花畑駅乗換で秩父鉄道約20分、または熊谷から秩父鉄道約50分。車は花園ICから国道140号経由約30分。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "9:00〜16:00、冬季休業。荒川の増水・渇水では欠航し、混雑時はコース変更もあるため直前の運航状況を確認する。"
+      ],
+      "reason": "荒川を和舟で下り、瀬・淵が変わる渓谷を体験する水辺施設であることだけを根拠とする。水遊び可否・森林日陰・気温低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 36.0952663,
+      "longitude": 139.1112919,
+      "elevationM": 142,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:okutama",
+      "sourceIndex": 34,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "鳩ノ巣渓谷",
+      "prefecture": "東京都",
+      "officialUrl": "https://www.okutama.gr.jp/site/sightseeing/",
+      "accessEvidenceUrl": "https://www.okutama.gr.jp/site/sightseeing/",
+      "accessSummary": "JR鳩ノ巣駅から徒歩約10分。現行の奥多摩駅代表点とは入口が異なる。",
+      "coolingAttributes": [
+        "water",
+        "forest",
+        "breeze"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "常時開放だが、遊泳・飛込み・テント類は禁止。増水・雷雨後は遊歩道と河川の現況を確認する。"
+      ],
+      "reason": "清流・巨岩の渓谷と、観光協会の夏期記録にある渓谷の涼しい風を根拠にする。気象予報の体感温度は用いない。",
+      "mergedInto": null,
+      "latitude": 35.8107,
+      "longitude": 139.105,
+      "elevationM": 687.9,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:takao",
+      "sourceIndex": 35,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "高尾山",
+      "prefecture": "東京都",
+      "officialUrl": "https://www.hkc.or.jp/takaosan/index.php",
+      "accessEvidenceUrl": "https://www.hkc.or.jp/course/detail_m.php?id=51",
+      "accessSummary": "高尾山口駅を入口とし、ケーブルカーは約6分、ケーブルカー利用で山頂まで約50分。",
+      "coolingAttributes": [
+        "highland",
+        "shade",
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "夏イベントは2026年7月18日〜8月31日。登山では塩分を含む水分補給、雨後の滑り、体調不良時の中止を公式が案内する。夏季は見どころガイドが休止する。"
+      ],
+      "reason": "公式は標高599mで木陰が多く、夏は平地より涼しいと案内する。これは山の標高・樹林という地点固有の根拠で、気象予報ではない。",
+      "mergedInto": null,
+      "latitude": 35.62528,
+      "longitude": 139.24361,
+      "elevationM": 599.15,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:kamakura",
+      "sourceIndex": 36,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "鎌倉大仏殿高徳院（鎌倉大仏）",
+      "prefecture": "神奈川県",
+      "officialUrl": "https://www.kotoku-in.jp/",
+      "accessEvidenceUrl": "https://www.kotoku-in.jp/access.html",
+      "accessSummary": "JR鎌倉駅またはJR藤沢駅から江ノ島電鉄で長谷駅下車、徒歩約7分。",
+      "coolingAttributes": [],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "no-cooling-claim",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "予約不要。4〜9月は8:00〜17:30、10〜3月は8:00〜17:00（入場は閉門15分前まで）。大仏胎内拝観は8:00〜16:30で、当日の拝観休止等は公式告知を確認する。"
+      ],
+      "reason": "公開可否は実在・公開・入口確認で判定する。高徳院について、許可された cooling.attributes を裏付ける公式根拠は今回確認できないため空配列とする。",
+      "mergedInto": null,
+      "latitude": 35.3167,
+      "longitude": 139.5356,
+      "elevationM": 13.8,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:hakone",
+      "sourceIndex": 37,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "大涌谷",
+      "prefecture": "神奈川県",
+      "officialUrl": "https://www.hakone.or.jp/6318",
+      "accessEvidenceUrl": "https://www.hakone.or.jp/6318",
+      "accessSummary": "箱根湯本・小田原からのバス、または箱根登山電車・ケーブルカー・ロープウェイで大涌谷駅へ入る。",
+      "coolingAttributes": [
+        "highland",
+        "breeze"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "火山ガスにより呼吸器・心臓疾患等がある人は観光不可。ガス・火山活動・豪雨で規制や園路閉鎖があり、当日の運行・規制確認が必要。"
+      ],
+      "reason": "標高1,042mで、夏でも曇雨天は肌寒く強風が多いと公式が案内する。これは大涌谷に限定した高地・風の条件である。",
+      "mergedInto": null,
+      "latitude": 35.2445,
+      "longitude": 139.0205,
+      "elevationM": 1042,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:enoshima",
+      "sourceIndex": 38,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "江の島岩屋",
+      "prefecture": "神奈川県",
+      "officialUrl": "https://www.fujisawa-kanko.jp/spot/enoshima/17.html",
+      "accessEvidenceUrl": "https://www.fujisawa-kanko.jp/bunkazai/02.html",
+      "accessSummary": "片瀬江ノ島駅から公式モデルコースで岩屋まで徒歩約56分相当で、途中の上りを含む。",
+      "coolingAttributes": [
+        "cave"
+      ],
+      "coolingScope": "enclosed-space",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通常9:00〜17:00（季節で変動）。2026年7月12日は台風9号の高波で終日閉洞となったため、波浪時の閉洞・再開告知を当日確認する。"
+      ],
+      "reason": "第一岩屋152m・第二岩屋56mの海食洞窟であることから、日射を遮る洞内条件だけを根拠にする。温度低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 35.299,
+      "longitude": 139.477,
+      "elevationM": 54.5,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:tateyama-chiba",
+      "sourceIndex": 39,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "北条海岸",
+      "prefecture": "千葉県",
+      "officialUrl": "https://tateyamacity.com/archives/2667",
+      "accessEvidenceUrl": "https://tateyamacity.com/archives/2667",
+      "accessSummary": "JR館山駅西口から徒歩約3分。",
+      "coolingAttributes": [
+        "water",
+        "shade"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "市の直近公表では海水浴場を7月19日〜8月24日に開設し監視員を配置。年度日程は再確認し、急な深み・速い流れのある遊泳禁止場所に入らず、津波フラッグ時は直ちに避難する。"
+      ],
+      "reason": "館山湾（鏡ヶ浦）の遠浅の砂浜・松林を根拠に、水辺と松林の木陰に限定する。観光協会は夏に涼しいと案内するが、予報の体感温度とは混同しない。",
+      "mergedInto": null,
+      "latitude": 34.9958,
+      "longitude": 139.855,
+      "elevationM": null,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:katsuura",
+      "sourceIndex": 40,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "勝浦市（海水浴場利用は鵜原・守谷・興津に限定）",
+      "prefecture": "千葉県",
+      "officialUrl": "https://www.city.katsuura.lg.jp/site/city-promotion/3883.html",
+      "accessEvidenceUrl": "https://www.city.katsuura.lg.jp/page/11652.html",
+      "accessSummary": "2026年は鵜原・守谷・興津を7月18日〜8月23日、8:30〜16:30に開設し、最寄駅から徒歩約3〜10分。勝浦中央海岸は海水浴場として非開設。",
+      "coolingAttributes": [
+        "water",
+        "breeze"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "遊泳区域外は禁止で、赤旗は高波等による遊泳禁止を示す。開設日・遊泳条件は当日確認する。"
+      ],
+      "reason": "県公式は、勝浦沿岸で南風が海面水を押し流し海底の冷水が上昇して風を冷やし陸地へ届くという局所メカニズムを説明する。これは予報の体感温度ではない。",
+      "mergedInto": null,
+      "latitude": 35.1523,
+      "longitude": 140.3123,
+      "elevationM": 10,
+      "sourceFile": "curated-0021-0040.json"
+    },
+    {
+      "id": "curated:chikura",
+      "sourceIndex": 41,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "南千倉海岸（南千倉海水浴場）",
+      "prefecture": "千葉県",
+      "officialUrl": "https://www.mboso-etoko.jp/mboso_map/detail.php?poi=248",
+      "accessEvidenceUrl": "https://maruchiba.jp/spot/detail_10662.html",
+      "accessSummary": "JR内房線千倉駅からJRバス白浜行きで「南千倉」下車、徒歩約5分。富浦ICから館山経由約30分。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "2026年度の開設は7月17日〜8月16日で、期間中の遊泳状況は市運営サイトが毎日更新する。監視員・ライフセーバーは期間外にはいないため遊泳を控え、当日の遊泳可否を確認する。"
+      ],
+      "reason": "約400mの海岸・海水浴場という水辺環境だけを根拠とする。海風、海水温、沿岸の気温低下、予報の体感温度は主張しない。",
+      "mergedInto": null,
+      "latitude": 34.9648783,
+      "longitude": 139.9602358,
+      "elevationM": 3.1,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:echigo-yuzawa",
+      "sourceIndex": 42,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "湯沢高原 パノラマパーク",
+      "prefecture": "新潟県",
+      "officialUrl": "https://www.yuzawakogen.com/",
+      "accessEvidenceUrl": "https://www.e-yuzawa.gr.jp/sys/exp_p/yuzawa_kogen_panorama_park/",
+      "accessSummary": "JR越後湯沢駅西口からロープウェイ山麓駅まで徒歩約8分、湯沢ICから車約5分。高原エリアは車で入場できず、ロープウェイを利用する。",
+      "coolingAttributes": [
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "2026年の夏期営業は5月30日〜11月15日予定、ロープウェイは8:40〜16:40（上り最終16:20）。気象・利用状況で乗車制限・時間変更・休止があり、導線外の斜面・崖・谷には立ち入らない。"
+      ],
+      "reason": "ロープウェイ山頂駅・高原エリアが標高約870m（観光案内では山頂一帯約1,000m）にあることを局所的な高原条件の根拠とする。気象予報・体感温度ではない。",
+      "mergedInto": null,
+      "latitude": 36.9402935,
+      "longitude": 138.8019238,
+      "elevationM": 384.2,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:myoko",
+      "sourceIndex": 43,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "笹ヶ峰一周歩道（森林セラピーロード）",
+      "prefecture": "新潟県",
+      "officialUrl": "https://myokotourism.jp/tourist-spots/%E7%AC%B9%E3%83%B6%E5%B3%B0%E4%B8%80%E5%91%A8%E6%AD%A9%E9%81%93%EF%BC%88%E6%A3%AE%E6%9E%97%E3%82%BB%E3%83%A9%E3%83%94%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89%EF%BC%89/",
+      "accessEvidenceUrl": "https://www.pref.niigata.lg.jp/sec/jouetsu_kenkou/1356846708007.html",
+      "accessSummary": "妙高高原駅から季節運行バス約50分、または妙高高原ICから車約40分。笹ヶ峰グリーンハウス起点に無料30台駐車場がある。",
+      "coolingAttributes": [
+        "highland",
+        "forest",
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "春夏のトレッキング地点。直行バスは季節運行のため時刻・運行日を確認し、約5km・90分の歩道は天候・現況・装備を確認して無理をしない。"
+      ],
+      "reason": "妙高観光公式が標高1,300m、ドイツトウヒ林、宇棚の清水・清水ヶ池を明記する。地域名ではなく、この散策路に統合する。",
+      "mergedInto": null,
+      "latitude": 36.8598889,
+      "longitude": 138.0994167,
+      "elevationM": 1331.6,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:sado",
+      "sourceIndex": 44,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "佐渡島・両津港",
+      "prefecture": "新潟県",
+      "officialUrl": "https://www.visitsado.com/ryotsu/",
+      "accessEvidenceUrl": "https://www.visitsado.com/tosado/aiduwakamatsu/",
+      "accessSummary": "新潟港からカーフェリー約2時間30分またはジェットフォイル約1時間7分で両津港へ。島内は目的地ごとに交通の現況を確認する。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "佐渡市指定海水浴場の2026年度遊泳期間は7月11日〜8月29日。監視員常駐時間外は十分注意し、船・道路・遊泳可否を出発直前に確認する。"
+      ],
+      "reason": "海辺・指定海水浴場を水辺属性としてのみ扱う。港や海辺の気温低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 38.0782,
+      "longitude": 138.4394,
+      "elevationM": 3.7,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:kiyosato",
+      "sourceIndex": 45,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "清里高原",
+      "prefecture": "山梨県",
+      "officialUrl": "https://www.hokuto-kanko.jp/about/",
+      "accessEvidenceUrl": "https://seisenryo.jp/access/",
+      "accessSummary": "JR小海線・清里駅が入口。代表施設の清泉寮は駅から車・タクシー約5分で、宿泊者送迎は要予約。",
+      "coolingAttributes": [
+        "highland",
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "施設ごとに夏季の営業時間・定休日が異なる。2026年度は小海線の一部日中時間帯運休が公表されているため、列車・送迎の最新時刻を確認する。"
+      ],
+      "reason": "北杜市観光協会は高標高の清里高原を避暑地とし、清泉寮は森と牧草地に囲まれると案内する。現在点の標高候補は1,274.9m。",
+      "mergedInto": null,
+      "latitude": 35.9193,
+      "longitude": 138.4367,
+      "elevationM": 1274.9,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:kawaguchiko",
+      "sourceIndex": 46,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "河口湖",
+      "prefecture": "山梨県",
+      "officialUrl": "https://fujisan.ne.jp/",
+      "accessEvidenceUrl": "https://fujisan.ne.jp/sightseeing/3851/",
+      "accessSummary": "富士急行線河口湖駅が入口。駅前から富士急バス・周遊バスで湖畔へ移動でき、河口湖ICから駅前まで約5分。",
+      "coolingAttributes": [
+        "water",
+        "highland",
+        "breeze"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "夏の湖上祭等では駐車・交通規制があり得る。町のお知らせと水上アクティビティ・船の営業、雷雨・強風時の指示を確認する。"
+      ],
+      "reason": "湖面を伴う高原の湖。町観光連盟の夏ガイドは湖畔の爽やかな風を、公式ガイド地図は標高830.5mを記載するが、体感温度・温度低下は保証しない。",
+      "mergedInto": null,
+      "latitude": 35.4982,
+      "longitude": 138.7687,
+      "elevationM": 856.9,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:yamanakako",
+      "sourceIndex": 47,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "山中湖",
+      "prefecture": "山梨県",
+      "officialUrl": "https://lake-yamanakako.com/spot/10422",
+      "accessEvidenceUrl": "https://lake-yamanakako.com/access",
+      "accessSummary": "新宿・横浜から高速バス約2時間、または富士山駅・御殿場駅から路線バスで山中湖へ。車は山中湖ICを利用できる。",
+      "coolingAttributes": [
+        "highland",
+        "water",
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "湖畔は基本的に私有地。立入可否、水上アクティビティ、天候を確認して指定地以外へ入らない。熊目撃・イベント等の最新お知らせも確認する。"
+      ],
+      "reason": "山中湖観光協会が海抜980.5m、湖を中心とした森林を掲載する。高原・湖・森林の局所条件のみを根拠とし、予報値は使わない。",
+      "mergedInto": null,
+      "latitude": 35.4292,
+      "longitude": 138.8664,
+      "elevationM": 1020.2,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:kobuchizawa",
+      "sourceIndex": 48,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "道の駅こぶちさわ",
+      "prefecture": "山梨県",
+      "officialUrl": "https://www.city.hokuto.yamanashi.jp/s-office/facility/so-kobuchisawa.html",
+      "accessEvidenceUrl": "https://www.hokuto-kanko.jp/spot/kobuchisawa_station_information_center/",
+      "accessSummary": "小淵沢駅が公共交通の入口。道の駅は駅から車約6分、小淵沢ICから約3分。地域名のみの候補は標高約1,000mの観光拠点へ統合する。",
+      "coolingAttributes": [
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "道の駅と併設施設の営業時間・休館は個別に確認する。登山へ向かう場合は別施設の登山届・道路閉鎖等を混同しない。"
+      ],
+      "reason": "北杜市公式が道の駅こぶちさわを標高1,000mの八ヶ岳高原の観光拠点と明記する。屋外全体の温度低下、森林・日陰は主張しない。",
+      "mergedInto": null,
+      "latitude": 35.8794698,
+      "longitude": 138.3159143,
+      "elevationM": 995.7,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:matsumoto",
+      "sourceIndex": 49,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "国宝 松本城",
+      "prefecture": "長野県",
+      "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/135/4118.html",
+      "accessEvidenceUrl": "https://www.matsumoto-castle.jp/access",
+      "accessSummary": "JR松本駅から徒歩約20分、または松本駅お城口から周遊バスで「松本城・市役所前」下車約10分。入口は黒門のみ。",
+      "coolingAttributes": [],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "no-cooling-claim",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "年末（12月29日〜31日）を除き開場、通常8:30〜17:00（最終入場16:30）。お盆期は8:00〜18:00へ延長。混雑時は天守入場制限があり、天守内は急で狭い階段のため注意する。"
+      ],
+      "reason": "夏の局所的な涼しさを示す公式根拠は確認していない。気温・体感の順位付けは予報データで行う。",
+      "mergedInto": null,
+      "latitude": 36.238827,
+      "longitude": 137.96949,
+      "elevationM": 590,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:kamisuwa",
+      "sourceIndex": 50,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "諏訪湖（諏訪市湖畔公園）",
+      "prefecture": "長野県",
+      "officialUrl": "https://www.city.suwa.lg.jp/site/enjoy/36684.html",
+      "accessEvidenceUrl": "https://www.city.suwa.lg.jp/soshiki/21/1213.html",
+      "accessSummary": "上諏訪駅西口から諏訪湖へ徒歩約8分。湖畔公園は駅から徒歩約10分、諏訪ICから車約15分、無料駐車場170台。",
+      "coolingAttributes": [
+        "water",
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "湖畔公園では火気使用・宿泊は禁止。夏季花火等の大規模イベント日は交通・駐車場混雑を、水上利用は各事業者の運航・安全条件を確認する。"
+      ],
+      "reason": "市公式が海抜759mの諏訪湖と湖畔の散策・サイクリング・湖上利用を掲載。水辺・高地の地形属性のみで、体感温度は保証しない。",
+      "mergedInto": null,
+      "latitude": 36.0492843,
+      "longitude": 138.1105833,
+      "elevationM": 759,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:hakuba",
+      "sourceIndex": 51,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "白馬八方尾根 うさぎ平テラス",
+      "prefecture": "長野県",
+      "officialUrl": "https://www.happo-one.jp/usagidaira/",
+      "accessEvidenceUrl": "https://www.happo-one.jp/trekking/alpenline/",
+      "accessSummary": "八方ゴンドラリフト「アダム」で八方駅から約8分、うさぎ平駅で下車する。夏期の八方駅駐車場A〜C計110台も公式案内がある。",
+      "coolingAttributes": [
+        "highland",
+        "breeze"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "うさぎ平へはゴンドラのみで車では到達できない。2026年営業は5月30日・31日および6月6日〜11月3日で、天候により変更される。営業時刻・運行状況、山上の天候を来訪前に確認する。"
+      ],
+      "reason": "施設公式がうさぎ平を標高1,400mとし、「大自然の爽やかな風」を感じるオープンテラスとして案内する。地点固有の高所・風の根拠であり、予報の体感温度ではない。",
+      "mergedInto": null,
+      "latitude": 36.697248,
+      "longitude": 137.815783,
+      "elevationM": 1395.4,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:komoro",
+      "sourceIndex": 52,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "小諸城址 懐古園",
+      "prefecture": "長野県",
+      "officialUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/rekishi_bunka/8618.html",
+      "accessEvidenceUrl": "https://www.city.komoro.lg.jp/kaikoen/",
+      "accessSummary": "小諸駅から徒歩3分。公式は懐古園を懐古園入口と弁慶橋の間に位置すると案内する。",
+      "coolingAttributes": [],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "no-cooling-claim",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "懐古園（公園）は9:00〜17:00で11月30日まで無休。夏季は通常の開園対象。遊園地は雨天・荒天時に休園するため、利用する場合は当日の案内を確認する。"
+      ],
+      "reason": "夏の局所的な涼しさを示す公式根拠は確認していない。気温・体感の順位付けは予報データで行う。",
+      "mergedInto": null,
+      "latitude": 36.3263849,
+      "longitude": 138.4173007,
+      "elevationM": 663,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:togakushi",
+      "sourceIndex": 53,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "戸隠神社中社・奥社参道杉並木（戸隠）",
+      "prefecture": "長野県",
+      "officialUrl": "https://www.togakushi-jinja.jp/",
+      "accessEvidenceUrl": "https://togakushi-21.jp/access/",
+      "accessSummary": "長野駅から戸隠へ路線バス約1時間。奥社は70系統で参道入口へ、中社は中社バス停が入口。奥社参道は一般車進入不可で約2kmを徒歩参拝する。",
+      "coolingAttributes": [
+        "forest",
+        "shade",
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "奥社参道は往復徒歩で歩きやすい靴・飲料が必要。大雨・災害等でアクセス・散策不可となる場合があり、山域へ入る場合は天候・装備・熊等の情報を確認する。"
+      ],
+      "reason": "奥社参道の随神門先に400年以上の杉約300本超が並ぶ。木陰と、標高1,000〜1,400mの山岳観光地という局所条件のみを根拠とする。",
+      "mergedInto": null,
+      "latitude": 36.7404537,
+      "longitude": 138.0830002,
+      "elevationM": 1200,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:hida-furukawa",
+      "sourceIndex": 54,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "瀬戸川と白壁土蔵街（飛騨古川）",
+      "prefecture": "岐阜県",
+      "officialUrl": "https://www.hida-kankou.jp/spot/278",
+      "accessEvidenceUrl": "https://www.hida-kankou.jp/spot/278",
+      "accessSummary": "飛騨市公式観光サイトはJR飛騨古川駅から徒歩5分と案内する。駅起点で瀬戸川・白壁土蔵街へ入れる。",
+      "coolingAttributes": [
+        "water",
+        "shade"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "季節閉鎖は確認できない。水路沿いの屋外散策なので、降雨時の足元・増水と夏の熱中症に注意し、現地案内に従う。"
+      ],
+      "reason": "公式が一体の水辺景観として案内する瀬戸川と、歴史的建物の軒下による日陰を局所条件に限る。気温低下・予報値は主張しない。",
+      "mergedInto": null,
+      "latitude": 36.2368,
+      "longitude": 137.1896,
+      "elevationM": 494.6,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:takayama",
+      "sourceIndex": 55,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "飛騨高山 古い町並",
+      "prefecture": "岐阜県",
+      "officialUrl": "https://www.hidatakayama.or.jp/spot/detail_1101.html",
+      "accessEvidenceUrl": "https://www.hidatakayama.or.jp/blog/detail_15.html",
+      "accessSummary": "JR高山駅から高山陣屋・中橋・古い町並へ徒歩で到達でき、古い町並は駅から徒歩約15分。",
+      "coolingAttributes": [
+        "highland",
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通常の季節閉鎖は確認できないが屋外市街地であり暑熱対策が必要。店舗営業時間、道路規制・熊目撃等の緊急情報を直前確認する。"
+      ],
+      "reason": "高山市公式資料は市役所所在地を海抜573m、観光公式は古い町並の軒下を流れる用水を掲載する。盆地市街地の日中の温度低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 36.1408,
+      "longitude": 137.2519,
+      "elevationM": 573.9,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:gujo",
+      "sourceIndex": 56,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "郡上八幡（吉田川・城下町）",
+      "prefecture": "岐阜県",
+      "officialUrl": "https://www.pref.gifu.lg.jp/page/3179.html",
+      "accessEvidenceUrl": "https://www.gujohachiman.com/access/",
+      "accessSummary": "郡上八幡観光協会が高速バス・長良川鉄道・車での入口を案内する。城下町中心部は吉田川沿い。",
+      "coolingAttributes": [
+        "water",
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通常の季節閉鎖は確認できない。公式記載の川面への飛込みは安全保証ではなく模倣せず、増水・水難・河川管理情報を確認する。"
+      ],
+      "reason": "県公式は吉田川が市街地を流れることを、国交省は吉田川・小駄良川、湧水、周囲の山を確認する。水辺と周囲山地の環境根拠に限定する。",
+      "mergedInto": null,
+      "latitude": 35.7411,
+      "longitude": 136.9472,
+      "elevationM": 206,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:gero",
+      "sourceIndex": 57,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "噴泉池",
+      "prefecture": "岐阜県",
+      "officialUrl": "https://www.gero-spa.com/spot/detail_2.html",
+      "accessEvidenceUrl": "https://www.gero-spa.com/spot/detail_2.html",
+      "accessSummary": "下呂温泉観光協会はJR下呂駅から徒歩約3分、市営駐車場から徒歩8分と案内する。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通年・無料。2021年12月1日以降は入浴利用が禁止されているため、現地掲示と河川敷の利用ルールに従う。増水、警報、イベントによる利用制限時は近づかず、当日の市・観光協会の案内を確認する。"
+      ],
+      "reason": "観光協会公式が飛騨川のせせらぎを背景とする河川敷の地点として案内する。水辺属性のみを記録し、温泉の湯温や体感温度を涼しさの根拠にはしない。",
+      "mergedInto": null,
+      "latitude": 35.8075858,
+      "longitude": 137.2408768,
+      "elevationM": 361.7,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:shirakawago",
+      "sourceIndex": 58,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "世界遺産 白川郷合掌造り集落（荻町）",
+      "prefecture": "岐阜県",
+      "officialUrl": "https://shirakawa-go.gr.jp/",
+      "accessEvidenceUrl": "https://shirakawa-go.gr.jp/access/",
+      "accessSummary": "白川郷観光協会公式は名古屋・金沢などの駅から白川郷への公共交通をバス利用と案内する。既存点は白川郷バスターミナル。",
+      "coolingAttributes": [
+        "highland",
+        "forest",
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通年の一般閉鎖は確認できないが、バス・駐車場・集落内交通、気象警報・大雨時の安全情報を出発前に確認する。生活・私有地に配慮する。"
+      ],
+      "reason": "既存点の標高候補は480.1m。村役場公式は庄川・谷の河川合流と荻町城跡の標高540mを確認する。山地・水辺環境のみを根拠とし、集落内の温度低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 36.2606,
+      "longitude": 136.906,
+      "elevationM": 480.1,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:ito",
+      "sourceIndex": 59,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "伊東オレンジビーチ",
+      "prefecture": "静岡県",
+      "officialUrl": "https://itospa.com/spot/detail_54012.html",
+      "accessEvidenceUrl": "https://itospa.com/spot/detail_54012.html",
+      "accessSummary": "伊東観光協会公式はJR伊東駅から徒歩5分、なぎさ観光駐車場103台・24時間を案内する。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "海水浴場の開設期・監視時間・遊泳規制を毎年確認する。火気・キャンプ・遊泳区域内のジェットスキーは禁止。荒天・海況時は遊泳しない。"
+      ],
+      "reason": "海水浴場・海上アクティビティとして案内される海辺。海水への接触という水辺条件だけを局所条件とし、沿岸の気温低下・予報は主張しない。",
+      "mergedInto": null,
+      "latitude": 34.9784456,
+      "longitude": 139.0937117,
+      "elevationM": 4.3,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:shimoda",
+      "sourceIndex": 60,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "白浜大浜海水浴場（下田市）",
+      "prefecture": "静岡県",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/100300itiban_resort/110789.html",
+      "accessEvidenceUrl": "https://www.city.shimoda.shizuoka.jp/category/100300itiban_resort/110789.html",
+      "accessSummary": "下田市公式は伊豆急下田駅から板戸一色行きバス約15分・レスポ白浜下車すぐ、夏期有料駐車場ありと案内する。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "2026年度は市内海水浴場が7月18日に一斉海開き。遊泳は開設期間・監視・遊泳区画、当日の海況・現地指示に従い、荒天・高波時には入水しない。"
+      ],
+      "reason": "市公式が海水浴場として案内する海辺。海水への接触という水辺条件だけを局所条件とし、海岸の気温低下・予報値は主張しない。",
+      "mergedInto": null,
+      "latitude": 34.688945,
+      "longitude": 138.97321,
+      "elevationM": 2,
+      "sourceFile": "curated-0041-0060.json"
+    },
+    {
+      "id": "curated:shuzenji",
+      "sourceIndex": 61,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "竹林の小径（修善寺温泉・桂川沿い）",
+      "prefecture": "静岡県",
+      "officialUrl": "https://kanko.city.izu.shizuoka.jp/sightseeing/bamboo-gove-path/",
+      "accessEvidenceUrl": "https://kanko.city.izu.shizuoka.jp/wp/wp-content/uploads/2025/06/94b2a5b307a8cd6e4e50058152764b80.pdf",
+      "accessSummary": "修善寺駅からバス約8分、徒歩約3分。専用駐車場はない。",
+      "coolingAttributes": [
+        "shade",
+        "water",
+        "breeze"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "定休日なし。日没後のライトアップはあるが、夜間・河川沿いの足元と混雑を現地で確認する。河川遊びを推奨する地点ではない。"
+      ],
+      "reason": "伊豆市観光情報が桂川沿いの竹林と竹林を通る風を案内する。川沿い・木陰の局所条件だけを根拠にし、気温や体感温度は主張しない。",
+      "mergedInto": null,
+      "latitude": 34.969709,
+      "longitude": 138.92387,
+      "elevationM": 105.8,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:gotemba",
+      "sourceIndex": 62,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "御殿場市富士山交流センター 富士山樹空の森",
+      "prefecture": "静岡県",
+      "officialUrl": "https://jukuu.jp/",
+      "accessEvidenceUrl": "https://www.pref.shizuoka.jp/kurashikankyo/shizenkankyo/sakura/1057743/1058435/1058439.html",
+      "accessSummary": "JR御殿場駅から印野本村行きバスで「富士山樹空の森」下車。施設公式は御殿場駅からバス約20分の案内も掲載する。",
+      "coolingAttributes": [
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "9:00〜17:00、火曜（祝日の場合翌日）・年末年始は休園。ただし7月20日〜8月31日は無休。企画展示等の別条件と屋外活動時の暑熱対策を来訪前に確認する。"
+      ],
+      "reason": "公式アクセス地図の候補点は標高約631m。標高だけを局所条件として記録し、樹木・風・気温の効果は根拠不足のため付けない。",
+      "mergedInto": null,
+      "latitude": 35.296278,
+      "longitude": 138.868525,
+      "elevationM": 631.3,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:inuyama",
+      "sourceIndex": 63,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "野外民族博物館 リトルワールド",
+      "prefecture": "愛知県",
+      "officialUrl": "https://www.littleworld.jp/",
+      "accessEvidenceUrl": "https://www.littleworld.jp/info/access/",
+      "accessSummary": "犬山市今井成沢90-48。公式が公共交通・車・駐車場を案内し、犬山観光ナビは名鉄犬山駅東口から路線バス約20分を掲載する。",
+      "coolingAttributes": [],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "no-cooling-claim",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "営業時間・休園日は季節・曜日で変わるため公式カレンダーを確認する。長い屋外周遊では暑熱対策が必要。"
+      ],
+      "reason": "2.5kmの屋外周遊路と展示室は確認できるが、公式情報で涼しさの局所根拠は確認できないため属性は空とする。",
+      "mergedInto": null,
+      "latitude": 35.375978,
+      "longitude": 137.016018,
+      "elevationM": 183.7,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:ise",
+      "sourceIndex": 64,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "皇大神宮（内宮）",
+      "prefecture": "三重県",
+      "officialUrl": "https://www.isejingu.or.jp/about/naiku/",
+      "accessEvidenceUrl": "https://www.iseshima-kanko.jp/spot/1231",
+      "accessSummary": "JR・近鉄伊勢市駅から外宮内宮循環バス約20分、「内宮前」下車すぐ。",
+      "coolingAttributes": [
+        "forest",
+        "shade",
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "5〜8月は5:00〜19:00。暑熱・混雑に注意し、神域の参拝作法と当日の案内に従う。"
+      ],
+      "reason": "神宮公式が五十鈴川のほとりと森の薫りを案内する。水辺・森・参道の木陰に限った局所条件で、体感気温値は使わない。",
+      "mergedInto": null,
+      "latitude": 34.454336,
+      "longitude": 136.725914,
+      "elevationM": 26.2,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:toba",
+      "sourceIndex": 65,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "鳥羽水族館",
+      "prefecture": "三重県",
+      "officialUrl": "https://aquarium.co.jp/",
+      "accessEvidenceUrl": "https://www.bunka.pref.mie.lg.jp/Miebunka/detail?cls=mica_col07&pkey=0000000118",
+      "accessSummary": "JR・近鉄鳥羽駅から徒歩約10分。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通常9:30〜17:00、最終入館は1時間前、無休。夏休み・台風接近時は時間変更があり得るため公式の最新営業情報と交通を確認する。"
+      ],
+      "reason": "屋内の飼育展示施設であることだけを暑熱回避の局所条件とする。海・生物展示をwater根拠にしない。",
+      "mergedInto": null,
+      "latitude": 34.481504,
+      "longitude": 136.845761,
+      "elevationM": 2.9,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:biwako",
+      "sourceIndex": 66,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "びわ湖テラス（びわ湖バレイ）",
+      "prefecture": "滋賀県",
+      "officialUrl": "https://www.biwako-valley.com/green/",
+      "accessEvidenceUrl": "https://www.biwako-valley.com/access/",
+      "accessSummary": "大津市木戸1547-1のロープウェイ利用を前提とする山頂エリア。公式アクセスと当日の交通情報を確認する。",
+      "coolingAttributes": [
+        "highland",
+        "forest",
+        "breeze"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "2026年グリーンシーズンは4月24日〜11月23日、9:00〜17:00。荒天で営業中止があり、施設管理外で道標未整備の登山道ではなくロープウェイ・園内導線を利用する。"
+      ],
+      "reason": "施設公式が山頂約1,100m、森から届く風、街より低い山頂の局地条件を案内する。気象予報の体感温度ではなく、管理された標高・森林・風の環境根拠として扱う。",
+      "mergedInto": null,
+      "latitude": 35.213333,
+      "longitude": 135.895556,
+      "elevationM": 1088.7,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:omi-hachiman",
+      "sourceIndex": 67,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "近江八幡水郷めぐり（近江八幡和船観光協同組合）",
+      "prefecture": "滋賀県",
+      "officialUrl": "https://www.omi8.com/spot/detail_1137.html",
+      "accessEvidenceUrl": "https://www.omi8.com/stories/suigo",
+      "accessSummary": "JR近江八幡駅北口から長命寺・休暇村行バスで豊年橋下車。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "乗合船は4月1日〜11月30日毎日、貸切は冬期休止。天候で臨時休業があるため予約先と運航状況を確認する。"
+      ],
+      "reason": "水郷とヨシ地を船で巡る体験を局所的な水辺条件として記録する。屋根付き舟をindoor扱いせず、気温・体感温度は主張しない。",
+      "mergedInto": null,
+      "latitude": 35.1458,
+      "longitude": 136.0951,
+      "elevationM": 86.1,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:kibune",
+      "sourceIndex": 68,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "貴船の川床（貴船川沿い）",
+      "prefecture": "京都府",
+      "officialUrl": "https://ja.kyoto.travel/event/single.php?event_id=4453%2F1000",
+      "accessEvidenceUrl": "https://ja.kyoto.travel/tourism/single01.php?category_id=4&tourism_id=1274",
+      "accessSummary": "叡山電鉄貴船口駅から京都バスで貴船へ。利用店の予約・送迎条件を確認する。",
+      "coolingAttributes": [
+        "water",
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "2026年は5月1日〜9月30日（店舗差あり）。雨天・増水時は室内案内又は利用変更があり得るため、予約先の運行・安全条件を必ず確認する。"
+      ],
+      "reason": "清流近接と新緑の渓谷という局所条件を根拠にする。公式の市中より涼しい旨を気温値に換算せず、気象予報の体感温度には用いない。",
+      "mergedInto": null,
+      "latitude": 35.1216,
+      "longitude": 135.765,
+      "elevationM": 398.8,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:amanohashidate",
+      "sourceIndex": 69,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "天橋立海水浴場（文珠側）",
+      "prefecture": "京都府",
+      "officialUrl": "https://www.amanohashidate.jp/event/umi/",
+      "accessEvidenceUrl": "https://www.amanohashidate.jp/event/umi/",
+      "accessSummary": "天橋立駅から徒歩約7分。",
+      "coolingAttributes": [
+        "water",
+        "shade"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "2026年の開設は7月18日〜8月16日。シャワー・トイレ・脱衣所・連絡所があるが、遊泳区域・水上利用の安全条件を守る。"
+      ],
+      "reason": "海水浴の水辺と、公式が案内する松の木陰だけを局所条件とする。浜上の体感冷却や海風を主張しない。",
+      "mergedInto": null,
+      "latitude": 35.5548,
+      "longitude": 135.1933,
+      "elevationM": null,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:arashiyama",
+      "sourceIndex": 70,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "竹林の小径",
+      "prefecture": "京都府",
+      "officialUrl": "https://ja.kyoto.travel/tourism/single01.php?category_id=8&tourism_id=2683",
+      "accessEvidenceUrl": "https://ja.kyoto.travel/tourism/single01.php?category_id=8&tourism_id=2683",
+      "accessSummary": "嵐電嵐山駅から徒歩約10分、JR嵯峨嵐山駅から徒歩約13分。",
+      "coolingAttributes": [
+        "forest",
+        "shade"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通年自由散策で夏季営業施設ではない。混雑が大きいため、暑熱回避先として保証せず、早朝利用と交通・混雑情報の確認を勧める。"
+      ],
+      "reason": "空を覆う竹林と木漏れ日を日射回避の局所条件として記録する。川の冷却効果や気温低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 35.017,
+      "longitude": 135.6713,
+      "elevationM": 64.5,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:minoh",
+      "sourceIndex": 71,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "箕面大滝（府営箕面公園）",
+      "prefecture": "大阪府",
+      "officialUrl": "https://minohkankou.net/sights/305/",
+      "accessEvidenceUrl": "https://minohkankou.net/access/",
+      "accessSummary": "阪急箕面駅を入口に、滝道を徒歩で進む。",
+      "coolingAttributes": [
+        "water",
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "原則無休だが天候で立入禁止がある。2026年7月18日時点で滝道一部に迂回・通行規制があり、足元・転落・夜間の安全と最新規制を確認する。"
+      ],
+      "reason": "落差33mの滝、渓流、周辺森林を局所条件とする。公式のクールスポット案内はあるが、気象予報や体感気温を根拠にしない。",
+      "mergedInto": null,
+      "latitude": 34.845,
+      "longitude": 135.4718,
+      "elevationM": 164.8,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:kobe",
+      "sourceIndex": 72,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "神戸ポートタワー",
+      "prefecture": "兵庫県",
+      "officialUrl": "https://www.kobe-port-tower.com/",
+      "accessEvidenceUrl": "https://www.feel-kobe.jp/event/36000/",
+      "accessSummary": "地下鉄みなと元町駅から徒歩約5分、三ノ宮駅から徒歩約15分。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "原則年中無休、屋内展望等は9:00〜23:00で日時指定チケットが必要。屋上は屋外のため暑熱・荒天時の避難先として数えない。"
+      ],
+      "reason": "屋内の展望エリア・ミュージアム・カフェだけを暑熱回避の局所条件とする。港・海風を涼しさの根拠にしない。",
+      "mergedInto": null,
+      "latitude": 34.6824,
+      "longitude": 135.1878,
+      "elevationM": 2,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:rokko",
+      "sourceIndex": 73,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "六甲高山植物園",
+      "prefecture": "兵庫県",
+      "officialUrl": "https://www.rokkosan.com/hana/",
+      "accessEvidenceUrl": "https://www.rokkosan.com/top/access/",
+      "accessSummary": "六甲ケーブル山上駅から山上バスで「六甲高山植物園」下車、徒歩約1分。",
+      "coolingAttributes": [
+        "highland",
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "2026年は3月14日〜11月29日、10:00〜17:00（入園券は16:30まで）、定休あり。山上交通の当日運行と悪天候時の変更を確認する。"
+      ],
+      "reason": "施設公式が海抜865mの冷涼な気候と山上の植生を案内する。施設の標高・森林環境を根拠にし、予報の体感温度を使わない。",
+      "mergedInto": null,
+      "latitude": 34.7732,
+      "longitude": 135.25,
+      "elevationM": 865,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:kinosaki",
+      "sourceIndex": 74,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "城崎温泉（外湯めぐり）",
+      "prefecture": "兵庫県",
+      "officialUrl": "https://kinosaki-spa.gr.jp/about/spa/",
+      "accessEvidenceUrl": "https://kinosaki-spa.gr.jp/",
+      "accessSummary": "JR城崎温泉駅から温泉街の各旅館・外湯へ徒歩又は旅館組合バスを利用する。",
+      "coolingAttributes": [],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "no-cooling-claim",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "鴻の湯は2026年5月11日〜10月30日予定で長期休館。他の外湯も営業時間・休湯日が変わり得るため来訪前に公式を確認する。"
+      ],
+      "reason": "外湯は屋内・露天を含むが、夏の涼しさを示す公式根拠は確認できないため属性は空とする。",
+      "mergedInto": null,
+      "latitude": 35.6237,
+      "longitude": 134.813,
+      "elevationM": 1.7,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:nara",
+      "sourceIndex": 75,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "奈良公園",
+      "prefecture": "奈良県",
+      "officialUrl": "https://narashikanko.or.jp/spot/detail_10089.html",
+      "accessEvidenceUrl": "https://narashikanko.or.jp/spot/detail_10089.html",
+      "accessSummary": "近鉄奈良駅から徒歩約8分、JR奈良駅から徒歩約20分又はバス約7分。",
+      "coolingAttributes": [
+        "forest",
+        "shade"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "365日24時間無料開放。鹿は野生動物であり、脅かす・鹿せんべいを焦らす等を避け、鹿せんべい以外を与えない。"
+      ],
+      "reason": "松木立・春日山原始林を含む公園の森林区間で得られる木陰だけを局所条件とする。公園全域の気温低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 34.6851,
+      "longitude": 135.843,
+      "elevationM": 114.3,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:yoshino",
+      "sourceIndex": 76,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "吉野山（高城山・上千本）",
+      "prefecture": "奈良県",
+      "officialUrl": "https://yoshino-kankou.jp/spot/other/000010.html",
+      "accessEvidenceUrl": "https://yoshino-kankou.jp/onifes/access.html",
+      "accessSummary": "近鉄吉野駅へ大阪阿部野橋から約1時間20分、京都から約1時間45分。高城山・上千本はロープウェイ吉野山駅から徒歩約60分。",
+      "coolingAttributes": [
+        "forest",
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "夏季休止の定常情報は確認できない。徒歩約60分の登りのため、給水・暑熱対策とロープウェイ・交通運行を確認する。"
+      ],
+      "reason": "標高702mの高城山と、尾根に続く森林生態系を局所的な高所・樹冠条件として記録する。広域予報の涼しさは主張しない。",
+      "mergedInto": null,
+      "latitude": 34.366,
+      "longitude": 135.858,
+      "elevationM": 702,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:koyasan",
+      "sourceIndex": 77,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "高野山（総本山金剛峯寺・奥之院周辺）",
+      "prefecture": "和歌山県",
+      "officialUrl": "https://www.koyasan.or.jp/",
+      "accessEvidenceUrl": "https://www.koyasan.or.jp/access/",
+      "accessSummary": "南海高野線極楽橋駅から高野山ケーブルカーを利用し、金剛峯寺は高野町高野山132。",
+      "coolingAttributes": [
+        "highland",
+        "forest",
+        "shade"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "7月には諸堂の拝観制限があり得る。急な変更・交通運行を当日確認し、屋外参道では通常の暑熱対策を行う。"
+      ],
+      "reason": "公式が標高約900mの山上盆地を案内し、公式コラムは森林の日陰を記載する。高所・森林の日陰に限り、夏の30℃超もあるため広域的な涼しさは保証しない。",
+      "mergedInto": null,
+      "latitude": 34.2121,
+      "longitude": 135.584,
+      "elevationM": 823.6,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:shirarahama",
+      "sourceIndex": 78,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "白良浜海水浴場",
+      "prefecture": "和歌山県",
+      "officialUrl": "https://www.nankishirahama.jp/spot/527/",
+      "accessEvidenceUrl": "https://www.nankishirahama.jp/spot/527/",
+      "accessSummary": "白浜駅又は南紀白浜ICから車約15分、バス「白良浜」下車すぐ。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "2026年開設は5月3日〜9月13日。台風・雨・風・波・雷では遊泳禁止、臨時休業又は立入禁止があり、繁忙期の道路・駐車場混雑にも注意する。"
+      ],
+      "reason": "海水浴で水に入る行為だけを水辺の局所条件とする。浜上の体感冷却や海風は主張しない。",
+      "mergedInto": null,
+      "latitude": 33.6787,
+      "longitude": 135.3448,
+      "elevationM": 30.5,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:tottori",
+      "sourceIndex": 79,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "鳥取砂丘",
+      "prefecture": "鳥取県",
+      "officialUrl": "https://www.tottori-guide.jp/sakyu/",
+      "accessEvidenceUrl": "https://www.tottori-guide.jp/sakyu/",
+      "accessSummary": "鳥取駅バスターミナルから鳥取砂丘行きバス約20分。既存名は市名で、単一の涼所を指さない。",
+      "coolingAttributes": [],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "no-cooling-claim",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "日除け・飲料を用意し、体調不良時は砂丘へ入らない。砂丘内の案内・立入条件に従う。"
+      ],
+      "reason": "鳥取砂丘について、夏の涼しさを示す公式根拠は確認できないため属性は空とする。",
+      "mergedInto": null,
+      "latitude": 35.5458,
+      "longitude": 134.238,
+      "elevationM": 31.7,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:matsue",
+      "sourceIndex": 80,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "国宝松江城",
+      "prefecture": "島根県",
+      "officialUrl": "https://www.kankou-matsue.jp/kankou/desc/?cat=%E8%A6%B3%E5%85%89%E6%96%BD%E8%A8%AD&spot=27622",
+      "accessEvidenceUrl": "https://www.kankou-matsue.jp/kankou/desc/?cat=%E8%A6%B3%E5%85%89%E6%96%BD%E8%A8%AD&spot=27622",
+      "accessSummary": "JR松江駅からレイクライン約10分。既存名は市名で、単一の涼所を指さない。",
+      "coolingAttributes": [],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "no-cooling-claim",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "国宝松江城は4〜9月8:30〜18:00。2026年7月1日〜9月18日は熱中症対策で有料ガイドを実施しないため、見学条件・体調管理を確認する。"
+      ],
+      "reason": "水辺・屋内の既存分類を、夏の局所的な涼しさとして裏付けられないため属性は空とする。",
+      "mergedInto": null,
+      "latitude": 35.4769,
+      "longitude": 133.0504,
+      "elevationM": 13.6,
+      "sourceFile": "curated-0061-0080.json"
+    },
+    {
+      "id": "curated:kurashiki",
+      "sourceIndex": 81,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "倉敷アイビースクエア",
+      "prefecture": "岡山県",
+      "officialUrl": "https://www.ivysquare.co.jp/",
+      "accessEvidenceUrl": "https://www.ivysquare.co.jp/access/",
+      "accessSummary": "JR倉敷駅南口から徒歩約15分。屋外平面駐車場120台があり、24時間入出庫できる。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "各施設の営業時間・体験予約条件を来訪前に確認する。美観地区を屋外徒歩で移動する区間は別途暑熱対策が必要。"
+      ],
+      "reason": "公式がホテル・文化施設・体験施設の複合施設として案内する。屋内退避だけを属性とし、樹木・蔦の存在から日陰、室温、市街地との温度差は推定しない。",
+      "mergedInto": null,
+      "latitude": 34.5937,
+      "longitude": 133.77315,
+      "elevationM": 1.9,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:onomichi",
+      "sourceIndex": 82,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "尾道市立美術館",
+      "prefecture": "広島県",
+      "officialUrl": "https://www.onomichi-museum.jp/guide/info.html",
+      "accessEvidenceUrl": "https://www.onomichi-museum.jp/guide/top.html",
+      "accessSummary": "JR尾道駅から東行きバスで長江口へ行き、千光寺山ロープウェイで千光寺公園へ。車は千光寺山ドライブウェイ経由で有料駐車場を利用する。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "9:00〜17:00（入館16:30まで）。祝日以外の月曜、展示替え期間、12月29日〜1月3日は休館し、展覧会によって変更があるため公式予定を確認する。"
+      ],
+      "reason": "千光寺公園内の館内展示施設であることだけを屋内退避の根拠とする。空調の有無・温度差や、屋外公園の涼しさは主張しない。",
+      "mergedInto": null,
+      "latitude": 34.4105,
+      "longitude": 133.19843,
+      "elevationM": 110.7,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:miyajima",
+      "sourceIndex": 83,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "宮島水族館（みやじマリン）",
+      "prefecture": "広島県",
+      "officialUrl": "https://miyajima-aqua.jp/guide/",
+      "accessEvidenceUrl": "https://miyajima-aqua.jp/access/",
+      "accessSummary": "JR宮島口駅から徒歩約5分で宮島口桟橋へ、フェリー約10分で宮島桟橋へ渡る。桟橋から徒歩約25分、メイプルライナー約10分またはタクシー約10分。",
+      "coolingAttributes": [
+        "indoor",
+        "water"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通常9:00〜17:00（最終入館16:00）。2026年12月1日〜2027年3月31日は施設整備のため休館予定。夏季もフェリーの運航・荒天情報を確認する。"
+      ],
+      "reason": "屋内水族館と水槽展示を確認できる。屋内退避と水の展示だけを記録し、海風・空調・気温低下は根拠にしない。",
+      "mergedInto": null,
+      "latitude": 34.2925,
+      "longitude": 132.3193,
+      "elevationM": 22.7,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:shimonoseki",
+      "sourceIndex": 84,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "市立しものせき水族館「海響館」",
+      "prefecture": "山口県",
+      "officialUrl": "https://www.kaikyokan.com/",
+      "accessEvidenceUrl": "https://www.kaikyokan.com/access.php",
+      "accessSummary": "JR下関駅から「海響館前」までバス約5分。近隣には海響館まで約55mのみらいパークなどの有料駐車場がある。",
+      "coolingAttributes": [
+        "indoor",
+        "water"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通常9:30〜17:30（最終入館17:00）、年中無休。ただし気象・災害・飼育生物の状態で営業時間変更、設備保守で入館不可の場合がある。繁忙期の周辺道路混雑にも注意する。"
+      ],
+      "reason": "屋内水族館と水生生物展示を確認できる。屋内退避・水の展示に限定し、海辺の風や温度低下は主張しない。",
+      "mergedInto": null,
+      "latitude": 33.95773,
+      "longitude": 130.94163,
+      "elevationM": 4.6,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:iya",
+      "sourceIndex": 85,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "大歩危峡観光遊覧船",
+      "prefecture": "徳島県",
+      "officialUrl": "https://mannaka.co.jp/sightseeingboat/",
+      "accessEvidenceUrl": "https://miyoshi-tourism.jp/spot/24284/",
+      "accessSummary": "JR大歩危駅から徒歩約25分、または四国交通バス「大歩危峡」下車すぐ。車は井川池田ICから国道32号経由約30分で、駐車場がある。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "9:00〜17:00（最終16:30）、年中無休。増水・強風・暴風雨では欠航し、少水量時は短縮運航となる。救命胴衣を含む事業者の安全案内と当日の運航状況に従う。"
+      ],
+      "reason": "吉野川の清流を大歩危峡で巡る遊覧船であることを確認できる。水辺・峡谷の局所環境だけを根拠とし、水面が気温を下げる、または体感温度が低いとは主張しない。",
+      "mergedInto": null,
+      "latitude": 33.8764,
+      "longitude": 133.7562,
+      "elevationM": 312.1,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:takamatsu",
+      "sourceIndex": 86,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "高松市美術館",
+      "prefecture": "香川県",
+      "officialUrl": "https://www.city.takamatsu.kagawa.jp/museum/takamatsu/info/gaiyou.html",
+      "accessEvidenceUrl": "https://www.city.takamatsu.kagawa.jp/museum/takamatsu/info/access.html",
+      "accessSummary": "JR高松駅から徒歩約15分、または循環バス「紺屋町」下車徒歩約3分。地下駐車場を利用できる。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "9:30〜17:00（入室16:30まで）。特別展期間の金・土曜は19:00まで。月曜等と年末年始は休館し、悪天候時に臨時休館の可能性があるため当日の公式案内を確認する。"
+      ],
+      "reason": "市立の館内展示施設であることだけを屋内退避の根拠とする。空調の温度設定・屋外との温度差は主張しない。",
+      "mergedInto": null,
+      "latitude": 34.34539,
+      "longitude": 134.04891,
+      "elevationM": 2.3,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:matsuyama",
+      "sourceIndex": 87,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "愛媛県美術館",
+      "prefecture": "愛媛県",
+      "officialUrl": "https://www.ehime-art.jp/guide/",
+      "accessEvidenceUrl": "https://www.ehime-art.jp/guide/",
+      "accessSummary": "JR松山駅前から市内電車で約7分、「南堀端（愛媛県美術館前）」下車徒歩約3分。専用駐車場はない。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "9:40〜18:00（入室17:30まで）。月曜等・年末年始は休館し、企画展は時間が異なる。夏季も展示日・公共交通・周辺イベント時の駐車制限を事前確認する。"
+      ],
+      "reason": "館内展示施設であることだけを屋内退避の根拠とする。館内外の温度差や、松山城堀之内全体の涼しさは主張しない。",
+      "mergedInto": null,
+      "latitude": 33.84371,
+      "longitude": 132.76525,
+      "elevationM": 56.7,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:uchiko",
+      "sourceIndex": 88,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "小田深山渓谷",
+      "prefecture": "愛媛県",
+      "officialUrl": "https://www.town.uchiko.ehime.jp/soshiki/14/odamiyama-keikoku.html",
+      "accessEvidenceUrl": "https://www.rinya.maff.go.jp/shikoku/policy/business/route_map/odamiyama/index.html",
+      "accessSummary": "内子町小田地区から車で向かう山間の渓谷。林野庁のルート案内では大洲・内子側から車で約80分の経路を示す。公共交通の入口は確認できず車前提。",
+      "coolingAttributes": [
+        "highland",
+        "forest",
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "夏季キャンプ場の営業案内はあるが、道路は狭く繁忙期は通行しにくく、携帯電話不通区間がある。出発日に道路・天候・営業状況を確認し、豪雨時は近づかない。"
+      ],
+      "reason": "町公式・観光協会が標高750〜1,560mの国有林、約10kmの渓谷、森林と渓流を案内する。高地・森林・水辺の局所条件のみで、気温予報や温度差は主張しない。",
+      "mergedInto": null,
+      "latitude": 33.497,
+      "longitude": 132.816,
+      "elevationM": 750,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:shimanto",
+      "sourceIndex": 89,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "白綾の滝",
+      "prefecture": "高知県",
+      "officialUrl": "https://www.city.shimanto.lg.jp/site/scp/1335.html",
+      "accessEvidenceUrl": "https://www.city.shimanto.lg.jp/site/scp/1335.html",
+      "accessSummary": "四万十市西土佐江川の集落から江川川を上流へ車で約5km。公共交通の公式入口案内は確認できず、車での来訪を前提とする。",
+      "coolingAttributes": [
+        "water",
+        "forest",
+        "breeze"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "固定の営業時間・季節閉鎖は公式掲載で確認できない。遠隔地かつ車道利用のため、豪雨・道路・現地状況を出発日に確認し、遊泳・沢歩きは別途許可を確認する。"
+      ],
+      "reason": "市公式が木々に囲まれた滝と、滝の風で夏でも寒く感じることを案内する。これは滝の水・森林・飛沫風という局所効果の根拠であり、地域の気象予報ではない。",
+      "mergedInto": null,
+      "latitude": 33.26,
+      "longitude": 132.839,
+      "elevationM": null,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:mojiko",
+      "sourceIndex": 90,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "九州鉄道記念館",
+      "prefecture": "福岡県",
+      "officialUrl": "https://www.k-rhm.jp/",
+      "accessEvidenceUrl": "https://www.k-rhm.jp/access/",
+      "accessSummary": "JR門司港駅から徒歩約3分。門司港レトロ地区の施設として公共交通で到達でき、公式アクセス案内で駐車場・周辺交通を確認する。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "営業時間・休館日・イベント日は変動し得るため公式の営業カレンダーを確認する。港の屋外移動は日射・暑熱対策を別途行う。"
+      ],
+      "reason": "展示館内を利用できることだけを屋内退避の根拠とする。屋外の車両展示・港の風、空調の有無や温度差は主張しない。",
+      "mergedInto": null,
+      "latitude": 33.9479,
+      "longitude": 130.9607,
+      "elevationM": null,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:karatsu",
+      "sourceIndex": 91,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "虹の松原",
+      "prefecture": "佐賀県",
+      "officialUrl": "https://www.city.karatsu.lg.jp/page/42113.html",
+      "accessEvidenceUrl": "https://www.asobo-saga.jp/spots/detail/a32d011b-20b3-46b7-95ea-604444826f92",
+      "accessSummary": "JR筑肥線の虹ノ松原駅が松原の中にある。車は唐津ICから約20分で、公式観光案内は無料駐車場85台を掲載する。",
+      "coolingAttributes": [
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "見学は無料だが、松原は広域の屋外林である。遊歩道・道路・駐車場の現況を確認し、夏は日射・熱中症、海岸側では遊泳・波浪を別管理する。"
+      ],
+      "reason": "唐津市と県公式観光が約4.5kmに連なるクロマツ林を案内する。森林だけを属性とし、樹冠の日陰、海岸や松原全体の気温低下は推定しない。",
+      "mergedInto": null,
+      "latitude": 33.4639,
+      "longitude": 129.9887,
+      "elevationM": null,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:nagasaki",
+      "sourceIndex": 92,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "長崎原爆資料館",
+      "prefecture": "長崎県",
+      "officialUrl": "https://www.city.nagasaki.lg.jp/page/4161.html",
+      "accessEvidenceUrl": "https://nabmuseum.jp/access/",
+      "accessSummary": "JR長崎駅から赤迫行の路面電車で「原爆資料館」電停へ行き、徒歩約5分。バスも「原爆資料館」停留所から徒歩約5分。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "5〜8月は8:30〜18:30（入館18:00まで）、8月7〜9日は20:00まで延長。12月29〜31日は休館。8月9日前後は混雑・交通の変化を想定し、当日の案内を確認する。"
+      ],
+      "reason": "資料館の地下展示室・休憩空間を含む屋内施設であることを根拠とする。市の施設資料で空調設備を確認できるが、屋外の平和公園に温度効果があるとは主張しない。",
+      "mergedInto": null,
+      "latitude": 32.7796,
+      "longitude": 129.8644,
+      "elevationM": 20,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:unzen",
+      "sourceIndex": 93,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "雲仙ロープウェイ（仁田峠駅〜妙見岳駅）",
+      "prefecture": "長崎県",
+      "officialUrl": "https://unzen-ropeway.com/",
+      "accessEvidenceUrl": "https://unzenonsen.unzen.org/watch/ropeway/",
+      "accessSummary": "雲仙温泉街から車で約15分の仁田峠駐車場を起点に、ロープウェイで標高1,333mの妙見岳駅へ向かう。公共交通は雲仙バス停からタクシー利用が現実的。",
+      "coolingAttributes": [
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "4月1日〜10月31日は上り8:51〜17:03、下り最終17:23の案内。強風・濃霧等で運休があり、仁田峠循環道路も悪天候で封鎖する場合がある。登山道・道路・ロープウェイの当日状況を確認する。"
+      ],
+      "reason": "運営者が標高1,333mの妙見岳と夏の平均気温21〜22℃を「天然のクーラー」と案内する。これは高地という地点固有の条件であり、日別予報や体感温度ではない。",
+      "mergedInto": null,
+      "latitude": 32.7521,
+      "longitude": 130.267,
+      "elevationM": 1100,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:aso",
+      "sourceIndex": 94,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "阿蘇火山博物館",
+      "prefecture": "熊本県",
+      "officialUrl": "https://asomuse.jp/",
+      "accessEvidenceUrl": "https://www.asomuse.jp/access/",
+      "accessSummary": "阿蘇火山博物館は熊本県阿蘇市赤水1930-1（草千里前）。阿蘇駅から草千里・阿蘇火山博物館前へ向かう路線バスを利用でき、公式が車・バス・JRへの案内を掲載する。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通常9:00〜17:00（最終入館16:30）、毎年1月14日・7月14日はメンテナンス休館。2026年6月21日に阿蘇山の噴火警戒レベルが2へ引き上げられ、中岳火口から約1kmは規制対象で、噴石・火砕流・火山ガス・降灰に注意する。博物館・草千里前の訪問可否、道路、火山情報を当日確認する。"
+      ],
+      "reason": "館内展示を行う博物館であることだけを屋内退避の属性とする。草千里の草原、高地、火山地域であることからの温度・風・日陰は推定しない。",
+      "mergedInto": null,
+      "latitude": 32.8848,
+      "longitude": 131.0764,
+      "elevationM": 1156.3,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:kurokawa",
+      "sourceIndex": 95,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "黒川温泉",
+      "prefecture": "熊本県",
+      "officialUrl": "https://www.kurokawaonsen.or.jp/faq/",
+      "accessEvidenceUrl": "https://www.kurokawaonsen.or.jp/access/",
+      "accessSummary": "熊本・由布院・博多方面からの予約制バス等と南小国町内での乗継が案内される。車は国道212号・57号またはやまなみハイウェイを経由し、現地の旅館送迎・タクシーは事前確認が必要。",
+      "coolingAttributes": [
+        "highland",
+        "forest",
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "2026年の湯涼み企画は7月18日〜8月22日。旅館ごとに日帰り入浴・送迎・営業条件が異なり、山道は狭く曲がりくねるため、利用可否・道路・交通を当日確認する。"
+      ],
+      "reason": "温泉協会公式が標高約700mで平地より3〜5℃低いこと、森林・川沿いの温泉地を案内する。これは標高・森林・水辺の地点固有の根拠であり、日別予報の体感温度ではない。",
+      "mergedInto": null,
+      "latitude": 33.0803,
+      "longitude": 131.1419,
+      "elevationM": 700,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:yufuin",
+      "sourceIndex": 96,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "由布川峡谷",
+      "prefecture": "大分県",
+      "officialUrl": "https://www.city.yufu.oita.jp/kankou/kankou-2/kankou_cate1_3/yufugawa",
+      "accessEvidenceUrl": "https://www.visit-oita.jp/spots/detail/4369",
+      "accessSummary": "由布市挾間町朴木14-2の新猿渡入口を利用する。由布院駅から車約30分、湯布院ICから車約30分で、駐車場がある。椿入口からの立入りは禁止。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "椿入口からの立入りは禁止。峡谷は増水・落石・滑りやすい階段の危険を想定し、豪雨・台風後は近づかず、新猿渡入口の開放と道路状況を当日確認する。"
+      ],
+      "reason": "由布市公式が高さ15〜60mの岩肌を40数条の滝が流れる峡谷と、川辺へ下りる新猿渡入口を案内する。水辺だけを属性とし、峡谷壁・樹間からの日陰や気温低下は推定しない。",
+      "mergedInto": null,
+      "latitude": 33.2117,
+      "longitude": 131.3275,
+      "elevationM": 503.5,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:beppu",
+      "sourceIndex": 97,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "別府市竹細工伝統産業会館",
+      "prefecture": "大分県",
+      "officialUrl": "https://takezaikudensankaikan.jp/pages/31/",
+      "accessEvidenceUrl": "https://takezaikudensankaikan.jp/pages/31/",
+      "accessSummary": "JR別府駅西口から亀の井バスで「光の園前」下車徒歩約10分、または車で約10分。敷地内に駐車場がある。",
+      "coolingAttributes": [
+        "indoor"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "8:30〜17:00（ショップ・カフェは16:30まで）。月曜（祝日の場合翌日）と12月29日〜1月3日は休館。団体入館・体験は事前予約を求めるため、来館前に予定を確認する。"
+      ],
+      "reason": "展示・体験を行う建物内施設であることだけを屋内退避の根拠とする。別府温泉の熱、屋外の暑さ、空調温度は主張しない。",
+      "mergedInto": null,
+      "latitude": 33.3081,
+      "longitude": 131.4894,
+      "elevationM": 51.4,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:takachiho",
+      "sourceIndex": 98,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "高千穂峡",
+      "prefecture": "宮崎県",
+      "officialUrl": "https://takachiho-kanko.info/sightseeing/18/",
+      "accessEvidenceUrl": "https://takachiho-kanko.info/sightseeing/18/",
+      "accessSummary": "高千穂峡遊歩道・駐車場を入口とする。高千穂町観光協会が周辺シャトルバスと遊歩道一部通行止めの最新案内を掲載するため、来訪前に確認する。",
+      "coolingAttributes": [
+        "water"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "貸しボートは河川増水、定期・緊急安全点検、震度3以上の地震で休止し、流れの速い箇所がある。遊歩道も地震・台風・豪雨後に点検されるため、通行止め・ボート営業・シャトルバスを当日確認する。"
+      ],
+      "reason": "国指定の峡谷と真名井の滝を公式に確認できる。滝・渓流の水辺だけを属性とし、断崖・植生からの日陰、峡谷全体の気温や体感温度は推定しない。",
+      "mergedInto": null,
+      "latitude": 32.7117,
+      "longitude": 131.3064,
+      "elevationM": 339.6,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:kirishima",
+      "sourceIndex": 99,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "えびのエコミュージアムセンター",
+      "prefecture": "宮崎県",
+      "officialUrl": "https://www.env.go.jp/park/kirishima/access/index.html",
+      "accessEvidenceUrl": "https://www.city.ebino.lg.jp/kanko/shizen_midokoro/ebinokogenarea/3125.html",
+      "accessSummary": "宮崎県えびの市末永1495-5、えびの高原内のビジターセンター。環境省が所在地、9:00〜17:00、年中無休、無料、駐車場を掲載し、えびの市公式が同センター駐車場と道路情報の確認先を案内する。",
+      "coolingAttributes": [
+        "indoor",
+        "highland"
+      ],
+      "coolingScope": "indoor-fallback",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通常9:00〜17:00、年中無休の案内。硫黄山周辺県道は火山ガス濃度により通行条件が変動し、火山活動・天候で通行止めとなる可能性がある。登山道には別途規制があり、訪問前に道路・火山・施設の当日情報を確認する。"
+      ],
+      "reason": "環境省が館内の自然・文化展示を行うビジターセンター、標高約1,200mのえびの高原にあることを案内する。屋内と高地だけを属性とし、森林、火山ガス、風からの涼しさは推定しない。",
+      "mergedInto": null,
+      "latitude": 31.941,
+      "longitude": 130.842,
+      "elevationM": 1187.6,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:yakushima",
+      "sourceIndex": 100,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "ヤクスギランド",
+      "prefecture": "鹿児島県",
+      "officialUrl": "https://www.town.yakushima.kagoshima.jp/kanko/kankospot/6/2619.html",
+      "accessEvidenceUrl": "https://www.town.yakushima.kagoshima.jp/kanko/kankospot/6/2619.html",
+      "accessSummary": "安房から車で約31分（約15.7km）、宮之浦から車で約57分。紀元杉線のヤクスギランドバス停は1日2便で、駐車場40台・トイレがある。",
+      "coolingAttributes": [
+        "highland",
+        "forest"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "短いコースは比較的歩きやすいが、山地の雨・道路規制・登山道状況を当日確認する。過去に県道安房線の通行止めで休園した例があり、入園時間・協力金・バス便も公式で確認する。"
+      ],
+      "reason": "屋久島町と林野庁が標高1,000〜1,300mの自然休養林・原生林、巨木と整備された散策路を案内する。高地・森林だけを属性とし、樹冠からの日陰や屋久島全体の気温は推定しない。",
+      "mergedInto": null,
+      "latitude": 30.29,
+      "longitude": 130.52,
+      "elevationM": 1000,
+      "sourceFile": "curated-0081-0100.json"
+    },
+    {
+      "id": "curated:kikuchi-gorge",
+      "sourceIndex": 101,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "菊池渓谷",
+      "prefecture": "熊本県",
+      "officialUrl": "https://kikuchikanko.ne.jp/kikuchi_spot_01/kikuchikeikoku",
+      "accessEvidenceUrl": "https://kikuchikanko.ne.jp/kikuchi_spot_01/kikuchikeikoku",
+      "accessSummary": "熊本県菊池市原5026。公式観光ページの菊池渓谷入口マーカーを経路入口にする。",
+      "coolingAttributes": [
+        "gorge",
+        "water",
+        "forest",
+        "shade"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "numeric-verified",
+      "thermalEvidence": [
+        {
+          "subject": "water",
+          "valueC": 13,
+          "qualifier": "average stream-water temperature",
+          "sourceUrl": "https://kikuchikanko.ne.jp/kikuchi_spot_01/kikuchikeikoku"
+        }
+      ],
+      "seasonalNotes": [
+        "通常は4月1日〜11月30日、8:30〜17:00。大雨警報時は閉鎖する場合がある。料金は公式表示に差異があるため当日確認。"
+      ],
+      "reason": "天然広葉樹の日陰と渓流の局所環境。公式の13℃は渓流水の平均水温であり、周辺気温・体感温度ではない。",
+      "mergedInto": null,
+      "latitude": 33.00487407710534,
+      "longitude": 130.9171248689738,
+      "elevationM": null,
+      "sourceFile": "curated-0101-0103.json"
+    },
+    {
+      "id": "curated:oya-history-museum",
+      "sourceIndex": 102,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "大谷資料館",
+      "prefecture": "栃木県",
+      "officialUrl": "https://www.oya909.co.jp/",
+      "accessEvidenceUrl": "https://www.oya909.co.jp/access/",
+      "accessSummary": "栃木県宇都宮市大谷町909。公式施設地図の大谷資料館入口・駐車場を経路入口にする。",
+      "coolingAttributes": [
+        "underground",
+        "indoor"
+      ],
+      "coolingScope": "enclosed-space",
+      "claimLevel": "numeric-verified",
+      "thermalEvidence": [
+        {
+          "subject": "enclosed-air",
+          "valueC": 8,
+          "qualifier": "annual average underground temperature",
+          "sourceUrl": "https://www.city.utsunomiya.lg.jp/citypromotion/kanko/1032109/1032111.html"
+        }
+      ],
+      "seasonalNotes": [
+        "4〜11月は9:00〜17:00。夏季も上着を持参。通常は車椅子・ベビーカー・手押し車で入館できないため公式案内を確認。"
+      ],
+      "reason": "地下採掘場跡の内部空間。宇都宮市が案内する約8℃は地下空間の平均気温であり、地上気温ではない。",
+      "mergedInto": null,
+      "latitude": 36.5998589,
+      "longitude": 139.8242648,
+      "elevationM": null,
+      "sourceFile": "curated-0101-0103.json"
+    },
+    {
+      "id": "curated:ikuno-ginzan",
+      "sourceIndex": 103,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "史跡 生野銀山",
+      "prefecture": "兵庫県",
+      "officialUrl": "https://www.ikuno-ginzan.co.jp/",
+      "accessEvidenceUrl": "https://www.ikuno-ginzan.co.jp/access/access.html",
+      "accessSummary": "兵庫県朝来市生野町小野33-5。公式アクセス地図の入場受付・駐車場を経路入口にする。",
+      "coolingAttributes": [
+        "underground",
+        "indoor"
+      ],
+      "coolingScope": "enclosed-space",
+      "claimLevel": "numeric-verified",
+      "thermalEvidence": [
+        {
+          "subject": "enclosed-air",
+          "valueC": 13,
+          "qualifier": "year-round tourist-mine temperature",
+          "sourceUrl": "https://www.ikuno-ginzan.co.jp/news/news.php?doc=162"
+        }
+      ],
+      "seasonalNotes": [
+        "4〜10月は9:10〜17:20。薄手の長袖を持参。降雪・大雪時の臨時休業告知を当日確認。観光坑道は平坦で車椅子・ベビーカー利用可。"
+      ],
+      "reason": "約1kmの観光坑道。公式の年間約13℃は坑道内の気温であり、屋外気温ではない。",
+      "mergedInto": null,
+      "latitude": 35.1712087,
+      "longitude": 134.823579,
+      "elevationM": null,
+      "sourceFile": "curated-0101-0103.json"
+    },
+    {
+      "id": "curated:hossawa-falls",
+      "sourceIndex": 104,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "払沢の滝",
+      "prefecture": "東京都",
+      "officialUrl": "https://hinohara-kankou.jp/hossawa_faq/",
+      "accessEvidenceUrl": "https://www.vill.hinohara.tokyo.jp/0000000023.html",
+      "accessSummary": "檜原村本宿の払沢の滝村営駐車場、または払沢の滝入口バス停から遊歩道を約15分。駐車場を公開入口にする。",
+      "coolingAttributes": [
+        "gorge",
+        "water",
+        "forest",
+        "shade"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "遊歩道は滑りに注意。8月22日・23日の祭り開催時は村営駐車場を利用できないため、当日の村案内を確認。"
+      ],
+      "reason": "森林の日陰と沢・滝の局所環境。屋外気温は当日の地点予報で判断する。",
+      "mergedInto": null,
+      "latitude": 35.73004,
+      "longitude": 139.141424,
+      "elevationM": null,
+      "sourceFile": "curated-0104-0113.json"
+    },
+    {
+      "id": "curated:fujido-cave",
+      "sourceIndex": 105,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "不二洞",
+      "prefecture": "群馬県",
+      "officialUrl": "https://www.uenomura.jp/tourism/play/fujidou.html",
+      "accessEvidenceUrl": "https://tenkukairou.com/fujidou/",
+      "accessSummary": "群馬県上野村川和665。川和自然公園の不二洞チケット売場・入口を経路地点にする。",
+      "coolingAttributes": [
+        "cave",
+        "underground",
+        "indoor"
+      ],
+      "coolingScope": "enclosed-space",
+      "claimLevel": "numeric-verified",
+      "thermalEvidence": [
+        {
+          "subject": "enclosed-air",
+          "valueC": 10,
+          "qualifier": "approximately year-round cave temperature",
+          "sourceUrl": "https://www.uenomura.jp/tourism/play/fujidou.html"
+        }
+      ],
+      "seasonalNotes": [
+        "見学は約40分。通常9:00〜16:30だが、天候・整備状況と最終入洞時刻を当日確認。洞内の濡れた足元と温度差に注意。"
+      ],
+      "reason": "公式が洞内は年間を通じて約10℃と案内する観光鍾乳洞。屋外気温とは分けて表示する。",
+      "mergedInto": null,
+      "latitude": 36.071901,
+      "longitude": 138.776291,
+      "elevationM": null,
+      "sourceFile": "curated-0104-0113.json"
+    },
+    {
+      "id": "curated:fugaku-wind-cave",
+      "sourceIndex": 106,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "富岳風穴",
+      "prefecture": "山梨県",
+      "officialUrl": "https://www.mtfuji-cave.com/contents/wind_cave/",
+      "accessEvidenceUrl": "https://www.mtfuji-cave.com/contents/access/",
+      "accessSummary": "富士河口湖町西湖青木ヶ原2068-1。公式施設マーカーの券売所・入洞口を経路地点にする。",
+      "coolingAttributes": [
+        "cave",
+        "underground",
+        "indoor"
+      ],
+      "coolingScope": "enclosed-space",
+      "claimLevel": "numeric-verified",
+      "thermalEvidence": [
+        {
+          "subject": "enclosed-air",
+          "valueC": 3,
+          "qualifier": "average lava-cave temperature",
+          "sourceUrl": "https://www.mtfuji-cave.com/contents/wind_cave/"
+        }
+      ],
+      "seasonalNotes": [
+        "4月1日〜10月15日は通常9:00〜17:00。天候・洞内状況で変更あり。低い天井、濡れた床、外気との温度差に注意。"
+      ],
+      "reason": "公式が洞内の平均気温を約3℃と案内する溶岩洞。屋外の気温・体感温度には転用しない。",
+      "mergedInto": null,
+      "latitude": 35.477349,
+      "longitude": 138.657031,
+      "elevationM": null,
+      "sourceFile": "curated-0104-0113.json"
+    },
+    {
+      "id": "curated:karuizawa-shiraito-falls",
+      "sourceIndex": 107,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "白糸の滝（軽井沢）",
+      "prefecture": "長野県",
+      "officialUrl": "https://www.town.karuizawa.lg.jp/page/1193.html",
+      "accessEvidenceUrl": "https://www.town.karuizawa.lg.jp/page/1193.html",
+      "accessSummary": "白糸の滝駐車場・バス停から遊歩道を徒歩約5分。駐車場側の公開入口を経路地点にする。",
+      "coolingAttributes": [
+        "water",
+        "forest",
+        "shade",
+        "highland"
+      ],
+      "coolingScope": "local-microclimate",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通年見学可能。繁忙期の道路混雑、遊歩道の濡れ、当日の交通情報を確認。"
+      ],
+      "reason": "湧水が流れる滝と森林の日陰がつくる局所環境。屋外気温は当日の地点予報で判断する。",
+      "mergedInto": null,
+      "latitude": 36.410391,
+      "longitude": 138.592484,
+      "elevationM": null,
+      "sourceFile": "curated-0104-0113.json"
+    },
+    {
+      "id": "curated:kiyotsukyo-tunnel",
+      "sourceIndex": 108,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "清津峡渓谷トンネル",
+      "prefecture": "新潟県",
+      "officialUrl": "https://www.tokamachishikankou.jp/spot/kiyotsukyo/",
+      "accessEvidenceUrl": "https://www.tokamachishikankou.jp/spot/kiyotsukyo/",
+      "accessSummary": "清津峡入口バス停・駐車場から徒歩でトンネル受付へ。公式観光ページの受付入口を経路地点にする。",
+      "coolingAttributes": [
+        "gorge",
+        "underground",
+        "indoor",
+        "water"
+      ],
+      "coolingScope": "enclosed-space",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "通常8:30〜17:00、最終受付16:30。2026年7月18〜20日、8月1〜4日、8月8〜16日などは事前予約対象のため公式案内を確認。"
+      ],
+      "reason": "渓谷沿いの歩行者用トンネルと見晴所。屋外・トンネル内の温度数値は当日予報とは分ける。",
+      "mergedInto": null,
+      "latitude": 36.968346,
+      "longitude": 138.750342,
+      "elevationM": null,
+      "sourceFile": "curated-0104-0113.json"
+    },
+    {
+      "id": "curated:ryusendo-cave",
+      "sourceIndex": 109,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "龍泉洞",
+      "prefecture": "岩手県",
+      "officialUrl": "https://www.iwate-ryusendo.jp/",
+      "accessEvidenceUrl": "https://www.iwate-ryusendo.jp/access/",
+      "accessSummary": "岩泉町岩泉字神成1番地1。公式施設マーカーの龍泉洞受付・入口を経路地点にする。盛岡駅からJRバス龍泉洞前。",
+      "coolingAttributes": [
+        "cave",
+        "underground",
+        "indoor",
+        "water"
+      ],
+      "coolingScope": "enclosed-space",
+      "claimLevel": "numeric-verified",
+      "thermalEvidence": [
+        {
+          "subject": "enclosed-air",
+          "valueC": 10,
+          "qualifier": "approximately year-round cave temperature",
+          "sourceUrl": "https://www.iwate-ryusendo.jp/operation/"
+        }
+      ],
+      "seasonalNotes": [
+        "通常8:30〜17:00。急階段、水滴、滑りやすい箇所あり。洞内トイレなし、ベビーカー・ペット不可。"
+      ],
+      "reason": "公式が洞内は年間を通じて約10℃と案内する観光鍾乳洞。屋外予報とは分けて表示する。",
+      "mergedInto": null,
+      "latitude": 39.86047617943369,
+      "longitude": 141.7948139153791,
+      "elevationM": null,
+      "sourceFile": "curated-0104-0113.json"
+    },
+    {
+      "id": "curated:toi-gold-mine",
+      "sourceIndex": 110,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "西伊豆 土肥金山",
+      "prefecture": "静岡県",
+      "officialUrl": "https://www.toikinzan.com/",
+      "accessEvidenceUrl": "https://www.toikinzan.com/access/",
+      "accessSummary": "伊豆市土肥2726。公式施設地図の受付・観光坑道入口を経路地点にする。修善寺駅から土肥金山バス停。",
+      "coolingAttributes": [
+        "underground",
+        "indoor"
+      ],
+      "coolingScope": "enclosed-space",
+      "claimLevel": "numeric-verified",
+      "thermalEvidence": [
+        {
+          "subject": "enclosed-air",
+          "valueC": 19,
+          "qualifier": "average tourist-mine temperature",
+          "sourceUrl": "https://www.toikinzan.com/blog/2019/07/238/"
+        }
+      ],
+      "seasonalNotes": [
+        "通常9:00〜17:00、入場受付16:30まで。坑内巡りと砂金採りを併用する場合は受付時刻を確認。"
+      ],
+      "reason": "公式が観光坑道内の平均気温を約19℃と案内。屋外気温には転用しない。",
+      "mergedInto": null,
+      "latitude": 34.908191672846684,
+      "longitude": 138.7902277757536,
+      "elevationM": null,
+      "sourceFile": "curated-0104-0113.json"
+    },
+    {
+      "id": "curated:besshi-tourist-mine",
+      "sourceIndex": 111,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "マイントピア別子 観光坑道",
+      "prefecture": "愛媛県",
+      "officialUrl": "https://besshi.com/yougaku-kozankanko/",
+      "accessEvidenceUrl": "https://besshi.com/access/",
+      "accessSummary": "新居浜市立川町707-3。マイントピア別子本館の受付・観光坑道トロッコ乗場を経路地点にする。",
+      "coolingAttributes": [
+        "underground",
+        "indoor"
+      ],
+      "coolingScope": "enclosed-space",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "本館でチケット購入後、トロッコ往復と約333mの坑道見学。定員・発車時刻と当日の運行を確認。"
+      ],
+      "reason": "公式が観光坑道を夏場もひんやりする空間として案内。数値温度は主張しない。",
+      "mergedInto": null,
+      "latitude": 33.9014696,
+      "longitude": 133.3095103,
+      "elevationM": null,
+      "sourceFile": "curated-0104-0113.json"
+    },
+    {
+      "id": "curated:kakitagawa-spring-park",
+      "sourceIndex": 112,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "柿田川公園 湧水広場",
+      "prefecture": "静岡県",
+      "officialUrl": "https://www.town.shimizu.shizuoka.jp/toshi/toshi00054.html",
+      "accessEvidenceUrl": "https://www.town.shimizu.shizuoka.jp/toshi/toshi00054.html",
+      "accessSummary": "清水町伏見の町営駐車場・公園入口を利用。路線バスは柿田川湧水公園前。",
+      "coolingAttributes": [
+        "spring",
+        "water",
+        "forest",
+        "shade"
+      ],
+      "coolingScope": "water-contact",
+      "claimLevel": "numeric-verified",
+      "thermalEvidence": [
+        {
+          "subject": "water",
+          "valueC": 15,
+          "qualifier": "approximately year-round spring-water temperature",
+          "sourceUrl": "https://www.town.shimizu.shizuoka.jp/category10055114.html"
+        }
+      ],
+      "seasonalNotes": [
+        "水に入れるのは園内の指定された湧水広場のみ。展望台の湧き間や天然記念物区域へ立ち入らない。"
+      ],
+      "reason": "指定された湧水広場で水に触れられる公園。約15℃は湧水温であり、周辺気温ではない。",
+      "mergedInto": null,
+      "latitude": 35.106946,
+      "longitude": 138.900565,
+      "elevationM": null,
+      "sourceFile": "curated-0104-0113.json"
+    },
+    {
+      "id": "curated:maekawa-spring",
+      "sourceIndex": 113,
+      "state": "published",
+      "reviewedAt": "2026-07-18",
+      "name": "前川水源",
+      "prefecture": "熊本県",
+      "officialUrl": "https://kikuchikanko.ne.jp/kikuchi_spot_01/maekawasuigen",
+      "accessEvidenceUrl": "https://kikuchikanko.ne.jp/kikuchi_spot_01/maekawasuigen",
+      "accessSummary": "菊池市七城町亀尾2114。公式観光マーカーの駐車場・水源入口を経路地点にする。",
+      "coolingAttributes": [
+        "spring",
+        "water",
+        "forest",
+        "shade"
+      ],
+      "coolingScope": "water-contact",
+      "claimLevel": "mechanism-verified",
+      "thermalEvidence": [],
+      "seasonalNotes": [
+        "利用時間7:00〜21:00。現地の採水・水遊びルールを守り、豪雨時は利用状況を確認。"
+      ],
+      "reason": "公式が水とのふれあい・採水場所として案内する水源。数値温度は主張しない。",
+      "mergedInto": null,
+      "latitude": 32.95644262479372,
+      "longitude": 130.75976347634645,
+      "elevationM": null,
+      "sourceFile": "curated-0104-0113.json"
+    }
+  ]
+}

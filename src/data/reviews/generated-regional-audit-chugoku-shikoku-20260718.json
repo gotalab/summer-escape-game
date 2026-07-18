@@ -1,0 +1,58 @@
+[
+  {
+    "sourceIndex": 817, "sourceId": "osm-node-1350895116", "decision": "publish", "formalName": "秋芳洞", "prefecture": "山口県",
+    "officialUrl": "https://www.akiyoshidai-park.com/en/spot/akiyoshi-do.html",
+    "access": { "url": "https://www2.city.mine.lg.jp/material/files/group/1/pl_20260303_01.pdf", "summary": "秋芳洞正面案内所・市営駐車場または秋芳洞バス停を入口にする。新山口駅から路線バスを利用可能。" },
+    "cooling": { "attributes": ["cave", "underground", "indoor"], "summary": "公式が洞内は通年約17℃と案内する観光洞。" },
+    "operationsAndSafety": "2026年夏季の受付時間を当日確認し、洞内の濡れた路面・階段に注意。",
+    "coordinates": { "latitude": 34.228061, "longitude": 131.303411, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 636, "sourceId": "osm-node-1553199212", "decision": "publish", "formalName": "龍河洞", "prefecture": "高知県",
+    "officialUrl": "https://ryugadou.or.jp/info/",
+    "access": { "url": "https://ryugadou.or.jp/info/", "summary": "香美市土佐山田町逆川1424のチケット売場・駐車場を入口にする。" },
+    "cooling": { "attributes": ["cave", "underground", "indoor"], "summary": "施設公式が洞内は年間約16℃と案内する観光鍾乳洞。" },
+    "operationsAndSafety": "最終入洞時刻と当日告知を確認。大雨・増水時の入洞制限、通常・冒険コースの装備差に注意。",
+    "coordinates": { "latitude": 33.603136, "longitude": 133.745216, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 667, "sourceId": "osm-node-757367868", "decision": "publish", "formalName": "伊尾木洞", "prefecture": "高知県",
+    "officialUrl": "https://www.city.aki.kochi.jp/life/dtl.php?hdnKey=47",
+    "access": { "url": "https://www.city.aki.kochi.jp/life/dtl.php?hdnKey=47", "summary": "伊尾木駅から徒歩約7分の伊尾木洞駐車場・観光案内所側から入る。" },
+    "cooling": { "attributes": ["cave", "gorge", "water", "shade"], "summary": "安芸市が年間約20℃の洞窟・渓谷環境として案内。" },
+    "operationsAndSafety": "入口ライブカメラで水量を確認し、雨後・増水時は入らない。生成標高は採用しない。",
+    "coordinates": { "latitude": 33.491299, "longitude": 133.93331, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 592, "sourceId": "osm-node-5596084404", "decision": "publish", "formalName": "白雲洞", "prefecture": "広島県",
+    "officialUrl": "https://www.city.shobara.hiroshima.jp/main/2026/04/3cf85d527527ce318cb2cb73d042d209.pdf",
+    "access": { "url": "https://www.city.shobara.hiroshima.jp/main/2026/04/3cf85d527527ce318cb2cb73d042d209.pdf", "summary": "上帝釈バス停・第2駐車場側から白雲洞入口へ向かう。" },
+    "cooling": { "attributes": ["cave", "underground"], "summary": "庄原市資料が洞内約11℃と案内する公開鍾乳洞。" },
+    "operationsAndSafety": "白雲洞の営業状況を確認。雄橋前後の落石通行止め区間へは進まない。",
+    "coordinates": { "latitude": 34.867643, "longitude": 133.206018, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1625, "sourceId": "osm-node-756495136", "decision": "publish", "formalName": "奥祖谷二重かずら橋", "prefecture": "徳島県",
+    "officialUrl": "https://miyoshi-tourism.jp/spot/24353/",
+    "access": { "url": "https://miyoshi-tourism.jp/spot/24353/", "summary": "国道439号沿いの施設入口・駐車場またはバス停から入場する。" },
+    "cooling": { "attributes": ["gorge", "water", "forest", "highland"], "summary": "高地の清流と森林に囲まれた公開観光施設。" },
+    "operationsAndSafety": "夏季営業時間、運行日限定バス、国道の通行状況を確認。台風・増水・橋の規制時は入らない。",
+    "coordinates": { "latitude": 33.853581, "longitude": 134.045863, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1546, "sourceId": "osm-node-13704666971", "decision": "publish", "formalName": "龍頭ヶ滝", "prefecture": "島根県",
+    "officialUrl": "https://www.pref.shimane.lg.jp/tourism/nature/shizen/shimane/shimane_kouen/kenritu-shizen-koen/ryuzu-yaedaki/index.html.s",
+    "access": { "url": "https://www.pref.shimane.lg.jp/tourism/nature/shizen/shimane/shimane_kouen/kenritu-shizen-koen/ryuzu-yaedaki/index.html.s", "summary": "滝の上駐車場から公開遊歩道を利用する。下側駐車場への進入路は狭い。" },
+    "cooling": { "attributes": ["water", "gorge", "cave", "forest", "shade"], "summary": "40mの滝、岩窟、深い林を県が案内する観光地点。" },
+    "operationsAndSafety": "熊鈴と滑りにくい靴を用意し、増水・通行止めを当日確認。",
+    "coordinates": { "latitude": 35.195183, "longitude": 132.78467, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1536, "sourceId": "osm-node-3957443075", "decision": "publish", "formalName": "赤波川渓谷おう穴群", "prefecture": "鳥取県",
+    "officialUrl": "https://www.city.tottori.lg.jp/page/6925.html",
+    "access": { "url": "https://www.city.tottori.lg.jp/www/contents/1211344563542/simple/common/other/48f4349d002.pdf", "summary": "赤波川おう穴群広場・登山口側を入口にする。用瀬ICから車約15分。" },
+    "cooling": { "attributes": ["water", "gorge", "forest", "shade"], "summary": "1.2kmに多数の甌穴が続く渓谷として鳥取市が案内。" },
+    "operationsAndSafety": "携帯圏外区間があるため事前準備し、増水・落石・滑りやすい路面に注意。",
+    "coordinates": { "latitude": 35.328591, "longitude": 134.231455, "elevationM": null }, "reviewedAt": "2026-07-18"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "sourceIndex": 1582, "sourceId": "osm-node-253715296", "decision": "publish", "formalName": "日原鍾乳洞", "prefecture": "東京都",
+    "officialUrl": "https://www.nippara.com/nippara/syounyuudou/syounyuudou.html",
+    "access": { "url": "https://www.nippara.com/nippara/syounyuudou/syounyuudou.html", "summary": "平日は日原鍾乳洞バス停から徒歩約5分、休日は東日原バス停から徒歩約25分。施設受付を入口にする。" },
+    "cooling": { "attributes": ["cave", "underground", "indoor"], "summary": "施設公式が洞内は年中約11℃と案内する観光鍾乳洞。" },
+    "operationsAndSafety": "駐車待ち、道路・バス運行状況を確認。雨天時は洞内外とも濡れた足元に注意。",
+    "coordinates": { "latitude": 35.852434, "longitude": 139.040773, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 544, "sourceId": "osm-node-3608984826", "decision": "publish", "formalName": "箱島湧水", "prefecture": "群馬県",
+    "officialUrl": "https://www.town.higashiagatsuma.gunma.jp/www/kankou/contents/1204109954259/index.html",
+    "access": { "url": "https://www.town.higashiagatsuma.gunma.jp/www/kankou/contents/1204109954259/index.html", "summary": "東吾妻町箱島の箱島不動尊脇にある公開湧水地点を観覧する。" },
+    "cooling": { "attributes": ["spring", "water", "forest", "shade"], "summary": "公的資料で湧水は通年約13.5℃。これは水温であり周辺気温ではない。" },
+    "operationsAndSafety": "町の熊出没情報を確認し、飲用可否を推測しない。水温を体感気温として表示しない。",
+    "coordinates": { "latitude": 36.537855, "longitude": 138.928582, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1080, "sourceId": "osm-node-7231509389", "decision": "publish", "formalName": "杜々の森名水公園", "prefecture": "新潟県",
+    "officialUrl": "https://www.city.nagaoka.niigata.jp/shisetsu/kankou/todonomori.html",
+    "access": { "url": "https://www.city.nagaoka.niigata.jp/shisetsu/kankou/todonomori.html", "summary": "長岡市西中野俣3996の公園駐車場・施設入口を利用する。" },
+    "cooling": { "attributes": ["spring", "water", "forest", "shade"], "summary": "長岡市が湧水と森林を備えた名水公園として案内。" },
+    "operationsAndSafety": "公的資料で水温値が一致しないため数値は表示しない。営業情報と採水ルールを当日確認。",
+    "coordinates": { "latitude": 37.38661, "longitude": 138.973037, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1154, "sourceId": "osm-node-5783733922", "decision": "publish", "formalName": "富田の清水（しつこ）", "prefecture": "青森県",
+    "officialUrl": "https://www.city.hirosaki.aomori.jp/kurashi/kankyo/meisui.html",
+    "access": { "url": "https://www.city.hirosaki.aomori.jp/kurashi/kankyo/meisui.html", "summary": "弘前市紙漉町5-2の公開清水地点を徒歩で訪れる。専用駐車場はない。" },
+    "cooling": { "attributes": ["spring", "water"], "summary": "弘前市が地域で利用される清水として案内。温度数値は主張しない。" },
+    "operationsAndSafety": "現地の用途ルールを守り、飲用可能とは断定しない。路上駐車をしない。",
+    "coordinates": { "latitude": 40.595553, "longitude": 140.471357, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 1965, "sourceId": "osm-node-5170888986", "decision": "publish", "formalName": "上砂川町水源公園", "prefecture": "北海道",
+    "officialUrl": "https://town.kamisunagawa.hokkaido.jp/soshiki/kikaku/sangyo/kanko_shisetsu/348.html",
+    "access": { "url": "https://town.kamisunagawa.hokkaido.jp/soshiki/kikaku/sangyo/kanko_shisetsu/348.html", "summary": "上砂川町の浄水場敷地内に設けられた公園の公開入口を利用する。" },
+    "cooling": { "attributes": ["spring", "water", "forest"], "summary": "町が水源周辺の公開公園として案内。温度数値は主張しない。" },
+    "operationsAndSafety": "公開時間と休園情報を確認し、浄水施設の非公開区域へ立ち入らず、取水を案内しない。",
+    "coordinates": { "latitude": 43.457315, "longitude": 142.032177, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 2047, "sourceId": "osm-node-4776296472", "decision": "publish", "formalName": "馬追の名水", "prefecture": "北海道",
+    "officialUrl": "https://www.maoi-net.jp/files/00005600/00005629/20230703171358.pdf",
+    "access": { "url": "https://www.maoi-net.jp/files/00005600/00005629/20230703171358.pdf", "summary": "馬追自然の森登山口横の公開駐車・取水地点を利用する。" },
+    "cooling": { "attributes": ["spring", "water", "forest"], "summary": "公的健康資料が通年約7℃の水として案内。これは水温であり周辺気温ではない。" },
+    "operationsAndSafety": "悪天候・規制を確認し、遊歩道外へ入らず熊に注意。水温を体感気温として表示しない。",
+    "coordinates": { "latitude": 42.994771, "longitude": 141.735119, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 2215, "sourceId": "osm-node-3207311012", "decision": "publish", "formalName": "野中の清水", "prefecture": "和歌山県",
+    "officialUrl": "https://water-pub.env.go.jp/water-pub/mizu-site/meisui/data/index.asp?info=61",
+    "access": { "url": "https://water-pub.env.go.jp/water-pub/mizu-site/meisui/data/index.asp?info=61", "summary": "熊野古道沿いの清水を野中一方杉バス停側から徒歩で訪れる。" },
+    "cooling": { "attributes": ["spring", "water", "forest", "highland"], "summary": "環境省が名水地点として掲載。水温や周辺気温の数値は主張しない。" },
+    "operationsAndSafety": "豪雨時の古道・道路情報を確認し、飲用を推奨しない。",
+    "coordinates": { "latitude": 33.827994, "longitude": 135.634297, "elevationM": null }, "reviewedAt": "2026-07-18"
+  },
+  {
+    "sourceIndex": 977, "sourceId": "osm-node-4350551202", "decision": "publish", "formalName": "寒川水源", "prefecture": "熊本県",
+    "officialUrl": "https://www.city.minamata.lg.jp/kankyo/kiji0031330/index.html",
+    "access": { "url": "https://www.city.minamata.lg.jp/kankyo/kiji0031330/index.html", "summary": "水俣市久木野の水源亭周辺にある公開水源地点を訪れる。水俣駅から車約35分。" },
+    "cooling": { "attributes": ["spring", "water", "forest"], "summary": "水俣市が通年約14℃の水源として案内。これは水温であり周辺気温ではない。" },
+    "operationsAndSafety": "正式所在地を熊本県へ補正。現地利用ルールを守り、水温を体感気温として表示しない。",
+    "coordinates": { "latitude": 32.179108, "longitude": 130.544572, "elevationM": null }, "reviewedAt": "2026-07-18"
+  }
+]

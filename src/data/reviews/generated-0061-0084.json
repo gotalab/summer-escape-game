@@ -1,0 +1,489 @@
+[
+  {
+    "sourceIndex": 61,
+    "sourceId": "osm-node-10862095036",
+    "sourceName": "道後温泉第四分湯場",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "道後温泉第4分湯場",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/kankomeisho/dogoonsen/gensen/no4.html",
+    "accessUrl": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/kankomeisho/dogoonsen/gensen/no4.html",
+    "accessSummary": "伊予鉄道・道後温泉駅から西へ徒歩約1分。専用駐車場はない。",
+    "cooling": { "attributes": [], "summary": "熱い源泉を集める分湯施設であり、夏の涼しさを支える局所効果は確認できない。" },
+    "operationsAndSafety": "年中無休・9:00〜20:00（大掃除等の臨時休館あり）。手湯は約50℃の源泉で、暑熱避難先として扱わない。",
+    "evidence": [
+      { "url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/kankomeisho/dogoonsen/gensen/no4.html", "claim": "見学室の開放、駅徒歩1分、手湯の源泉温度、開放時間を市が明記。" },
+      { "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=132.784608&lat=33.850926&outtype=JSON", "claim": "既存点の国土地理院DEM標高は37.3m。" }
+    ],
+    "coordinates": { "latitude": 33.850926, "longitude": 132.784608, "status": "retained_unverified", "note": "既存OSM点。公式ページは住所のみで点座標を公開していない。" },
+    "elevationM": 37.3
+  },
+  {
+    "sourceIndex": 62,
+    "sourceId": "osm-node-1423742204",
+    "sourceName": "石手寺 マントラ洞窟",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "石手寺マントラ洞（石手寺奥の院 愛宕社）",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://nehan.net/",
+    "accessUrl": "https://nehan.net/access/",
+    "accessSummary": "道後温泉駅から徒歩約16分（約1.3km）。観光協会案内では8:00〜17:00、無休、無料、駐車場あり。",
+    "cooling": { "attributes": ["cave"], "summary": "洞窟・トンネルの通り抜け体験であることは確認できるが、局所気温が低いという根拠はない。" },
+    "operationsAndSafety": "開放時間内に利用する。暗く狭い洞内の足元・服装は現地で確認し、涼しいとの温度保証はしない。",
+    "evidence": [
+      { "url": "https://www.iyokannet.jp/spot/3489/", "claim": "マントラ洞、開放時間、無休、料金・駐車場を愛媛県観光情報が掲載。" },
+      { "url": "https://nehan.net/access/", "claim": "石手寺公式のアクセス案内。" },
+      { "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=132.796391&lat=33.84797&outtype=JSON", "claim": "既存点の国土地理院DEM標高は52.4m。" }
+    ],
+    "coordinates": { "latitude": 33.84797, "longitude": 132.796391, "status": "retained_unverified", "note": "既存OSM点。公式ページに点座標はない。" },
+    "elevationM": 52.4
+  },
+  {
+    "sourceIndex": 63,
+    "sourceId": "osm-node-11578611385",
+    "sourceName": "通谷池公園",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "通谷池",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://www.maff.go.jp/j/nousin/bousai/tameike/sakura/pdf/38_01_toritani_ike.pdf",
+    "accessUrl": "https://www.maff.go.jp/j/nousin/bousai/tameike/sakura/pdf/38_01_toritani_ike.pdf",
+    "accessSummary": "伊予鉄バス森松・砥部線「供養堂」から徒歩約10分。町の案内では駐車場約10台、池周回は約900m・17分で、池まで高低差がある。",
+    "cooling": { "attributes": ["water", "forest", "shade"], "summary": "ため池の水辺と周囲の自然・森林浴が公的資料で確認できる。気温低下の数値は主張しない。" },
+    "operationsAndSafety": "水位は季節で変動する。池までの坂と周回時のアップダウンに注意し、遊歩道状況を現地確認する。",
+    "evidence": [
+      { "url": "https://www.maff.go.jp/j/nousin/bousai/tameike/sakura/pdf/38_01_toritani_ike.pdf", "claim": "所在地、バスアクセス、水辺の東屋・森林浴を農林水産省が掲載。" },
+      { "url": "https://www.town.tobe.ehime.jp/material/files/group/4/27980.pdf", "claim": "砥部町広報の周回距離、駐車場、高低差案内。" },
+      { "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=132.793354&lat=33.757175&outtype=JSON", "claim": "既存点の国土地理院DEM標高は81.2m。" }
+    ],
+    "coordinates": { "latitude": 33.757175, "longitude": 132.793354, "status": "retained_unverified", "note": "既存OSM点。公的資料に点座標はない。" },
+    "elevationM": 81.2
+  },
+  {
+    "sourceIndex": 64,
+    "sourceId": "osm-node-12848314837",
+    "sourceName": "谷上山第二展望台",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "谷上山 第二展望台",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://www.city.iyo.lg.jp/machizukuri/kanko/guidemap/tagami.html",
+    "accessUrl": "https://www.city.iyo.lg.jp/machizukuri/kanko/guidemap/tagami.html",
+    "accessSummary": "福田寺から約200m登り、急坂・分岐を経て駐車場と第二展望台へ至る。公共交通による公式アクセスは未確認。",
+    "cooling": { "attributes": ["forest", "highland"], "summary": "皿ヶ峰連峰県立自然公園の山岳・森林景観内で、既存地点は標高約299m。局所気温の低下は主張しない。" },
+    "operationsAndSafety": "急坂を含む登山道のため歩きやすい靴と暑熱対策が必要。園内に自動販売機・飲食店はない。",
+    "evidence": [
+      { "url": "https://www.city.iyo.lg.jp/machizukuri/kanko/guidemap/tagami.html", "claim": "第二展望台までの急坂を含む道順と、山岳・森林景観を伊予市が案内。" },
+      { "url": "https://www.city.iyo.lg.jp/toshijyutaku/kouen.html", "claim": "谷上山公園内に自動販売機・飲食店がない旨を市が案内。" },
+      { "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=132.729923&lat=33.745475&outtype=JSON", "claim": "既存点の国土地理院DEM標高は299.2m。" }
+    ],
+    "coordinates": { "latitude": 33.745475, "longitude": 132.729923, "status": "retained_unverified", "note": "既存OSM点。公式ページに点座標はない。" },
+    "elevationM": 299.2
+  },
+  {
+    "sourceIndex": 65,
+    "sourceId": "osm-node-1423734959",
+    "sourceName": "市立上須戒小学校跡",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "旧大洲市立上須戒小学校",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://www.city.ozu.ehime.jp/map/0096.html",
+    "accessUrl": null,
+    "accessSummary": "閉校した学校跡であり、夏の一般来訪先としての公式アクセス案内は確認できない。",
+    "cooling": { "attributes": [], "summary": "夏の涼しさを支える施設・局所効果の根拠がない。" },
+    "operationsAndSafety": "2015年3月31日に閉校。跡地には上須戒コミュニティセンターが整備されたが、別目的の施設であり自動統合しない。",
+    "evidence": [
+      { "url": "https://www.city.ozu.ehime.jp/map/0096.html", "claim": "学校名、所在地、2015年3月31日閉校を大洲市が掲載。" },
+      { "url": "https://www.city.ozu.ehime.jp/uploaded/attachment/46791.pdf", "claim": "旧上須戒小学校跡へのコミュニティセンター整備を市広報が掲載。" }
+    ],
+    "coordinates": null,
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 66,
+    "sourceId": "osm-node-4948022821",
+    "sourceName": "Ryuo Park 龍王公園",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "龍王公園",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://www.town.uchiko.ehime.jp/soshiki/9/ryuowkouen-top.html",
+    "accessUrl": "https://www.town.uchiko.ehime.jp/map/ryuowkouen-top.html",
+    "accessSummary": "内子町五十崎の公園。町の公式地図で位置を確認し、公共交通の公式案内は確認できないため車等での現地確認を前提とする。",
+    "cooling": { "attributes": ["forest", "indoor"], "summary": "小高い丘の自然公園と、屋内温水プールの存在を町が確認している。屋外の気温低下やプールの暑熱避難性は主張しない。" },
+    "operationsAndSafety": "公園とプールは別施設として営業時間・料金を来訪前に確認する。屋外活動では通常の暑熱対策が必要。",
+    "evidence": [
+      { "url": "https://www.town.uchiko.ehime.jp/soshiki/9/ryuowkouen-top.html", "claim": "自然公園と屋内温水プールを内子町が案内。" },
+      { "url": "https://www.town.uchiko.ehime.jp/map/ryuowkouen-top.html", "claim": "町の公式位置案内。" },
+      { "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=132.653885&lat=33.541927&outtype=JSON", "claim": "既存点の国土地理院DEM標高は105.8m。" }
+    ],
+    "coordinates": { "latitude": 33.541927, "longitude": 132.653885, "status": "retained_unverified", "note": "町内に公園関連施設の別住所表記があり、入口の公式点座標は未確認。" },
+    "elevationM": 105.8
+  },
+  {
+    "sourceIndex": 67,
+    "sourceId": "osm-node-4969407422",
+    "sourceName": "泉谷の棚田",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "泉谷の棚田",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://www.pref.ehime.jp/page/1821.html",
+    "accessUrl": "https://www.pref.ehime.jp/page/12548.html",
+    "accessSummary": "内子町北表の山間棚田。公式の定常的な公共交通案内はないため、車での接近・イベント時の案内を確認し、事前に内子町へ問い合わせる。",
+    "cooling": { "attributes": ["highland", "water"], "summary": "農林水産省が標高約470mと棚田の水を確認している。高地・水辺という環境根拠にとどめ、実測の冷却効果は主張しない。" },
+    "operationsAndSafety": "急傾斜の農地景観であり、田への立入りをしない。農作業・イベント・道路状況を事前確認する。",
+    "evidence": [
+      { "url": "https://www.pref.ehime.jp/page/1821.html", "claim": "泉谷の棚田の所在地と急傾斜の棚田景観を愛媛県が掲載。" },
+      { "url": "https://www.maff.go.jp/chushi/nousei/ehime/photo/photo-r1.html", "claim": "農林水産省が約470mの標高、湧水を使う棚田を掲載。" },
+      { "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=132.715756&lat=33.51628&outtype=JSON", "claim": "既存点の国土地理院DEM標高は428.3m。" }
+    ],
+    "coordinates": { "latitude": 33.51628, "longitude": 132.715756, "status": "retained_approximate", "note": "棚田区域の既存OSM点。公式の点座標は未確認。" },
+    "elevationM": 470
+  },
+  {
+    "sourceIndex": 68,
+    "sourceId": "osm-node-5832082501",
+    "sourceName": "邮筒",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": null,
+    "prefecture": "愛媛県",
+    "officialUrl": null,
+    "accessUrl": null,
+    "accessSummary": "中国語の一般名詞である郵便ポストのOSM点で、観光・公園等の公式地点を特定できない。",
+    "cooling": { "attributes": [], "summary": "夏の涼しさを支える地点としての根拠がない。" },
+    "operationsAndSafety": "近傍の愛媛県歴史文化博物館とは約1.3km離れており、別施設へ自動統合しない。",
+    "evidence": [
+      { "url": "https://www.i-rekihaku.jp/access/", "claim": "近傍の博物館の公式アクセスはあるが、本OSM点との同一性を示さない。" }
+    ],
+    "coordinates": null,
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 69,
+    "sourceId": "osm-node-10825709505",
+    "sourceName": "三滝花崗岩",
+    "decision": "merge",
+    "mergeTarget": "三滝渓谷",
+    "reviewedAt": "2026-07-18",
+    "formalName": "三滝渓谷",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://seiyo-geo.jp/c/geopoint/g3-mitaki_valley/",
+    "accessUrl": "https://seiyo-geo.jp/c/geopoint/g3-mitaki_valley/",
+    "accessSummary": "西予宇和ICから車で約50分。駐車場30台とトイレがあり、600mの遊歩道を利用する。",
+    "cooling": { "attributes": ["water", "forest"], "summary": "多数の滝・渓流と急斜面の渓流林が公式ジオサイトで確認できる。花崗岩単体に冷却効果は付与しない。" },
+    "operationsAndSafety": "遊歩道のため歩きやすい靴を推奨。季節営業・閉鎖の定常情報は確認できず、来訪前に現地状況を確認する。",
+    "evidence": [
+      { "url": "https://seiyo-geo.jp/c/geopoint/g3-mitaki_valley/", "claim": "三滝花こう岩類、滝・渓流林、遊歩道、アクセスを西予市ジオパークが掲載。" }
+    ],
+    "coordinates": null,
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 70,
+    "sourceId": "osm-node-4957709721",
+    "sourceName": "本谷の棚田",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "本谷の棚田",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://www.japan47go.travel/ja/detail/8e601281-3067-4c8d-8814-713f8dc4f6aa",
+    "accessUrl": "https://www.japan47go.travel/ja/detail/8e601281-3067-4c8d-8814-713f8dc4f6aa",
+    "accessSummary": "公式相当の観光DBは場所を掲載するが、具体的な公共交通・駐車場案内を確認できない。",
+    "cooling": { "attributes": [], "summary": "水張り時期の棚田景観は確認できるが、日陰・森林・高地等の局所冷却根拠にはならない。" },
+    "operationsAndSafety": "水をたたえる景観は主に5〜6月。定常的な開放・安全情報が不足する。",
+    "evidence": [
+      { "url": "https://www.japan47go.travel/ja/detail/8e601281-3067-4c8d-8814-713f8dc4f6aa", "claim": "名称、所在地、水張り時期を掲載する公的観光DB。" }
+    ],
+    "coordinates": null,
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 71,
+    "sourceId": "osm-node-7022993056",
+    "sourceName": "北浜公園",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "北浜公園",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://www.city.yawatahama.ehime.jp/gikai/2026022600101/",
+    "accessUrl": null,
+    "accessSummary": "市管理公園であることは確認できるが、来訪用の公式アクセス案内を確認できない。",
+    "cooling": { "attributes": [], "summary": "既存データのforest分類を支える公式根拠がなく、夏の局所涼感を確認できない。" },
+    "operationsAndSafety": "公園改修に伴う樹木の扱いは公的資料にあるが、季節開放・安全条件の定常情報は確認できない。",
+    "evidence": [
+      { "url": "https://www.city.yawatahama.ehime.jp/gikai/2026022600101/", "claim": "北浜公園の改修と樹木の状況を八幡浜市が掲載。" }
+    ],
+    "coordinates": null,
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 72,
+    "sourceId": "osm-node-4441621313",
+    "sourceName": "皿山展望台",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "皿山展望台",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://www.pref.ehime.jp/site/chuyo/4790.html",
+    "accessUrl": "https://www.ritoumeguri.com/experience/30028.php",
+    "accessSummary": "三津浜港または高浜港から野忽那港へ渡航し、港から木製遊歩道を利用する。航路の運行状況を確認する。",
+    "cooling": { "attributes": [], "summary": "標高71.4mの開放的な360度展望台。海風を推測で涼しさとして扱わず、根拠なしとする。" },
+    "operationsAndSafety": "遊歩道と島への船を使う。定常的な季節閉鎖は確認できないが、航路・足元を確認する。",
+    "evidence": [
+      { "url": "https://www.pref.ehime.jp/site/chuyo/4790.html", "claim": "県が皿山展望台と標高71.4mを掲載。" },
+      { "url": "https://www.ritoumeguri.com/experience/30028.php", "claim": "離島航路と遊歩道のアクセス案内。" }
+    ],
+    "coordinates": null,
+    "elevationM": 71.4
+  },
+  {
+    "sourceIndex": 73,
+    "sourceId": "osm-node-5593308470",
+    "sourceName": "鹿島展望台",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "鹿島展望台",
+    "prefecture": "愛媛県",
+    "officialUrl": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/shitestukoen/kashima/kashima.html",
+    "accessUrl": "https://matsuyama-sightseeing.com/spot/27-2/",
+    "accessSummary": "JR伊予北条駅から鹿島公園渡船待合所まで徒歩約10分、渡船約3分。",
+    "cooling": { "attributes": ["forest"], "summary": "山頂遊歩道の美しい森林地帯と森林浴が公的資料で確認できる。海風・高所による冷却は主張しない。" },
+    "operationsAndSafety": "強風時は渡船が臨時運休する。一部の海沿い周遊道は土砂崩れ・落石で通行止めのため、開放区間と倒木・落石に注意する。",
+    "evidence": [
+      { "url": "https://www.pref.ehime.jp/site/chuyo/4782.html", "claim": "森林浴、山頂遊歩道、標高約114mを愛媛県が掲載。" },
+      { "url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/shitestukoen/kashima/kashima.html", "claim": "鹿島の公式利用案内と通行注意。" },
+      { "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=132.763796&lat=33.973782&outtype=JSON", "claim": "既存点の国土地理院DEM標高は114.6m。" }
+    ],
+    "coordinates": { "latitude": 33.973782, "longitude": 132.763796, "status": "retained_unverified", "note": "公式記載の標高約114mと既存点DEMは整合するが、公式点座標は未確認。" },
+    "elevationM": 114
+  },
+  {
+    "sourceIndex": 74,
+    "sourceId": "osm-node-7743501892",
+    "sourceName": "龍馬の滝",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "龍馬（りょうめ）の滝",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.ibaraki-geopark.com/%E5%85%AB%E6%BA%9D%E5%B1%B1/",
+    "accessUrl": "https://www.ibaraki-geopark.com/%E5%85%AB%E6%BA%9D%E5%B1%B1/",
+    "accessSummary": "県道28号を栃木県黒羽町方向へ進むと右側に駐車場があり、そこから見学する。公式の公共交通案内は確認できない。",
+    "cooling": { "attributes": ["water"], "summary": "滝の水体は公式ジオサイトで確認できる。森林や実測気温による冷却は追加しない。" },
+    "operationsAndSafety": "季節営業・通行止めの定常情報は確認できない。山間の県道・水辺のため、当日の道路・気象条件を確認する。",
+    "evidence": [
+      { "url": "https://www.ibaraki-geopark.com/%E5%85%AB%E6%BA%9D%E5%B1%B1/", "claim": "龍馬の滝の正式な読み、所在地、県道からの駐車場アクセスを公式ジオパークが掲載。" },
+      { "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=140.26371&lat=36.905863&outtype=JSON", "claim": "既存点の国土地理院DEM標高は426.6m。" }
+    ],
+    "coordinates": { "latitude": 36.905863, "longitude": 140.26371, "status": "retained_unverified", "note": "既存OSM点。公式ページに点座標はない。" },
+    "elevationM": 426.6
+  },
+  {
+    "sourceIndex": 75,
+    "sourceId": "osm-node-4443248190",
+    "sourceName": "花貫渓谷（高萩市）",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "花貫渓谷",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.takahagi.ibaraki.jp/kankou/spot/sizen/page000012.html",
+    "accessUrl": "https://www.city.takahagi.ibaraki.jp/kankou/spot/shisetsu/page003814.html",
+    "accessSummary": "小滝沢キャンプ場起点ではJR高萩駅からタクシー約25分、高萩ICから車約20分。駐車場・遊歩道がある。",
+    "cooling": { "attributes": ["water", "forest"], "summary": "花貫川・淵・滝と、天然林・人工林に囲まれた遊歩道が確認できる。予報値を局所効果として扱わない。" },
+    "operationsAndSafety": "汐見滝吊り橋は2026年5月8日に修繕完了・通行止め解除済み。紅葉まつり期間はキャンプ・BBQ不可。荒天や規制時は市の施設状況を確認する。",
+    "evidence": [
+      { "url": "https://www.city.takahagi.ibaraki.jp/kankou/spot/sizen/page000012.html", "claim": "渓谷、吊り橋、駐車場を高萩市が掲載。" },
+      { "url": "https://www.rinya.maff.go.jp/kanto/invitation/sizenkyuuyourin/hananukikansatu.html", "claim": "林野庁が周辺の天然林・人工林を掲載。" },
+      { "url": "https://www.city.takahagi.ibaraki.jp/kankou/news/page008164.html", "claim": "吊り橋通行止め解除の市告知。" },
+      { "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=140.618734&lat=36.732621&outtype=JSON", "claim": "既存点の国土地理院DEM標高は258.2m。" }
+    ],
+    "coordinates": { "latitude": 36.732621, "longitude": 140.618734, "status": "retained_unverified", "note": "既存OSM点は渓谷区域内。公式ページに点座標はない。" },
+    "elevationM": 258.2
+  },
+  {
+    "sourceIndex": 76,
+    "sourceId": "osm-node-7740691718",
+    "sourceName": "横川の下滝",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "横川の下滝",
+    "prefecture": "茨城県",
+    "officialUrl": "https://jl-db.nfaj.go.jp/location/080100346/",
+    "accessUrl": "https://jl-db.nfaj.go.jp/location/080100346/",
+    "accessSummary": "国道沿いで、滝脇に簡易公園・駐車場が整備され、車で滝の近くまで到達できる。",
+    "cooling": { "attributes": ["water", "forest"], "summary": "国土交通省は豊かな緑に囲まれた渓谷と、夏の暑さを忘れさせるほど涼やかな滝水を記載しており、局所的な水辺・緑の根拠がある。" },
+    "operationsAndSafety": "季節営業・閉鎖の定常情報は確認できない。水辺・散策路の当日状況を確認する。",
+    "evidence": [
+      { "url": "https://jl-db.nfaj.go.jp/location/080100346/", "claim": "国立映画アーカイブの公的ロケ地DBが駐車場等のアクセスを掲載。" },
+      { "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000926212.pdf", "claim": "国土交通省資料が緑の渓谷と夏に涼やかな滝水を掲載。" },
+      { "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=140.511332&lat=36.726346&outtype=JSON", "claim": "既存点の国土地理院DEM標高は314.4m。" }
+    ],
+    "coordinates": { "latitude": 36.726346, "longitude": 140.511332, "status": "retained_unverified", "note": "既存OSM点。公的資料に点座標はない。" },
+    "elevationM": 314.4
+  },
+  {
+    "sourceIndex": 77,
+    "sourceId": "osm-node-3913111231",
+    "sourceName": "袋田の滝",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "国名勝・袋田の滝",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.town.daigo.ibaraki.jp/page/page001474.html",
+    "accessUrl": "https://www.daigo-kanko.jp/fukuroda-falls/access.html",
+    "accessSummary": "JR水郡線袋田駅からバス約10分・滝本下車徒歩約10分、または常陸大子駅からバス約15分。車は那珂ICから約50分。",
+    "cooling": { "attributes": ["water"], "summary": "4段・高さ120mの滝と観瀑台を確認できる。水辺であることにとどめ、局所気温低下は主張しない。" },
+    "operationsAndSafety": "年中無休。観瀑施設は5〜10月8:00〜18:00、11月8:00〜17:00、12〜4月9:00〜17:00で利用料あり。時間・足元を確認する。",
+    "evidence": [
+      { "url": "https://www.town.daigo.ibaraki.jp/page/page001474.html", "claim": "大子町が営業時間、年中無休、利用料、公式アクセスを掲載。" },
+      { "url": "https://www.daigo-kanko.jp/fukuroda-falls/access.html", "claim": "大子町観光協会が鉄道・バス・車のアクセスを掲載。" },
+      { "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=140.407251&lat=36.764617&outtype=JSON", "claim": "既存点の国土地理院DEM標高は144.1m。" }
+    ],
+    "coordinates": { "latitude": 36.764617, "longitude": 140.407251, "status": "retained_unverified", "note": "既存OSM点。公式ページに点座標はない。" },
+    "elevationM": 144.1
+  },
+  {
+    "sourceIndex": 78,
+    "sourceId": "osm-node-4943511521",
+    "sourceName": "竜神大吊り橋",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "竜神大吊橋",
+    "prefecture": "茨城県",
+    "officialUrl": "https://ohtsuribashi.ryujinkyo.jp/guide.html",
+    "accessUrl": "https://ohtsuribashi.ryujinkyo.jp/access.html",
+    "accessSummary": "常陸太田駅から茨城交通バス約40分、竜神大吊橋または入口下車。予約要の便がある。",
+    "cooling": { "attributes": [], "summary": "ダム湖上の開放的な橋であり、木陰・局所涼感の公式根拠がない。" },
+    "operationsAndSafety": "8:30〜17:00（受付16:40、土曜は20:00まで）。強風・雷で通行制限があり、対岸から橋へ戻る遊歩道は崖崩れ懸念で立入り遠慮の案内がある。",
+    "evidence": [
+      { "url": "https://ohtsuribashi.ryujinkyo.jp/guide.html", "claim": "営業時間、橋上の状況、強風・雷時の制限を公式サイトが掲載。" },
+      { "url": "https://ohtsuribashi.ryujinkyo.jp/access.html", "claim": "バスを含む公式アクセス案内。" }
+    ],
+    "coordinates": null,
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 79,
+    "sourceId": "osm-node-2349083173",
+    "sourceName": "ミント公園",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "ミント公園",
+    "prefecture": "茨城県",
+    "officialUrl": null,
+    "accessUrl": null,
+    "accessSummary": "市の全公園地図・一覧で名称、住所、管理者、利用条件を確認できない。",
+    "cooling": { "attributes": [], "summary": "OSM単独の名称であり、夏の涼しさの根拠を確認できない。" },
+    "operationsAndSafety": "利用条件・閉鎖・安全情報を確認できないため公開しない。",
+    "evidence": [
+      { "url": "https://www.city.hitachinaka.lg.jp/shisetsu/1007282/1006031.html", "claim": "ひたちなか市の全公園地図案内に当該名称を確認できない。" }
+    ],
+    "coordinates": null,
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 80,
+    "sourceId": "osm-node-2437128483",
+    "sourceName": "茨城県植物園",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "THE BOTANICAL RESORT 林音（茨城県植物園）",
+    "prefecture": "茨城県",
+    "officialUrl": "https://rinne-resort.jp/",
+    "accessUrl": "https://rinne-resort.jp/guide/access",
+    "accessSummary": "那珂ICから約10分、国道118号の戸崎十文字から約1.3km。JR上菅谷駅からタクシー約10分。",
+    "cooling": { "attributes": ["forest", "shade", "water", "indoor"], "summary": "公式の夏企画が森の木陰・森の風、じゃぶじゃぶ池、水遊び、冷えた休憩所を明記している。気象予報値は使わない。" },
+    "operationsAndSafety": "夏の水遊び等は期間限定・雨天中止がある。通常は9:00〜17:00、熱帯植物館は9:30〜16:30で、メンテナンス休館を確認する。",
+    "evidence": [
+      { "url": "https://rinne-resort.jp/topics/1218", "claim": "公式の夏企画が木陰、森の風、水遊び、冷えた休憩所を掲載。" },
+      { "url": "https://rinne-resort.jp/guide/access", "claim": "公式アクセス案内。" },
+      { "url": "https://www.city.naka.lg.jp/event-kankou/kankou-spot/page000362.html", "claim": "那珂市の公式案内・アクセス地図。" }
+    ],
+    "coordinates": { "latitude": 36.4708384991242, "longitude": 140.433683395386, "status": "official_map_candidate", "note": "那珂市公式アクセス地図の熱帯植物館位置。既存点から約350mのため置換候補。" },
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 81,
+    "sourceId": "osm-node-4478959358",
+    "sourceName": "穂積家住宅",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "穂積家住宅",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.takahagi.ibaraki.jp/kankou/spot/shiseki/page000040.html",
+    "accessUrl": "https://www.city.takahagi.ibaraki.jp/map.php?code=29",
+    "accessSummary": "高萩市の公式地図で位置を確認する。公共交通による公式アクセスは確認できない。",
+    "cooling": { "attributes": [], "summary": "庭園と池はあるが、夏の局所涼感または屋内暑熱避難の根拠は確認できない。" },
+    "operationsAndSafety": "見学9:00〜16:00。月曜（祝日の場合翌日）と12月29日〜1月4日は休館し、臨時休館がある。",
+    "evidence": [
+      { "url": "https://www.city.takahagi.ibaraki.jp/kankou/spot/shiseki/page000040.html", "claim": "高萩市が施設、見学時間、休館日を掲載。" },
+      { "url": "https://www.city.takahagi.ibaraki.jp/map.php?code=29", "claim": "高萩市の公式位置案内。" }
+    ],
+    "coordinates": { "latitude": 36.7384391887121, "longitude": 140.693289041519, "status": "official_map_candidate", "note": "高萩市公式地図の位置。ただしblockのためカタログ更新対象ではない。" },
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 82,
+    "sourceId": "osm-node-4920472759",
+    "sourceName": "ＵＦＯ展望台",
+    "decision": "publish",
+    "reviewedAt": "2026-07-18",
+    "formalName": "十王パノラマ公園（UFO型展望台）",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.hitachi.lg.jp/citypromotion/1018000/1018003/1018017/1018071.html",
+    "accessUrl": "https://www.city.hitachi.lg.jp/machizukuri_kankyo/kankyo/1007206/1010331.html",
+    "accessSummary": "JR十王駅からパノラマ公園口行きバスで約20分。朝夕各1回で日祝運休のため、時刻を確認する。",
+    "cooling": { "attributes": ["shade", "forest", "water"], "summary": "日立市のクールスポット案内が木陰・東屋・水辺・木々に囲まれた遊歩道を明記する。高台の展望台自体の日除けは保証しない。" },
+    "operationsAndSafety": "ダム噴水は10時・12時・14時・16時から各5分。公共交通の運休日と施設利用時間を確認する。",
+    "evidence": [
+      { "url": "https://www.city.hitachi.lg.jp/machizukuri_kankyo/kankyo/1007206/1010331.html", "claim": "日立市が木陰・東屋・水辺・遊歩道をクールスポットとして掲載。" },
+      { "url": "https://www.city.hitachi.lg.jp/citypromotion/1018000/1018003/1018017/1018071.html", "claim": "十王パノラマ公園とUFO型展望台を市が掲載。" }
+    ],
+    "coordinates": { "latitude": 36.66993739365289, "longitude": 140.66462004255186, "status": "official_map_candidate", "note": "日立市公式地図リンクの位置。既存点から約35mの置換候補。" },
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 83,
+    "sourceId": "osm-node-8847964217",
+    "sourceName": "富士山下の湧水",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "富士山下の清水",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.hitachiota.ibaraki.jp/data/doc/1570598549_doc_131_3.pdf",
+    "accessUrl": null,
+    "accessSummary": "常陸太田市上深荻町の湧水として公的資料に記載があるが、現行の公式個別案内、公共交通・駐車場案内を確認できない。",
+    "cooling": { "attributes": [], "summary": "湧水自体は確認できるが、2026年時点の水質・飲用可否・管理・通行条件を確認できず、夏の安全な水辺として推薦できない。" },
+    "operationsAndSafety": "旧個別公式ページは404で現況を確認できない。飲用や水辺利用を前提にしない。",
+    "evidence": [
+      { "url": "https://www.city.hitachiota.ibaraki.jp/data/doc/1570598549_doc_131_3.pdf", "claim": "市の地域周遊マップが富士山下の清水を掲載。" },
+      { "url": "https://www.city.hitachiota.ibaraki.jp/page/page003346.html", "claim": "旧個別公式ページは現時点で404であり、現況確認に使えない。" }
+    ],
+    "coordinates": null,
+    "elevationM": null
+  },
+  {
+    "sourceIndex": 84,
+    "sourceId": "osm-node-10613252723",
+    "sourceName": "ひたちなか市親水性中央公園",
+    "decision": "block",
+    "reviewedAt": "2026-07-18",
+    "formalName": "親水性中央公園",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.hitachinaka.lg.jp/shisetsu/1007282/1006031.html",
+    "accessUrl": "https://www.city.hitachinaka.lg.jp/shisetsu/1007282/1006031.html",
+    "accessSummary": "市の公園一覧は所在地・駐車場・トイレ・水飲み場を示すが、公共交通による公式アクセス案内は確認できない。",
+    "cooling": { "attributes": [], "summary": "中丸川上流の公園・ビオトープ・芝生広場であることは確認できるが、木陰・森林または暑熱回避の根拠がない。" },
+    "operationsAndSafety": "洪水調節機能を併せ持つ公園のため、雨天・増水時を含む利用条件を市へ確認する。",
+    "evidence": [
+      { "url": "https://www.city.hitachinaka.lg.jp/shisetsu/1007282/1006031.html", "claim": "市の公園一覧が親水性中央公園の設備を掲載。" },
+      { "url": "https://www.city.hitachinaka.lg.jp/_res/projects/default_project/_page_/001/004/961/sigaichipamphlet.pdf", "claim": "市資料が中丸川上流、ビオトープ、芝生広場、洪水調節機能を掲載。" }
+    ],
+    "coordinates": null,
+    "elevationM": null
+  }
+]

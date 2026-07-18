@@ -1,0 +1,894 @@
+[
+  {
+    "decision": "block",
+    "formalName": "砂沼広域公園 観桜苑・菖蒲園",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.pref.ibaraki.jp/doboku/kogai/kikaku/sanuma_park.html",
+    "accessUrl": "https://www.pref.ibaraki.jp/doboku/kogai/kikaku/sanuma_park.html",
+    "accessSummary": "関東鉄道常総線下妻駅からバス約15分。車は谷和原IC・土浦北ICから各約40分、駐車場861台。",
+    "evidence": [
+      {
+        "url": "https://www.pref.ibaraki.jp/doboku/kogai/kikaku/sanuma_park.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.city.shimotsuma.lg.jp/shogaigakushu-bunka-sports/park/sanumakoikikoen/page000552.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 109,
+    "sourceId": "osm:node:11890803284",
+    "sourceName": "菖蒲園",
+    "cooling": {
+      "attributes": [
+        "water"
+      ],
+      "summary": "砂沼沿いの遊歩道・菖蒲園は確認できるが、日陰や夏季の局所的な涼しさの根拠は未確認。水辺を気温低下の根拠とは扱わない。"
+    },
+    "operationsAndSafety": "花菖蒲の見頃は5月下旬〜6月中旬。公園休園は毎月第1水曜（祝日は翌日）と12月31日〜1月1日で、真夏の避暑目的には不適。",
+    "coordinates": {
+      "latitude": 36.1910566,
+      "longitude": 139.9518968,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 24
+  },
+  {
+    "decision": "block",
+    "formalName": "ダイヤモンド筑波（母子島遊水地）",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.chikusei.lg.jp/kankou/event-spot/event/winter-event/page010181.html",
+    "accessUrl": "https://www.city.chikusei.lg.jp/kankou/event-spot/event/winter-event/page010181.html",
+    "accessSummary": "筑西市公式は母子島遊水地を鑑賞地として案内するが、このOSM点への公式アクセス案内は未確認。",
+    "evidence": [
+      {
+        "url": "https://www.city.chikusei.lg.jp/kankou/event-spot/event/winter-event/page010181.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.city.chikusei.lg.jp/chikusei_channel.php?code=23&mode=detail",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 110,
+    "sourceId": "osm:node:6279340965",
+    "sourceName": "ダイヤモンド筑波",
+    "cooling": {
+      "attributes": [],
+      "summary": "筑波山頂からの日の出を観察する現象であり、夏の局所的な涼しさを示す公的根拠はない。"
+    },
+    "operationsAndSafety": "観察期は例年2月14日前後（別公式案内では10月28日前後も）。曇天では観測不能で、2月は防寒が必要。夏向けではない。",
+    "coordinates": {
+      "latitude": 36.2571598,
+      "longitude": 139.9911503,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 18.7
+  },
+  {
+    "decision": "block",
+    "formalName": "大工町三軒家児童遊園",
+    "prefecture": "千葉県",
+    "officialUrl": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/038/025/140815.pdf",
+    "accessUrl": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/038/025/140815.pdf",
+    "accessSummary": "野田市資料は近隣の大工町三軒家自治会館を移動販売停留所として掲載するのみで、児童遊園への公的来訪アクセスは未確認。",
+    "evidence": [
+      {
+        "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/038/025/140815.pdf",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 111,
+    "sourceId": "osm:node:1655843208",
+    "sourceName": "大工町三軒家児童遊園",
+    "cooling": {
+      "attributes": [],
+      "summary": "小規模児童遊園の存在以外に、夏の局所的な涼しさを裏付ける公式・公的根拠はない。元データの県表記も誤り。"
+    },
+    "operationsAndSafety": "開園・閉園、管理条件、熱中症・遊具安全情報を確認できない。",
+    "coordinates": {
+      "latitude": 36.0982953,
+      "longitude": 139.7877223,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 9.6
+  },
+  {
+    "decision": "publish",
+    "formalName": "森田鉄工所権現堂SakuraMiraiPark（権現堂公園）1号公園・水生花園",
+    "prefecture": "埼玉県",
+    "officialUrl": "https://www.pref.saitama.lg.jp/shisetsu/koen/034.html",
+    "accessUrl": "https://www.pref.saitama.lg.jp/shisetsu/koen/034.html",
+    "accessSummary": "1・2号公園は東武日光線南栗橋駅から約2km。車は圏央道幸手IC約10分、東北道久喜IC約20分。",
+    "evidence": [
+      {
+        "url": "https://www.pref.saitama.lg.jp/shisetsu/koen/034.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.pref.saitama.lg.jp/documents/269803/07_r7_gongendo.pdf",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://midorinoportal.pref.saitama.lg.jp/map/%E6%A8%A9%E7%8F%BE%E5%A0%82%E5%85%AC%E5%9C%92%E5%B9%B8%E6%89%8B%E5%B8%82%E3%83%BB%E4%B9%85%E5%96%9C%E5%B8%82%EF%BC%89/",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 112,
+    "sourceId": "osm:node:5545935605",
+    "sourceName": "水生花園",
+    "cooling": {
+      "attributes": [
+        "water",
+        "shade"
+      ],
+      "summary": "県の現況調書は水生花園と高木335本・中木1,016本を確認する。水辺と植栽の日陰を根拠とするが、気温低下や予報値は主張しない。"
+    },
+    "operationsAndSafety": "屋外の平坦な公園。猛暑・雷雨時は利用を控えること。施設利用・年末年始の対応は事前確認。",
+    "coordinates": {
+      "latitude": 36.1075481,
+      "longitude": 139.7254273,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 10.1
+  },
+  {
+    "decision": "publish",
+    "formalName": "道の駅 グランテラス筑西",
+    "prefecture": "茨城県",
+    "officialUrl": "https://granterrace-chikusei.com/about/",
+    "accessUrl": "https://granterrace-chikusei.com/about/",
+    "accessSummary": "筑西市川澄1850、国道50号下館バイパス沿い。駐車場361台（大型43台）。",
+    "evidence": [
+      {
+        "url": "https://granterrace-chikusei.com/about/",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.city.chikusei.lg.jp/machidukuri/michi-eki/page006828.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 113,
+    "sourceId": "osm:node:7150302585",
+    "sourceName": "道の駅 グランテラス筑西",
+    "cooling": {
+      "attributes": [
+        "indoor"
+      ],
+      "summary": "物産・直売・レストラン・カフェ、情報提供、ベーカリー、キッズスペース、多目的室などの屋内施設を公式が列挙する。屋内休憩先として扱うが、空調や外気より低い温度は主張しない。"
+    },
+    "operationsAndSafety": "営業時間9:00〜18:00、休館は毎月第3水曜・1月1日。屋外芝生・遊具は熱暑時の長時間利用を避け、営業状況を確認。",
+    "coordinates": {
+      "latitude": 36.3228168,
+      "longitude": 139.9939549,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 34.6
+  },
+  {
+    "decision": "publish",
+    "formalName": "洞峰公園（バラ園を含む）",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.tsukuba.lg.jp/shisetsu/kouensports/kouen/1002827.html",
+    "accessUrl": "https://www.doho-park.com/access/",
+    "accessSummary": "つくば駅（つくばセンター）またはJRひたち野うしく駅からバスで洞峰公園下車。車は桜土浦IC約15分、つくば牛久IC約10分。",
+    "evidence": [
+      {
+        "url": "https://www.city.tsukuba.lg.jp/shisetsu/kouensports/kouen/1002827.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.doho-park.com/access/",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 114,
+    "sourceId": "osm:node:3794345243",
+    "sourceName": "バラ園",
+    "cooling": {
+      "attributes": [
+        "forest",
+        "indoor"
+      ],
+      "summary": "市は沼と緑の自然環境、温水プール・体育館を案内する。樹林の日陰と屋内休憩先を根拠とするが、バラ園自体の涼しさや室温は主張しない。"
+    },
+    "operationsAndSafety": "公園の休館は毎月第1水曜、12月31日〜1月1日。有料施設は利用不可日があるため公式予定を確認。夏季の屋外バラ園を涼しい場所と誤認しない。",
+    "coordinates": {
+      "latitude": 36.0611716,
+      "longitude": 140.120575,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 23.9
+  },
+  {
+    "decision": "merge",
+    "mergeIntoIndex": 114,
+    "formalName": "洞峰公園（バラ園を含む）",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.tsukuba.lg.jp/shisetsu/kouensports/kouen/1002827.html",
+    "accessUrl": "https://www.doho-park.com/access/",
+    "accessSummary": "114と同一の洞峰公園バラ園内にある重複OSM点（約84m差）。",
+    "evidence": [
+      {
+        "url": "https://www.city.tsukuba.lg.jp/shisetsu/kouensports/kouen/1002827.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.doho-park.com/access/",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 115,
+    "sourceId": "osm:node:4602084987",
+    "sourceName": "バラ園",
+    "cooling": {
+      "attributes": [
+        "forest",
+        "indoor"
+      ],
+      "summary": "114へ統合。バラ園そのものの局所的な涼しさは主張しない。"
+    },
+    "operationsAndSafety": "114と同じ。",
+    "coordinates": {
+      "latitude": 36.0612002,
+      "longitude": 140.1215055,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 23.6
+  },
+  {
+    "decision": "block",
+    "formalName": "大生郷天満宮 天神山公園",
+    "prefecture": "茨城県",
+    "officialUrl": "https://tenmangu.or.jp/",
+    "accessUrl": "https://www.ibarakiguide.jp/spot.php?code=554&mode=detail",
+    "accessSummary": "大生郷天満宮（常総市大生郷町1234）は関東鉄道常総線水海道駅からタクシー約20分、谷和原ICから車約30分。天神山公園の展望地点への公式導線は未確認。",
+    "evidence": [
+      {
+        "url": "https://tenmangu.or.jp/",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.city.joso.lg.jp/kurashi_gyousei/kurashi/gakkou_kyouiku/isan/shuratem/oonogo.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.ibarakiguide.jp/spot.php?code=554&mode=detail",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 116,
+    "sourceId": "osm:node:4937303125",
+    "sourceName": "大生郷天満宮 天神山公園",
+    "cooling": {
+      "attributes": [],
+      "summary": "神社は確認できるが、当該天神山公園の樹林日陰・水辺・高所などによる夏の局所的な涼しさを裏付ける公式・公的根拠はない。"
+    },
+    "operationsAndSafety": "参拝・公園利用時間、閉鎖、展望地の足元・立入安全条件を公式資料で確認できない。",
+    "coordinates": {
+      "latitude": 36.0609873,
+      "longitude": 139.9516604,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 10.8
+  },
+  {
+    "decision": "publish",
+    "formalName": "水海道風土博物館 坂野家住宅",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.joso.lg.jp/kurashi_gyousei/kurashi/gakkou_kyouiku/isan/cityregi_bunka/tate/sakanoshoin.html",
+    "accessUrl": "https://www.ibarakiguide.jp/spot.php?code=534&mode=detail",
+    "accessSummary": "関東鉄道常総線水海道駅からタクシー約15分。車は谷和原ICから約20分、常総ICから約15分。無料駐車場あり。",
+    "evidence": [
+      {
+        "url": "https://www.ibarakiguide.jp/spot.php?code=534&mode=detail",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.city.joso.lg.jp/kurashi_gyousei/kurashi/gakkou_kyouiku/isan/cityregi_bunka/tate/sakanoshoin.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 117,
+    "sourceId": "osm:node:4937308523",
+    "sourceName": "風土博物館 坂野県住宅",
+    "cooling": {
+      "attributes": [
+        "indoor"
+      ],
+      "summary": "公開される歴史的建物の屋内見学を使える。空調・低温の公式記載はないため、暑熱を確実に避けられるという意味ではない。"
+    },
+    "operationsAndSafety": "4〜10月は9〜17時（閉館18時）、11〜3月は9〜16時（閉館17時）。月曜（祝日の場合翌日）と年末年始は休館。料金・開館状況は要事前確認。",
+    "coordinates": {
+      "latitude": 36.0665767,
+      "longitude": 139.9554712,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 22
+  },
+  {
+    "decision": "block",
+    "formalName": "真壁のひなまつり 和の風",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.kankou-sakuragawa.jp/page/page001025.html",
+    "accessUrl": "https://www.ibarakiguide.jp/special/ohinasama/hinamatsuri.html",
+    "accessSummary": "会場は桜川市真壁市街地。真壁の街並みへは桜川筑西ICから約25分、土浦北ICから約50分。",
+    "evidence": [
+      {
+        "url": "https://www.ibarakiguide.jp/special/ohinasama/hinamatsuri.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.ibarakiguide.jp/spot.php?code=685&mode=detail",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 118,
+    "sourceId": "osm:node:4865390137",
+    "sourceName": "真壁ひな祭り 流し雛 ひな壇",
+    "cooling": {
+      "attributes": [],
+      "summary": "夏の涼しさを示す公式根拠はない。"
+    },
+    "operationsAndSafety": "2026年の開催は2月4日〜3月3日。流し雛は2月28日の単日行事で、天候などにより変更・中止の場合がある。夏の掲載対象にはしない。",
+    "coordinates": {
+      "latitude": 36.275424,
+      "longitude": 140.096859,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 27
+  },
+  {
+    "decision": "block",
+    "formalName": "真壁トライアルランド",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.mfj.or.jp/motosports-host/tr/",
+    "accessUrl": "https://www.mfj.or.jp/local/2026-tr-kanto/?page_type=venue",
+    "accessSummary": "MFJ登録住所は桜川市真壁町羽鳥93-4。一般観光施設としての常時入場・見学アクセスは公式確認できない。",
+    "evidence": [
+      {
+        "url": "https://www.mfj.or.jp/motosports-host/tr/",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.mfj.or.jp/local/2026-tr-kanto/?page_type=venue",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.mfj.or.jp/national/2023-tr-major-competitions/2023-mfj-tr-grand-championchip/",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 119,
+    "sourceId": "osm:node:6138152586",
+    "sourceName": "真壁トライアルランド",
+    "cooling": {
+      "attributes": [],
+      "summary": "夏の涼しさを示す公式根拠はない。"
+    },
+    "operationsAndSafety": "トライアル競技・講習会の会場。利用・観戦は主催者の開催日、許可、車両安全条件に従う必要があり、大会によっては観客用駐車場がない。",
+    "coordinates": {
+      "latitude": 36.264233,
+      "longitude": 140.091782,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 73
+  },
+  {
+    "decision": "publish",
+    "formalName": "水郷潮来あやめ園",
+    "prefecture": "茨城県",
+    "officialUrl": "https://www.city.itako.lg.jp/kankou/kankou-itakokankou/kankou-spot/kankou-mainspot/kankou-spot03/page001385.html",
+    "accessUrl": "https://e-tabi.org/access",
+    "accessSummary": "JR潮来駅から徒歩3分。車は東関東道潮来ICから約5〜10分。潮来駅周辺の市営または有料駐車場を利用。",
+    "evidence": [
+      {
+        "url": "https://www.city.itako.lg.jp/kankou/kankou-itakokankou/kankou-spot/kankou-mainspot/kankou-spot03/page001385.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://e-tabi.org/access",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.ibarakiguide.jp/spot.php?code=194&mode=detail",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 120,
+    "sourceId": "osm:node:4956242822",
+    "sourceName": "水郷潮来あやめ園",
+    "cooling": {
+      "attributes": [
+        "water"
+      ],
+      "summary": "水郷の園内で、あやめまつり期にはろ舟遊覧も行われる水辺の散策地。水辺があること以上の気温低下は主張しない。"
+    },
+    "operationsAndSafety": "園は休園なし・終日入園自由・無料。あやめまつりは例年5月下旬〜6月下旬、ろ舟はまつり期間中のみ。開花・催事・水辺利用は当日の公式情報を確認。",
+    "coordinates": {
+      "latitude": 35.9378106,
+      "longitude": 140.5477658,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 11
+  },
+  {
+    "decision": "publish",
+    "formalName": "香取神宮（鹿苑）",
+    "prefecture": "千葉県",
+    "officialUrl": "https://katori-jingu.or.jp/guide/",
+    "accessUrl": "https://katori-jingu.or.jp/access/",
+    "accessSummary": "JR佐原駅からタクシー約10分またはバスで香取神宮前下車徒歩5分。香取駅から徒歩約30分。車は佐原香取ICから約1.5km。",
+    "evidence": [
+      {
+        "url": "https://katori-jingu.or.jp/guide/",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://katori-jingu.or.jp/access/",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.city.katori.lg.jp/sightseeing/gyoji/fuyu/s_katori-hatsu.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 121,
+    "sourceId": "osm:node:5739960621",
+    "sourceName": "香取神宮鹿苑",
+    "cooling": {
+      "attributes": [
+        "forest",
+        "shade"
+      ],
+      "summary": "鹿苑は桜馬場の奥にあり、北参道は両側を鬱蒼とした杜に囲まれる。樹林の日陰・森林環境を根拠とし、気温予報値や明確な降温効果は主張しない。"
+    },
+    "operationsAndSafety": "通常の授与所・御朱印受付は8時30分〜17時。祭典・繁忙期は混雑や交通規制の可能性があるため、参拝前に神宮のお知らせを確認。",
+    "coordinates": {
+      "latitude": 35.887341,
+      "longitude": 140.527815,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 46
+  },
+  {
+    "decision": "block",
+    "formalName": "展望台（固有名称・管理者未確認）",
+    "prefecture": "岡山県",
+    "officialUrl": null,
+    "accessUrl": null,
+    "accessSummary": "座標は真庭市落合地区付近だが、公式・公的サイトでこの座標に対応する固有名、管理者、公開アクセスを確認できない。",
+    "evidence": [
+      {
+        "url": "https://www.city.maniwa.lg.jp/soshiki/57/",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 122,
+    "sourceId": "osm:node:5429118445",
+    "sourceName": "展望台",
+    "cooling": {
+      "attributes": [],
+      "summary": "単に展望台という地図ラベルでは、夏の涼しさ・安全な利用・公開性を裏付けられない。"
+    },
+    "operationsAndSafety": "公開時間、駐車、歩道、立入条件が未確認。掲載しない。",
+    "coordinates": {
+      "latitude": 35.025359,
+      "longitude": 133.739072,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 148
+  },
+  {
+    "decision": "block",
+    "formalName": "国指定天然記念物「オオサンショウウオ生息地」",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/53/86315.html",
+    "accessUrl": null,
+    "accessSummary": "指定は旧湯原町・川上村・八束村・中和村の全域であり、候補座標は個別の公開見学地点ではない。来訪先としては真庭市オオサンショウウオ保護センターを別候補として扱うべき。",
+    "evidence": [
+      {
+        "url": "https://www.city.maniwa.lg.jp/soshiki/53/86315.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.city.maniwa.lg.jp/soshiki/60/2664.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://online.bunka.go.jp/heritages/detail/172925",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 123,
+    "sourceId": "osm:node:5564476363",
+    "sourceName": "オオサンショウウオ生息地",
+    "cooling": {
+      "attributes": [
+        "water"
+      ],
+      "summary": "水辺性の生息環境ではあるが、野生生物の観察・涼を取る場所としては掲載不可。"
+    },
+    "operationsAndSafety": "特別天然記念物で無許可の捕獲・飼育は禁止。環境変化に弱く噛みつく習性もあるため、見つけても触れない。",
+    "coordinates": {
+      "latitude": null,
+      "longitude": null,
+      "status": "correction_candidate",
+      "note": "地域指定で単一の公式座標・標高なし。OSM nodeを採用しない。"
+    },
+    "elevationM": null
+  },
+  {
+    "decision": "publish",
+    "formalName": "醍醐桜",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/57/2586.html",
+    "accessUrl": "https://www.okayama-kanko.jp/spot/detail_11371.html",
+    "accessSummary": "真庭市別所2277。公共交通はなく自家用車またはタクシー。北房IC・落合ICから約30分。駐車場あり（開花期は有料）。",
+    "evidence": [
+      {
+        "url": "https://www.city.maniwa.lg.jp/soshiki/57/2586.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.okayama-kanko.jp/spot/detail_11371.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.maniwa.or.jp/web/?c=spot-2&pk=1",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 124,
+    "sourceId": "osm:node:4794626421",
+    "sourceName": "落合の醍醐桜",
+    "cooling": {
+      "attributes": [
+        "highland"
+      ],
+      "summary": "真庭市公式が標高の高い山里の丘陵と明記する地点。高所であることを根拠にし、夏の予報気温や明確な降温量は主張しない。"
+    },
+    "operationsAndSafety": "主な見頃・祭りは3月下旬〜4月上旬。開花期は一方通行、2時間超の渋滞の可能性があり、木道は雨・朝露・夜露で滑りやすい。夏は開花期の売店・交通運用を前提にしない。",
+    "coordinates": {
+      "latitude": 35.0245791,
+      "longitude": 133.6464957,
+      "status": "correction_candidate",
+      "note": "公式・公的資料で照合した座標・標高候補。"
+    },
+    "elevationM": 500
+  },
+  {
+    "decision": "publish",
+    "formalName": "満奇洞",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.city.niimi.okayama.jp/kanko/spot/spot_detail/index/77.html",
+    "accessUrl": "https://www.pref.okayama.jp/uploaded/attachment/263707.pdf",
+    "accessSummary": "新見市豊永赤馬2276-2。車は新見ICなどから約30分、駐車場あり。公共交通はJR井倉駅から備北バス満奇洞行き終点すぐ。",
+    "evidence": [
+      {
+        "url": "https://www.city.niimi.okayama.jp/kanko/spot/spot_detail/index/77.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.pref.okayama.jp/uploaded/attachment/263707.pdf",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://platinumaps.jp/d/niimi-city?spot=59077&culture=ja",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 125,
+    "sourceId": "osm:node:8920889509",
+    "sourceName": "満奇洞",
+    "cooling": {
+      "attributes": [
+        "cave"
+      ],
+      "summary": "新見市公式観光は洞内を常に15℃前後で夏は涼しいと明記する。予報値ではなく洞内の局所条件。"
+    },
+    "operationsAndSafety": "県資料は入洞9:00〜16:30・無休・有料と案内するが、最新営業は事前確認。ペット同伴入洞不可、車いす入洞不可、駐車場は混雑時満車あり。",
+    "coordinates": {
+      "latitude": 34.9718866,
+      "longitude": 133.583055,
+      "status": "correction_candidate",
+      "note": "座標は新見市観光マップ、標高は公開地図による候補。元のH3由来458mは採用しない。"
+    },
+    "elevationM": 358
+  },
+  {
+    "decision": "block",
+    "formalName": "湯原温泉砂湯（湯原温泉）",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.yubaraonsen.jp/",
+    "accessUrl": "https://www.okayama-kanko.jp/spot/detail_11390.html",
+    "accessSummary": "湯原IC約5分、JR中国勝山駅から蒜山高原行きバス約35分で湯原温泉下車、徒歩約10分。",
+    "evidence": [
+      {
+        "url": "https://www.yubaraonsen.jp/",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.okayama-kanko.jp/spot/detail_11390.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.pref.okayama.jp/uploaded/life/924591_8849968_misc.pdf",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 126,
+    "sourceId": "osm:node:13070986417",
+    "sourceName": "湯原温泉",
+    "cooling": {
+      "attributes": [],
+      "summary": "旭川の河原の湧出物だが、公式は温泉として案内する。水を夏の涼しさの根拠にはできない。"
+    },
+    "operationsAndSafety": "砂湯は24時間だが水曜午前は清掃。混浴で、水着・湯浴み着などの着用が必要。河原の屋外温泉であり夏の避暑先にはしない。",
+    "coordinates": {
+      "latitude": 35.2054394,
+      "longitude": 133.7325087,
+      "status": "correction_candidate",
+      "note": "岡山観光WEBの公式地図座標。地点を砂湯に特定する場合のみ。"
+    },
+    "elevationM": 345
+  },
+  {
+    "decision": "block",
+    "formalName": "国指定天然記念物「オオサンショウウオ生息地」",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/53/86315.html",
+    "accessUrl": "https://www.city.maniwa.lg.jp/soshiki/60/2664.html",
+    "accessSummary": "旧湯原町・川上村・八束村・中和村全域に及ぶ地域指定で、OSM点は観光地点ではない。鑑賞は別候補のはんざきセンターを案内する。",
+    "evidence": [
+      {
+        "url": "https://www.city.maniwa.lg.jp/soshiki/53/86315.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.city.maniwa.lg.jp/soshiki/60/2664.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.pref.okayama.jp/uploaded/attachment/260912.pdf",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 127,
+    "sourceId": "osm:node:4943010921",
+    "sourceName": "オオサンショウウオ生息地",
+    "cooling": {
+      "attributes": [],
+      "summary": "河川生息地というだけで、訪問可能な避暑地点や局所冷却を公式が示していない。"
+    },
+    "operationsAndSafety": "特別天然記念物で無許可の捕獲・飼育は禁止。見つけても触らず、川・水辺ではそっと見守る。野生生息地のポイント公開は不適切。",
+    "coordinates": {
+      "latitude": null,
+      "longitude": null,
+      "status": "correction_candidate",
+      "note": "地域指定で単一の公式座標・標高なし。OSM nodeを採用しない。"
+    },
+    "elevationM": null
+  },
+  {
+    "decision": "block",
+    "formalName": "国指定天然記念物「オオサンショウウオ生息地」",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/53/86315.html",
+    "accessUrl": "https://www.city.maniwa.lg.jp/soshiki/60/2664.html",
+    "accessSummary": "127と同じ地域指定であり、入力点は湯原温泉バス停から約12kmの公式観光地点ではない。観察は別候補のはんざきセンターへ。",
+    "evidence": [
+      {
+        "url": "https://www.city.maniwa.lg.jp/soshiki/53/86315.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.city.maniwa.lg.jp/soshiki/60/2664.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.pref.okayama.jp/uploaded/attachment/260912.pdf",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 128,
+    "sourceId": "osm:node:5564444275",
+    "sourceName": "オオサンショウウオ生息地",
+    "cooling": {
+      "attributes": [],
+      "summary": "生息地指定は、水辺への立入りや避暑利用の根拠ではない。"
+    },
+    "operationsAndSafety": "無許可捕獲・飼育は禁止。触らず、野生生息地を目的地化しない。",
+    "coordinates": {
+      "latitude": null,
+      "longitude": null,
+      "status": "correction_candidate",
+      "note": "地域指定で単一の公式座標・標高なし。OSM nodeを採用しない。"
+    },
+    "elevationM": null
+  },
+  {
+    "decision": "block",
+    "formalName": "トラフダケ自生地",
+    "prefecture": "岡山県",
+    "officialUrl": "https://online.bunka.go.jp/heritages/detail/163581",
+    "accessUrl": "https://online.bunka.go.jp/heritages/detail/163581",
+    "accessSummary": "文化庁の所在地は真庭市三坂・中河内・上河内の複数地域で、観光施設・入場口・安全なアクセスは公式確認できない。",
+    "evidence": [
+      {
+        "url": "https://online.bunka.go.jp/heritages/detail/163581",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.pref.okayama.jp/page/detail-50762.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 129,
+    "sourceId": "osm:node:5976914935",
+    "sourceName": "トラフダケ自生地",
+    "cooling": {
+      "attributes": [],
+      "summary": "森林・水の自動分類だけで、夏の涼しさまたは訪問可能な局所効果の公的根拠はない。"
+    },
+    "operationsAndSafety": "国指定天然記念物で保全優先。無断の立入りや採取を誘発する地点公開をしない。",
+    "coordinates": {
+      "latitude": null,
+      "longitude": null,
+      "status": "correction_candidate",
+      "note": "公式所在地が複数区域で、入力OSM点を唯一地点として採用不可。"
+    },
+    "elevationM": null
+  },
+  {
+    "decision": "block",
+    "formalName": "梅の里公園",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.okayama-kanko.jp/spot/detail_10570.html",
+    "accessUrl": "https://www.okayama-kanko.jp/spot/detail_10570.html",
+    "accessSummary": "津山市神代622-1。院庄IC約10分または久世IC約20分、JR美作千代駅からタクシー約10分、駐車86台。",
+    "evidence": [
+      {
+        "url": "https://www.okayama-kanko.jp/spot/detail_10570.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.city.tsuyama.lg.jp/common/photo/free/files/5059/%281%29.pdf",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 130,
+    "sourceId": "osm:node:6135313885",
+    "sourceName": "梅の里公園",
+    "cooling": {
+      "attributes": [],
+      "summary": "公式の主要季節情報は梅の3月中旬〜下旬。夏の冷却効果を示す公的根拠はない。"
+    },
+    "operationsAndSafety": "梅まつりは2026年2月21日〜3月22日。山頂へ続く遊歩道・展望台はあるが、夏の避暑運用や日陰効果は未確認で、営業時間などは事前照会。",
+    "coordinates": {
+      "latitude": 35.0378676,
+      "longitude": 133.9017373,
+      "status": "correction_candidate",
+      "note": "座標は岡山観光WEB公式地図。元点から約0.2km補正。"
+    },
+    "elevationM": 188
+  },
+  {
+    "decision": "publish",
+    "formalName": "諏訪の穴（諏訪洞）",
+    "prefecture": "岡山県",
+    "officialUrl": "https://www.maniwa.or.jp/web/?c=spot-2&pk=3354",
+    "accessUrl": "https://www.pref.okayama.jp/uploaded/attachment/263707.pdf",
+    "accessSummary": "真庭市下呰部1203-1（ほたる公園向かい）。北房ICから車5分、またはJR備中高梁駅から備北バス呰部・美作落合行きで呰部下車。ほたる公園駐車場20台。",
+    "evidence": [
+      {
+        "url": "https://www.maniwa.or.jp/web/?c=spot-2&pk=3354",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.pref.okayama.jp/uploaded/attachment/263707.pdf",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 131,
+    "sourceId": "osm:node:12790143158",
+    "sourceName": "諏訪洞",
+    "cooling": {
+      "attributes": [
+        "cave",
+        "water"
+      ],
+      "summary": "鍾乳洞内を水が流れ滝を形成するという公式説明に限定する。公式観光WEBの涼スポット分類もあるが、洞内温度の数値は主張しない。"
+    },
+    "operationsAndSafety": "全長約900mだが見学は入口付近約10mのみ。雨天時は大量の水が流れ出るため洞内奥へ入らず、増水時は回避。県指定天然記念物。",
+    "coordinates": {
+      "latitude": 34.9703047,
+      "longitude": 133.6242199,
+      "status": "correction_candidate",
+      "note": "座標は真庭観光WEB公式地図による候補。"
+    },
+    "elevationM": 184
+  },
+  {
+    "decision": "publish",
+    "formalName": "備中鐘乳穴",
+    "prefecture": "岡山県",
+    "officialUrl": "http://ww9.tiki.ne.jp/~kanachiana/",
+    "accessUrl": "https://www.okayama-kanko.jp/business/spot/detail_11402.html",
+    "accessSummary": "真庭市上水田8854-1。北房ICから車約15分、JR美作落合駅からタクシー約25分。普通車160台・大型20台。",
+    "evidence": [
+      {
+        "url": "http://ww9.tiki.ne.jp/~kanachiana/",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.okayama-kanko.jp/business/spot/detail_11402.html",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.okayama-kanko.jp/feature/ryo-spot/top",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      },
+      {
+        "url": "https://www.pref.okayama.jp/uploaded/attachment/263710.pdf",
+        "claim": "名称・アクセス・局所的な涼しさ・運用安全条件の確認に用いた公式・公的資料。"
+      }
+    ],
+    "reviewedAt": "2026-07-18",
+    "sourceIndex": 132,
+    "sourceId": "osm:node:12952455757",
+    "sourceName": "備中鐘乳穴",
+    "cooling": {
+      "attributes": [
+        "cave"
+      ],
+      "summary": "岡山観光WEBは洞内を年中9℃と明記し、夏の避暑スポットとしている。予報値とは別の洞内局所温度。"
+    },
+    "operationsAndSafety": "10:00〜17:00（12〜2月は16:00）、発券は30分前まで。火曜休、12〜2月は土日祝のみ営業。急な休館があるため電話確認。",
+    "coordinates": {
+      "latitude": 34.9553123,
+      "longitude": 133.6788444,
+      "status": "correction_candidate",
+      "note": "座標は岡山観光WEB公式地図。公式・公的な標高値は未確認のため確定しない。"
+    },
+    "elevationM": null
+  }
+]

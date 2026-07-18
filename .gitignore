@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.open-next/
+.wrangler/
+dist/
+coverage/
+test-results/
+playwright-report/
+tsconfig.tsbuildinfo
+.DS_Store
+*.log
