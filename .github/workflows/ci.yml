@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '24'
+          check-latest: true
+      - uses: pnpm/action-setup@v6.1.0
+      - name: Runtime versions
+        run: |
+          node --version
+          pnpm --version
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm check
