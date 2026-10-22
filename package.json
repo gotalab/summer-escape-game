@@ -2,6 +2,10 @@
 	"name": "summer-escape-game",
 	"version": "0.1.0",
 	"private": true,
+	"packageManager": "pnpm@12.4.2",
+	"engines": {
+		"node": ">=24.22.1 <25"
+	},
 	"scripts": {
 		"dev": "NEXT_TELEMETRY_DISABLED=1 next dev",
 		"build": "NEXT_TELEMETRY_DISABLED=1 next build",

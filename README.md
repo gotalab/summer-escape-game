@@ -18,8 +18,10 @@
 
 ## ローカル開発
 
+Node.js 24.22.1以上の24.xとpnpm 12.4.2を使用します。`.nvmrc`と`package.json`に開発用のバージョンを記載しています。
+
 ```bash
-pnpm install
+pnpm install --frozen-lockfile
 pnpm dev
 ```
 
